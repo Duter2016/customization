@@ -2,7 +2,7 @@
 
 | | |
 | :--- | :--- |
-| APP | [QT主程序](http://qttabbar.wikidot.com/)|
+| APP | [QT主程序](http://qttabbar.wikidot.com/), [Clover](http://cn.ejie.me/)|
 | | [插件Window Manager](http://qttabbar.wdfiles.com/local--files/plugins/WindowManager.zip)：设置窗口打开位置，及窗口大小 |
 | Languages | [官方](http://qttabbar.wikidot.com/userpages:language-files) |
 | | 個人维护的中文简体语言文件 |
