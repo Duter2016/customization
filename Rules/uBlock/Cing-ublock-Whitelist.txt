@@ -14,6 +14,7 @@
 * lib.sinaapp.com * allow
 * tbcdn.cn * allow
 * upaiyun.com * allow
+* useso.com * allow
 * ytimg.com * allow
 163.com 126.net * allow
 163.com 127.net * allow
@@ -47,6 +48,7 @@ fortune.com timeinc.net * allow
 fortune.com wp.com * allow
 gearbest.com logsss.com * allow
 gearbest.com mplxtms.com * allow
+geekpark.net qbox.me * allow
 google.com gstatic.com * allow
 hulu.com huluim.com * allow
 ifeng.com ifengimg.com * allow
@@ -71,9 +73,11 @@ miniinthebox.com rightinthebox.com * allow
 miwifi.com xiaomi.net * allow
 mozilla.org mozilla.net * allow
 nytimes.com nyt.com * allow
+pconline.com.cn 3conline.com * allow
 pingan.com pingan.com.cn * allow
 priceminister.com staticpmrk.com * allow
 qq.com douyucdn.cn * allow
+qq.com gtimg.cn * allow
 qq.com gtimg.com * allow
 qq.com rescdn.qqmail.com * allow
 qq.com url.cn * allow
@@ -96,6 +100,8 @@ tianya.cn laibafile.cn * allow
 tianya.cn static.tianyaui.com * allow
 tumblr.com myguide.hk * allow
 twitter.com twimg.com * allow
+uuu9.com youku.com * allow
+vip.com vipstatic.com * allow
 vmall.com vmallres.com * allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
