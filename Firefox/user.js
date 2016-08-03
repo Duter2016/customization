@@ -1,4 +1,4 @@
-﻿//2016.08.01
+﻿//2016.08.02
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -118,7 +118,7 @@ user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非
 user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
 
 //Autoproxy
-user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$Lantern;;8787;$Psiphon;;8080;$GoAgent;;8087;$Free%20Gate;;8580;");
+user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Lantern;;8787;$Psiphon;;8080;$Free%20Gate;;8580;");
 user_pref("extensions.autoproxy.patternsbackups", 0);
 user_pref("extensions.autoproxy.defaultstatusbaraction", 0);//点击图标时-快捷菜单
 user_pref("extensions.autoproxy.defaulttoolbaraction", 0);//点击图标时-快捷菜单
