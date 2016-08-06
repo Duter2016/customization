@@ -1,4 +1,4 @@
-﻿//2016.08.02
+﻿//2016.08.06
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -222,3 +222,4 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
+user_pref("userChromeJS.FeiRuoNet.ProxyMode", 0);//代理模式: 禁用代理
