@@ -222,3 +222,4 @@ user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
 user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
 user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
 user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
+user_pref("userChromeJS.FeiRuoNet.ProxyMode", 0);//代理模式: 禁用代理
