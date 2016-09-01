@@ -1,4 +1,4 @@
-﻿//2016.08.06
+﻿//2016.08.31
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -100,6 +100,7 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的t
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
 user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
+user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
 
 //*==========两个必要的脚本设置==========*//
 //AddmenuPlus
