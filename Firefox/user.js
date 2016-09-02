@@ -1,4 +1,4 @@
-﻿//2016.08.31
+﻿//2016.09.02
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -17,6 +17,7 @@ user_pref("browser.newtabpage.rows", 3);//新标签页行数
 user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.jianshu.com/\",\"title\":\"Jianshu\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
 
 //*==========选项卡里的设置==========*//
+user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
 user_pref("signon.rememberSignons", false);//不保存密码
 user_pref("accessibility.blockautorefresh", false);//当网站试图重定向或重新载入时警告(否)
 //字體語言編碼
@@ -100,7 +101,7 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的t
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
 user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
-user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
+
 
 //*==========两个必要的脚本设置==========*//
 //AddmenuPlus
