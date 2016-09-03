@@ -149,7 +149,6 @@ user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
 user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
 user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
 user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
-user_pref("extensions.dta.version", "102.0.18.1-signed");//重建配置不弹歡迎頁
 
 //Greasemonkey
 user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
