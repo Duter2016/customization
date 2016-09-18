@@ -1,0 +1,267 @@
+
+magic: policeman_ruleset
+version: 0.1
+id: "reject_domains_blacklist_same_site"
+
+l10n:
+  en-US:
+    name: "reject_domains_blacklist_same_site"
+    description: "Reject some domains from same second-level domain"
+  zh-CN:
+    name: "【自定义】阻止相同站点的域名黑名单"
+    description: "阻止相同站点的域名黑名单，优先级较高"
+
+rules:
+  # Google
+  web -> web:
+    -> (gg.google.com|plusone.google.com): REJECT
+
+  # 百度
+  web -> web:
+    -> (a.baidu.com|c.baidu.com|eiv.baidu.com|hm.baidu.com|pups.baidu.com|pups.bdimg.com|ecm*.bdimg.com|su.bdimg.com): REJECT
+    -> (lcr.open.baidu.com|*click.baidu.com|cbjs*.baidu.com|*share.baidu.com|baichuan.baidu.com|*msg.baidu.com): REJECT
+    -> (tongji.zhidao.baidu.com|*pos.baidu.com|*tj.wenku.baidu.com|*tj.baidu.com|message.tieba.baidu.com): REJECT
+    tieba.baidu.com -> (jiaoyu.baidu.com|tieba.baidu.com):
+      [contentType] SUBDOCUMENT: REJECT
+
+  # 淘宝
+  web -> web:
+    -> a.tbcdn.cn: REJECT
+
+  # 优酷
+  web -> web:
+    -> (*.l.youku.com|hz.youku.com|*atm.youku.com|hudong.pl.youku.com|*stat.youku.com|*.l.ykimg.com): REJECT
+    -> (ykatr.youku.com|ykrec.youku.com|tdrec.youku.com|*pp.navi.youku.com|cmstool.youku.com): REJECT
+    -> (*log.youku.com|log.ykp2p.youku.com|*log.ykimg.com|poll.youku.com|*stat.xiu.youku.com): REJECT
+    -> (notify.youku.com|module.youku.com|nc.youku.com): REJECT
+
+  # 土豆
+  web -> web:
+    -> (gc.tudou.com|goods.tudou.com|stats.tudou.com|*stat.tudou.com|tracker.live.tudou.com|logs.live.tudou.com): REJECT
+    -> service.danmu.tudou.com: REJECT
+
+  # 腾讯
+  web -> web:
+    -> (pgdt.gtimg.cn|weiduan.qq.com|analy*.qq.com|ossweb-img.qq.com|*gdt.qq.com|games.qq.com): REJECT
+    -> (tajs.qq.com|tcss.qq.com|*report.qq.com|*isdspeed.qq.com|statistic*.qq.com|ping*.qq.com|boss*qq.com): REJECT
+    -> (*trace.qq.com|*trace.video.qq.com|rcgi.video.qq.com|tj.video.qq.com|tango.qq.com|l.qq.com|*.l.qq.com): REJECT
+    -> (wpa.qq.com|stat.vlive.qq.com|jqmt.qq.com|openwebgame.qq.com|appstore*.qq.com|/dp\d*\.qq\.com/): REJECT
+    -> datapc.qq.com: REJECT
+    -> ra.gtimg.com:
+      [contentType] SCRIPT: REJECT
+
+  # 爱奇艺
+  web -> web:
+    -> (qiyu.iqiyi.com|msg.iqiyi.com|msg.video.qiyi.com|*stat.video.qiyi.com|api.credit.iqiyi.com|nl*.iqiyi.com): REJECT
+    -> (product.vienx.iqiyi.com|*ckm.iqiyi.com|*reward.iqiyi.com|score.video.iqiyi.com|iplocation.geo.qiyi.com): REJECT
+
+  # PPTV
+  web -> web:
+    -> (*.g.pptv.com|de.as.pptv.com|app.aplus.pptv.com|pub.aplus.pptv.com): REJECT
+
+  # 乐视
+  web -> web:
+    -> (dc.letv.com|fz.letv.com|ark.letv.com|apple.www.letv.com|tes.touch.my.le.com): REJECT
+
+  # 华数TV
+  web -> web:
+    -> (uc.wasu.cn|afp*.wasu.cn|*stat.wasu.cn): REJECT
+
+  # 芒果TV
+  web -> web:
+    -> (*log.hunantv.com|log.*.hunantv.com|*.res.hunantv.com|click.hunantv.com|*.da.hunantv.com|*.da.mgtv.com): REJECT
+    -> res.hunantv.com:
+      [contentType] SCRIPT: REJECT
+
+  # 音悦台
+  web -> web:
+    -> (*collect.yinyuetai.com|*stats.yinyuetai.com): REJECT
+
+  # 酷我音乐
+  web -> web:
+    -> (x.kuwo.cn|wa.kuwo.cn|log.kuwo.cn|*stat.kuwo.cn): REJECT
+
+  # 新浪
+  web -> web:
+    -> (sax.sina.com.cn|beacon.sina.com.cn|/d\d*\.sina\.com\.cn/|*log.sina.com.cn|hits.sinajs.cn|blogtj.sinajs.cn): REJECT
+    -> (rs.sinajs.cn|log.v.iask.com|rm.api.weibo.com|biz.weibo.com): REJECT
+
+  # 搜狐
+  web -> web:
+    -> (a1.itc.cn|*.aty.sohu.com|*.go.sohu.com|count*.sohu.com|tip.tv.sohu.com|pv.sohu.com|pv.hd.sohu.com): REJECT
+    -> (click*.sohu.com.cn|getip.js.sohu.com|hot.vrs.sohu.com|push.my.tv.sohu.com): REJECT
+    *.sohu.com -> *.sohu.com: 
+      [contentType] SUBDOCUMENT: REJECT
+
+  # 17173视频
+  web -> web:
+    -> (hits.17173.com|stat.v.17173.com|/log\d*\.17173\.com/): REJECT
+
+  # 56
+  web -> web:
+    -> (msg.56.com|msg.ua.56.com|qrcode.56img.com): REJECT
+    -> www.56.com: 
+      [contentType] (SCRIPT|SUBDOCUMENT): REJECT
+
+  # 酷6
+  web -> web:
+    -> (*stat.ku6.com|addata.ku6.com): REJECT
+
+  # 风行网
+  web -> web:
+    -> (adm.funshion.com|pub.funshion.com|mc.funshion.com): REJECT
+
+  # 1905电影网
+  web -> web:
+    -> ykrec.1905.com: REJECT
+    -> *.1905.com:
+      [contentType] (SUBDOCUMENT|XMLHTTPREQUEST): REJECT
+
+  # 网易
+  web -> web:
+    -> (g.163.com|*.g.163.com|cc.163.com|adgeo.163.com|analytics.163.com|fa.163.com|api.pr.163.com): REJECT
+    -> (bobo.163.com|temp.163.com|*stat.ws.126.net|analytics.ws.126.net|wr.da.netease.com|/img\d*\.126\.net/): REJECT
+    -> (ipservice.163.com|webzj.reg.163.com): REJECT
+
+  # 网易邮箱
+  web -> web:
+    -> /\d+\.163\.com/: REJECT
+
+  # 凤凰网
+  web -> web:
+    -> (stadig.ifeng.com|*deliver.ifeng.com|*recommend.ifeng.com|survey.news.ifeng.com): REJECT
+    -> (*.ifeng.com|*.ifengimg.com):
+      [contentType] SUBDOCUMENT: REJECT
+
+  # 人民网
+  web -> web:
+    -> (apps.people.com.cn|pmm.people.com.cn): REJECT
+
+  # 中华网
+  web -> web:
+    -> (dvs*.china.com|statistic.dvs*.china.com|track.china.com|rank.hit.china.com): REJECT
+
+  # 中国新闻网
+  web -> web:
+    -> (adsame.chinanews.com|*.afp.chinanews.com|lc.chinanews.com): REJECT
+
+  # 北青网
+  web -> web:
+    -> trace.ynet.com: REJECT
+
+  # CSDN
+  web -> web:
+    -> (ad.csdn.net|ag.csdn.net|counter.csdn.net|message.csdn.net|/dc\d*\.csdn\.net/): REJECT
+
+  # 和讯网
+  web -> web:
+    -> (tg.hexun.com|itv.hexun.com|myapp.hexun.com|utrack.hexun.com|hxsame.hexun.com|adphoto.hexun.com): REJECT
+    -> (hxjs.tool.hexun.com|click.tool.hexun.com|utility.tool.hexun.com|*log.tool.hexun.com|analytics.tool.hexun.com|*focus.tool.hexun.com): REJECT
+
+  # 金融界
+  web -> web:
+    -> (sdc.jrj.com.cn|counter.jrj.com.cn|/same\d*\.jrj\.com\.cn/): REJECT
+
+  # 中金在线
+  web -> web:
+    -> (count.confol.com|logs.confol.com|tags.js.cnfol.com|he.js.cnfol.com|*.3g.cnfol.com): REJECT
+
+  # 中国经济网
+  web -> web:
+    -> (ads.ce.cn|adimg.ce.cn): REJECT
+
+  # 东方财富网
+  web -> web:
+    -> (cp.eastmoney.com|same.eastmoney.com|cmskey.eastmoney.com|push.eastmoney.com|*log.eastmoney.com|/js\d*\.eastmoney\.com/): REJECT
+
+  # cnblogs
+  web -> web:
+    -> (api.ad.cnblogs.com|counter.cnblogs.com): REJECT
+
+  # 51CTO博客
+  web -> web:
+    -> (log.51cto.com|logs.51cto.com|/gg\d*\.51cto\.com/): REJECT
+
+  # 脚本之家
+  web -> web:
+    -> img.jb51.net:
+      [contentType] SCRIPT: REJECT
+
+  # 知乎
+  web -> web:
+    -> zhihu-analytics.zhihu.com: REJECT
+
+  # 博闻网
+  web -> web:
+    -> www.bowenwang.com.cn:
+      [contentType] SCRIPT: REJECT
+
+  # 360Doc图书馆
+  web -> web:
+    -> pubimage.360doc.com: REJECT
+    -> www.360doc.com:
+      [contentType] (SUBDOCUMENT|XMLHTTPREQUEST): REJECT
+
+  # 天涯社区
+  web -> web:
+    -> (dol.tianya.cn|stat.tianya.cn|click.tianyaui.com|focus.tianya.cn|search.tianya.cn|/\d+\.tianya\.cn/): REJECT
+
+  # 游民星空
+  web -> web:
+    -> (ja.gamersky.com|click.gamersky.com): REJECT
+    -> *.gamersky.com:
+      [contentType] SUBDOCUMENT: REJECT
+
+  # 游侠网
+  web -> web:
+    -> bmp.ali213.net: REJECT
+
+  # pc6下载站
+  web -> web:
+    -> *.pc6.com:
+      [contentType] SUBDOCUMENT: REJECT
+
+  # 6v电影网
+  web -> web:
+    -> (*.6vhao.com|*.66ys.tv|*.6vhao.net):
+      [contentType] SCRIPT: REJECT
+
+  # V游网
+  web -> web:
+    -> *.verypsp.com:
+      [contentType] SCRIPT: REJECT
+
+  # 飘花电影网
+  web -> web:
+    -> *.piaohua.com:
+      [contentType] SCRIPT: REJECT
+
+  # 电影天堂
+  web -> web:
+    -> *.dy2018.com:
+      [contentType] (SCRIPT|SUBDOCUMENT): REJECT
+
+  # 电影淘淘
+  web -> web:
+    -> *.dytt.com:
+      [contentType] SCRIPT: REJECT
+
+  # 八哥电影
+  web -> web:
+    -> wa.bagehd.com: REJECT
+
+  # 中华美食网
+  web -> web:
+    -> *.zhms.cn:
+      [contentType] SCRIPT: REJECT
+
+  # 39健康网
+  web -> web:
+    -> (d.39.net|app-g.39.net|app-rss.39.net|newapp.39.net|dpvc.39.net|hits.39.net): REJECT
+    -> (image.39.net|images.39.net):
+      [contentType] SCRIPT: REJECT
+
+  # 标准类网站
+  web -> web:
+    -> (*.bzfxw.com|*.biaozhuns.com|*.51zbz.com|*.anystandards.com|*.biaozhun8.cn):
+      [contentType] SCRIPT: REJECT

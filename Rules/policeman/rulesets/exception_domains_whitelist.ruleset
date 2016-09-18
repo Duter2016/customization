@@ -1,0 +1,39 @@
+
+magic: policeman_ruleset
+version: 0.1
+id: "exception_domains_whitelist"
+
+l10n:
+  en-US:
+    name: "exception_domains_whitelist"
+    description: "Ensure normal functions and presentation for some special sites"
+  zh-CN:
+    name: "【自定义】例外白名单"
+    description: "保证某些站点的正常功能而设置的例外白名单"
+
+rules:
+  # 网易公开课
+  web -> web:
+    open.163.com -> g.163.com: ACCEPT
+
+  # 腾讯视频
+  web -> web:
+    [spec] * -> "http://livew.l.qq.com/crossdomain.xml": ACCEPT
+
+  # 验证码和社会化评论分享系统
+  web -> web:
+    # Google reCAPTCHA
+    -> (google.com|*.google.com):
+      -> "/recaptcha/api/" *: ACCEPT
+    # Tencent
+    -> discuz.gtimg.cn:
+      -> "/cloud/scripts/captcha.js?" *: ACCEPT
+    # geetest
+    -> *.geetest.com: ACCEPT
+    # duoshuo
+    -> *.duoshuo.com: ACCEPT
+    # changyan
+    -> (changyan.sohu.com|*.changyan.sohu.com|changyan.itc.cn|*.cdn.sohucs.com): ACCEPT
+    # weibo
+    -> (js.t.sinajs.cn|tjs.sjs.sinajs.cn):
+      -> "/open/api/js/" *: ACCEPT

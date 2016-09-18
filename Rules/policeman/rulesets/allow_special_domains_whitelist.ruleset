@@ -1,0 +1,404 @@
+magic: policeman_ruleset
+version: 0.1
+id: "allow_special_domains_whitelist"
+
+l10n:
+  en-US:
+    name: "allow_special_domains_whitelist"
+    description: "Allow request to special domains for some content types"
+  zh-CN:
+    name: "【自定义】允许的站点访问白名单"
+    description: "允许站点请求的某些内容类型的白名单"
+
+rules:  
+  web -> web:
+    [contentType] (STYLESHEET|IMAGE): ACCEPT
+
+  web -> web: 
+    # 外链图片
+    -> (i*.tietuku.cn|i*.tinypic.com|i*.buimg.com|*.sinaimg.cn|*img.itc.cn):
+      [contentType] IMAGE: ACCEPT
+      
+    # 通用CDN
+    * -> (*cdn*|*static*|*api*): ACCEPT
+
+    # 百度
+    www.baidu.com -> *:
+      [contentType] (IMAGE|DOCUMENT): ACCEPT
+    -> libs.baidu.com:
+      [contentType] SCRIPT: ACCEPT
+    *.baidu.com -> (*.bdimg.com|*.bdstatic.com): ACCEPT
+    *.baidu.com -> *.tiebaimg.com:
+      [contentType] IMAGE: ACCEPT
+
+    # google
+    *.google.com -> *.google.com.*:
+      [contentType] DOCUMENT: ACCEPT
+    (www.google.com|www.google.com.*) -> *:
+      [contentType] (IMAGE|DOCUMENT): ACCEPT
+    (*.google.com|*.google.com.*) -> *.ggpht.com:
+      [contentType] IMAGE: ACCEPT
+    -> (*.gstatic.com|*.googleapis.com|*.googleusercontent.com): ACCEPT
+
+    # 好搜
+    www.haosou.com -> *:
+      [contentType] (IMAGE|DOCUMENT): ACCEPT
+    *.haosou.com -> (*.qhimg.com|*.qihucdn.com): ACCEPT
+
+    # 凤凰网
+    *.ifeng.com -> *.ifengimg.com: ACCEPT
+    *.ifeng.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 网易
+    (*.163.com|*.lofter.com) -> (*.126.net|*.netease.com): ACCEPT
+    swf.ws.126.net -> (*.open.163.com|*.bn.netease.com): ACCEPT
+    *.netease.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 网易邮箱
+    (*.126.com|*.163.com) -> (*.127.net|*.163.com): ACCEPT
+
+    # MSN 中文网
+    (*.msn.com|*.msn.com.cn) -> (*.s-msn.com|*.bing.net):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 搜狗
+    *.sogou.com -> cache.soso.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    (*.sogou.com|cache.soso.com) -> soso.qstatic.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 新浪
+    (*.sina.com.cn|weibo.com|*.weibo.com) -> (*.sinajs.cn|*.sinaimg.cn): ACCEPT
+    -> widget.weibo.com:
+      [contentType] SUBDOCUMENT: ACCEPT
+
+    # 新浪爱问
+    iask.sina.com.cn -> static.iaskgo.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    iask.sina.com.cn -> pic.wenwo.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 淘宝
+    (*.taobao.com|*.tmall.com) -> (*.tmall.com|*.taobao.com|*.alibaba.com|*.alicdn.com|*.tbcdn.cn|*.alipay.com): ACCEPT
+    *.alipay.com -> *.alipayobjects.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.taobao.com -> *.tanx.com:
+      [contentType] SCRIPT: ACCEPT
+
+    # 京东
+    (*.jd.com|*.jd.hk) -> *.360buyimg.com: ACCEPT
+    (*.jd.com|*.jd.hk) -> *.3.cn: ACCEPT
+    (*.jd.com|*.jd.hk) -> (*.jd.hk|*.jd.com):
+      [contentType] (SCRIPT|DOCUMENT): ACCEPT
+
+    # 亚马逊
+    (*.amazon.cn|*.amazon.com) -> (*.images-amazon.com|*.ssl-images-amazon.com): ACCEPT
+    *.images-amazon.com -> *.ssl-images-amazon.com:
+      [contentType] IMAGE: ACCEPT
+
+    # YouTube
+    *.youtube.com -> (*.ytimg.com|*.googlevideo.com): ACCEPT
+    *.youtube.com -> *.ggpht.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 优酷
+    (*.youku.com|*.soku.com) -> (*.ykimg.com|*.tdimg.com): ACCEPT
+    *.soku.com -> *:
+      [contentType] DOCUMENT: ACCEPT
+    *.youku.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 土豆
+    (*.tudou.com|*.laifeng.com) -> (*.tdimg.com|*.ykimg.com):
+      [contentType] IMAGE: ACCEPT
+    v.tudou.com -> *.wrating.com:
+      [contentType] SCRIPT: ACCEPT
+    *.tudou.com -> (*.tudouui.com|*.youku.com): ACCEPT
+    *.tudou.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 腾讯视频
+    *.qq.com -> (*.gtimg.com|*.gtimg.cn): ACCEPT
+    -> (*.qlogo.cn|*.qpic.cn):
+      [contentType] IMAGE: ACCEPT
+    *.qq.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 爱奇艺
+    (*.iqiyi.com|static.qiyi.com) -> *.qiyipic.com:
+      [contentType] IMAGE: ACCEPT
+    *.iqiyi.com -> static.qiyi.com:
+      [contentType] (SCRIPT|FONT): ACCEPT
+    *.iqiyi.com -> (*.video.qiyi.com|/\d+\.\d+\.\d+\.\d+/): ACCEPT
+
+    # PPTV
+    *.pptv.com -> *.pplive.cn:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.pptv.com -> *.pplive.com:
+      [contentType] IMAGE: ACCEPT
+    *.pptv.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 乐视
+    (*.le.com|*.letv.com|*.letvcdn.com) -> *.letvimg.com:
+      [contentType] IMAGE: ACCEPT
+    (*.le.com|*.letv.com) -> (*.letv.com|*.le.com): ACCEPT
+    (*.le.com|*.letv.com) -> *.letvcdn.com: ACCEPT
+    (*.le.com|*.letv.com) -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 多玩
+    *.duowan.com -> *.dwstatic.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 搜狐视频
+    *.sohu.com -> *.sohu.com.cn:
+      [contentType] IMAGE: ACCEPT
+    *.sohu.com -> v.17173.com:
+      [contentType] SCRIPT: ACCEPT
+    *.sohu.com -> (*.itc.cn|*.17173cdn.com):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.sohu.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 17173视频
+    *.17173.com -> (*.17173.itc.cn|*.17173cdn.com): ACCEPT
+    (*.17173.com|*.sohu.com) -> (*.douyucdn.cn|*.cdn.zhanqi.tv):
+      [contentType] IMAGE: ACCEPT
+    *.v.17173.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 56
+    *.56.com -> (*.56img.com|*.itc.cn):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.56.com -> (photocdn.sohu.com|*.sohu.com.cn):
+      [contentType] IMAGE: ACCEPT
+    *.56.com -> (*.sohu.com|/\d+\.\d+\.\d+\.\d+/): ACCEPT
+
+    # 酷6
+    *.ku6.com -> (*.ku6cdn.com|*.ku6.cn):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.ku6.com -> *.ku6img.com:
+      [contentType] IMAGE: ACCEPT
+    *.ku6.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # Bilibili
+    *.bilibili.com -> (static.hdslb.com|ws.acgvideo.com): ACCEPT
+    (*.bilibili.com|*.hdslb.net) -> (*.hdslb.net|*.hdslb.com):
+      [contentType] IMAGE: ACCEPT
+    (ws.acgvideo.com|*.bilibili.com) -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 华数TV
+    *.wasu.cn -> *.wasu.tv:
+      [contentType] IMAGE: ACCEPT
+    *.wasu.cn -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 芒果TV
+    *.mgtv.com -> (*.hunantv.com|*.imgo.tv|*.lightonus.com|*.yunfan.com): ACCEPT
+    (*.mgtv.com|*.imgo.tv) -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # M1905
+    *.1905.com -> *.m1905.cn:
+      [contentType] IMAGE: ACCEPT
+    (*.1905.com|*.m1905.com) -> (static.m1905.cn|*.static.m1905.cn):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.1905.com -> (static.m1905.com|*.vodfile.m1905.com): ACCEPT
+    (*.m1905.com|*.1905.com) -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 风行网
+    *.fun.tv -> *.funshion.com: ACCEPT
+    *.fun.tv -> *.fspcdn.com:
+      [contentType] IMAGE: ACCEPT
+    *.fun.tv -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 音悦台
+    *.yinyuetai.com -> *.yytcdn.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.yinyuetai.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 虾米音乐
+    *.xiami.com -> (*.xiami.net|*.alicdn.com): ACCEPT
+    *.xiami.com -> *.tbcdn.cn:
+      [contentType] SCRIPT: ACCEPT
+    (*.tbcdn.cn|*.alicdn.com) -> (*.xiami.net|*.alicdn.com):
+      [contentType] IMAGE: ACCEPT
+    *.xiami.com -> cdn.bootcss.com:
+      [contentType] FONT: ACCEPT
+
+    # VeryCD 电驴
+    *.verycd.com -> *.vcimg.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 6v电影网
+    (*.6vhao.com|*.6vhao.net|*.66ys.tv) -> *.66vod.net:
+      [contentType] IMAGE: ACCEPT
+    *.6vhao.com -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # 电影淘淘
+    *.dytt.com -> (*.joy3g.com|*.miwifi.com):
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 飘花电影网
+    *.piaohua.com -> img.piaowu99.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 八哥电影
+    (*.8gdyhd.com|*.bagehd.com) -> (*.bagehd.com|*.8gdyhd.com): ACCEPT
+    *.8gdyhd.com -> *.ykimg.com:
+      [contentType] IMAGE: ACCEPT
+    *.8gdyhd.com -> *.qbox.me:
+      [contentType] SUBDOCUMENT: ACCEPT
+    *.bagehd.com -> (*.youku.com|*.qiyi.com|*.iqiyi.com|*.le.com|*.letv.com|*.letvcdn.com|*.cardnu.com|*.aixifan.com|*.qbox.me|*.acgvideo.com|*.sohu.com): ACCEPT
+    (*.qbox.me|*.duapp.com) -> (*.duapp.com|*.le.com|*.letv.com|*.lecloud.com|*.imgo.tv|*.cardnu.com|*.cmvideo.cn|*.bagehd.com): ACCEPT
+    *.cardnu.com -> (*.lecloud.com|*.bagehd.com): ACCEPT
+    (*.aixifan.com|*.bagehd.com|*.qbox.me|*.cardnu.com) -> /\d+\.\d+\.\d+\.\d+/: ACCEPT
+
+    # Mozilla
+    *.mozilla.org -> *.mozilla.net: ACCEPT
+
+    # Github
+    github.com -> *.githubusercontent.com:
+      [contentType] IMAGE: ACCEPT
+    github.com -> *.amazonaws.com:
+      [contentType] DOCUMENT: ACCEPT
+
+    # Bitbucket
+    bitbucket.org -> *.cloudfront.net: ACCEPT
+
+    # Sourceforge
+    sourceforge.net -> a.fsdn.com: ACCEPT
+
+    # Wordpress
+    (wordpress.org|*.wordpress.org) -> *.w.org: ACCEPT
+    *.wordpress.com -> *.wp.com:
+      [contentType] (SCRIPT|SUBDOCUMENT): ACCEPT
+    -> (*.gravatar.com|gravatar.duoshuo.com|*.wp.com):
+      [contentType] IMAGE: ACCEPT
+
+    # OneDriver
+    onedrive.live.com -> *.akamaihd.net: ACCEPT
+    onedrive.live.com -> *.sfx.ms:
+      [contentType] IMAGE: ACCEPT
+    onedrive.live.com -> *.livefilestore.com:
+      [contentType] DOCUMENT: ACCEPT
+
+    # 百度云盘
+    *.baidu.com -> *.baidupcs.com:
+      [contentType] SUBDOCUMENT: ACCEPT
+    -> (pan.baidu.com|yun.baidu.com):
+      [contentType] DOCUMENT: ACCEPT
+    d.pcs.baidu.com -> (*.cdn.baidupcs.com|/\d+\.\d+\.\d+\.\d+/): ACCEPT
+
+    # 360云盘
+    *.yunpan.cn -> (*.qhimg.com|yunpan.360.cn|*.yunpan.360.cn): ACCEPT
+    (yunpan.360.cn|*.yunpan.360.cn) -> (*.qhimg.com|*.qihucdn.com): ACCEPT
+
+    # 新浪微盘
+    vdisk.weibo.com -> lib.cdn.weipan.cn:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    vdisk.weibo.com -> *.appsina.com:
+      [contentType] IMAGE: ACCEPT
+    vdisk.weibo.com -> *.data.weipan.cn.wscdns.com: ACCEPT
+    *.data.weipan.cn.wscdns.com -> /\d+\.\d+\.\d+\.\d+/:
+      [contentType] SUBDOCUMENT: ACCEPT
+
+    # SuFile
+    (sufile.com|*.sufile.com) -> *.sufile.net:
+      [contentType] SUBDOCUMENT: ACCEPT
+
+    # YunFile
+    -> img.yfdisk.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 城通网盘
+    *.ctfile.com -> static.tv002.com:
+      [contentType] (SCRIPT|FONT): ACCEPT
+
+    # userscloud
+    (userscloud.com|*.usercdn.com) -> (*.usercdn.com|userscloud.com): ACCEPT
+
+    # 国外站点常用加速CDN
+    -> *.bootstrapcdn.com:
+      [contentType] FONT: ACCEPT
+
+    # 卡饭
+    *.kafan.cn -> *.fraudmetrix.cn: ACCEPT
+    *.kafan.cn -> *.ikafan.com: ACCEPT
+
+    # 远景
+    *.pcbeta.com -> *.static.inimc.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 小众软件
+    *.appinn.com -> (*.qbox.me|lib.sinaapp.com):
+      [contentType] SCRIPT: ACCEPT
+    *.appinn.com -> *.appinn.net:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.qbox.me -> *.appinn.com:
+      [contentType] IMAGE: ACCEPT
+
+    # XDA
+    *.xda-developers.com -> *.xda-cdn.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 豆瓣
+    *.douban.com -> *.doubanio.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 知乎
+    *.zhihu.com -> *.zhimg.com:
+      [contentType] IMAGE: ACCEPT
+
+    # 天涯社区
+    *.tianya.cn -> *.tianyaui.com: ACCEPT
+    *.tianya.cn -> *.laibafile.cn: ACCEPT
+
+    # 小米
+    *.mi.com -> *.xiaomi.net:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.mi.com -> *.xiaomi.com:
+      [contentType] IMAGE: ACCEPT
+    (*.mi.com|*.xiaomi.com|*.xiaomi.net|*.miui.com) -> (*.mi.com|*.xiaomi.com|*.xiaomi.net|*.miui.com):
+      [contentType] DOCUMENT: ACCEPT
+
+    # 智友论坛
+    bbs.zhiyoo.com -> (*.anzhi.com|attachments.goapk.com):
+      [contentType] (IMAGE|DOCUMENT): ACCEPT
+    i.anzhi.com -> bbs.zhiyoo.com:
+      [contentType] (DOCUMENT|SCRIPT): ACCEPT
+
+    # 小木虫
+    emuch.net -> *.keyan.cc:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 果壳网
+    mooc.guokr.com -> (*.youku.com|/\d+\.\d+\.\d+\.\d+/): ACCEPT
+    mooc.guokr.com -> swf.ws.126.net:
+      [contentType] SUBDOCUMENT: ACCEPT
+
+    # CSDN
+    *.csdn.net -> *.csdnimg.cn:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 和讯网
+    *.hexun.com -> *.hexunimg.cn:
+      [contentType] IMAGE: ACCEPT
+
+    # 金融界
+    *.jrj.com.cn -> *.jrjimg.cn:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 中金在线
+    *.cnfol.com -> *.cnfolimg.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+
+    # 东方财富网
+    *.eastmoney.com -> *.dfcfw.com:
+      [contentType] (SCRIPT|IMAGE): ACCEPT
+    *.eastmoney.com -> *.zhaiba.com:
+      [contentType] IMAGE: ACCEPT
+    
+    # 购物党
+    * -> *.gwdang.com: ACCEPT
+    
+    # TVC內网
+    *.sjlpj.cn -> *.aliyuncs.com: ACCEPT
+    
+    # 字幕组
+    *.zimuzu.tv -> *.rrsub.net: ACCEPT
+    
+
+      
