@@ -1,4 +1,4 @@
-﻿//2016.09.12
+﻿//2016.09.18
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -165,6 +165,19 @@ user_pref("extensions.imacros.delay", 1000);//播放速度中等
 
 //Pocket(Readitlater)
 user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
+
+// policeman
+user_pref("extensions.policeman.blockedElements.frame.handler", "remover");
+user_pref("extensions.policeman.blockedElements.image.handler", "remover");
+user_pref("extensions.policeman.blockedElements.object.handler", "remover");
+user_pref("extensions.policeman.manager.enabledRuleSets", "[\"default\",\"compatibility\",\"allow_from_file_to_file_and_web\",\"exception_domains_whitelist\",\"user_temporary\",\"reject_domains_blacklist_same_site\",\"user_persistent\",\"allow_special_domains_whitelist\",\"allow_same_second_level_domain\",\"allow_redirects_system_principal\",\"reject_any\"]");
+user_pref("extensions.policeman.manager.installedPathsByIds2", "{\"default\":null,\"compatibility\":null,\"allow_from_file_to_file_and_web\":null,\"allow_any\":null,\"reject_any\":null,\"allow_same_site\":null,\"allow_same_second_level_domain\":null,\"i2p_sandbox\":null,\"onion_sandbox\":null,\"https_half_open_sandbox\":null,\"user_persistent\":null,\"user_temporary\":null,\"allow_redirects_system_principal\":\"allow_redirects_system_principal.ruleset\",\"allow_special_domains_whitelist\":\"allow_special_domains_whitelist.ruleset\",\"exception_domains_whitelist\":\"exception_domains_whitelist.ruleset\",\"reject_domains_blacklist_same_site\":\"reject_domains_blacklist_same_site.ruleset\"}");
+user_pref("extensions.policeman.toolbarbutton.events.command.action", "openPreferences");
+user_pref("extensions.policeman.toolbarbutton.events.mouseover.action", "openWidget");
+user_pref("extensions.policeman.ui.panelview.autoReloadPageOnHiding", true);
+user_pref("extensions.policeman.ui.popup.autoReloadPageOnHiding", true);
+user_pref("extensions.policeman.ui.popup.enabledContentTypes", "{\"_ANY_\":true,\"IMAGE\":true,\"MEDIA\":true,\"STYLESHEET\":true,\"SCRIPT\":true,\"OBJECT\":true,\"SUBDOCUMENT\":true,\"FONT\":true,\"DOCUMENT\":true,\"XMLHTTPREQUEST\":true,\"WEBSOCKET\":true,\"DTD\":true,\"PING\":true,\"OTHER\":true}");
+user_pref("extensions.policeman.ui.toolbarbutton.autoReloadPageOnAction", true);
 
 //*==========脚本设置==========*//
 //UC管理器取消延迟加载
