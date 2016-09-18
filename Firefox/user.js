@@ -1,4 +1,4 @@
-﻿//2016.09.02
+﻿//2016.09.12
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -14,7 +14,7 @@ user_pref("browser.startup.homepage", "about:newtab");//首頁
 user_pref("browser.newtabpage.columns", 6);//新标签页列数
 user_pref("browser.newtabpage.rows", 3);//新标签页行数
 //标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.jianshu.com/\",\"title\":\"Jianshu\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://leanote.com/note/55dd7cc953b26f7350000019\",\"title\":\"Leanote\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://twitter.com/\",\"title\":\"Twitter\"},{\"url\":\"http://www.facebook.com/\",\"title\":\"Facebook\"},{\"url\":\"http://www.linkedin.com/today/?trk=nav_responsive_sub_nav_pulse\",\"title\":\"Pulse\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.woshipm.com/\",\"title\":\"pm\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.guokr.com/\",\"title\":\"Guokr\"},{\"url\":\"http://www.jianshu.com/\",\"title\":\"Jianshu\"},{\"url\":\"http://open.163.com/\",\"title\":\"网易公开课\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"},{\"url\":\"https://app.yinxiang.com/Home.action\",\"title\":\"Evernote\"}]");
 
 //*==========选项卡里的设置==========*//
 user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
@@ -101,7 +101,9 @@ user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的t
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
 user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
-
+//终于找到了，可以解决某些网站密码存不了的情况……(from sky)
+user_pref("signon.importedFromSqlite", true);
+user_pref("signon.overrideAutocomplete", true);
 
 //*==========两个必要的脚本设置==========*//
 //AddmenuPlus
@@ -114,7 +116,7 @@ user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
 //adblockplus
 user_pref("extensions.adblockplus.patternsbackups", 0);
 user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://easylist-downloads.adblockplus.org/easyprivacy.txt");//原反-反ADP列表
+user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/reek/anti-adblock-killer/raw/master/anti-adblock-killer-filters.txt");//原反-反ADP列表
 //-非侵入式广告地址換成个人ABP规则
 user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
 user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
@@ -157,26 +159,12 @@ user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
 //Stylish
 user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
 
-//Auto Unload Tab
-user_pref("extensions.autounloadtab.bypass_cache_after_minutes", 1);//xx分鐘後自動跳過緩存
-user_pref("extensions.autounloadtab.load_background_tabs", 3);//後台標籤載入方式: One by One
-user_pref("extensions.autounloadtab.show_tab_menu", false);//不展示標籤右鍵菜單
-user_pref("extensions.autounloadtab.timeoutInMinutes", 120);//xx分鐘後自動卸載標籤
-user_pref("extensions.autounloadtab.closeTabAfterMinutes", 60);//xx分鐘後自動關閉未載入/已卸載標籤
-
 //iMacros
 user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
 user_pref("extensions.imacros.delay", 1000);//播放速度中等
 
 //Pocket(Readitlater)
 user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
-
-//FireIE
-user_pref("extensions.fireie.autoSwitchOnRuleMiss", "fx");//未匹配规则时切换到"Firefox"引擎
-user_pref("extensions.fireie.hideUrlBarButton", true);//隐藏地址栏图标
-user_pref("extensions.fireie.showSiteFavicon", false);//使用IE引擎图标
-user_pref("extensions.fireie.compatMode", "ie11edge");//IE11边缘模式
-user_pref("extensions.fireie.gpuRendering", true);//启用GPU渲染
 
 //*==========脚本设置==========*//
 //UC管理器取消延迟加载
