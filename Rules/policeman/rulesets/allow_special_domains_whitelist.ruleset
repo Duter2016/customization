@@ -19,8 +19,8 @@ rules:
     -> (i*.tietuku.cn|i*.tinypic.com|i*.buimg.com|*.sinaimg.cn|*img.itc.cn):
       [contentType] IMAGE: ACCEPT
       
-    # 通用CDN
-    * -> (*cdn*|*static*|*api*): ACCEPT
+    # 通用CDN等
+    * -> (*cdn*|*static*|*api*|*avatar*|*img*): ACCEPT
 
     # 百度
     www.baidu.com -> *:
