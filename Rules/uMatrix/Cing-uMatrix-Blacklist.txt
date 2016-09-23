@@ -1,0 +1,15 @@
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
+referrer-spoof: * true
+* * * allow
+* 51.la * block
+* comm100.cn * block
+* criteo.net * block
+* facebook.net * block
+* mplxtms.com * block
+* smct.co * block
+* vk.com * block
