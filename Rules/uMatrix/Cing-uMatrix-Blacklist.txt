@@ -4,12 +4,27 @@ matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: opera-scheme true
-referrer-spoof: * true
 * * * allow
 * 51.la * block
+* clicktale.net * block
 * comm100.cn * block
 * criteo.net * block
 * facebook.net * block
+* go-mpulse.net * block
+* irs01.com * block
+* krxd.net * block
+* linkedin.com * block
+* maxymiser.net * block
+* mmstat.com * block
 * mplxtms.com * block
+* optimizely.com * block
+* plus.google.com * block
 * smct.co * block
+* tanx.com * block
+* translate.google.com * block
+* translate.googleapis.com * block
+* truste.com * block
+* twitter.com * block
+* ugdturner.com * block
 * vk.com * block
+* yieldoptimizer.com * block

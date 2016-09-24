@@ -1,0 +1,15 @@
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
+* * * block
+* * css allow
+* * frame block
+* * image allow
+* 1st-party * allow
+* 1st-party frame allow
+baidu.com baike.bdimg.com script allow
+economist.com cdn.static-economist.com script allow
+google.com www.gstatic.com script allow
