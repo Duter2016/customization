@@ -1,4 +1,4 @@
-﻿//2016.09.18
+﻿//2016.09.28
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -84,7 +84,6 @@ user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打�
 
 //*==========FX其它类==========*//
 user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
-user_pref("extensions.lastSelectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("view_source.editor.external", true);//页面源代码——使用外部編輯器查看
@@ -95,121 +94,17 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
-user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话恢复功能
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
+user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
+//会话相关
+user_pref("browser.sessionstore.resume_from_crash", false);//关闭Firefox会话恢复功能
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
-user_pref("accessibility.force_disabled", 1);//禁用无障碍环境
+user_pref("browser.sessionstore.interval", 600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为10分钟
 //终于找到了，可以解决某些网站密码存不了的情况……(from sky)
 user_pref("signon.importedFromSqlite", true);
 user_pref("signon.overrideAutocomplete", true);
 
-//*==========两个必要的脚本设置==========*//
-//AddmenuPlus
-user_pref("addMenu.FILE_PATH", "local\_addMenu.js");//配置路径
-
 /******************************************************************************************
  *这里是个人设置。
  *******************************************************************************************/
-//*==========扩展设置==========*//
-//adblockplus
-user_pref("extensions.adblockplus.patternsbackups", 0);
-user_pref("extensions.adblockplus.frameobjects", false);//在Java和Flash上显示标签 - 否
-user_pref("extensions.adblockplus.subscriptions_antiadblockurl", "https://github.com/reek/anti-adblock-killer/raw/master/anti-adblock-killer-filters.txt");//原反-反ADP列表
-//-非侵入式广告地址換成个人ABP规则
-user_pref("extensions.adblockplus.subscriptions_exceptionscheckbox", true);//非入侵式广告勾选框
-user_pref("extensions.adblockplus.subscriptions_exceptionsurl", "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt");//原非入侵式广告订阅网址
-
-//Autoproxy
-user_pref("extensions.autoproxy.customProxy", "Shadowsocks;;1080;socks$GoAgent;;8087;$Lantern;;8787;$Psiphon;;8080;$Free%20Gate;;8580;");
-user_pref("extensions.autoproxy.patternsbackups", 0);
-user_pref("extensions.autoproxy.defaultstatusbaraction", 0);//点击图标时-快捷菜单
-user_pref("extensions.autoproxy.defaulttoolbaraction", 0);//点击图标时-快捷菜单
-
-//LastPass
-user_pref("extensions.lastpass.hidecontextmenu", true);
-user_pref("extensions.lastpass.showHomepageAfterLogin", false);//登入後不轉到密码库
-user_pref("extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites", true);//将匹配网站移动到顶部菜单
-user_pref("extensions.lastpass.loginpws", "");//不保存密码
-
-//FlashGot
-user_pref("flashgot.hide-all", true);
-user_pref("flashgot.hide-buildGallery", true);
-user_pref("flashgot.hide-icons", true);
-user_pref("flashgot.hide-it", true);
-user_pref("flashgot.hide-media", true);
-user_pref("flashgot.hide-options", true);
-user_pref("flashgot.hide-sel", true);
-user_pref("flashgot.omitCookies", true);//不发送Cookie
-user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
-
-//DownThemAll！
-user_pref("extensions.dta.conflictresolution", 0);//文檔已存在時自動重命名
-user_pref("extensions.dta.alertbox", 0);//下載完成後對話視窗提示
-user_pref("extensions.dta.closedta", true);//辯識並列出Flash影片
-user_pref("extensions.dta.ctxmenu", "0,0,0");//不顯示右鍵菜單
-user_pref("extensions.dta.removecanceled", true);//從清單中移除中斷及錯誤的下載
-user_pref("extensions.dta.confirmremove", false);//移除下載前不提示
-
-//Greasemonkey
-user_pref("extensions.greasemonkey.stats.prompted", true);//不弹改进建议提示
-user_pref("extensions.greasemonkey.installDelay", 0);//安裝時的倒計時
-
-//Stylish
-user_pref("extensions.stylish.firstRun", 3);//重建配置不弹歡迎頁
-
-//iMacros
-user_pref("extensions.imacros.store-in-profile", true);//存储到Profile文件夹下
-user_pref("extensions.imacros.delay", 1000);//播放速度中等
-
-//Pocket(Readitlater)
-user_pref("extensions.isreaditlater.open", "tab");//新标签打开项目
-
-
-//*==========脚本设置==========*//
-//UC管理器取消延迟加载
-user_pref("userChrome.EXPERIMENT", true);
-
-//UserCSSLoader引导器
-user_pref("UserCSSLoader.innereditor", false);//使用外部编辑器
-user_pref("UserCSSLoader.showtoolbutton", false);//显示为菜单
-
-//InspectElementModY
-user_pref("userChromeJS.InspectElement.contentType", 2);//查看页面:Dom Inspector
-user_pref("userChromeJS.InspectElement.mainWinType", 2);//查看窗口:Dom Inspector
-
-//GrabScroll
-user_pref("grabScroll.button", 1);//使用GrabScroll抓取的键位：中键
-user_pref("grabScroll.clickable", false);//能够在链接上使用GrabScroll
-
-//newDownloadPlus
-//主界面
-user_pref("userChromeJS.downloadPlus.downloadSound_Play", true);//下載完成提示音
-user_pref("userChromeJS.downloadPlus.downloadFileSize", true);//精確顯示文件大小
-user_pref("userChromeJS.downloadPlus.autoClose_blankTab", true);//自動關閉空白標籤
-user_pref("userChromeJS.downloadPlus.download_speed", true);//下載面皮顯示下載速度
-//下載界面
-user_pref("userChromeJS.downloadPlus.download_dialog_saveas", true);//另存爲
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo", true);//保存到
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo_suffix", 1);//保存到——後綴樣式
-user_pref("userChromeJS.downloadPlus.download_dialog_showCompleteURL", true);//双擊複製完整地址
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclicksaveL", false);//双击保存執行下載
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclickanyW", false);//双击任意地方執行下載
-//其他
-user_pref("userChromeJS.downloadPlus.new_Download", true);//新建下載
-user_pref("userChromeJS.downloadPlus.new_Download_popups", true);//新建下載——是否彈窗
-user_pref("userChromeJS.downloadPlus.downloadsPanel_removeFile", true);//從硬盤刪除
-user_pref("userChromeJS.downloadPlus.download_checksum", true);//Hash計算
-user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打開
-user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打開——打開文件
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下載改名
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下載改名——是否開啟下拉菜單
-
-//FeiRuoNet
-user_pref("userChromeJS.FeiRuoNet.EnableRefChanger", true);//Refer切換,破解反盗链
-user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切換
-user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
-user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等級高亮
-user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
-user_pref("userChromeJS.FeiRuoNet.ProxyMode", 0);//代理模式: 禁用代理
