@@ -10,8 +10,10 @@ matrix-off: opera-scheme true
 * * image allow
 * 1st-party * allow
 * 1st-party frame allow
+* irs01.com * block
 * s.ytimg.com script allow
 163.com 14.119.124.58 other allow
+163.com cache.netease.com script allow
 163.com img3.126.net script allow
 163.com live.ws.126.net plugin allow
 163.com m10.music.126.net other allow
@@ -28,7 +30,11 @@ baidu.com baidupcs.com frame allow
 baidu.com baike.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
 baidu.com tb1.bdstatic.com script allow
+bilibili.com static.hdslb.com plugin allow
+bilibili.com static.hdslb.com script allow
 cjol.com js.cjolimg.com script allow
+cnbeta.com js.tudouui.com plugin allow
+cnbeta.com www.tudou.com plugin allow
 ebay.com vi.vipr.ebaydesc.com frame allow
 economist.com cdn.static-economist.com script allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -39,6 +45,9 @@ google.com ssl.google-analytics.com script allow
 google.com ssl.gstatic.com script allow
 google.com www.google-analytics.com script allow
 google.com www.gstatic.com script allow
+huihui.cn shared.ydstatic.com script allow
+huihui.cn webzj.reg.163.com frame allow
+huihui.cn webzj.reg.163.com script allow
 huya.com assets.dwstatic.com plugin allow
 huya.com playapi.v.duowan.com plugin allow
 huya.com playstats.v.duowan.com plugin allow
@@ -54,6 +63,8 @@ jd.com d.3.cn script allow
 jd.com gwdang.com script allow
 jd.com misc.360buyimg.com script allow
 jd.com p.3.cn script allow
+jd.com shared-https.ydstatic.com script allow
+jd.com zhushou.huihui.cn script allow
 kafan.cn api.geetest.com script allow
 kafan.cn fj.ikafan.com script allow
 kafan.cn static.geetest.com script allow
@@ -61,7 +72,11 @@ kugou.com data.5sing.kgimg.com plugin allow
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miniinthebox.com minijscss.rightinthebox.com script allow
+moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
+qq.com * plugin allow
+qq.com 7.url.cn script allow
+sina.com.cn * plugin allow
 sina.com.cn passport.sina.cn script allow
 sina.com.cn passport.weibo.cn script allow
 sina.com.cn passport.weibo.com script allow
@@ -86,6 +101,8 @@ tmall.com passport.taobao.com script allow
 tmall.com s.tbcdn.cn script allow
 tmall.com taobao.com cookie allow
 tmall.com ynuf.alipay.com script allow
+tudou.com * plugin allow
+tudou.com js.tudouui.com script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
 w3ctech.com cdn.staticfile.org script allow
@@ -102,6 +119,8 @@ youku.com g.alicdn.com script allow
 youku.com js.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youtube.com googlevideo.com xhr allow
+yunpan.cn s.ssl.qhimg.com script allow
+yunpan.cn yunpan.360.cn script allow
 zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
