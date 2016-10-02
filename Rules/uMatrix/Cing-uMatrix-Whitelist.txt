@@ -19,6 +19,7 @@ matrix-off: opera-scheme true
 163.com m10.music.126.net other allow
 163.com mimg.127.net script allow
 163.com mov.bn.netease.com plugin allow
+163.com oc-caption-srt.nos.netease.com plugin allow
 163.com r.ph.126.net script allow
 163.com s2.open.126.net script allow
 163.com s3.music.126.net script allow
@@ -69,6 +70,7 @@ kafan.cn api.geetest.com script allow
 kafan.cn fj.ikafan.com script allow
 kafan.cn static.geetest.com script allow
 kugou.com data.5sing.kgimg.com plugin allow
+linkedin.com s.c.lnkd.licdn.com script allow
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miniinthebox.com minijscss.rightinthebox.com script allow
@@ -76,6 +78,10 @@ moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
 qq.com * plugin allow
 qq.com 7.url.cn script allow
+sanguosha.com cas.dobest.com script allow
+sanguosha.com login.dobest.com frame allow
+sanguosha.com login.dobest.com script allow
+shanbay.com static.baydn.com script allow
 sina.com.cn * plugin allow
 sina.com.cn passport.sina.cn script allow
 sina.com.cn passport.weibo.cn script allow
@@ -114,6 +120,10 @@ weibo.com login.sina.com.cn cookie allow
 weibo.com login.sina.com.cn frame allow
 weibo.com login.sina.com.cn script allow
 weibo.com t.sinajs.cn script allow
+weibo.com us.sinaimg.cn plugin allow
+xiami.com g.alicdn.com script allow
+xiami.com res.xiami.net script allow
+xiami.com s.tbcdn.cn script allow
 youku.com * plugin allow
 youku.com g.alicdn.com script allow
 youku.com js.ykimg.com script allow
