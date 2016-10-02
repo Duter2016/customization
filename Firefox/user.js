@@ -1,4 +1,4 @@
-﻿//2016.09.29
+﻿//2016.10.02
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -21,7 +21,7 @@ user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪
 user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
 //搜索
 user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
-user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索
+user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索(否)
 user_pref("browser.search.openintab", true);//新标签打开搜索栏
 user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
@@ -71,11 +71,11 @@ user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转�
 user_pref("network.standard-url.escape-utf8", false);//是否转化中文URL为utf-8格式，默认true
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
-//终于找到了，可以解决某些网站密码存不了的情况……(from sky)
+//终于找到了，可以解决某些网站密码存不了的情况……(from skofkyo)
 user_pref("signon.importedFromSqlite", true);
 user_pref("signon.overrideAutocomplete", true);
 
 /******************************************************************************************
  *这里是个人设置。
  *******************************************************************************************/
-//个人设置存放位置: ProfD\\Chrome\\Local\\VimFx\\_user.js
+//个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
