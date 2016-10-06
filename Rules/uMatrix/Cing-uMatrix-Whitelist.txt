@@ -10,7 +10,9 @@ matrix-off: opera-scheme true
 * * image allow
 * 1st-party * allow
 * 1st-party frame allow
+* 71.am * block
 * irs01.com * block
+* jiathis.com * block
 * s.ytimg.com script allow
 163.com 14.119.124.58 other allow
 163.com cache.netease.com script allow
@@ -25,6 +27,8 @@ matrix-off: opera-scheme true
 163.com s3.music.126.net script allow
 163.com swf.ws.126.net plugin allow
 51job.com js.51jobcdn.com script allow
+acfun.tv * plugin allow
+acfun.tv cdn.aixifan.com script allow
 aliexpress.com i.alicdn.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
 baidu.com baidupcs.com frame allow
@@ -36,6 +40,8 @@ bilibili.com static.hdslb.com script allow
 cjol.com js.cjolimg.com script allow
 cnbeta.com js.tudouui.com plugin allow
 cnbeta.com www.tudou.com plugin allow
+douban.com img3.doubanio.com script allow
+duowan.com assets.dwstatic.com plugin allow
 ebay.com vi.vipr.ebaydesc.com frame allow
 economist.com cdn.static-economist.com script allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -78,6 +84,7 @@ moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
 qq.com * plugin allow
 qq.com 7.url.cn script allow
+qq.com imgcache.gtimg.cn script allow
 sanguosha.com cas.dobest.com script allow
 sanguosha.com login.dobest.com frame allow
 sanguosha.com login.dobest.com script allow
@@ -90,6 +97,8 @@ sina.com.cn simg.sinajs.cn css allow
 sina.com.cn simg.sinajs.cn image allow
 sina.com.cn weibo.com cookie allow
 sjlpj.cn 113.106.91.92 script allow
+so.com js.passport.qihucdn.com script allow
+so.com qhmsg.com script allow
 taobao.com browser.gwdang.com script allow
 taobao.com g.alicdn.com script allow
 tianya.cn static.tianyaui.com script allow
@@ -135,5 +144,6 @@ zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
 zhaopin.com img07.zhaopin.cn script allow
+zhenai.com zastatic.com script allow
 zhihu.com z1.zhimg.com script allow
 zimuzu.tv js.rrsub.net script allow
