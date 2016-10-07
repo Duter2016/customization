@@ -42,6 +42,7 @@ cnbeta.com js.tudouui.com plugin allow
 cnbeta.com www.tudou.com plugin allow
 douban.com img3.doubanio.com script allow
 duowan.com assets.dwstatic.com plugin allow
+duowan.com assets.dwstatic.com script allow
 ebay.com vi.vipr.ebaydesc.com frame allow
 economist.com cdn.static-economist.com script allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -60,6 +61,7 @@ huya.com playapi.v.duowan.com plugin allow
 huya.com playstats.v.duowan.com plugin allow
 huya.com w2.dwstatic.com plugin allow
 huya.com w5.dwstatic.com plugin allow
+ilxtx.com libs.baidu.com script allow
 instagram.com connect.facebook.net script allow
 instagram.com instagramstatic-a.akamaihd.net script allow
 iqiyi.com * plugin allow
@@ -72,6 +74,7 @@ jd.com misc.360buyimg.com script allow
 jd.com p.3.cn script allow
 jd.com shared-https.ydstatic.com script allow
 jd.com zhushou.huihui.cn script allow
+jianshu.com cdn-qn0.jianshu.io script allow
 kafan.cn api.geetest.com script allow
 kafan.cn fj.ikafan.com script allow
 kafan.cn static.geetest.com script allow
@@ -116,6 +119,8 @@ tmall.com passport.taobao.com script allow
 tmall.com s.tbcdn.cn script allow
 tmall.com taobao.com cookie allow
 tmall.com ynuf.alipay.com script allow
+torrent.org.cn apps.bdimg.com script allow
+torrent.org.cn cdn.bootcss.com script allow
 tudou.com * plugin allow
 tudou.com js.tudouui.com script allow
 twitter.com abs.twimg.com script allow
