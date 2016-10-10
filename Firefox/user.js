@@ -1,4 +1,4 @@
-﻿//2016.10.04
+﻿//2016.10.06
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -18,7 +18,6 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"http://bbs.kafan.cn/forum-21
 
 //*==========选项卡里的设置==========*//
 user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪
-user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
 //搜索
 user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
 user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索(否)
@@ -32,11 +31,14 @@ user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.healthreport.uploadEnabled", false);
 
 //*==========標籤相關==========*//
-user_pref("browser.tabs.animate", false);//關閉标签页动画
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
+//取消动画(from: 奶酪)
+user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
+user_pref("browser.fullscreen.animate",false); //取消全屏动画
+user_pref("browser.tabs.animate", false);//關閉标签页动画
 
 //*==========下載相關==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次訊問我要存到何處

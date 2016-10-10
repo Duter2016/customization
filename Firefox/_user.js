@@ -1,4 +1,5 @@
-//2016.10.04
+//2016.10.06
+
 const EXPORTED_SYMBOLS = ['PREFS']
 
 var PREFS = {
@@ -6,6 +7,7 @@ var PREFS = {
  *这里是个人设置。
  *******************************************************************************************/
 //*==========Firefox设置==========*//
+'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
 'accessibility.blockautorefresh': false,//当网站试图重定向或重新载入时警告(否)
 //字體語言編碼
@@ -76,8 +78,8 @@ var PREFS = {
 'extensions.dta.alertbox': 0,//下載完成後對話視窗提示
 'extensions.dta.closedta': true,//辯識並列出Flash影片
 'extensions.dta.ctxmenu': "0,0,0",//不顯示右鍵菜單
-'extensions.dta.removecanceled': true,//從清單中移除中斷及錯誤的下載
 'extensions.dta.confirmremove': false,//移除下載前不提示
+'extensions.dta.loadendfirst': 4096,//先下载最后一段数据(KB)
 
 //Greasemonkey
 'extensions.greasemonkey.stats.prompted': true,//不弹改进建议提示
