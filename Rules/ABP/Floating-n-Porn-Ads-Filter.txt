@@ -8,8 +8,6 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2016.10.10
-cnbeta.com##body > .wrapper:nth-of-type(1) > .main_content.mt5 > .main_content_left > .article.cb_box > .body > .article_content > .content > p:nth-of-type(6)
 ! 2016.10.01
 repaik.com##.a_cn
 ! 2016.09.08
