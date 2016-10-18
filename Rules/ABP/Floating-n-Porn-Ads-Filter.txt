@@ -8,8 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2016.10.12
-economist.com##.fe-blogs__top-ad--placeholder.fe-blogs__desktop-ad.fe-blogs__top-ad
+! 2016.10.19
+pan.baidu.com##.welcome-box
+pan.baidu.com##.welcome-mask
 ! 2016.10.01
 repaik.com##.a_cn
 ! 2016.09.08
