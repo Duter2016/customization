@@ -1,9 +1,3 @@
-matrix-off: about-scheme true
-matrix-off: behind-the-scene true
-matrix-off: chrome-extension-scheme true
-matrix-off: chrome-scheme true
-matrix-off: localhost true
-matrix-off: opera-scheme true
 * * * block
 * * css allow
 * * frame block
@@ -12,10 +6,28 @@ matrix-off: opera-scheme true
 * 1st-party * allow
 * 1st-party frame allow
 * 71.am * block
+* af.alicdn.com script allow
+* ajax.googleapis.com script allow
 * ajax.lug.ustc.edu.cn script allow
+* ajax.proxy.ustclug.org script allow
+* astyle.alicdn.com script allow
+* cdn.bootcss.com script allow
+* cloudfront.net script allow
+* connect.facebook.net script allow
+* desc.alicdn.com script allow
+* facebook.com cookie allow
+* g.alicdn.com script allow
+* i.alicdn.com script allow
 * irs01.com * block
 * jiathis.com * block
+* lib.baomitu.com script allow
+* libs.baidu.com script allow
+* s.tbcdn.cn script allow
 * s.ytimg.com script allow
+* staticxx.facebook.com frame allow
+* staticxx.facebook.com script allow
+* www.facebook.com frame allow
+* www.facebook.com script allow
 163.com 14.119.124.58 other allow
 163.com cache.netease.com script allow
 163.com img3.126.net script allow
@@ -28,13 +40,14 @@ matrix-off: opera-scheme true
 17173.com ue8.17173.itc.cn script allow
 51job.com js.51jobcdn.com script allow
 acfun.tv cdn.aixifan.com script allow
-aliexpress.com i.alicdn.com script allow
 amazon.com images-na.ssl-images-amazon.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
 baidu.com * frame allow
 baidu.com baike.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
 baidu.com tb1.bdstatic.com script allow
+baike.com www.huimg.cn script allow
+baomitu.com s.ssl.qhimg.com script allow
 bilibili.com static.hdslb.com script allow
 cjol.com js.cjolimg.com script allow
 douban.com img3.doubanio.com script allow
@@ -54,11 +67,10 @@ google.com www.gstatic.com xhr allow
 huihui.cn shared.ydstatic.com script allow
 huihui.cn webzj.reg.163.com frame allow
 huihui.cn webzj.reg.163.com script allow
-ilxtx.com libs.baidu.com script allow
-instagram.com connect.facebook.net script allow
+ifeng.com ifengimg.com script allow
 instagram.com instagramstatic-a.akamaihd.net script allow
 iqiyi.com cache.video.qiyi.com script allow
-jandan.net lib.sinaapp.com script allow
+* lib.sinaapp.com script allow
 jd.com 360buyimg.com script allow
 jd.com d.3.cn script allow
 jd.com gwdang.com script allow
@@ -70,7 +82,15 @@ jianshu.com cdn-qn0.jianshu.io script allow
 kafan.cn api.geetest.com script allow
 kafan.cn fj.ikafan.com script allow
 kafan.cn static.geetest.com script allow
+le.com js.letvcdn.com script allow
+le.com jstatic.letvcdn.com script allow
 linkedin.com s.c.lnkd.licdn.com script allow
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miniinthebox.com minijscss.rightinthebox.com script allow
@@ -95,42 +115,40 @@ sjlpj.cn 113.106.91.92 xhr allow
 so.com js.passport.qihucdn.com script allow
 so.com qhmsg.com script allow
 taobao.com browser.gwdang.com script allow
-taobao.com g.alicdn.com script allow
 terapeak.com cdn-terapeak.com script allow
 tianya.cn cms.tianyaui.com script allow
 tianya.cn static.tianyaui.com script allow
 tmall.com a.alipayobjects.com script allow
-tmall.com af.alicdn.com script allow
 tmall.com alipay.com cookie allow
 tmall.com browser.gwdang.com script allow
 tmall.com cf.aliyun.com script allow
-tmall.com desc.alicdn.com script allow
 tmall.com err.taobao.com script allow
-tmall.com g.alicdn.com script allow
 tmall.com login.taobao.com frame allow
 tmall.com login.taobao.com script allow
 tmall.com passport.taobao.com frame allow
 tmall.com passport.taobao.com script allow
-tmall.com s.tbcdn.cn script allow
 tmall.com taobao.com cookie allow
 tmall.com ynuf.alipay.com script allow
 torrent.org.cn apps.bdimg.com script allow
-torrent.org.cn cdn.bootcss.com script allow
 tudou.com js.tudouui.com script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
+ufanw.com avziliao.duapp.com cookie allow
+ufanw.com avziliao.duapp.com frame allow
+ufanw.com avziliao.duapp.com script allow
+ufanw.com avziliao.duapp.com xhr allow
 w3ctech.com cdn.staticfile.org script allow
+wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
 walmart.com i5.walmartimages.com script allow
 weibo.com i.sso.sina.com.cn script allow
 weibo.com login.sina.com.cn cookie allow
 weibo.com login.sina.com.cn frame allow
 weibo.com login.sina.com.cn script allow
+weibo.com login.sina.com.cn xhr allow
 weibo.com t.sinajs.cn script allow
-xiami.com g.alicdn.com script allow
+weibo.com tjs.sjs.sinajs.cn script allow
 xiami.com res.xiami.net script allow
-xiami.com s.tbcdn.cn script allow
-youku.com g.alicdn.com script allow
 youku.com js.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youtube.com googlevideo.com xhr allow
