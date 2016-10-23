@@ -8,6 +8,8 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.10.23
+huya.com###mbbs-qrcode
 ! 2016.10.19
 pan.baidu.com##.welcome-box
 pan.baidu.com##.welcome-mask
