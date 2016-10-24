@@ -1,4 +1,4 @@
-//2016.10.06
+//2016.10.14
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -21,10 +21,6 @@ var PREFS = {
 'browser.places.smartBookmarksVersion': -1,//禁用智能书签
 
 //*=網路相關=*//
-'network.proxy.socks_remote_dns': true,//设置远程DNS解析可以防止DNS劫持
-//HTTPS不允许混合内容，以下两条参数用以禁用此特性
-'security.mixed_content.block_active_content': false,
-'security.mixed_content.block_display_content': false,
 //网络设定
 'nglayout.initialpaint.delay': 0,
 'network.http.pipelining': true,
@@ -34,6 +30,7 @@ var PREFS = {
 'mousewheel.min_line_scroll_amount': 35,
 
 //*=FX其它类=*/
+'gfx.content.azure.backends': "direct2d1.1,cairo",//图形渲染;FX52默认的Skia不支持Mactype
 'view_source.editor.external': true,//页面源代码——使用外部編輯器查看
 'browser.backspace_action': 2,//禁止Backspace键返回上一页
 //会话相关
