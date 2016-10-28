@@ -10,6 +10,7 @@ matrix-off: opera-scheme true
 * * frame block
 * * image allow
 * * plugin allow
+* 1st-party frame allow
 * 1st-party script allow
 * 1st-party xhr allow
 * 71.am * block
@@ -143,7 +144,10 @@ sina.com.cn weibo.com cookie allow
 sjlpj.cn 113.106.91.92 frame allow
 sjlpj.cn 113.106.91.92 script allow
 sjlpj.cn 113.106.91.92 xhr allow
-sjlpj.cn 1st-party frame allow
+sjlpj.cn 1st-party script inherit
+sjlpj.cn 1st-party xhr inherit
+sjlpj.cn ic.sjlpj.cn script allow
+sjlpj.cn ic.sjlpj.cn xhr allow
 sjlpj.cn sjlpj.cn cookie allow
 smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
