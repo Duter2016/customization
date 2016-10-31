@@ -8,8 +8,6 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
-! 2016.10.31
-hbr.org###intromercial-handle
 ! 2016.10.23
 ftchinese.com###story_main_mpu
 huya.com###mbbs-qrcode
