@@ -10,9 +10,7 @@ matrix-off: opera-scheme true
 * * frame block
 * * image allow
 * * plugin allow
-* 1st-party frame allow
-* 1st-party script allow
-* 1st-party xhr allow
+* 1st-party * allow
 * 71.am * block
 * af.alicdn.com script allow
 * ajax.cloudflare.com script allow
@@ -36,6 +34,7 @@ matrix-off: opera-scheme true
 * s.ytimg.com script allow
 * wp.com script allow
 120.24.13.81 120.24.13.81 cookie allow
+120.24.13.81 120.24.13.81 frame allow
 163.com 14.119.124.58 other allow
 163.com cache.netease.com script allow
 163.com img3.126.net script allow
@@ -57,6 +56,7 @@ apple.com store.storeimages.cdn-apple.com script allow
 baidu.com * frame allow
 baidu.com baidu.com cookie allow
 baidu.com baike.bdimg.com script allow
+baidu.com exp.bdstatic.com script allow
 baidu.com map.bdstatic.com script allow
 baidu.com online0.map.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
@@ -78,21 +78,21 @@ economist.com cdn.static-economist.com script allow
 facebook.com facebook.com cookie allow
 firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
+firefox.net.cn www.firefox.net.cn cookie allow
 forbes.com i.forbesimg.com script allow
 freebuf.com static.3001.net script allow
 gearbest.com analytics.logsss.com script allow
 github.com github.com cookie allow
 google.com ads.google.com script allow
 google.com analytics.google.com * inherit
-google.com docs.google.com frame allow
-google.com docs.google.com xhr allow
 google.com google.com cookie allow
 google.com ssl.google-analytics.com script allow
 google.com ssl.gstatic.com script allow
 google.com www.google-analytics.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
-hbr.org hbr.org script block
+greasyfork.org greasyfork.org cookie allow
+hbr.org media.richrelevance.com script allow
 huihui.cn shared.ydstatic.com script allow
 huihui.cn webzj.reg.163.com frame allow
 huihui.cn webzj.reg.163.com script allow
@@ -116,6 +116,8 @@ kafan.cn kafan.cn cookie allow
 kafan.cn static.geetest.com script allow
 kaola.com mm.bst.126.net script allow
 kindbook.cn kindbook.cn cookie allow
+kugou.com kugou.com cookie allow
+kugou.com static.5sing.kugou.com frame allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
 linkedin.com s.c.lnkd.licdn.com script allow
@@ -146,6 +148,7 @@ sjlpj.cn 113.106.91.92 script allow
 sjlpj.cn 113.106.91.92 xhr allow
 sjlpj.cn 1st-party script inherit
 sjlpj.cn 1st-party xhr inherit
+sjlpj.cn bi.sjlpj.cn frame allow
 sjlpj.cn ic.sjlpj.cn script allow
 sjlpj.cn ic.sjlpj.cn xhr allow
 sjlpj.cn sjlpj.cn cookie allow
@@ -191,6 +194,7 @@ weibo.com login.sina.com.cn script allow
 weibo.com login.sina.com.cn xhr allow
 weibo.com t.sinajs.cn script allow
 weibo.com tjs.sjs.sinajs.cn script allow
+weibo.com weibo.com cookie allow
 wish.com connect.facebook.net script allow
 wish.com facebook.com cookie allow
 wish.com staticxx.facebook.com frame allow
@@ -201,6 +205,8 @@ wish.com www.wish.com cookie allow
 xiami.com res.xiami.net script allow
 xunlei.com img.jiuwo.kanimg.com script allow
 xunlei.com img.vip.kanimg.com script allow
+xunlei.com static.i.kanimg.com script allow
+xunlei.com xunlei.com cookie allow
 youku.com js.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youtube.com googlevideo.com xhr allow
