@@ -1,4 +1,4 @@
-//2016.10.26
+//2016.11.01
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -32,6 +32,7 @@ var PREFS = {
 'gfx.content.azure.backends': "direct2d1.1,cairo",//图形渲染;FX52默认的Skia不支持Mactype
 'view_source.editor.external': true,//页面源代码——使用外部編輯器查看
 'browser.backspace_action': 2,//禁止Backspace键返回上一页
+'dom.battery.enabled': false,//禁止电池状态API, 防止信息泄露
 //会话相关
 'browser.sessionstore.resume_from_crash': false,//关闭Firefox会话恢复功能
 'browser.sessionstore.max_tabs_undo': 10,//最近撤销标签历史最大数
