@@ -207,6 +207,7 @@ xunlei.com img.jiuwo.kanimg.com script allow
 xunlei.com img.vip.kanimg.com script allow
 xunlei.com static.i.kanimg.com script allow
 xunlei.com xunlei.com cookie allow
+yinyuetai.com s.yytcdn.com script allow
 youku.com js.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youtube.com googlevideo.com xhr allow
