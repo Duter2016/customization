@@ -66,7 +66,7 @@ user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
-user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不检测版本，不弹欢迎页面
+user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
