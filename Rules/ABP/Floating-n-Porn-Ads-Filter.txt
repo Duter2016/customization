@@ -8,6 +8,10 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.11.04
+ft.com##.visible.n-header__marketing-promo
+ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
+ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
 ! 2016.10.23
 ftchinese.com###story_main_mpu
 huya.com###mbbs-qrcode
