@@ -122,12 +122,11 @@ ifeng.com ifengimg.com script allow
 instagram.com instagramstatic-a.akamaihd.net script allow
 iqiyi.com cache.video.qiyi.com script allow
 jandan.net jandan.net script allow
+jd.com 3.cn script allow
 jd.com 360buyimg.com script allow
 jd.com d.3.cn script allow
 jd.com dc.3.cn script allow
-jd.com dx.3.cn script allow
 jd.com misc.360buyimg.com script allow
-jd.com p.3.cn script allow
 jd.com passport.jd.com cookie allow
 jd.com shared-https.ydstatic.com script allow
 jd.com zhushou.huihui.cn script allow
