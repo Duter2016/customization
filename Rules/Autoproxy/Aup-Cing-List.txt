@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||wallhaven.cc
+||statista.com
 ||ft.com
 ||dspncdn.com
 ||designspiration.net
