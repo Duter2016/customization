@@ -8,6 +8,9 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2016.11.07
+statista.com###statisticSlideIn
+statista.com###raPopup01
 ! 2016.11.04
 ft.com##.visible.n-header__marketing-promo
 ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
