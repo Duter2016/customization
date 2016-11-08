@@ -49,7 +49,6 @@ iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20p
 ! 2016.04.20
 trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
 huya.com##.relate_right
-baidu.com###pagelet_frs-list\/pagelet\/thread_footer
 ! 2016.04.18
 xilinjie.com##P
 xilinjie.com###xlj-ad-block-overlay
@@ -61,15 +60,9 @@ cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
 jd.com##.side__ad.side__ad-right
 jd.com##.side__ad.side__ad-left
-! 2016.03.25
-baidu.com##.module-mboxDialog
-baidu.com##.module-canvas
-! 2016.03.22
-baidu.com###act-link-banner
 ! 2016.03.16
 chaojibiaoge.com##IMG[src="/Public/projects/oa/images/weixin.png"]
 163.com##.clearfix.bobo-wrap
-baidu.com##.ic
 ! 2016.02.28
 economist.com##.timekeeper-bubble
 huya.com##ASIDE
