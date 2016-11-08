@@ -27,6 +27,7 @@ matrix-off: opera-scheme true
 * cf.aliyun.com script allow
 * cfvod.kaltura.com xhr allow
 * cloudfront.net script allow
+* code.jquery.com script allow
 * desc.alicdn.com script allow
 * edge.api.brightcove.com xhr allow
 * g.alicdn.com script allow
@@ -93,6 +94,7 @@ duowan.com assets.dwstatic.com script allow
 ebay.com ir.ebaystatic.com script allow
 ebay.com vi.vipr.ebaydesc.com frame allow
 ebay.com vi.vipr.ebaydesc.com script allow
+economist.com admin.brightcove.com script allow
 economist.com cdn.static-economist.com script allow
 facebook.com facebook.com cookie allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -150,7 +152,10 @@ miniinthebox.com minijscss.rightinthebox.com script allow
 mipay.com mipay.com cookie allow
 moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
+nytimes.com mssl.fwmrm.net script allow
 nytimes.com nyt.com script allow
+nytimes.com nytimes.com cookie allow
+nytimes.com vp.nyt.com other allow
 pdawiki.com touclick.com script allow
 qq.com 7.url.cn script allow
 qq.com imgcache.gtimg.cn script allow
@@ -180,6 +185,7 @@ sjlpj.cn sjlpj.cn cookie allow
 smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
 so.com qhmsg.com script allow
+statista.com statista.com cookie allow
 sunsky-online.com sunsky-online.com cookie allow
 terapeak.com cdn-terapeak.com script allow
 theatlantic.com cdn.theatlantic.com script allow
@@ -225,6 +231,10 @@ wish.com staticxx.facebook.com script allow
 wish.com www.facebook.com frame allow
 wish.com www.facebook.com script allow
 wish.com www.wish.com cookie allow
+wsj.com api.wsj.net xhr allow
+wsj.com ore.wsj.net script allow
+wsj.com s.wsj.net script allow
+wsj.com vir.wsj.net script allow
 xiami.com res.xiami.net script allow
 xiaomi.com xiaomi.com cookie allow
 xunlei.com img.jiuwo.kanimg.com script allow
@@ -250,4 +260,4 @@ zhihu.com zhihu.com cookie allow
 zihu.tv yun.zihu.tv frame allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
-zimuzu.tv www.zimuzu.tv cookie allow
+zimuzu.tv zimuzu.tv cookie allow
