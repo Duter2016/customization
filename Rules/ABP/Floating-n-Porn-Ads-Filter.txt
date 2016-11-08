@@ -154,7 +154,6 @@ tieba.baidu.com##.d_sign_split
 ! 2015.07.22
 iqiyi.com##.vip_rec_pop
 ! 2015.07.19
-baidu.com##.s_bri
 tieba.baidu.com##.thread_recommend
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
@@ -163,10 +162,6 @@ tieba.baidu.com##.thread_recommend
 ||*monitor.jpg?xcode
 ||api.share.baidu.com
 ||tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/CrossPageSWF.swf?*
-baidu.com##.arrow
-baidu.com##.c-gap-top.c-recommend
-baidu.com##.c-gray.c-feedback
-baidu.com##.wgt-bottom-ask
 bbs.kafan.cn###autopbn
 bbs.kafan.cn###scrolltop
 bbs.kafan.cn##.bm_h
@@ -203,12 +198,6 @@ kindbook.cn##IMG[src="static/image/smiley/anzai/003.gif"]
 mail.163.com###dvYixinWrapper
 mail.qq.com###folder_reader
 note.wiz.cn###wiz-poster
-pan.baidu.com###shareqr
-pan.baidu.com##.b-panel.b-canvas
-pan.baidu.com##.identity
-pan.baidu.com##.info-i.default-text
-pan.baidu.com##.module-hot-rec
-pan.baidu.com##.upload-bar.global-clearfix
 tieba.baidu.com###aside_album_good
 tieba.baidu.com###bdshare
 tieba.baidu.com###celebrity
@@ -240,8 +229,6 @@ wenku.baidu.com##.bl
 wenku.baidu.com##.tl
 wenku.baidu.com##.tr
 wenku.baidu.com##I
-baidu.com###content_right.cr-offset > table > tbody > tr > td > div:nth-of-type(2)
-baidu.com###form.fm > .tools
 zhidao.baidu.com###ui-tooltip-0
 zhidao.baidu.com###userbar-msg
 zhidao.baidu.com###wgt-topic
