@@ -46,8 +46,6 @@ kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=jua
 duowan.com###mbbs-qrcode
 iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 24px auto"]
 iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 20px auto"]
-! 2016.05.10
-baidu.com###announcement
 ! 2016.04.20
 trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
 huya.com##.relate_right
@@ -55,9 +53,6 @@ baidu.com###pagelet_frs-list\/pagelet\/thread_footer
 ! 2016.04.18
 xilinjie.com##P
 xilinjie.com###xlj-ad-block-overlay
-! 2016.04.16
-baidu.com###passport-accRealName-pop
-baidu.com###TANGRAM__PSP_35__
 ! 2016.04.13
 cnbeta.com##div[style*="DXImageTransform"]
 cnbeta.com##div[style*="display:block !important;"][style*="z-index:99999;"]
