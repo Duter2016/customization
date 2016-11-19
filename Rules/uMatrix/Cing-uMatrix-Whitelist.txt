@@ -18,6 +18,7 @@ matrix-off: opera-scheme true
 * ajax.lug.ustc.edu.cn script allow
 * ajax.proxy.ustclug.org script allow
 * alipay.com cookie allow
+* astyle-src.alicdn.com script allow
 * astyle.alicdn.com script allow
 * browser.gwdang.com script allow
 * cdn.bootcss.com script allow
@@ -49,6 +50,7 @@ matrix-off: opera-scheme true
 163.com * other allow
 163.com 14.119.124.58 other allow
 163.com 163.com cookie allow
+163.com b1.bst.126.net script allow
 163.com cache.netease.com script allow
 163.com img3.126.net script allow
 163.com m10.music.126.net other allow
@@ -58,7 +60,6 @@ matrix-off: opera-scheme true
 163.com music.163.com frame allow
 163.com r.ph.126.net script allow
 163.com s2.open.126.net script allow
-1688.com astyle-src.alicdn.com script allow
 17173.com j.v.17173cdn.com script allow
 17173.com ue8.17173.itc.cn script allow
 360.cn js.passport.qihucdn.com script allow
@@ -71,6 +72,7 @@ matrix-off: opera-scheme true
 51job.com my.51job.com frame allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
+amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com images-na.ssl-images-amazon.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
 baidu.com * frame allow
@@ -154,7 +156,9 @@ kugou.com static.5sing.kugou.com frame allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
 lightinthebox.com litbjscss.rightinthebox.com script allow
+linkedin.com linkedin.com cookie allow
 linkedin.com s.c.lnkd.licdn.com script allow
+linkedin.com static.licdn.com script allow
 mashable.com a.amz.mshcdn.com script allow
 mi.com mi.com cookie allow
 mi.com s01.mifile.cn script allow
@@ -172,6 +176,7 @@ pdawiki.com touclick.com script allow
 qq.com 7.url.cn script allow
 qq.com imgcache.gtimg.cn script allow
 qq.com mat1.gtimg.com script allow
+qq.com qq.com cookie allow
 qq.com vm.gtimg.cn script allow
 sanguosha.com cas.dobest.com script allow
 sanguosha.com login.dobest.com frame allow
@@ -183,6 +188,7 @@ sina.com.cn passport.weibo.cn script allow
 sina.com.cn passport.weibo.com script allow
 sina.com.cn simg.sinajs.cn css allow
 sina.com.cn simg.sinajs.cn image allow
+sina.com.cn sina.com.cn cookie allow
 sina.com.cn sjs.sinajs.cn script allow
 sina.com.cn weibo.com cookie allow
 sjlpj.cn 113.106.91.92 frame allow
@@ -229,6 +235,7 @@ ufanw.com www.ufanw.com frame allow
 userstyles.org userstyles.org cookie allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
+wallstreetcn.com wallstreetcn.com cookie allow
 walmart.com i5.wal.co script allow
 walmart.com i5.walmartimages.com script allow
 weibo.com i.sso.sina.com.cn script allow
