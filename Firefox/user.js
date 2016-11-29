@@ -1,4 +1,4 @@
-﻿//2016.11.04
+﻿//2016.11.29
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -24,11 +24,41 @@ user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎
 user_pref("browser.search.openintab", true);//新标签打开搜索栏
 user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
-//关闭安全检测健康中心类
-user_pref("browser.safebrowsing.malware.enabled", false);
+//safebrowsing安全浏览，添堵，吔屎啦你google
 user_pref("browser.safebrowsing.enabled", false);
-user_pref("datareporting.healthreport.service.firstRun", true);
+user_pref("browser.safebrowsing.malware.enabled", false);
+user_pref("browser.safebrowsing.downloads.enabled", false);
+user_pref("browser.safebrowsing.provider.google.updateURL", "");
+user_pref("browser.safebrowsing.provider.google.gethashURL", "");
+user_pref("browser.safebrowsing.provider.google4.gethashURL", "");
+user_pref("browser.safebrowsing.provider.google4.reportURL", "");
+user_pref("browser.safebrowsing.provider.google4.updateURL", "");
+user_pref("browser.safebrowsing.provider.mozilla.gethashURL", "");
+user_pref("browser.safebrowsing.provider.mozilla.updateURL", "");
+user_pref("browser.safebrowsing.downloads.remote.enabled", false);
+user_pref("browser.safebrowsing.downloads.remote.url", "");
+user_pref("browser.safebrowsing.appRepURL", "");
+user_pref("browser.safebrowsing.provider.google.reportURL", "");
+user_pref("browser.safebrowsing.reportMalwareMistakeURL", "");
+user_pref("browser.safebrowsing.reportPhishMistakeURL", "");
+user_pref("browser.safebrowsing.reportPhishURL", "");
+
+//遥测
+user_pref("toolkit.telemetry.unified", false);
+user_pref("toolkit.telemetry.enabled", false);
+user_pref("toolkit.telemetry.unifiedIsOptIn", true); 
+user_pref("toolkit.telemetry.server", "");
+user_pref("toolkit.telemetry.archive.enabled", false);
+user_pref("toolkit.telemetry.cachedClientID", "");
+
+//健康
 user_pref("datareporting.healthreport.uploadEnabled", false);
+user_pref("datareporting.healthreport.documentServerURI", "");
+user_pref("datareporting.healthreport.service.enabled", false);
+user_pref("datareporting.healthreport.about.reportUrl", "data:text/plain,");
+user_pref("datareporting.healthreport.about.reportUrlUnified", "data:text/plain,");
+user_pref("datareporting.policy.dataSubmissionEnabled", false);
+user_pref("datareporting.policy.dataSubmissionEnabled.v2", false);
 
 //*==========標籤相關==========*//
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
