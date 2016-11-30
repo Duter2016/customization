@@ -18,6 +18,7 @@ matrix-off: opera-scheme true
 * ajax.lug.ustc.edu.cn script allow
 * ajax.proxy.ustclug.org script allow
 * alipay.com cookie allow
+* api.geetest.com script allow
 * astyle-src.alicdn.com script allow
 * astyle.alicdn.com script allow
 * browser.gwdang.com script allow
@@ -35,6 +36,7 @@ matrix-off: opera-scheme true
 * i.alicdn.com script allow
 * irs01.com * block
 * jiathis.com * block
+* js.tudouui.com script allow
 * lib.baomitu.com script allow
 * lib.sinaapp.com script allow
 * libs.baidu.com script allow
@@ -43,8 +45,11 @@ matrix-off: opera-scheme true
 * players.brightcove.net script allow
 * s.tbcdn.cn script allow
 * s.ytimg.com script allow
+* static.geetest.com script allow
 * traffic.libsyn.com other allow
 * wp.com script allow
+* www.tudou.com frame allow
+* www.tudou.com script allow
 120.24.13.81 120.24.13.81 cookie allow
 120.24.13.81 120.24.13.81 frame allow
 163.com * other allow
@@ -83,6 +88,7 @@ baidu.com exp.bdstatic.com script allow
 baidu.com map.bdstatic.com script allow
 baidu.com online0.map.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
+baidu.com ss0.bdstatic.com script allow
 baidu.com static.wenku.bdimg.com script allow
 baidu.com tb1.bdstatic.com script allow
 baike.com www.huimg.cn script allow
@@ -90,10 +96,12 @@ baomitu.com s.ssl.qhimg.com script allow
 bilibili.com static.hdslb.com script allow
 cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
+ctfile.com static.tv002.com script allow
 designspiration.net dspncdn.com cookie allow
 deviantart.com st.deviantart.net script allow
 dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
+douban.com douban.com cookie allow
 douban.com img3.doubanio.com script allow
 douban.com www.douban.com cookie allow
 duowan.com assets.dwstatic.com script allow
@@ -172,7 +180,13 @@ nytimes.com nyt.com script allow
 nytimes.com nyt.com xhr allow
 nytimes.com nytimes.com cookie allow
 nytimes.com vp.nyt.com other allow
+oschina.net oschina.net cookie allow
 pdawiki.com touclick.com script allow
+people.cn res.wx.qq.com script allow
+people.cn rmrbaudio.people.com.cn other allow
+pinggu.org 120.27.111.137 script allow
+pinggu.org dztest.pinggu.com script allow
+pinggu.org pinggu.org cookie allow
 qq.com 7.url.cn script allow
 qq.com imgcache.gtimg.cn script allow
 qq.com mat1.gtimg.com script allow
@@ -204,6 +218,8 @@ smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
 so.com qhmsg.com script allow
 so.com qhres.com script allow
+sohu.com js.tv.itc.cn script allow
+sohu.com tv.sohu.com * inherit
 statista.com statista.com cookie allow
 sunsky-online.com sunsky-online.com cookie allow
 terapeak.com cdn-terapeak.com script allow
@@ -227,6 +243,7 @@ torrent.org.cn apps.bdimg.com script allow
 tudou.com js.tudouui.com script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
+twitter.com twitter.com cookie allow
 ufanw.com avziliao.duapp.com cookie allow
 ufanw.com avziliao.duapp.com frame allow
 ufanw.com avziliao.duapp.com script allow
