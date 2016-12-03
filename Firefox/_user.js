@@ -180,7 +180,7 @@ var PREFS = {
 'userChromeJS.FeiRuoNet.EnableRefChanger': true,//Refer切換,破解反盗链
 'userChromeJS.FeiRuoNet.EnableUAChanger': true,//UA切換
 'userChromeJS.FeiRuoNet.ModifyHeader': true,//HTTP头信息
-'userChromeJS.FeiRuoNet.UrlbarSafetyLevel': false,//HTTPS等級高亮
+'userChromeJS.FeiRuoNet.UrlbarSafetyLevel': true,//HTTPS等級高亮
 'userChromeJS.FeiRuoNet.EnableProxyByError': false,//网络错误时代理
 'userChromeJS.FeiRuoNet.ProxyMode': 0,//代理模式: 禁用代理
 
