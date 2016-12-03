@@ -1,4 +1,4 @@
-﻿//2016.11.29
+﻿//2016.12.02
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -83,9 +83,6 @@ user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//禁用保护模式
 user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙箱
-user_pref("layers.async-pan-zoom.enabled",true);//开启异步平移/缩放
-user_pref("dom.ipc.plugins.asyncInit.enabled", true);//开启插件异步加载
-user_pref("dom.ipc.plugins.asyncdrawing.enabled", true);//开启插件异步绘制
 
 //*==========附加組件==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
