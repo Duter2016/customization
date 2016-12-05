@@ -11,11 +11,11 @@ service iptables save
 rm -f install_fs.sh
 wget  https://github.com/dupontjoy/customization/raw/master/Rules/Shadowsocks/Finalspeed/install_fs.sh
 chmod +x install_fs.sh
-./install_fs.sh 2>&1 | tee install.log
+./install_fs.sh
 
 
 +++++++++++++++++
-或者
+或者(这个版本有自启设置)
 官网跟这里不能下载了，请大家到这个网站下载
 http://finalspeed.org/
 http://finalspeed.org/fs/finalspeed_install1.2.exe
@@ -24,7 +24,7 @@ http://finalspeed.org/fs/finalspeed_client1.2.zip
 rm -f install_fs.sh
 wget http://finalspeed.org/fs/install_fs.sh
 chmod +x install_fs.sh
-./install_fs.sh 2>&1 | tee install.log
+./install_fs.sh
 
 三, 其他使用说明
 
