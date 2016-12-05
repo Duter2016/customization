@@ -9,7 +9,7 @@ Total Commander设置文件
 | :--- | :--- |
 | 压缩 | <kbd>Alt</kbd> + <kbd>F5</kbd> |
 | 解压缩 | <kbd>Alt</kbd> + <kbd>F6</kbd> |
-| 回到根目录 | <kbd>Ctrl</kbd> + <kbd>＼</kbd> |
+| 回到根目录 | <kbd>Ctrl</kbd> + <kbd>\\</kbd> |
 | 回到上一层 | <kbd>Backspace</kbd> |
 | 常用文件夹目录 | <kbd>Ctrl</kbd> + <kbd>D</kbd> |
 | 历史文件夹记录 | <kbd>Alt</kbd> + <kbd>↓</kbd> |
