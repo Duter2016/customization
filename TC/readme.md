@@ -6,6 +6,6 @@ Total Commander设置文件
 ###TC常用快捷键
 
 | | |
-| :--- | |
+| :--- | :--- |
 | 压缩 | <kbd>Alt</kbd> + <kbd>F5</kbd> |
 | 解压缩 | <kbd>Alt</kbd> + <kbd>F6</kbd> |
