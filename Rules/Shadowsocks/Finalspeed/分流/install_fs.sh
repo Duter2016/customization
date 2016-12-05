@@ -5,7 +5,7 @@ export PATH
 
 install_path=/fs/
 #有偿技术服务，联系QQ:1151866426  
-package_download_url=http://finalspeed.org/fs/finalspeed_server.zip
+package_download_url=https://github.com/dupontjoy/customization/raw/master/Rules/Shadowsocks/Finalspeed/%E5%88%86%E6%B5%81/finalspeed_server.zip
 package_save_name=finalspeed_server.zip
  
 function checkjava(){
