@@ -13,6 +13,19 @@ wget  https://github.com/dupontjoy/customization/raw/master/Rules/Shadowsocks/Fi
 chmod +x install_fs.sh
 ./install_fs.sh 2>&1 | tee install.log
 
+
++++++++++++++++++
+或者
+官网跟这里不能下载了，请大家到这个网站下载
+http://finalspeed.org/
+http://finalspeed.org/fs/finalspeed_install1.2.exe
+http://finalspeed.org/fs/finalspeed_client1.2.zip
+一键安装
+rm -f install_fs.sh
+wget http://finalspeed.org/fs/install_fs.sh
+chmod +x install_fs.sh
+./install_fs.sh 2>&1 | tee install.log
+
 三, 其他使用说明
 
 更新：执行一键安装会自动完成更新。
