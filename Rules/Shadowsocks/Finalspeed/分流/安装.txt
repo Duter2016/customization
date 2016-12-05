@@ -1,7 +1,3 @@
-官网跟这里不能下载了，请大家到这个网站下载
-http://finalspeed.org/
-http://finalspeed.org/fs/finalspeed_install1.2.exe
-http://finalspeed.org/fs/finalspeed_client1.2.zip
 一键安装
 rm -f install_fs.sh
 wget http://finalspeed.org/fs/install_fs.sh
