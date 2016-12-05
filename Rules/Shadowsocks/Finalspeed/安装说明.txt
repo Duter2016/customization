@@ -16,7 +16,7 @@ chmod +x install_fs.sh
 
 +++++++++++++++++
 或者(这个版本有自启设置)
-官网跟这里不能下载了，请大家到这个网站下载
+官网跟这里不能下载了，请大家到这个网站下载(或者转到[分流](/分流))
 http://finalspeed.org/
 http://finalspeed.org/fs/finalspeed_install1.2.exe
 http://finalspeed.org/fs/finalspeed_client1.2.zip
