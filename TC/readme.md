@@ -41,13 +41,14 @@ Total Commander设置文件
 | 后退 | <kbd>Alt</kbd> + <kbd>←</kbd> |
 | 前进 | <kbd>Alt</kbd> + <kbd>→</kbd> |
 | 文件属性 | <kbd>Alt</kbd> + <kbd>Enter</kbd> |
-| 全都不选 | <kbd>Ctrl</kbd> + <kbd>-</kbd> |
+| 选中相同扩展名文件 | <kbd>Alt</kbd> + <kbd>+</kbd> |
+| 取消选择 | <kbd>Ctrl</kbd> + <kbd>-</kbd> |
 | 交换左右窗口 | <kbd>Ctrl</kbd> + <kbd>U</kbd> |
 | 交换左右窗口及标签 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>U</kbd> |
 | | |
-| 所有文件 | <kbd>Ctrl</kbd> + <kbd>F10</kbd> |
-| 可执行文件 | <kbd>Ctrl</kbd> + <kbd>F11</kbd> |
-| 自定义文件类型 | <kbd>Ctrl</kbd> + <kbd>F12</kbd> |
+| 显示所有文件 | <kbd>Ctrl</kbd> + <kbd>F10</kbd> |
+| 显示可执行文件 | <kbd>Ctrl</kbd> + <kbd>F11</kbd> |
+| 显示自定义文件类型 | <kbd>Ctrl</kbd> + <kbd>F12</kbd> |
 
 
 
