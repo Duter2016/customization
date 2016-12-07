@@ -9,6 +9,7 @@ Total Commander设置文件
 | :--- | :--- |
 | 回到根目录 | <kbd>Ctrl</kbd> + <kbd>\\</kbd> |
 | 回到上一层 | <kbd>Backspace</kbd> |
+| 切换左右活动窗口 | <kbd>Tab</kbd> |
 | 常用文件夹目录 | <kbd>Ctrl</kbd> + <kbd>D</kbd> |
 | 历史文件夹记录 | <kbd>Alt</kbd> + <kbd>↓</kbd> |
 | 桌面 | <kbd>Ctrl</kbd> + <kbd>Y</kbd> |
@@ -25,6 +26,7 @@ Total Commander设置文件
 | 另存为 | <kbd>Shift</kbd> + <kbd>F5</kbd> |
 | 创建快捷方式 | <kbd>Ctrl</kbd> + <kbd>I</kbd> |
 | 新建标签 | <kbd>Ctrl</kbd> + <kbd>T</kbd> |
+| 新建文本文件并打开 | <kbd>Shift</kbd> + <kbd>F4</kbd> |
 | | |
 | 复制文件夹路径 | <kbd>Ctrl</kbd> + <kbd>1</kbd> |
 | 复制文件名 | <kbd>Ctrl</kbd> + <kbd>2</kbd> |
