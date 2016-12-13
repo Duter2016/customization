@@ -49,7 +49,6 @@
 ||fortune.com
 ||freestyler.ws
 ||giridhar.co.in
-||github.*
 ||google.com
 ||googleapis.com
 ||googlecode.com
@@ -59,7 +58,6 @@
 ||imgur.com
 ||indiatimes.com
 ||kameleoon.eu
-||mega.*
 ||mm-cg.com
 ||mobilefun.co*
 ||mobimania.ua
