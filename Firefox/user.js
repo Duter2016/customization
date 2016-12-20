@@ -1,4 +1,4 @@
-﻿//2016.12.14
+﻿//2016.12.20
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -14,24 +14,10 @@ user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎
 user_pref("browser.search.openintab", true);//新标签打开搜索栏
 user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
-//safebrowsing安全浏览，添堵，吔屎啦你google
+//safebrowsing安全浏览
 user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
-user_pref("browser.safebrowsing.provider.google.updateURL", "");
-user_pref("browser.safebrowsing.provider.google.gethashURL", "");
-user_pref("browser.safebrowsing.provider.google4.gethashURL", "");
-user_pref("browser.safebrowsing.provider.google4.reportURL", "");
-user_pref("browser.safebrowsing.provider.google4.updateURL", "");
-user_pref("browser.safebrowsing.provider.mozilla.gethashURL", "");
-user_pref("browser.safebrowsing.provider.mozilla.updateURL", "");
-user_pref("browser.safebrowsing.downloads.remote.enabled", false);
-user_pref("browser.safebrowsing.downloads.remote.url", "");
-user_pref("browser.safebrowsing.appRepURL", "");
-user_pref("browser.safebrowsing.provider.google.reportURL", "");
-user_pref("browser.safebrowsing.reportMalwareMistakeURL", "");
-user_pref("browser.safebrowsing.reportPhishMistakeURL", "");
-user_pref("browser.safebrowsing.reportPhishURL", "");
 
 //遥测
 user_pref("toolkit.telemetry.unified", false);
@@ -78,7 +64,6 @@ user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙箱
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 
 //*==========FX其它类==========*//
-user_pref("general.skins.selectedSkin", "simplewhite");//使用SimpleWhite主題
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
@@ -89,9 +74,6 @@ user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查�
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
-//终于找到了，可以解决某些网站密码存不了的情况……(from skofkyo)
-user_pref("signon.importedFromSqlite", true);
-user_pref("signon.overrideAutocomplete", true);
 
 /******************************************************************************************
  *这里是个人设置。
