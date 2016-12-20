@@ -1,4 +1,4 @@
-//2016.12.14
+//2016.12.20
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -63,13 +63,10 @@ var PREFS = {
 'social.directories': "",
 'social.share.activationPanelEnabled': false,
 //其它隐私相关
-'app.update.enabled': false,//禁止后台更新Firefox的版本
-'browser.search.update': false,//禁止后台更新搜索引擎
 'extensions.getAddons.cache.enabled': false,//禁止附加组件管理器的AMO介绍信息（元数据）
 'network.predictor.enabled': false,//禁止预测服务，含推测性预连接
 'network.http.speculative-parallel-limit': 0,//禁止预测服务，含推测性预连接
 'extensions.webservice.discoverURL': "http://127.0.0.1",//禁止获取附加组件建议
-'lightweightThemes.update.enabled': false,//禁止后台定期自动更新轻量主题建议
 'browser.polaris.enabled': false,//彻底关闭Tracking protection 跟踪保护
 'privacy.trackingprotection.pbmode.enabled': false,//彻底关闭Tracking protection 跟踪保护
 'browser.selfsupport.url': "",//禁止心跳评价系统
