@@ -121,6 +121,7 @@ var PREFS = {
 
 //Tab Groups
 'extensions.tabgroups.groupTitleInButton': false,//按钮-显示当前分组名称(否)
+'extensions.tabgroups.noWarningsAboutSession': true,//重启时保持标签页分组(否)
 
 //*==========脚本设置==========*//
 //UC管理器取消延迟加载
