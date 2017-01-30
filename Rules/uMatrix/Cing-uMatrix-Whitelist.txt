@@ -3,7 +3,9 @@ matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: localhost true
+matrix-off: miui.com true
 matrix-off: opera-scheme true
+matrix-off: sxl.cn true
 * * * block
 * * cookie block
 * * css allow
@@ -28,11 +30,13 @@ matrix-off: opera-scheme true
 * astyle.alicdn.com script allow
 * atp.alicdn.com script allow
 * browser.gwdang.com script allow
+* cdn.aixifan.com script allow
 * cdn.bootcss.com script allow
 * cdnsecakmi.kaltura.com other allow
 * cdnsecakmi.kaltura.com xhr allow
 * cf.aliyun.com script allow
 * cfvod.kaltura.com xhr allow
+* cloudflare.com script allow
 * cloudfront.net script allow
 * code.jquery.com script allow
 * coding.me other allow
@@ -40,6 +44,7 @@ matrix-off: opera-scheme true
 * diablo.alibaba.com script allow
 * edge.api.brightcove.com xhr allow
 * google.com cookie allow
+* hdslb.com script allow
 * hwcdn.libsyn.com other allow
 * i.alicdn.com script allow
 * irs01.com * block
@@ -48,6 +53,9 @@ matrix-off: opera-scheme true
 * lib.baomitu.com script allow
 * lib.sinaapp.com script allow
 * libs.baidu.com script allow
+* oql95o.oloadcdn.net frame allow
+* oql95o.oloadcdn.net other allow
+* ourdvsss.com xhr allow
 * player.youku.com frame allow
 * player.youku.com script allow
 * players.brightcove.net script allow
@@ -118,15 +126,18 @@ baidu.com ss0.bdstatic.com script allow
 baidu.com static.wenku.bdimg.com script allow
 baidu.com tb1.bdstatic.com script allow
 baidu.com wkbos.bdimg.com script allow
+baidu.com wkstatic.bdimg.com script allow
 baike.com www.huimg.cn script allow
 bandwagonhost.com bandwagonhost.com cookie allow
 baomitu.com s.ssl.qhimg.com script allow
 battlenet.com.cn battlenet.com.cn cookie allow
-bilibili.com static.hdslb.com script allow
+bilibili.com acgvideo.com xhr allow
+bilibili.com bilibili.com cookie allow
 blizzard.cn account.bnet.163.com script allow
 blizzard.cn flv.bn.netease.com other allow
 cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
+coolapk.com coolapk.com cookie allow
 ctfile.com static.tv002.com script allow
 designspiration.net dspncdn.com cookie allow
 deviantart.com st.deviantart.net script allow
@@ -147,6 +158,7 @@ economist.com cdn.static-economist.com script allow
 facebook.com facebook.com cookie allow
 firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
+firefox.com firefox.com cookie allow
 firefox.net.cn www.firefox.net.cn cookie allow
 flyme.cn flyme.cn cookie allow
 flyme.cn uc-res.mzres.com script allow
@@ -182,6 +194,7 @@ inoreader.com connect.facebook.net script allow
 inoreader.com www.inoreader.com cookie allow
 instagram.com instagramstatic-a.akamaihd.net script allow
 iqiyi.com cache.video.qiyi.com script allow
+itanzi.com cdsb.mobi script allow
 jandan.net jandan.net script allow
 jd.com 3.cn script allow
 jd.com 360buyimg.com script allow
@@ -204,6 +217,7 @@ kugou.com kugou.com cookie allow
 kugou.com static.5sing.kugou.com frame allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
+le.com letv.com script allow
 liaoxuefeng.com www.liaoxuefeng.com cookie allow
 lightinthebox.com litbjscss.rightinthebox.com script allow
 linkedin.com linkedin.com cookie allow
@@ -217,12 +231,14 @@ miniinthebox.com minijscss.rightinthebox.com script allow
 mipay.com mipay.com cookie allow
 moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
+mozilla.org mozilla.org cookie allow
 nytimes.com mssl.fwmrm.net script allow
 nytimes.com nyt.com script allow
 nytimes.com nyt.com xhr allow
 nytimes.com nytimes.com cookie allow
 nytimes.com vp.nyt.com other allow
 oschina.net oschina.net cookie allow
+pconline.com.cn 3conline.com script allow
 pdawiki.com touclick.com script allow
 people.cn res.wx.qq.com script allow
 people.cn rmrbaudio.people.com.cn other allow
@@ -250,9 +266,12 @@ quora.com www.google.com cookie allow
 quora.com www.google.com script allow
 quora.com www.gstatic.com script allow
 repaik.com repaik.com cookie allow
+runningcheese.com runningcheese.com cookie allow
+runningcheese.com runningcheese.duoshuo.com xhr allow
 sanguosha.com cas.dobest.com script allow
 sanguosha.com login.dobest.com frame allow
 sanguosha.com login.dobest.com script allow
+segmentfault.com sf-static.b0.upaiyun.com script allow
 shanbay.com static.baydn.com script allow
 shanbay.com www.shanbay.com cookie allow
 sina.com.cn passport.sina.cn script allow
@@ -283,6 +302,14 @@ stackoverflow.com cdn.sstatic.net script allow
 stackoverflow.com stackoverflow.com cookie allow
 statista.com statista.com cookie allow
 sunsky-online.com sunsky-online.com cookie allow
+sxl.cn 1st-party cookie allow
+sxl.cn ajax.sxlcdn.com cookie allow
+sxl.cn nzr2ybsda.qnssl.com cookie allow
+sxl.cn nzr2ybsda.qnssl.com script block
+sxl.cn qnssl.com cookie allow
+sxl.cn qnssl.com script allow
+sxl.cn sxlcdn.com cookie allow
+taobao.com taobao.com cookie allow
 techradar.com cdn0.static.techradar.futurecdn.net script allow
 terapeak.com cdn-terapeak.com script allow
 terapeak.com terapeak.com cookie allow
@@ -292,6 +319,7 @@ tianya.cn bbs.tianya.cn script allow
 tianya.cn cms.tianyaui.com script allow
 tianya.cn passport.tianya.cn cookie allow
 tianya.cn static.tianyaui.com script allow
+tieba.com bdstatic.com script allow
 tiobe.com code.highcharts.com script allow
 tmall.com err.taobao.com script allow
 tmall.com login.taobao.com frame allow
@@ -319,6 +347,7 @@ wallstreetcn.com walicdn.wallstcn.com script allow
 wallstreetcn.com wallstreetcn.com cookie allow
 walmart.com i5.wal.co script allow
 walmart.com i5.walmartimages.com script allow
+weibo.com cdn.weipan.cn script allow
 weibo.com i.sso.sina.com.cn script allow
 weibo.com login.sina.com.cn cookie allow
 weibo.com login.sina.com.cn frame allow
@@ -356,6 +385,7 @@ youtube.com googlevideo.com xhr allow
 youtube.com youtube.com cookie allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
+yxdown.com pb.pp8.com script allow
 zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
@@ -367,6 +397,9 @@ zhihu.com zhihu.com cookie allow
 zihu.tv yun.zihu.tv frame allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
+zimuzu.tv js.zmzjstu.com script allow
 zimuzu.tv zimuzu.tv cookie allow
+zmz2017.com zmz2017.com cookie allow
+zmz2017.com zmzjstu.com script allow
 zol.com.cn zol-img.com.cn script allow
 zotero.org zotero.org cookie allow
