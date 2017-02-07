@@ -128,7 +128,8 @@
       "by_path": [  ],
       "by_type": {
          "total_cmd": {
-            "enable_hot_key_when_toolbar_hidden": true
+            "enable_hot_key_when_toolbar_hidden": true,
+            "enable_middle_click": false
          }
       }
    },
@@ -148,6 +149,7 @@
 
    },
    "hotkey": {
+      "main": 16898,
       "popup_menu": 17414
    },
    "keywords": {
@@ -405,6 +407,18 @@
          "keyword": "d",
          "name": "D\u76D8",
          "path": "D:\\"
+      } ]
+   },
+   "search": {
+      "custom_index": [ {
+         "path": "X:\\",
+         "update_minutes": 1440
+      }, {
+         "path": "Z:\\",
+         "update_minutes": 1440
+      }, {
+         "path": "H:\\",
+         "update_minutes": 1440
       } ]
    },
    "status": {
