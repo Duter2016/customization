@@ -141,7 +141,8 @@
    "general": {
       "check_updates": false,
       "default_file_manager": {
-
+         "param": "/O \"%1\"",
+         "path": "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\TOTALCMD64.EXE"
       },
       "language_file": "zh-CN.ini"
    },
