@@ -142,7 +142,7 @@
       "check_updates": false,
       "default_file_manager": {
          "param": "/O \"%1\"",
-         "path": "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\TOTALCMD64.EXE"
+         "path": "..\\TotalCMD64\\TotalCMD64.exe"
       },
       "language_file": "zh-CN.ini"
    },
