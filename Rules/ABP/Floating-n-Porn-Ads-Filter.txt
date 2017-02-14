@@ -8,6 +8,14 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+! 2017.02.14
+zmz2017.com##.ad1.ad:nth-of-type(5) > div
+zmz2017.com##.ad1.ad:nth-of-type(7)
+zmz2017.com##.ad1.ad:nth-of-type(5)
+zmz2017.com##body > div:nth-of-type(6)
+zmz2017.com##.qdad.fr > .adsbygoogle
+zmz2017.com##.qdad.fl > div > .adsbygoogle
+
 ! 2017.02.12
 @@||sinaimg.cn^$domain=acg18.us
 zmz2017.com##.top-box > div:nth-of-type(3)
