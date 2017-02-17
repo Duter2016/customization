@@ -120,6 +120,10 @@ var PREFS = {
 'extensions.isreaditlater.show-count': true,//显示未读计数
 'extensions.isreaditlater.show-date': true,//显示日期
 'extensions.isreaditlater.list-place': "sidebar",//在(侧边栏)打开列表
+'extensions.isreaditlater.showStatusIconClick': "hide",
+'extensions.isreaditlater.showStatusIconShare': "hide",
+'extensions.isreaditlater.showStatusIconText': "hide",
+'extensions.isreaditlater.autoOffline': false,//自动离线(否)
 
 //All Tabs Helper
 'extensions.alltabshelper@alltabshelper.org.showUndoInTabContextMenu': false,//在标签页键显示Unload菜单(否)
