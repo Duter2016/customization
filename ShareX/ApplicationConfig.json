@@ -157,6 +157,18 @@
           "FillColor": "0, 0, 0, 0",
           "DrawingCornerRadius": 3,
           "Shadow": true,
+          "TextOutlineOptions": {
+            "Font": "Arial",
+            "Size": 25,
+            "Color": "Red",
+            "Bold": true,
+            "Italic": false,
+            "Underline": false,
+            "AlignmentHorizontal": "Center",
+            "AlignmentVertical": "Center"
+          },
+          "TextOutlineBorderColor": "White",
+          "TextOutlineBorderSize": 3,
           "TextOptions": {
             "Font": "Arial",
             "Size": 18,
@@ -329,6 +341,7 @@
       "UseCustomErrorSound": false,
       "CustomErrorSoundPath": "",
       "CapturePath": null,
+      "RegionCaptureDisableAnnotation": false,
       "ImageExtensions": [
         "jpg",
         "jpeg",
@@ -492,7 +505,6 @@
     "Vgyme",
     "SomeImage",
     "Imgland",
-    "Slimg",
     "CustomImageUploader",
     "FileUploader"
   ],
@@ -662,5 +674,5 @@
   "DropAlignment": "BottomRight",
   "DropOpacity": 100,
   "DropHoverOpacity": 255,
-  "ApplicationVersion": "11.5.0"
+  "ApplicationVersion": "11.6.0"
 }
