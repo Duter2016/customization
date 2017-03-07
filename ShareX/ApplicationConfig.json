@@ -190,7 +190,7 @@
           "HighlightColor": "Yellow"
         },
         "LastRegionTool": "RegionRectangle",
-        "LastAnnotationTool": "DrawingRectangle"
+        "LastAnnotationTool": "EffectHighlight"
       },
       "FFmpegOptions": {
         "OverrideCLIPath": false,
