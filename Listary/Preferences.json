@@ -153,6 +153,9 @@
          "value": "X:\\"
       }, {
          "type": "folder",
+         "value": "Y:\\"
+      }, {
+         "type": "folder",
          "value": "Z:\\"
       }, {
          "type": "folder",
@@ -166,7 +169,6 @@
       } ]
    },
    "hotkey": {
-      "main": 22273,
       "popup_menu": 17414
    },
    "keywords": {
@@ -429,6 +431,9 @@
    "search": {
       "custom_index": [ {
          "path": "X:\\",
+         "update_minutes": 5
+      }, {
+         "path": "Y:\\",
          "update_minutes": 5
       }, {
          "path": "Z:\\",
