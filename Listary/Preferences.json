@@ -144,8 +144,7 @@
          "param": "/O \"%1\"",
          "path": "..\\TotalCMD64\\TotalCMD64.exe"
       },
-      "language_file": "zh-CN.ini",
-      "select_last_opened_file_in_filedlg": true
+      "language_file": "zh-CN.ini"
    },
    "history": {
       "exclude": [ {
@@ -166,7 +165,9 @@
       }, {
          "type": "folder",
          "value": "H:\\"
-      } ]
+      } ],
+      "search_history": false,
+      "track_history": false
    },
    "hotkey": {
       "popup_menu": 17414
