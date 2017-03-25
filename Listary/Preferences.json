@@ -170,15 +170,25 @@
          "type": "folder",
          "value": "H:\\"
       } ],
-      "search_history": false,
-      "track_history": false
+      "search_history": false
    },
    "hotkey": {
       "popup_menu": 17414
    },
    "keywords": {
       "builtin_commands": [  ],
-      "custom_commands": [  ],
+      "custom_commands": [ {
+         "description": "\u5728\u5173\u952E\u5B57\u540E\u8F93\u5165\u6587\u4EF6\u540D+\u540E\u7F00",
+         "display_title": "\u5F53\u524D\u76EE\u5F55\u65B0\u5EFA\u6587\u4EF6\"{query}\"",
+         "enabled": true,
+         "keyword": "+",
+         "only_show_in_launcher": false,
+         "param": "file CreateNew \"{query}\" 0",
+         "path": "%windir%\\System32\\fsutil.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      } ],
       "folder": [  ],
       "web_search": [  ]
    },
@@ -273,11 +283,7 @@
       }, {
          "id": 100,
          "root_item": {
-            "items": [ {
-               "name": "Desktop",
-               "path": "C:\\Users\\Cing\\Desktop",
-               "type": "favorite_folder"
-            } ],
+            "items": [  ],
             "type": "submenu"
          }
       }, {
@@ -427,11 +433,7 @@
       "regcode": "JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QWN64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKPVVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQYMUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3QTAL3U894S2BWA9629EFCXYYYG3S65WEQ5R234G26AT52UWD27PNENP4GR2EKKDK6"
    },
    "projects": {
-      "items": [ {
-         "keyword": "d",
-         "name": "D\u76D8",
-         "path": "D:\\"
-      } ]
+
    },
    "search": {
       "custom_index": [ {
