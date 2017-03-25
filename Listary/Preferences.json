@@ -138,6 +138,10 @@
 
       }
    },
+   "check_update": {
+      "last_check_local_version": "5.00.2581",
+      "last_check_time": "13134104973265064"
+   },
    "general": {
       "check_updates": false,
       "default_file_manager": {

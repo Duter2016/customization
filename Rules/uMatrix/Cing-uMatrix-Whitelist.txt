@@ -46,6 +46,7 @@ matrix-off: sxl.cn true
 * coding.me other allow
 * desc.alicdn.com script allow
 * diablo.alibaba.com script allow
+* discuz.gtimg.cn script allow
 * edge.api.brightcove.com xhr allow
 * google.com cookie allow
 * googlevideo.com xhr allow
@@ -164,6 +165,7 @@ bilibili.com bilibili.com cookie allow
 blizzard.cn account.bnet.163.com script allow
 blizzard.cn flv.bn.netease.com other allow
 chinavasion.com js.hscta.net script allow
+chiphell.com chiphell.com cookie allow
 cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
 cnbeta.com cnbeta.com cookie allow
@@ -200,6 +202,7 @@ firefox.net.cn www.firefox.net.cn cookie allow
 flyme.cn flyme.cn cookie allow
 flyme.cn uc-res.mzres.com script allow
 focalprice.com static5.bfdcdn.com script allow
+forbes.com forbes.com cookie allow
 forbes.com i.forbesimg.com script allow
 freebuf.com static.3001.net script allow
 gaode.com amap.com script allow
@@ -212,7 +215,9 @@ google.com google.com cookie allow
 google.com ssl.google-analytics.com image allow
 google.com ssl.google-analytics.com script allow
 google.com ssl.gstatic.com script allow
+google.com ssl.gstatic.com xhr allow
 google.com www.google-analytics.com script allow
+google.com www.googleadservices.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
 greasyfork.org greasyfork.org cookie allow
@@ -293,6 +298,7 @@ mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla.org cookie allow
 ncpssd.org ncpssd.org cookie allow
 ncpssd.org www.nssd.org frame allow
+newbalance.com demandware.edgesuite.net script allow
 noosfeer.com noosfeer.com cookie allow
 nubia.com static.nubia.cn script allow
 nytimes.com mssl.fwmrm.net script allow
@@ -301,6 +307,10 @@ nytimes.com nyt.com xhr allow
 nytimes.com nytimes.com cookie allow
 nytimes.com vp.nyt.com other allow
 oneplus.cn oneplus.cn cookie allow
+oneplusbbs.com account.oneplus.cn * allow
+oneplusbbs.com oneplus.cn cookie allow
+oneplusbbs.com oneplusbbs.com cookie allow
+oneplusbbs.com statics.oneplus.cn script allow
 oschina.net oschina.net cookie allow
 pconline.com.cn 3conline.com script allow
 pdawiki.com touclick.com script allow
@@ -449,6 +459,7 @@ wish.com staticxx.facebook.com script allow
 wish.com www.facebook.com frame allow
 wish.com www.facebook.com script allow
 wish.com www.wish.com cookie allow
+wiz.cn wiz.cn cookie allow
 wmxz.wang www5.oss-cn-hangzhou.aliyuncs.com script allow
 woshipm.com woshipm.com cookie allow
 wsj.com api.wsj.net xhr allow

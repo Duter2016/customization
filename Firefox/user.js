@@ -36,31 +36,31 @@ user_pref("datareporting.healthreport.about.reportUrlUnified", "data:text/plain,
 user_pref("datareporting.policy.dataSubmissionEnabled", false);
 user_pref("datareporting.policy.dataSubmissionEnabled.v2", false);
 
-//*==========標籤相關==========*//
+//*==========标签相关==========*//
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
-user_pref("browser.tabs.warnOnClose", false);//關閉多個標籤時不提示
-user_pref("browser.tabs.warnOnCloseOtherTabs", false);//關閉其它標籤時不提示
+user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
+user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 //取消动画(from: 奶酪)
 user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
 user_pref("browser.fullscreen.animate",false); //取消全屏动画
-user_pref("browser.tabs.animate", false);//關閉标签页动画
+user_pref("browser.tabs.animate", false);//关闭标签页动画
 
-//*==========下載相關==========*//
-user_pref("browser.download.useDownloadDir", false);//下载时每次訊問我要存到何處
-user_pref("browser.safebrowsing.downloads.enabled", false);//解決下載卡在最後一秒的問題
+//*==========下载相关==========*//
+user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
+user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
-//*==========插件相關==========*//
+//*==========插件相关==========*//
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
 user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭进程
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//禁用保护模式
-user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙箱
+user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙盒
 
-//*==========附加組件==========*//
+//*==========附加组件==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 
 //*==========FX其它类==========*//
