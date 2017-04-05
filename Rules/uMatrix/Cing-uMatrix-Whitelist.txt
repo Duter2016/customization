@@ -1,11 +1,3 @@
-matrix-off: about-scheme true
-matrix-off: behind-the-scene true
-matrix-off: chrome-extension-scheme true
-matrix-off: chrome-scheme true
-matrix-off: localhost true
-matrix-off: miui.com true
-matrix-off: opera-scheme true
-matrix-off: sxl.cn true
 * * * block
 * * cookie block
 * * css allow
@@ -36,6 +28,7 @@ matrix-off: sxl.cn true
 * browser.gwdang.com script allow
 * cdn.aixifan.com script allow
 * cdn.bootcss.com script allow
+* cdn.staticfile.org script allow
 * cdnsecakmi.kaltura.com other allow
 * cdnsecakmi.kaltura.com xhr allow
 * cf.aliyun.com script allow
@@ -99,6 +92,7 @@ matrix-off: sxl.cn true
 123.57.84.129 igetoss.cdn.igetget.com other allow
 123.57.84.129 s.amazeui.org script allow
 163.com * other allow
+163.com 126.net script allow
 163.com 14.119.124.58 other allow
 163.com 163.com cookie allow
 163.com b1.bst.126.net script allow
@@ -139,6 +133,7 @@ amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
 apple.com store.storeimages.cdn-apple.com script allow
 artstation.com artstation.com cookie allow
+asus.com asus.com cookie allow
 autodesk.com.cn autodesk.net script allow
 baidu.com * frame allow
 baidu.com baidu.com cookie allow
@@ -169,8 +164,10 @@ chiphell.com chiphell.com cookie allow
 cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
 cnbeta.com cnbeta.com cookie allow
+convertio.co convertio.me xhr allow
 coolapk.com coolapk.com cookie allow
 ctfile.com static.tv002.com script allow
+designspiration.net designspiration.net cookie allow
 designspiration.net dspncdn.com cookie allow
 deviantart.com st.deviantart.net script allow
 dhgate.com js.dhresource.com script allow
@@ -199,6 +196,7 @@ firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
 firefox.com firefox.com cookie allow
 firefox.net.cn www.firefox.net.cn cookie allow
+firefoxcn.net raw.githubusercontent.com xhr allow
 flyme.cn flyme.cn cookie allow
 flyme.cn uc-res.mzres.com script allow
 focalprice.com static5.bfdcdn.com script allow
@@ -236,6 +234,7 @@ huihui.cn webzj.reg.163.com script allow
 huorong.cn discuz.gtimg.cn script allow
 huorong.cn huorong.cn cookie allow
 hupu.com hoopchina.com.cn script allow
+huxiu.com static.huxiucdn.com script allow
 ibm.com s81c.com script allow
 icourses.cn icourses.cn cookie allow
 ifeng.com ifengimg.com script allow
@@ -265,6 +264,7 @@ jingoal.com jingoal.com cookie allow
 jobui.com jobui.com cookie allow
 kafan.cn api.geetest.com script allow
 kafan.cn fj.ikafan.com script allow
+kafan.cn ikafan.com cookie allow
 kafan.cn kafan.cn cookie allow
 kafan.cn static.geetest.com script allow
 kankanwu.com newplayer.lsmmr.com frame allow
@@ -452,6 +452,7 @@ weiyun.com gtimg.cn script allow
 weiyun.com qq.com frame allow
 weiyun.com qq.com script allow
 weiyun.com weiyun.com cookie allow
+winos.me winos.me cookie allow
 wish.com connect.facebook.net script allow
 wish.com facebook.com cookie allow
 wish.com staticxx.facebook.com frame allow
