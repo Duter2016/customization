@@ -1,3 +1,9 @@
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
 * * * block
 * * cookie block
 * * css allow
