@@ -1,6 +1,6 @@
-###Process Laso程式個人設置
+###Processlasso程式個人設置
 
-Customized Process Laso settings
+Customized Processlasso settings
 
 常用到的功能：
 
@@ -15,7 +15,7 @@ Customized Process Laso settings
 | 程序監控: | 程序电源計劃: |
 | <img width="410" src="img/3.jpg"> | <img width="410" src="img/4.jpg"> |
 
-Process Laso程序下載及購買: https://bitsum.com/processlasso/
+Processlasso程序下載及購買: https://bitsum.com/processlasso/
 
 ####Feature
 
