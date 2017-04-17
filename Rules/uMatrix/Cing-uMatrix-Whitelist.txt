@@ -4,6 +4,7 @@ matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: opera-scheme true
+matrix-off: zhaopin.com true
 * * * block
 * * cookie block
 * * css allow
@@ -75,6 +76,7 @@ matrix-off: opera-scheme true
 * static.duoshuo.com script allow
 * static.geetest.com script allow
 * traffic.libsyn.com other allow
+* tv.sohu.com * inherit
 * u.alicdn.com script allow
 * video.taobao.com other allow
 * webapi.amap.com script allow
@@ -95,7 +97,6 @@ matrix-off: opera-scheme true
 123.57.243.50 cdn.amazeui.org script allow
 123.57.243.50 s.amazeui.org script allow
 123.57.84.129 cdn.amazeui.org script allow
-123.57.84.129 igetoss.cdn.igetget.com other allow
 123.57.84.129 s.amazeui.org script allow
 163.com * other allow
 163.com 126.net script allow
@@ -299,6 +300,7 @@ mi.com sec-boss.static.xiaomi.net script allow
 microsoft.com microsoft.com cookie allow
 miniinthebox.com minijscss.rightinthebox.com script allow
 mipay.com mipay.com cookie allow
+miwifi.com static.xiaomi.net script allow
 moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla.org cookie allow
@@ -420,12 +422,15 @@ tmall.com ynuf.alipay.com script allow
 tomtop.com s3-us-west-2.amazonaws.com script allow
 tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
+ttwanda.com aikan-tv.com * allow
+ttwanda.com api.47ks.com * allow
 tudou.com js.tudouui.com script allow
 tumblr.com tumblr.com cookie allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
 twitter.com twitter.com cookie allow
 twitter.com video.twimg.com xhr allow
+uczzd.cn uc.cn script allow
 udacity.com s3.cn-north-1.amazonaws.com.cn other allow
 udacity.com udacity.com cookie allow
 udemy.com udemy.com cookie allow
@@ -496,6 +501,7 @@ youtube.com youtube.com cookie allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
 yxdown.com pb.pp8.com script allow
+zapals.com seal.geotrust.com script allow
 zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
