@@ -123,13 +123,16 @@
     "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
     "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
     "C:\\Windows\\explorer.exe",
+    "D:\\Program Files\\DingDing\\main\\current_new\\DingTalk.exe",
     "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Totalcmd64.exe",
     "D:\\Program Files\\CingFox\\firefox\\firefox.exe",
     "C:\\Users\\cing\\AppData\\Local\\Apps\\2.0\\R9V63P8N.87K\\9W9RCOEE.5KZ\\gith..tion_317444273a93ac29_0002.000b_04ef7acd6b4fcd50\\GitHub.exe",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
     "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe",
+    "D:\\Program Files\\Tencent\\Foxmail\\Foxmail.exe",
     "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE",
-    "D:\\Program Files\\Netease\\CloudMusic\\cloudmusic.exe"
+    "D:\\Program Files\\Netease\\CloudMusic\\cloudmusic.exe",
+    "C:\\Windows\\System32\\ApplicationFrameHost.exe"
   ],
   "tabAppearance": {
     "tabHeight": 25,

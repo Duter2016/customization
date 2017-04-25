@@ -1,4 +1,4 @@
-//2017.03.01
+//2017.04.25
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -47,8 +47,8 @@ var PREFS = {
 
 //*=隐私相关=*//
 //其它隐私相关
-'dom.webnotifications.enabled': false,//请勿打忧
-'dom.webnotifications.serviceworker.enabled': false,//请勿打忧
+'dom.webnotifications.enabled': false,//关闭 WEB 推送通知
+'dom.webnotifications.serviceworker.enabled': false,//关闭 WEB 推送通知
 'browser.polaris.enabled': false,//彻底关闭Tracking protection 跟踪保护
 'privacy.trackingprotection.pbmode.enabled': false,//彻底关闭Tracking protection 跟踪保护
 'browser.send_pings': false,//禁止Hyperlink Auditing/Beacon: Hyperlink Auditing 就是 ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器，Hyperlink Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
