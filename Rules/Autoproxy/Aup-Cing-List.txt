@@ -1,10 +1,18 @@
 [AutoProxy 0.3.0]
 ! Title:        Autoproxy自定義名單
 ! Author:       Cing
-! Version:      2016.12
+! Version:      2017.04
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||alexa.com
+||getpocket.com
+||peterdavehello.org
+||porn.com
+||artstation.com
+||raindrop.io
+||ledlenserusa.com
+||fasttechcdn.com
 ||github.com
 ||wallhaven.cc
 ||statista.com
