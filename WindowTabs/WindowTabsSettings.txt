@@ -10,6 +10,7 @@
   "includedPaths": [],
   "excludedPaths": [
     "D:\\Program Files\\CingFox\\Software\\PicPick\\picpick.exe",
+    "D:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
     "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
     "D:\\Program Files\\DingDing\\main\\current_new\\DingTalk.exe",
     "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Totalcmd64.exe",
@@ -23,7 +24,6 @@
     "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
     "C:\\Users\\Administrator\\AppData\\Local\\Apps\\2.0\\8YLWV2Z0.B1P\\VEJRTT2W.6RD\\gith..tion_317444273a93ac29_0002.000b_680dec63062527d1\\GitHub.exe",
     "D:\\Program Files\\Jingoal\\Jingoal.exe",
-    "D:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
     "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
     "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
     "C:\\Windows\\explorer.exe",
