@@ -7,14 +7,19 @@
   "combineIconsInTaskbar": true,
   "replaceAltTab": true,
   "groupWindowsInSwitcher": true,
-  "includedPaths": [],
+  "includedPaths": [
+    "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE"
+  ],
   "excludedPaths": [
     "D:\\Program Files\\CingFox\\Software\\PicPick\\picpick.exe",
     "D:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
     "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
+    "D:\\Program Files\\Dicts\\MDict\\MDictPC\\MDict.exe",
+    "D:\\Program Files\\DingDing\\main\\current\\DingTalk.exe",
     "D:\\Program Files\\DingDing\\main\\current_new\\DingTalk.exe",
     "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Totalcmd64.exe",
     "C:\\Users\\cing\\AppData\\Local\\Apps\\2.0\\R9V63P8N.87K\\9W9RCOEE.5KZ\\gith..tion_317444273a93ac29_0002.000b_04ef7acd6b4fcd50\\GitHub.exe",
+    "D:\\Program Files\\CingFox\\Software\\GFW\\Shadowsocks\\ShadowsocksR-dotnet4.0.exe",
     "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
     "D:\\Program Files\\Tencent\\Foxmail\\Foxmail.exe",
     "D:\\Program Files\\Netease\\CloudMusic\\cloudmusic.exe",

@@ -1,4 +1,4 @@
-//2017.04.25
+//2017.05.02
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -70,6 +70,8 @@ var PREFS = {
 'dom.battery.enabled': false,//禁止电池状态API, 防止信息泄露
 'reader.parse-on-load.enabled': false,//禁用阅读模式
 'browser.tabs.closeWindowWithLastTab': false,//关闭最后一个标签时不关闭Firefox
+'media.gmp-gmpopenh264.enabled': true,//OpenH264视频解码器(开启)
+'media.gmp-eme-adobe.enabled': true,//Primetime内容加密模块(开启)
 
 
 //*==========扩展设置==========*//
