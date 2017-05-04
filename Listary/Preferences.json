@@ -177,18 +177,7 @@
    },
    "keywords": {
       "builtin_commands": [  ],
-      "custom_commands": [ {
-         "description": "\u5728\u5173\u952E\u5B57\u540E\u8F93\u5165\u6587\u4EF6\u540D+\u540E\u7F00",
-         "display_title": "\u5F53\u524D\u76EE\u5F55\u65B0\u5EFA\u6587\u4EF6\"{query}\"",
-         "enabled": true,
-         "keyword": "+",
-         "only_show_in_launcher": false,
-         "param": "file CreateNew \"{query}\" 0",
-         "path": "%windir%\\System32\\fsutil.exe",
-         "run_as_admin": false,
-         "slient": false,
-         "working_dir": ""
-      } ],
+      "custom_commands": [  ],
       "folder": [  ],
       "web_search": [  ]
    },
