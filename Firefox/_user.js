@@ -1,4 +1,4 @@
-//2017.05.02
+//2017.05.10
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -94,6 +94,11 @@ var PREFS = {
 'extensions.lastpass.showHomepageAfterLogin': false,//登入后不转到密码库
 'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites': true,//将匹配网站移动到顶部菜单
 'extensions.lastpass.loginpws': "",//不保存密码
+'extensions.lastpass.version': "1000.3.4",//调大版本号,不更新到4.x版
+
+//FoxyProxy
+'extensions.foxyproxy.firstrun': false,//首次运行(否)
+'extensions.foxyproxy.firsttimeopeningoptionsdialog': false,//首次运行(否)
 
 //FlashGot
 'flashgot.hide-all': true,

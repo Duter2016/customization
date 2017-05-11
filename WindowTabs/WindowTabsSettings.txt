@@ -1,4 +1,57 @@
 {
+  "version": "2014.9.17",
+  "licenseKey": "",
+  "runAtStartup": true,
+  "hideInactiveTabs": true,
+  "enableTabbingByDefault": true,
+  "combineIconsInTaskbar": true,
+  "replaceAltTab": true,
+  "groupWindowsInSwitcher": true,
+  "includedPaths": [
+    "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE"
+  ],
+  "excludedPaths": [
+    "D:\\Program Files\\CingFox\\Software\\PicPick\\picpick.exe",
+    "D:\\Program Files\\7-Zip\\7zFM.exe",
+    "D:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
+    "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
+    "D:\\Program Files\\Dicts\\MDict\\MDictPC\\MDict.exe",
+    "D:\\Program Files\\DingDing\\main\\current\\DingTalk.exe",
+    "D:\\Program Files\\DingDing\\main\\current_new\\DingTalk.exe",
+    "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Totalcmd64.exe",
+    "C:\\Users\\cing\\AppData\\Local\\Apps\\2.0\\R9V63P8N.87K\\9W9RCOEE.5KZ\\gith..tion_317444273a93ac29_0002.000b_04ef7acd6b4fcd50\\GitHub.exe",
+    "D:\\Program Files\\Dicts\\Lingoes\\Lingoes.exe",
+    "D:\\Program Files\\CingFox\\Software\\GFW\\Shadowsocks\\ShadowsocksR-dotnet4.0.exe",
+    "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
+    "D:\\Program Files\\Tencent\\Foxmail\\Foxmail.exe",
+    "D:\\Program Files\\Netease\\CloudMusic\\cloudmusic.exe",
+    "C:\\Windows\\System32\\ApplicationFrameHost.exe"
+  ],
+  "autoGroupingPaths": [
+    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
+    "C:\\Users\\Administrator\\AppData\\Local\\Apps\\2.0\\8YLWV2Z0.B1P\\VEJRTT2W.6RD\\gith..tion_317444273a93ac29_0002.000b_680dec63062527d1\\GitHub.exe",
+    "D:\\Program Files\\Jingoal\\Jingoal.exe",
+    "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
+    "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
+    "C:\\Windows\\explorer.exe",
+    "D:\\Program Files\\CingFox\\firefox\\firefox.exe",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
+    "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe",
+    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
+  ],
+  "tabAppearance": {
+    "tabHeight": 25,
+    "tabMaxWidth": 200,
+    "tabOverlap": 20,
+    "tabNormalBgColor": "9FC4F0",
+    "tabHighlightBgColor": "BDD5F4",
+    "tabActiveBgColor": "FAFCFE",
+    "tabFlashBgColor": "FFBBBB",
+    "tabBorderColor": "3A70B1",
+    "tabHeightOffset": 1,
+    "tabIndentFlipped": 80,
+    "tabIndentNormal": 3
+  },
   "workspaces": [
     {
       "name": "Workspace 1",
@@ -101,58 +154,5 @@
         }
       ]
     }
-  ],
-  "version": "2014.9.17",
-  "licenseKey": "",
-  "runAtStartup": true,
-  "hideInactiveTabs": true,
-  "enableTabbingByDefault": true,
-  "combineIconsInTaskbar": true,
-  "replaceAltTab": true,
-  "groupWindowsInSwitcher": true,
-  "includedPaths": [
-    "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE"
-  ],
-  "excludedPaths": [
-    "D:\\Program Files\\CingFox\\Software\\PicPick\\picpick.exe",
-    "D:\\Program Files\\7-Zip\\7zFM.exe",
-    "D:\\Program Files\\Tencent\\WeChat\\WeChat.exe",
-    "D:\\Program Files\\Tencent\\QQ\\Bin\\QQ.exe",
-    "D:\\Program Files\\Dicts\\MDict\\MDictPC\\MDict.exe",
-    "D:\\Program Files\\DingDing\\main\\current\\DingTalk.exe",
-    "D:\\Program Files\\DingDing\\main\\current_new\\DingTalk.exe",
-    "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Totalcmd64.exe",
-    "C:\\Users\\cing\\AppData\\Local\\Apps\\2.0\\R9V63P8N.87K\\9W9RCOEE.5KZ\\gith..tion_317444273a93ac29_0002.000b_04ef7acd6b4fcd50\\GitHub.exe",
-    "D:\\Program Files\\Dicts\\Lingoes\\Lingoes.exe",
-    "D:\\Program Files\\CingFox\\Software\\GFW\\Shadowsocks\\ShadowsocksR-dotnet4.0.exe",
-    "D:\\Program Files\\Mozilla Firefox\\firefox\\firefox.exe",
-    "D:\\Program Files\\Tencent\\Foxmail\\Foxmail.exe",
-    "D:\\Program Files\\Netease\\CloudMusic\\cloudmusic.exe",
-    "C:\\Windows\\System32\\ApplicationFrameHost.exe"
-  ],
-  "autoGroupingPaths": [
-    "D:\\Program Files\\Mozilla Firefox\\Software\\Notepad2\\Notepad2.exe",
-    "C:\\Users\\Administrator\\AppData\\Local\\Apps\\2.0\\8YLWV2Z0.B1P\\VEJRTT2W.6RD\\gith..tion_317444273a93ac29_0002.000b_680dec63062527d1\\GitHub.exe",
-    "D:\\Program Files\\Jingoal\\Jingoal.exe",
-    "C:\\Program Files\\Microsoft Office\\Office15\\EXCEL.EXE",
-    "D:\\Program Files\\Mozilla Firefox\\Software\\Other\\PicPick\\picpick.exe",
-    "C:\\Windows\\explorer.exe",
-    "D:\\Program Files\\CingFox\\firefox\\firefox.exe",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\EXCEL.EXE",
-    "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe",
-    "C:\\Program Files (x86)\\Microsoft Office\\Office15\\WINWORD.EXE"
-  ],
-  "tabAppearance": {
-    "tabHeight": 25,
-    "tabMaxWidth": 200,
-    "tabOverlap": 20,
-    "tabNormalBgColor": "9FC4F0",
-    "tabHighlightBgColor": "BDD5F4",
-    "tabActiveBgColor": "FAFCFE",
-    "tabFlashBgColor": "FFBBBB",
-    "tabBorderColor": "3A70B1",
-    "tabHeightOffset": 1,
-    "tabIndentFlipped": 80,
-    "tabIndentNormal": 3
-  }
+  ]
 }
