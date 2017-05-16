@@ -1,4 +1,4 @@
-//2017.05.10
+//2017.05.13
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -95,6 +95,11 @@ var PREFS = {
 'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites': true,//将匹配网站移动到顶部菜单
 'extensions.lastpass.loginpws': "",//不保存密码
 'extensions.lastpass.version': "1000.3.4",//调大版本号,不更新到4.x版
+'extensions.support@lastpass.com.sdk.version': "1000.3.4",//调大版本号,不更新到4.x版
+'extensions.lastpass.prevHkKeyCode': 38,//上一个密码(方向键:上)
+'extensions.lastpass.prevHkMods': "alt",//上一个密码(Alt)
+'extensions.lastpass.nextHkKeyCode': 40,//下一个密码(方向键:下)
+'extensions.lastpass.nextHkMods': "alt",//下一个密码(Alt)
 
 //FoxyProxy
 'extensions.foxyproxy.firstrun': false,//首次运行(否)
