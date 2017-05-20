@@ -4,6 +4,7 @@ matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: cjol.com true
+matrix-off: doooor.com true
 matrix-off: lagou.com true
 matrix-off: liepin.com true
 matrix-off: localhost true
@@ -23,7 +24,7 @@ matrix-off: zhaopin.com true
 * ajax.cloudflare.com script allow
 * ajax.googleapis.com * allow
 * ajax.lug.ustc.edu.cn script allow
-* alicdn.com script allow
+* alicdn.com * allow
 * alipay.com cookie allow
 * amazon.cn cookie allow
 * analytics.logsss.com script allow
@@ -35,6 +36,7 @@ matrix-off: zhaopin.com true
 * astyle-src.alicdn.com script allow
 * astyle.alicdn.com script allow
 * atp.alicdn.com script allow
+* bootstrapcdn.com script allow
 * browser.gwdang.com script allow
 * cdn.aixifan.com script allow
 * cdn.bootcss.com script allow
@@ -96,9 +98,7 @@ matrix-off: zhaopin.com true
 * www.youtube.com * allow
 * y3.ifengimg.com * inherit
 * yimg.com script allow
-* youtube-nocookie.com frame allow
-* youtube-nocookie.com script allow
-* youtube-nocookie.com xhr allow
+* youtube-nocookie.com * allow
 * youtube.com frame allow
 * youtube.com script allow
 120.24.13.81 120.24.13.81 cookie allow
@@ -265,6 +265,7 @@ ifeng.com y3.ifengimg.com * inherit
 inoreader.com connect.facebook.net script allow
 inoreader.com www.inoreader.com cookie allow
 instagram.com instagramstatic-a.akamaihd.net script allow
+iplaysoft.com upcdn.b0.upaiyun.com script allow
 iqiyi.com cache.video.qiyi.com script allow
 itanzi.com cdnxdc.tanzi88.com other allow
 itanzi.com cdsb.mobi script allow
@@ -396,6 +397,7 @@ sina.com.cn passport.weibo.com script allow
 sina.com.cn simg.sinajs.cn css allow
 sina.com.cn simg.sinajs.cn image allow
 sina.com.cn sina.com.cn cookie allow
+sina.com.cn sinaimg.cn script allow
 sina.com.cn sinajs.cn script allow
 sina.com.cn sjs.sinajs.cn script allow
 sina.com.cn weibo.com cookie allow
@@ -458,7 +460,10 @@ torrent.org.cn apps.bdimg.com script allow
 ttwanda.com aikan-tv.com * allow
 ttwanda.com api.47ks.com * allow
 tudou.com js.tudouui.com script allow
+tudou.com static.youku.com script allow
 tumblr.com tumblr.com cookie allow
+tvc-mall.com vk.com * block
+tvc-mall.com www.facebook.com * block
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
 twitter.com twitter.com cookie allow
@@ -477,6 +482,7 @@ vancl.com vancl.com cookie allow
 vancl.com vanclimg.com script allow
 vetementswebsite.com * frame allow
 vetementswebsite.com i-d.vice.com frame allow
+vultr.com vultr.com cookie allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
 wallstreetcn.com wallstreetcn.com cookie allow
@@ -494,6 +500,7 @@ weibo.com login.sina.com.cn xhr allow
 weibo.com sina.com.cn cookie allow
 weibo.com t.sinajs.cn script allow
 weibo.com tjs.sjs.sinajs.cn script allow
+weibo.com us.sinaimg.cn other allow
 weibo.com weibo.com cookie allow
 weiyun.com gtimg.cn script allow
 weiyun.com qq.com frame allow
@@ -533,6 +540,7 @@ yinyuetai.com s.yytcdn.com script allow
 ymfz521.sinaapp.com s.amazeui.org script allow
 youku.com js.ykimg.com script allow
 youku.com static.ykimg.com script allow
+youku.com youku.com cookie allow
 youth.cn static.yidianzixun.com script allow
 youtube.com googlevideo.com xhr allow
 youtube.com youtube.com cookie allow
