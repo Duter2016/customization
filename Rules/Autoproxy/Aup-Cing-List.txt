@@ -1,7 +1,7 @@
 [AutoProxy 0.3.0]
 ! Title:        Autoproxy自定義名單
 ! Author:       Cing
-! Version:      2017.04
+! Version:      2017.05
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
@@ -97,3 +97,19 @@
 ||yahoo.com
 ||zimuzu.tv
 ||zkcdn.net
+||consumer.huawei.com
+||tvc-mall.com
+||sunsky-online.com
+||anki.com
+@@||test.tvc-mall.com
+||listary.com
+||5sing.kugou.com
+||windowtabs.com
+||nautil.us
+||cellzmate.com
+||bitdefender.com
+@@||217.253
+||mobilefun.co.uk
+||etradesupply.com
+||gearbest.com
+||books.google.com
