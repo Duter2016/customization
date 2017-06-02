@@ -1,4 +1,4 @@
-//2017.05.13
+//2017.06.02
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -22,8 +22,6 @@ var PREFS = {
 //*==========Firefox设置==========*//
 'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
-'signon.rememberSignons': false,//不保存密码
-'accessibility.blockautorefresh': false,//当网站试图复位向或重新载入时警告(否)
 //字体语言编码
 'font.name.serif.zh-CN': "Arial",//衬线字体
 'font.name.sans-serif.zh-CN': "Arial",//无衬线字体
@@ -33,14 +31,7 @@ var PREFS = {
 'browser.bookmarks.max_backups': 0,//最大备份数目
 'browser.places.smartBookmarksVersion': -1,//禁用智能书签
 
-//*=插件=*//
-'plugins.navigator.hidden_ctp_plugin': "Shockwave Flash",//神奇参数，52以上有效，配合flash询问激活，一些澳门赌场上线啦的网站实现H5播放，类似navigator.plugins spoofing脚本，53、54乱弹flash提示
-
 //*=网络相关=*//
-//网络设定
-'nglayout.initialpaint.delay': 0,
-'network.http.pipelining': true,
-'network.http.proxy.pipelining': true,
 //平滑滚动
 'general.smoothScroll.durationToIntervalRatio': 500,
 'mousewheel.min_line_scroll_amount': 35,
@@ -67,12 +58,8 @@ var PREFS = {
 'gfx.content.azure.backends': "direct2d1.1,cairo",//图形渲染;FX52默认的Skia不支持Mactype
 'view_source.editor.external': true,//页面源代码——使用外部编辑器查看
 'browser.backspace_action': 2,//禁止Backspace键返回上一页
-'dom.battery.enabled': false,//禁止电池状态API, 防止信息泄露
 'reader.parse-on-load.enabled': false,//禁用阅读模式
 'browser.tabs.closeWindowWithLastTab': false,//关闭最后一个标签时不关闭Firefox
-'media.gmp-gmpopenh264.enabled': true,//OpenH264视频解码器(开启)
-'media.gmp-eme-adobe.enabled': true,//Primetime内容加密模块(开启)
-
 
 //*==========扩展设置==========*//
 //adblockplus
@@ -145,14 +132,17 @@ var PREFS = {
 'extensions.isreaditlater.showStatusIconText': "hide",
 'extensions.isreaditlater.autoOffline': false,//自动离线(否)
 
-//All Tabs Helper
-'extensions.alltabshelper@alltabshelper.org.showUndoInTabContextMenu': false,//在标签页键显示Unload菜单(否)
-'extensions.alltabshelper@alltabshelper.org.showDontAutoUnloadItem': false,//在标签页键显示Don't Auto Unload菜单(否)
-'extensions.alltabshelper@alltabshelper.org.tabUnloadTimerValue': 0,//(分钟)0表示禁用
-
-//Tab Groups
-'extensions.tabgroups.groupTitleInButton': false,//按钮-显示当前分组名称(否)
-'extensions.tabgroups.noWarningsAboutSession': true,//重启时保持标签页分组(否)
+//SimpleProxy
+'extensions.simpleproxy.address.0': "127.0.0.1",
+'extensions.simpleproxy.address.1': "127.0.0.1",
+'extensions.simpleproxy.list.0': "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
+'extensions.simpleproxy.list.1': "https://github.com/dupontjoy/customization/raw/master/Rules/Autoproxy/Aup-Cing-List.txt",
+'extensions.simpleproxy.manage': 10,
+'extensions.simpleproxy.number': 2,
+'extensions.simpleproxy.port.0': 1080,
+'extensions.simpleproxy.port.1': 1080,
+'extensions.simpleproxy.protocol.0': "socks",
+'extensions.simpleproxy.protocol.1': "socks",
 
 //*==========脚本设置==========*//
 //UC管理器取消延迟加载

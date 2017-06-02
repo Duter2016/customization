@@ -1,4 +1,4 @@
-﻿//2016.12.20
+﻿//2017.06.02
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
 
@@ -19,46 +19,17 @@ user_pref("browser.safebrowsing.enabled", false);
 user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 
-//遥测
-user_pref("toolkit.telemetry.unified", false);
-user_pref("toolkit.telemetry.enabled", false);
-user_pref("toolkit.telemetry.unifiedIsOptIn", true); 
-user_pref("toolkit.telemetry.server", "");
-user_pref("toolkit.telemetry.archive.enabled", false);
-user_pref("toolkit.telemetry.cachedClientID", "");
-
-//健康
-user_pref("datareporting.healthreport.uploadEnabled", false);
-user_pref("datareporting.healthreport.documentServerURI", "");
-user_pref("datareporting.healthreport.service.enabled", false);
-user_pref("datareporting.healthreport.about.reportUrl", "data:text/plain,");
-user_pref("datareporting.healthreport.about.reportUrlUnified", "data:text/plain,");
-user_pref("datareporting.policy.dataSubmissionEnabled", false);
-user_pref("datareporting.policy.dataSubmissionEnabled.v2", false);
-
 //*==========标签相关==========*//
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
-//取消动画(from: 奶酪)
-user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
-user_pref("browser.fullscreen.animate",false); //取消全屏动画
 user_pref("browser.tabs.animate", false);//关闭标签页动画
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
-
-//*==========插件相关==========*//
-user_pref("plugins.click_to_play", false);//关闭点击才运行插件
-user_pref("dom.ipc.plugins.unloadASAP", true);//当插件空闲时自动关闭进程
-user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
-user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
-user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("dom.ipc.plugins.flash.disable-protected-mode", true);//禁用保护模式
-user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位关闭沙盒
 
 //*==========附加组件==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
@@ -72,7 +43,6 @@ user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不�
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("browser.pagethumbnails.capturing_disabled", true);//禁用Firefox的thumbnails
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 
 /******************************************************************************************
