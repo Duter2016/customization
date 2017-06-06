@@ -24,7 +24,15 @@ user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签�
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
-user_pref("browser.tabs.animate", false);//关闭标签页动画
+//动画
+user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
+user_pref("browser.fullscreen.animate",false); //取消全屏动画
+user_pref("browser.tabs.animate",false); //取消标签动画
+user_pref("browser.fullscreen.animateUp",0);//关闭全屏时工具栏隐藏显示动画
+user_pref("full-screen-api.transition-duration.enter","0 0");//去除全屏淡进淡出效果
+user_pref("full-screen-api.transition-duration.leave","0 0");//去除全屏淡进淡出效果
+user_pref("full-screen-api.warning.delay",0);//去除全屏提醒
+user_pref("full-screen-api.warning.timeout",0);//去除全屏提醒
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
@@ -44,6 +52,11 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
+//功能去除
+user_pref("media.gmp-gmpopenh264.provider.enabled", false); // GMP Open H264插件，主要用于WebRTC通话功能，对大多数用户来说意义不大，关闭后仅停用该插件。
+user_pref("media.gmp-manager.url", ""); //完全不下载GMP Open H264
+user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
+
 
 /******************************************************************************************
  *这里是个人设置。

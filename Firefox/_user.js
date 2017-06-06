@@ -1,4 +1,4 @@
-//2017.06.02
+//2017.06.06
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -31,10 +31,26 @@ var PREFS = {
 'browser.bookmarks.max_backups': 0,//最大备份数目
 'browser.places.smartBookmarksVersion': -1,//禁用智能书签
 
-//*=网络相关=*//
-//平滑滚动
-'general.smoothScroll.durationToIntervalRatio': 500,
-'mousewheel.min_line_scroll_amount': 35,
+//平滑滚动参数
+'general.smoothScroll.mouseWheel.durationMaxMS': 150,
+'general.smoothScroll.mouseWheel.durationMinMS': 150,
+'mousewheel.acceleration.factor': 15,
+'mousewheel.acceleration.start': 3,
+'mousewheel.default.delta_multiplier_y': 160,
+
+//插件
+'dom.ipc.plugins.unloadASAP': true, //网页不使用flash后自动关闭Plugin-container
+'dom.ipc.plugins.enabled': false, //关闭插件的防崩溃保护
+'dom.ipc.plugins.enabled.npctrl.dll': false,
+'dom.ipc.plugins.enabled.npqtplugin.dll': false,
+'dom.ipc.plugins.enabled.npswf32.dll': false,
+'dom.ipc.plugins.enabled.nptest.dll': false,
+'dom.ipc.plugins.flash.subprocess.crashreporter.enabled': false,//禁用火狐插件防崩溃功能
+'plugins.click_to_play': false,//关闭点击才运行插件
+'plugins.hide_infobar_for_missing_plugin': true,//隐藏信息栏缺失插件消息提醒
+'plugins.hide_infobar_for_outdated_plugin': true,//过期插件不提示
+'plugins.hide_infobar_for_blocked_plugin': true,//插件屏蔽选择不提示
+'extensions.blocklist.enabled': false,//关闭flash版本过旧被屏蔽的提示
 
 //*=隐私相关=*//
 //其它隐私相关
@@ -62,19 +78,13 @@ var PREFS = {
 'browser.tabs.closeWindowWithLastTab': false,//关闭最后一个标签时不关闭Firefox
 
 //*==========扩展设置==========*//
-//adblockplus
-'extensions.adblockplus.patternsbackups': 0,
-'extensions.adblockplus.frameobjects': false,//在Java和Flash上显示标签 - 否
-'extensions.adblockplus.subscriptions_antiadblockurl': "https://github.com/reek/anti-adblock-killer/raw/master/anti-adblock-killer-filters.txt",//原反-反ADP列表
-//-非侵入式广告地址换成个人ABP规则
-'extensions.adblockplus.subscriptions_exceptionscheckbox': true,//非入侵式广告勾选框
-'extensions.adblockplus.subscriptions_exceptionsurl': "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt",//原非入侵式广告订阅网址
 
 //Autoproxy
-'extensions.autoproxy.customProxy': "Shadowsocks;;1080;socks$XX-Mini;;8087;$Lantern;;8787;$Psiphon;;8080;$Free%20Gate;;8580;",
+/*'extensions.autoproxy.customProxy': "Shadowsocks;;1080;socks$XX-Mini;;8087;$Lantern;;8787;$Psiphon;;8080;$Free%20Gate;;8580;",
 'extensions.autoproxy.patternsbackups': 0,
 'extensions.autoproxy.defaultstatusbaraction': 0,//点击图标时-快捷菜单
 'extensions.autoproxy.defaulttoolbaraction': 0,//点击图标时-快捷菜单
+*/
 
 //LastPass
 'extensions.lastpass.hidecontextmenu': true,
@@ -87,10 +97,6 @@ var PREFS = {
 'extensions.lastpass.prevHkMods': "alt",//上一个密码(Alt)
 'extensions.lastpass.nextHkKeyCode': 40,//下一个密码(方向键:下)
 'extensions.lastpass.nextHkMods': "alt",//下一个密码(Alt)
-
-//FoxyProxy
-'extensions.foxyproxy.firstrun': false,//首次运行(否)
-'extensions.foxyproxy.firsttimeopeningoptionsdialog': false,//首次运行(否)
 
 //FlashGot
 'flashgot.hide-all': true,
@@ -114,9 +120,6 @@ var PREFS = {
 //Greasemonkey
 'extensions.greasemonkey.stats.prompted': true,//不弹改进建议提示
 'extensions.greasemonkey.installDelay': 0,//安装时的倒计时
-
-//Stylish
-'extensions.stylish.firstRun': 3,//重建配置不弹欢迎页
 
 //iMacros
 'extensions.imacros.delay': 1000,//播放速度中等
@@ -145,9 +148,6 @@ var PREFS = {
 'extensions.simpleproxy.protocol.1': "socks",
 
 //*==========脚本设置==========*//
-//UC管理器取消延迟加载
-'userChrome.EXPERIMENT': true,
-
 //InspectElementModY
 'userChromeJS.InspectElement.contentType': 2,//查看页面:Dom Inspector
 'userChromeJS.InspectElement.mainWinType': 2,//查看窗口:Dom Inspector
