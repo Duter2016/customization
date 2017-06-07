@@ -1,4 +1,4 @@
-//2017.06.06
+//2017.06.07
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -22,10 +22,12 @@ var PREFS = {
 //*==========Firefox设置==========*//
 'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
+
 //字体语言编码
 'font.name.serif.zh-CN': "Arial",//衬线字体
 'font.name.sans-serif.zh-CN': "Arial",//无衬线字体
 'font.name.monospace.zh-CN': "Arial",//等宽字体
+
 //书签相关
 'browser.bookmarks.autoExportHTML': true,//关闭Firefox时自动生成HTML书签备份
 'browser.bookmarks.max_backups': 0,//最大备份数目
@@ -146,6 +148,9 @@ var PREFS = {
 'extensions.simpleproxy.port.1': 1080,
 'extensions.simpleproxy.protocol.0': "socks",
 'extensions.simpleproxy.protocol.1': "socks",
+
+//FlashBlock
+'flashblock.silverlight.blocked': true,//同样阻止Silverlight
 
 //*==========脚本设置==========*//
 //InspectElementModY
