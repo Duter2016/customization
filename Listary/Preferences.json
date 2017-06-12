@@ -177,7 +177,18 @@
    },
    "keywords": {
       "builtin_commands": [  ],
-      "custom_commands": [  ],
+      "custom_commands": [ {
+         "description": "",
+         "display_title": "\u521B\u5EFA\u6587\u4EF6 \"{query}\"",
+         "enabled": true,
+         "keyword": "+",
+         "only_show_in_launcher": false,
+         "param": "/c type nul \u003E\u003E \"{query}\"",
+         "path": "%ComSpec%",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
+      } ],
       "folder": [  ],
       "web_search": [  ]
    },
