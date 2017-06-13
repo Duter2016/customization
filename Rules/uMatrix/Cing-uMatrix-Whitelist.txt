@@ -10,6 +10,7 @@ matrix-off: liepin.com true
 matrix-off: localhost true
 matrix-off: opera-scheme true
 matrix-off: zhaopin.com true
+referrer-spoof: jd.com false
 * * * block
 * * cookie block
 * * css allow
@@ -57,6 +58,7 @@ matrix-off: zhaopin.com true
 * fonts.googleapis.com * allow
 * google.com cookie allow
 * googlevideo.com xhr allow
+* gstatic.com * allow
 * hdslb.com script allow
 * hwcdn.libsyn.com other allow
 * i.alicdn.com script allow
@@ -79,7 +81,6 @@ matrix-off: zhaopin.com true
 * qbox.me script allow
 * qhimg.com script allow
 * s.tbcdn.cn script allow
-* s.ytimg.com script allow
 * s3.amazonaws.com script allow
 * ssl-images-amazon.com script allow
 * ssl.gstatic.com * allow
@@ -90,6 +91,7 @@ matrix-off: zhaopin.com true
 * u.alicdn.com script allow
 * video.taobao.com other allow
 * webapi.amap.com script allow
+* wordpress.com * allow
 * wp.com script allow
 * www.amazon.cn script allow
 * www.google.com script allow
@@ -101,6 +103,7 @@ matrix-off: zhaopin.com true
 * youtube-nocookie.com * allow
 * youtube.com frame allow
 * youtube.com script allow
+* ytimg.com * allow
 120.24.13.81 120.24.13.81 cookie allow
 120.24.13.81 120.24.13.81 frame allow
 123.57.243.50 cdn.amazeui.org script allow
@@ -145,9 +148,12 @@ matrix-off: zhaopin.com true
 64clouds.com 64clouds.com cookie allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
+alibaba.com alibaba.com cookie allow
+alibaba.com stylessl.aliunicorn.com script allow
 aliexpress.com aeu.alicdn.com script allow
 aliexpress.com aliexpress.com cookie allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
+amazon.com amazon.com cookie allow
 amazon.com google.com.hk cookie allow
 amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
@@ -197,6 +203,7 @@ dianping.com www.dpfile.com script allow
 dingtalkapps.com dingtalkapps.com cookie allow
 dingtalkapps.com login.dingtalk.com * allow
 doooor.com doooor.com cookie allow
+doub.io doub.io cookie allow
 douban.com douban.com cookie allow
 douban.com img3.doubanio.com script allow
 douban.com www.douban.com cookie allow
@@ -207,7 +214,8 @@ dropbox.com cfl.dropboxstatic.com script allow
 dropbox.com dropbox.com cookie allow
 duowan.com assets.dwstatic.com script allow
 dx.com img.dxcdn.com script allow
-ebay.com ir.ebaystatic.com script allow
+ebay.com ebay.com cookie allow
+ebay.com ebaystatic.com * allow
 ebay.com vi.vipr.ebaydesc.com frame allow
 ebay.com vi.vipr.ebaydesc.com script allow
 economist.com admin.brightcove.com script allow
@@ -244,7 +252,9 @@ google.com www.gstatic.com xhr allow
 greasyfork.org greasyfork.org cookie allow
 guokr.com account.guokr.com cookie allow
 guokr.com www.guokr.com cookie allow
+guten.me guten.me cookie allow
 h2os.com statics.oneplus.cn script allow
+hainan.net tianyaui.com * allow
 hbr.org * other allow
 hbr.org 120.198.244.51 other allow
 hbr.org hwcdn.libsyn.com other inherit
@@ -270,13 +280,12 @@ iqiyi.com cache.video.qiyi.com script allow
 itanzi.com cdnxdc.tanzi88.com other allow
 itanzi.com cdsb.mobi script allow
 jandan.net jandan.net script allow
-jd.com 3.cn script allow
-jd.com 360buyimg.com script allow
+jd.com 3.cn * allow
+jd.com 360buyimg.com * allow
 jd.com d.3.cn script allow
 jd.com dc.3.cn script allow
 jd.com jd.aihuishou.com * allow
 jd.com jd.com cookie allow
-jd.com misc.360buyimg.com script allow
 jd.com shared-https.ydstatic.com script allow
 jd.com zhushou.huihui.cn script allow
 jd.hk 3.cn script allow
@@ -290,6 +299,7 @@ jingoal.com jingoal.com cookie allow
 jobui.com jobui.com cookie allow
 juksy.com apis.google.com frame inherit
 juksy.com apis.google.com script inherit
+kafan.cn aliapp.org * allow
 kafan.cn api.geetest.com script allow
 kafan.cn ikafan.com * allow
 kafan.cn ikafan.com cookie allow
@@ -302,6 +312,7 @@ kindbook.cn kindbook.cn cookie allow
 kugou.com kugou.com cookie allow
 kugou.com static.5sing.kugou.com frame allow
 lagou.com lagou.com cookie allow
+lastpass.com lastpass.com cookie allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
 le.com letv.com script allow
@@ -324,6 +335,7 @@ microsoft.com microsoft.com cookie allow
 miniinthebox.com minijscss.rightinthebox.com script allow
 mipay.com mipay.com cookie allow
 miwifi.com static.xiaomi.net script allow
+mobilefun.co.uk static.mobilefun.com script allow
 moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla.org cookie allow
@@ -363,9 +375,11 @@ qiaobutang.com cdn.qiaobutang.com script block
 qiwsir.github.io vodcdn.video.taobao.com other allow
 qq.com 7.url.cn script allow
 qq.com gtimg.cn script allow
+qq.com gtimg.com * allow
 qq.com idqqimg.com script allow
 qq.com imgcache.gtimg.cn script allow
 qq.com mat1.gtimg.com script allow
+qq.com pingjs.qq.com * inherit
 qq.com qq.com cookie allow
 qq.com qzonestyle.gtimg.cn script allow
 qq.com url.cn script allow
@@ -422,7 +436,9 @@ stackexchange.com stackexchange.com cookie allow
 stackoverflow.com cdn.sstatic.net script allow
 stackoverflow.com stackoverflow.com cookie allow
 statista.com statista.com cookie allow
+steampowered.com store.akamai.steamstatic.com script allow
 suhuishou.cc suhuishou.cc cookie allow
+suning.com suning.cn script allow
 sunsky-online.com sunsky-online.com cookie allow
 sxl.cn 1st-party cookie allow
 sxl.cn ajax.sxlcdn.com cookie allow
@@ -433,7 +449,10 @@ sxl.cn qnssl.com script allow
 sxl.cn sxlcdn.com cookie allow
 taobao.com taobao.com cookie allow
 techradar.com cdn0.static.techradar.futurecdn.net script allow
-terapeak.com cdn-terapeak.com script allow
+terapeak.com cdn-terapeak.com * allow
+terapeak.com cdn.optimizely.com script allow
+terapeak.com d36jl5okgdmyor.cloudfront.net * allow
+terapeak.com terapeak.cn * allow
 terapeak.com terapeak.com cookie allow
 test.dev test.dev cookie allow
 theatlantic.com cdn.theatlantic.com script allow
@@ -457,6 +476,8 @@ tmall.com ynuf.alipay.com script allow
 tomtop.com s3-us-west-2.amazonaws.com script allow
 tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
+toutiao.com ib.365yg.com * allow
+toutiao.com pstatp.com * allow
 ttwanda.com aikan-tv.com * allow
 ttwanda.com api.47ks.com * allow
 tudou.com js.tudouui.com script allow
@@ -523,10 +544,12 @@ wsj.com asset.wsj.net script allow
 wsj.com ore.wsj.net script allow
 wsj.com s.wsj.net script allow
 wsj.com vir.wsj.net script allow
+wukongwenda.com pstatp.com script allow
 xiami.com res.xiami.net script allow
 xiaomi.com xiaomi.com cookie allow
 xinshipu.com xinshipu.cn script allow
 xinshipu.com xinshipu.com cookie allow
+xl720.com api.47ks.com * allow
 xunlei.com img.jiuwo.kanimg.com script allow
 xunlei.com img.vip.kanimg.com script allow
 xunlei.com static.i.kanimg.com script allow
@@ -538,11 +561,14 @@ ycwaccessories.com cdn.shopify.com script allow
 yinxiang.com app.yinxiang.com cookie allow
 yinyuetai.com s.yytcdn.com script allow
 ymfz521.sinaapp.com s.amazeui.org script allow
+youku.com * xhr allow
 youku.com js.ykimg.com script allow
+youku.com r1.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youku.com youku.com cookie allow
 youth.cn static.yidianzixun.com script allow
 youtube.com googlevideo.com xhr allow
+youtube.com s.ytimg.com script inherit
 youtube.com youtube.com cookie allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
@@ -556,6 +582,7 @@ zhaopin.com zhaopin.com cookie allow
 zhenai.com zastatic.com script allow
 zhihu.com z1.zhimg.com script allow
 zhihu.com zhihu.com cookie allow
+zhihu.com zhimg.com script allow
 zhipin.com img.bosszhipin.com script allow
 zhipin.com zhipin.com cookie allow
 zihu.tv yun.zihu.tv frame allow
