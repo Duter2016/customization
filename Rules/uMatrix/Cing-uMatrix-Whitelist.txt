@@ -10,7 +10,6 @@ matrix-off: liepin.com true
 matrix-off: localhost true
 matrix-off: opera-scheme true
 matrix-off: zhaopin.com true
-referrer-spoof: jd.com false
 * * * block
 * * cookie block
 * * css allow
@@ -518,6 +517,7 @@ weibo.com login.sina.com.cn cookie allow
 weibo.com login.sina.com.cn frame allow
 weibo.com login.sina.com.cn script allow
 weibo.com login.sina.com.cn xhr allow
+weibo.com passport.weibo.cn script allow
 weibo.com sina.com.cn cookie allow
 weibo.com t.sinajs.cn script allow
 weibo.com tjs.sjs.sinajs.cn script allow
