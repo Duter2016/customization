@@ -151,25 +151,6 @@
       "language_file": "zh-CN.ini"
    },
    "history": {
-      "exclude": [ {
-         "type": "folder",
-         "value": "X:\\"
-      }, {
-         "type": "folder",
-         "value": "Y:\\"
-      }, {
-         "type": "folder",
-         "value": "Z:\\"
-      }, {
-         "type": "folder",
-         "value": "F:\\"
-      }, {
-         "type": "folder",
-         "value": "G:\\"
-      }, {
-         "type": "folder",
-         "value": "H:\\"
-      } ],
       "search_history": false
    },
    "hotkey": {
