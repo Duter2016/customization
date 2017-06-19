@@ -151,7 +151,8 @@
       "language_file": "zh-CN.ini"
    },
    "history": {
-      "search_history": false
+      "search_history": false,
+      "track_history": false
    },
    "hotkey": {
       "popup_menu": 17414

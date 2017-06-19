@@ -1,4 +1,4 @@
-//2017.06.07
+//2017.06.19
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -9,7 +9,9 @@ var PREFS = {
  
 //*==========多进程==========*//
 /*'browser.tabs.remote.force-enable': true,
-'extensions.e10sBlockedByAddons': false,//扩展禁用列表*/
+'extensions.e10sBlocksEnabling': false,//扩展禁用列表
+'extensions.e10sBlockedByAddons': false,//扩展禁用列表
+'dom.ipc.processCount': 4,//进程数(最大支持8)*/
 
 //*==========主页==========*//
 'browser.startup.page': 1,//启动Firefox时显示主页
