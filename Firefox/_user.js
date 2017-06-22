@@ -12,6 +12,7 @@ var PREFS = {
 'extensions.e10sBlocksEnabling': false,//扩展禁用列表
 'extensions.e10sBlockedByAddons': false,//扩展禁用列表
 'dom.ipc.processCount': 4,//进程数(最大支持8)*/
+'extensions.allow-non-mpc-extensions': true,//强制开启非多进程扩展
 
 //*==========主页==========*//
 'browser.startup.page': 1,//启动Firefox时显示主页
