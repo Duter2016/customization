@@ -1,4 +1,4 @@
-//2017.06.19
+//2017.06.23
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -25,6 +25,10 @@ var PREFS = {
 //*==========Firefox设置==========*//
 'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
+
+//证书
+'security.default_personal_cert': "Select Automatically",//自动选择一个个人证书
+'security.OCSP.enabled': 0,//禁用OCSP查询.导致页面加载慢,极端情况下延迟高达3秒
 
 //字体语言编码
 'font.name.serif.zh-CN': "Arial",//衬线字体
