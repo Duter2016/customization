@@ -8,11 +8,14 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !-------------------------------------------------------------------------------------!
 !開始!
+
 ! 2017.05.03
 hbr.org##.backdrop-darker > .row
+
 ! 2017.04.27
 nautil.us###offer
 nautil.us###adpayload
+
 ! 2017.02.14
 zmz2017.com##.ad1.ad:nth-of-type(5) > div
 zmz2017.com##.ad1.ad:nth-of-type(7)
@@ -34,237 +37,169 @@ greasyfork.org###script-show-info-ad
 
 ! 2017.02.04 cnbeta顶部广告红条
 cnbeta.com##DIV[style="display:block !important;padding:10px;margin:0 auto;text-align:center;max-width:980px;overflow:hidden"]
+
 ! 2016.11.22
 v.youku.com###module-interact
+
 ! 2016.11.11
 tieba.baidu.com###forum_recommend
+
 ! 2016.11.07
 statista.com###statisticSlideIn
 statista.com###raPopup01
+
 ! 2016.11.04
 ft.com##.visible.n-header__marketing-promo
 ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
 ft.com##.o-cookie-message--active.o-cookie-message--banner-centric.o-cookie-message
+
 ! 2016.10.23
 ftchinese.com###story_main_mpu
 huya.com###mbbs-qrcode
+
 ! 2016.10.01
 repaik.com##.a_cn
+
 ! 2016.09.08
 tianya.cn##.scroll-btn
 tianya.cn###js-bc-shang
+
 ! 2016.07.13 star-ray视频去广告辅助规则
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@*/vmind.qqvideo.tc.qq.com/$object-subrequest
 @@|http://v.aty.sohu.com/v$object-subrequest
 @@||atm.youku.com/v$object-subrequest
+
 ! 2016.07.03
 open.163.com###app_download_recommend
-! 2016.06.26
-vodafone.com##.spring > .display.mod-cookie-msg.mod.cookie-msg
+
 ! 2016.06.16
 deviantart.com###block-notice > .block-notice
 huawei.com##.ReadPolicy.browsehappy
 bbs.tianya.cn###host-stocks-box
 bbs.tianya.cn###dsvips60447 > .ds_seat_foot > .btnOpen
+
 ! 2016.05.31
 cnn.com##.user-msg
+
 ! 2016.05.18
 trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
 kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng2"]
+
 ! 2016.05.11
 duowan.com###mbbs-qrcode
 iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 24px auto"]
 iplaysoft.com##DIV[style="width:336px;height:280px;background:#f8f8f8;margin:20px auto 20px auto"]
+
 ! 2016.04.20
 trunk.tvc-mall.com##IMG[src="http://upload.img.tvc-mall.com/Uploads/60441234133847e58325377556a75cfa.jpg"]
 huya.com##.relate_right
-! 2016.04.18
-xilinjie.com##P
-xilinjie.com###xlj-ad-block-overlay
+
 ! 2016.04.13
 cnbeta.com##div[style*="DXImageTransform"]
 cnbeta.com##div[style*="display:block !important;"][style*="z-index:99999;"]
+
 ! 2016.04.11
 cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
 jd.com##.side__ad.side__ad-right
 jd.com##.side__ad.side__ad-left
+
 ! 2016.03.16
-chaojibiaoge.com##IMG[src="/Public/projects/oa/images/weixin.png"]
 163.com##.clearfix.bobo-wrap
+
 ! 2016.02.28
 economist.com##.timekeeper-bubble
 huya.com##ASIDE
 huya.com###v-alist-tip
-! 2016.02.12
-178.com##.box-center8.clearfix
-178.com##.commen
+
 ! 2016.02.07
 guokr.com##.tooltip-new
 kindbook.cn##.csu_wxnav
+
 ! 2016.02.06
 douban.com###doubanapp-tip
+
 ! 2016.02.04
-gd.189.cn###rb_box
 kindbook.cn##.kefuqq-box
 kindbook.cn###comiis_kx_div
-weiyun.com##.pop-guide-wrapper
-weiyun.com##DIV[style="left: 70px;top: 110px;z-index: 1003;position: absolute;"]
+
 ! 2016.02.01
 kindbook.cn##.itopad
 kindbook.cn###dreambred_portal_area_a_10
 kindbook.cn###ip_notice
+
 ! 2016.01.24
-c6c.com###fixedBox
 baike.baidu.com###fc_guess_like
+
 ! 2016.01.22
-c6c.com###fixedBox
 iqiyi.com###widget-refer
-haowj.com.cn##.footer
-haowj.com.cn##.con
-robot.zhao.xywy.com##.robot-box
 bbs.tianya.cn###niuren_ifm
+
 ! 2016.01.16
 comment.v.163.com##.wrapper.top-banner
 bobo.com##.mod-follow
 baike.com###newsfix-on
-! 2016.01.13
-metropcs.com###ltkmodal-overlay
-metropcs.com###ltkmodal-container
-os.51cto.com##[width="600"]
-os.51cto.com##HR[style="border-top: #555555 1px solid; height: 1px; border-right: medium none; border-bottom: medium none; border-left: medium none"]
+
 ! 2016.01.07
 mobilefun.co.uk###fancybox-outer
 mobilefun.co.uk###geoip-popup
 mobilefun.co.uk##.modal-backdrop.in
 mobilefun.co.uk###fancybox-overlay
 tvc-mall.com##.addthis_toolbox.addthis_default_style
+
 ! 2015.11.25
 woshipm.com##.tips-box.font16.mar-b20
+
 ! 2015.10.04
 open.163.com##.appdown
+
 ! 2015.10.01
 iqiyi.com##.a1.jilu
 gearbest.com###email_subscribe
 gearbest.com###mask
+
 ! 2015.09.28
 iqiyi.com##.act_shares
 baike.baidu.com##.bdsharebuttonbox.side-share
 baike.baidu.com##.userbar_mall
-||msg.71.am^
-! 2015.09.17
-iask.sina.com.cn###todayFix
+
 ! 2015.09.12
 iqiyi.com##.func_download
 iqiyi.com##.iphoneLook
 iqiyi.com##.danmu-main.fl
 iqiyi.com##[data-widget-appdown="playpage"]
+
 ! 2015.09.05
 iqiyi.com###widget-clientdownload
+
 ! 2015.09.02
 iqiyi.com##[data-scrollname="vipbuy"]
 iqiyi.com###goosBtn
-||mall*.qiyipic.com^
+
 ! 2015.08.16
 youku.com###qrcode-container
-! 2015.08.10
-jd.com###top-banner
+
 ! 2015.08.09
 mail.163.com##[title="一元夺宝"]
 mail.163.com##[title="应用中心"]
 mail.163.com##.gWel-tabs
-! 2015.08.02
-||js.tudouui.com/bin/tplugins/*
-! 2015.08.01
-|*.qq.com/*/player/plugins/BulletCurtain.swf
+
 ! 2015.07.24
 tieba.baidu.com##.thread_recommend_ps.thread-recommend-ps
 tieba.baidu.com##.d_sign_split
+
 ! 2015.07.22
 iqiyi.com##.vip_rec_pop
+
 ! 2015.07.19
 tieba.baidu.com##.thread_recommend
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
-!以前添加
-##FONT.jammer
-||*monitor.jpg?xcode
-||api.share.baidu.com
-||tieba.baidu.com/tb/static-common/component/commonLogic/common/crosspage_msg_system/CrossPageSWF.swf?*
+
+! 2015.06.31前
 bbs.kafan.cn###autopbn
 bbs.kafan.cn###scrolltop
 bbs.kafan.cn##.bm_h
 bbs.kafan.cn##.ptn.xg2
 bbs.kafan.cn##SPAN[style="float:left;margin-right:5px"]
-economist.com###ec-cookie-messages-container
-economist.com###footer-classifieds
-economist.com###simplemodal-container
-economist.com###simplemodal-overlay
-economist.com##.share-inline-footer-facebook.first
-economist.com##.share-inline-footer-reddit
-economist.com##.share-inline-footer-twitter.even
-economist.com##.share-linkedin.even
-economist.com##.share-plusone.last
-edition.cnn.com##.user-msg
-gearbest.com##[style="padding-left:10px; color:#fff;"]
-greasyfork.org###share
-gsmarena.com###subHeader
-ic.sjlpj.cn###\5f _lpform_PropertyAliasName_3_icon
-ic.sjlpj.cn###\5f _lpform_Sku_icon
-ic.sjlpj.cn##.edui-message-body.edui-message-type-info.edui-default
-ic.sjlpj.cn##.edui-message-closer.edui-default
-iqiyi.com##.gx
-iqiyi.com##.helpFeedback
-iqiyi.com##.nav_mag_dot
-iqiyi.com##.qy_nav_pop
-iqiyi.com##.wanwan-yx
-jingyan.baidu.com##EM
-kindbook.cn###wechat_float_qrcode
-kindbook.cn##.tshare.cl
-kindbook.cn##A[href="http://www.kindbook.cn/plugin.php?id=webpage&identifier=juanzeng"]
-kindbook.cn##FIELDSET[style="border:1px dashed #FF0000;padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;"]
-kindbook.cn##IMG[src="static/image/smiley/anzai/003.gif"]
-mail.163.com###dvYixinWrapper
-mail.qq.com###folder_reader
-note.wiz.cn###wiz-poster
-tieba.baidu.com###aside_album_good
-tieba.baidu.com###bdshare
-tieba.baidu.com###celebrity
-tieba.baidu.com###com_userbar.userbar > ul > .u_joinvip
-tieba.baidu.com###game_frs_head,#game_forum,#lecai_lottery,.clear+.game_spread_thread,.game_rank, #ueg_policy_open, .aside_album_good_main>.aagm_a_img, .edui-container>.tb_poster_placeholder, .cont_sign_banner,.worldcup_rank,.game_content,.game_tab,[class^=fifa_card],#tbmall_score_region,#aside_ad, .doupiao_offline, #encourage_entry,#thread_list>li[data-daid], body>div[data-daid], #j_p_postlist>div[data-daid]
-tieba.baidu.com###zyq_mod_friend
-tieba.baidu.com##.dialogJmodal
-tieba.baidu.com##.edui-icon-medal.edui-icon
-tieba.baidu.com##.icon_wrap.icon_wrap_theme1.d_pb_icons
-tieba.baidu.com##.j_icon_slot
-tieba.baidu.com##.j_user_sign
-tieba.baidu.com##.nav_item_hot_flag
-tieba.baidu.com##.poster_head_surveillance.j_surveillance
-tieba.baidu.com##.save_face_bg.save_face_bg_2
-tieba.baidu.com##.share_btn_wrapper
-tieba.baidu.com##.split
-tieba.baidu.com##.tb_icon_base.tb_icon_new
-tieba.baidu.com##.tbui_aside_float_bar
-tieba.baidu.com##.tieba_notice.tieba_notice_theme2
-tieba.baidu.com##.u_menu_item.j_u_menu_bd_home_link
-tieba.baidu.com##.u_menu_item.u_menu_app
-tieba.baidu.com##.u_menu_item.u_menu_appcenterEntrance
-tieba.baidu.com##.u_menu_item.u_menu_tbmall
-tieba.baidu.com##.u_split
-tieba.baidu.com##.ui_bubble_wrap.j_wrap
-tieba.baidu.com##.umoney-dialog
-tieba.baidu.com##A[href="/tbmall/tshow"]
-wenku.baidu.com##.bl
-wenku.baidu.com##.tl
-wenku.baidu.com##.tr
-wenku.baidu.com##I
-zhidao.baidu.com###ui-tooltip-0
-zhidao.baidu.com###userbar-msg
-zhidao.baidu.com###wgt-topic
-zhidao.baidu.com###wgt-user
-zhidao.baidu.com##.cms-slide
-zhidao.baidu.com##.cms-slide.cms-slide-lazy
-zhidao.baidu.com##.shop-entrance
-zhidao.baidu.com##.wgt-push.mod-shadow.last
-zhidao.baidu.com##.widget-sma
