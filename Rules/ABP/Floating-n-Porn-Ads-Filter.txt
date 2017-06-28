@@ -9,6 +9,10 @@
 !-------------------------------------------------------------------------------------!
 !開始!
 
+! 2017.06.28
+aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
+aliexpress.com##.ui-mask
+
 ! 2017.05.03
 hbr.org##.backdrop-darker > .row
 
