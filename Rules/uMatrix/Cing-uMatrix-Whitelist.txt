@@ -49,7 +49,6 @@ matrix-off: zhaopin.com true
 * cloudfront.net script allow
 * code.jquery.com script allow
 * coding.me other allow
-* connect.facebook.net * allow
 * desc.alicdn.com script allow
 * diablo.alibaba.com script allow
 * discuz.gtimg.cn script allow
@@ -151,6 +150,7 @@ alibaba.com alibaba.com cookie allow
 alibaba.com stylessl.aliunicorn.com script allow
 aliexpress.com aeu.alicdn.com script allow
 aliexpress.com aliexpress.com cookie allow
+ama.org ama.org cookie allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com amazon.com cookie allow
 amazon.com google.com.hk cookie allow
@@ -233,8 +233,10 @@ focalprice.com static5.bfdcdn.com script allow
 forbes.com forbes.com cookie allow
 forbes.com i.forbesimg.com script allow
 freebuf.com static.3001.net script allow
+ftchinese.com bokecc.com script allow
 gaode.com amap.com script allow
 gaoqing.la static.duoshuo.com script allow
+geekpark.net qnssl.com script allow
 getpocket.com getpocket.com cookie allow
 github.com github.com cookie allow
 google.com ads.google.com script allow
@@ -308,6 +310,7 @@ kankanwu.com newplayer.lsmmr.com frame allow
 kankanwu.com newplayer.lsmmr.com script allow
 kaola.com mm.bst.126.net script allow
 kindbook.cn kindbook.cn cookie allow
+kknews.cc cdn.jsdelivr.net script allow
 kugou.com kugou.com cookie allow
 kugou.com static.5sing.kugou.com frame allow
 lagou.com lagou.com cookie allow
@@ -330,6 +333,7 @@ mashable.com a.amz.mshcdn.com script allow
 mi.com mi.com cookie allow
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
+miaopai.com cdn.krcom.cn script allow
 microsoft.com microsoft.com cookie allow
 miniinthebox.com minijscss.rightinthebox.com script allow
 mipay.com mipay.com cookie allow
@@ -353,6 +357,7 @@ oneplusbbs.com account.oneplus.cn * allow
 oneplusbbs.com oneplus.cn cookie allow
 oneplusbbs.com oneplusbbs.com cookie allow
 oneplusbbs.com statics.oneplus.cn script allow
+opera.com www-static.operacdn.com script allow
 oray.com oray.com cookie allow
 oray.com static.orayimg.com script allow
 oschina.net oschina.net cookie allow
@@ -367,6 +372,7 @@ pinterest.com pinimg.com script allow
 pinterest.com pinterest.com cookie allow
 porn.com librelytics.com script allow
 porn.com porn.com cookie allow
+processon.com processon.com cookie allow
 qdaily.com imgcache.qq.com script allow
 qdaily.com qdaily.com cookie allow
 qiandao.today qiandao.today cookie allow
@@ -396,6 +402,7 @@ quora.com www.gstatic.com script allow
 raindrop.io raindrop.io cookie allow
 raindrop.io widget.intercom.io script allow
 repaik.com repaik.com cookie allow
+rescuetime.com rescuetime.com cookie allow
 runningcheese.com runningcheese.com cookie allow
 runningcheese.com runningcheese.duoshuo.com xhr allow
 sanguosha.com cas.dobest.com script allow
@@ -470,6 +477,7 @@ tmall.com login.taobao.com script allow
 tmall.com passport.taobao.com frame allow
 tmall.com passport.taobao.com script allow
 tmall.com taobao.com cookie allow
+tmall.com taobao.com script allow
 tmall.com tmall.com cookie allow
 tmall.com ynuf.alipay.com script allow
 tomtop.com s3-us-west-2.amazonaws.com script allow
@@ -477,6 +485,7 @@ tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
 toutiao.com ib.365yg.com * allow
 toutiao.com pstatp.com * allow
+trade-data.net trade-data.net cookie allow
 ttwanda.com aikan-tv.com * allow
 ttwanda.com api.47ks.com * allow
 tudou.com js.tudouui.com script allow
@@ -529,6 +538,8 @@ weiyun.com qq.com script allow
 weiyun.com weiyun.com cookie allow
 wikipedia.org upload.wikimedia.org other allow
 winos.me winos.me cookie allow
+wired.com dp8hsntg6do36.cloudfront.net xhr allow
+wired.com player.cnevids.com script allow
 wish.com connect.facebook.net script allow
 wish.com facebook.com cookie allow
 wish.com staticxx.facebook.com frame allow
@@ -539,6 +550,9 @@ wish.com www.wish.com cookie allow
 wiz.cn wiz.cn cookie allow
 wmxz.wang www5.oss-cn-hangzhou.aliyuncs.com script allow
 woshipm.com woshipm.com cookie allow
+wps.cn ks3-cn-beijing.ksyun.com script allow
+wps.cn qn.cache.wpscdn.cn script allow
+wps.cn wps.cn cookie allow
 wsj.com api.wsj.net xhr allow
 wsj.com asset.wsj.net script allow
 wsj.com ore.wsj.net script allow
@@ -574,6 +588,7 @@ yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
 yxdown.com pb.pp8.com script allow
 zapals.com seal.geotrust.com script allow
+zdfans.com zdfans.com cookie allow
 zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
