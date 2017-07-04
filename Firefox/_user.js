@@ -1,4 +1,4 @@
-//2017.06.23
+//2017.07.04
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -23,6 +23,7 @@ var PREFS = {
 'browser.newtabpage.pinned': "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"https://www.ft.com/\",\"title\":\"Financial Times\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"http://www.wsj.com/\",\"title\":\"WSJ\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://open.163.com/\",\"title\":\"Open.163\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"}]",
  
 //*==========Firefox设置==========*//
+'browser.shell.checkDefaultBrowser': false,//不检查是否为默认浏览器
 'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
 
