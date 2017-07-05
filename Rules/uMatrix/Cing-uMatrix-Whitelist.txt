@@ -1,17 +1,10 @@
-matrix-off: 51job.com true
 matrix-off: about-scheme true
 matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
-matrix-off: cjol.com true
-matrix-off: doooor.com true
-matrix-off: lagou.com true
-matrix-off: liepin.com true
 matrix-off: localhost true
 matrix-off: opera-scheme true
-matrix-off: zhaopin.com true
 * * * block
-* * cookie block
 * * css allow
 * * image allow
 * * plugin allow
@@ -156,6 +149,7 @@ amazon.com amazon.com cookie allow
 amazon.com google.com.hk cookie allow
 amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
+apexmic.com apexmic.com cookie allow
 apple.com store.storeimages.cdn-apple.com script allow
 artstation.com artstation.com cookie allow
 asus.com asus.com cookie allow
@@ -189,6 +183,7 @@ chinavasion.com js.hscta.net script allow
 chiphell.com chiphell.com cookie allow
 cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
+cnbc.com js.cnbcfm.com script allow
 cnbeta.com cnbeta.com cookie allow
 convertio.co convertio.me xhr allow
 coolapk.com coolapk.com cookie allow
@@ -224,6 +219,7 @@ fasttech.com fasttechcdn.com script allow
 firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
 firefox.com firefox.com cookie allow
+firefox.com mozilla.net script allow
 firefox.net.cn www.firefox.net.cn cookie allow
 firefoxcn.net raw.githubusercontent.com xhr allow
 flyme.cn flyme.cn cookie allow
@@ -256,8 +252,8 @@ guokr.com www.guokr.com cookie allow
 guten.me guten.me cookie allow
 h2os.com statics.oneplus.cn script allow
 hainan.net tianyaui.com * allow
-hbr.org * other allow
 hbr.org 120.198.244.51 other allow
+hbr.org hbr.org cookie block
 hbr.org hwcdn.libsyn.com other inherit
 hbr.org traffic.libsyn.com other inherit
 hr0755.com www.hr0755.com cookie allow
@@ -300,6 +296,7 @@ jingoal.com jingoal.com cookie allow
 jobui.com jobui.com cookie allow
 juksy.com apis.google.com frame inherit
 juksy.com apis.google.com script inherit
+kafan.cn * cookie inherit
 kafan.cn aliapp.org * allow
 kafan.cn api.geetest.com script allow
 kafan.cn ikafan.com * allow
@@ -511,6 +508,7 @@ vancl.com vancl.com cookie allow
 vancl.com vanclimg.com script allow
 vetementswebsite.com * frame allow
 vetementswebsite.com i-d.vice.com frame allow
+virmach.com virmach.com cookie allow
 vultr.com vultr.com cookie allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
