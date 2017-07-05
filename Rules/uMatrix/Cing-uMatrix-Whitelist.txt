@@ -5,6 +5,7 @@ matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: opera-scheme true
 * * * block
+* * cookie block
 * * css allow
 * * image allow
 * * plugin allow
@@ -253,7 +254,6 @@ guten.me guten.me cookie allow
 h2os.com statics.oneplus.cn script allow
 hainan.net tianyaui.com * allow
 hbr.org 120.198.244.51 other allow
-hbr.org hbr.org cookie block
 hbr.org hwcdn.libsyn.com other inherit
 hbr.org traffic.libsyn.com other inherit
 hr0755.com www.hr0755.com cookie allow
