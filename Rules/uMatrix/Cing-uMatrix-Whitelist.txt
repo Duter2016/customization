@@ -191,7 +191,9 @@ coolapk.com coolapk.com cookie allow
 ctfile.com static.tv002.com script allow
 designspiration.net designspiration.net cookie allow
 designspiration.net dspncdn.com cookie allow
+deviantart.com deviantart.com cookie allow
 deviantart.com st.deviantart.net script allow
+deviantart.com www.da-ads.com * allow
 dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
 dianping.com www.dpfile.com script allow
@@ -248,6 +250,8 @@ google.com www.googleadservices.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
 greasyfork.org greasyfork.org cookie allow
+gsmarena.com s3-eu-west-1.amazonaws.com xhr allow
+gsmarena.com www.adiode.com xhr allow
 guokr.com account.guokr.com cookie allow
 guokr.com www.guokr.com cookie allow
 guten.me guten.me cookie allow
