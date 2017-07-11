@@ -1,4 +1,4 @@
-###Processlasso程式個人設置
+### Processlasso程式個人設置
 
 Customized Processlasso settings
 
@@ -17,7 +17,7 @@ Customized Processlasso settings
 
 Processlasso程序下載及購買: https://bitsum.com/processlasso/
 
-####Feature
+#### Feature
 
 - General PC Optimization
  - ProBalance retains system responsiveness during high loads by dynamic process priority and/or CPU affinity adjustments
