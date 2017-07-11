@@ -1,4 +1,4 @@
-//2017.07.06
+//2017.07.11
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -26,12 +26,11 @@ var PREFS = {
 'browser.shell.checkDefaultBrowser': false,//不检查是否为默认浏览器
 'layers.acceleration.disabled': true,//禁用硬件加速MacType才生效
 'signon.rememberSignons': false,//不保存密码
-'network.proxy.type': 4,//自动检测网络的代理设置
 'dom.disable_open_during_load': false,//拦截弹出式窗口(否)
 
 //证书
 'security.default_personal_cert': "Select Automatically",//自动选择一个个人证书
-'security.OCSP.enabled': 0,//禁用OCSP查询.导致页面加载慢,极端情况下延迟高达3秒
+'security.OCSP.enabled': 1,//启用OCSP查询,否则很多网站会出现配罝错误无法打开情况
 
 //字体语言编码
 'font.name.serif.zh-CN': "Arial",//衬线字体
