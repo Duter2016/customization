@@ -30,7 +30,7 @@ var PREFS = {
 
 //证书
 'security.default_personal_cert': "Select Automatically",//自动选择一个个人证书
-'security.OCSP.enabled': 1,//启用OCSP查询,否则很多网站会出现配罝错误无法打开情况
+'security.OCSP.enabled': 0,//禁用OCSP查询
 
 //字体语言编码
 'font.name.serif.zh-CN': "Arial",//衬线字体
