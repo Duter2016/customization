@@ -164,11 +164,6 @@ var PREFS = {
 //FlashBlock
 'flashblock.silverlight.blocked': true,//同样阻止Silverlight
 
-//FlashDisable
-'extensions.jid0-bbA9VAawX3LMWDu668aUDrpQVXU@jetpack.autoreload': true,//激活Flash时自动重载当前页面
-'extensions.jid0-bbA9VAawX3LMWDu668aUDrpQVXU@jetpack.disableOnStartup': true,//启动Firefox时自动禁止Flash
-'extensions.jid0-bbA9VAawX3LMWDu668aUDrpQVXU@jetpack.useClickToPlay': true,//启用Flash时,使用"点击激活"而不是"永久激活"模式
-
 //*==========脚本设置==========*//
 //InspectElementModY
 'userChromeJS.InspectElement.contentType': 2,//查看页面:Dom Inspector
