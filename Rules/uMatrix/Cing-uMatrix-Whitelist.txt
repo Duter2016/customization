@@ -115,9 +115,14 @@ matrix-off: opera-scheme true
 163.com mimg.127.net script allow
 163.com music.126.net script allow
 163.com music.163.com frame allow
+163.com nos.netease.com script allow
 163.com r.ph.126.net script allow
 163.com s2.open.126.net script allow
 163.com ursdoccdn.nosdn.127.net script allow
+1688.com 1688.com cookie allow
+1688.com login.taobao.com * allow
+1688.com passport.taobao.com * allow
+1688.com taobao.com cookie allow
 17173.com j.v.17173cdn.com script allow
 17173.com ue8.17173.itc.cn script allow
 189.cn 121.41.122.89 script allow
@@ -234,6 +239,7 @@ forbes.com i.forbesimg.com script allow
 freebuf.com static.3001.net script allow
 ftchinese.com bokecc.com script allow
 gaode.com amap.com script allow
+gaode.com vdata.amap.com xhr allow
 gaoqing.la static.duoshuo.com script allow
 geekpark.net qnssl.com script allow
 getpocket.com getpocket.com cookie allow
@@ -327,6 +333,7 @@ lightinthebox.com litbjscss.rightinthebox.com script allow
 linkedin.com linkedin.com cookie allow
 linkedin.com s.c.lnkd.licdn.com script allow
 linkedin.com static.licdn.com script allow
+linode.com linode.com cookie allow
 listary.com listary.com cookie allow
 lrts.me lrts.me cookie allow
 lrts.me wting.info other allow
@@ -436,6 +443,7 @@ smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
 so.com qhmsg.com script allow
 so.com qhres.com script allow
+sohu.com cdn.sohucs.com script allow
 sohu.com itc.cn script allow
 sohu.com js.tv.itc.cn script allow
 sohu.com tv.sohu.com * inherit
