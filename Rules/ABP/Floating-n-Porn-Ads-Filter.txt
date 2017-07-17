@@ -15,6 +15,9 @@
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
 
+! 1688
+detail.1688.com##.sufei-dialog-jquery.sufei-dialog
+
 ! 网易
 163.com##.clearfix.bobo-wrap
 comment.v.163.com##.wrapper.top-banner
@@ -27,6 +30,7 @@ open.163.com##.appdown
 ! 18H禁
 18h.mm-cg.com##.UT_thread
 18h.mm-cg.com##UL
+||18h.mm-cg.com/adcg/*.gif$image
 
 ! 速卖通
 aliexpress.com##.ui-mask

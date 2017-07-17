@@ -72,7 +72,7 @@ var PREFS = {
 'browser.send_pings': false,//禁止Hyperlink Auditing/Beacon: Hyperlink Auditing 就是 ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器，Hyperlink Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
 'browser.newtabpage.directory.ping': "",//禁止新标签页面的建议磁贴和增强磁贴
 'browser.urlbar.suggest.searches': false,//禁止地址栏搜索提供搜索建议
-'media.mediasource.enabled': false,//disable DASH on all HTML5 video players
+'media.mediasource.enabled': false,//关闭DASH,加载全部视频
 
 //*=FX其它类=*/
 /**
