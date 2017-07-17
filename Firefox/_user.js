@@ -1,4 +1,4 @@
-//2017.07.12
+//2017.07.17
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -72,7 +72,7 @@ var PREFS = {
 'browser.send_pings': false,//禁止Hyperlink Auditing/Beacon: Hyperlink Auditing 就是 ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器，Hyperlink Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
 'browser.newtabpage.directory.ping': "",//禁止新标签页面的建议磁贴和增强磁贴
 'browser.urlbar.suggest.searches': false,//禁止地址栏搜索提供搜索建议
-'media.mediasource.enabled': false,//关闭DASH,加载全部视频
+//'media.mediasource.enabled': false,//关闭DASH,加载全部视频
 
 //*=FX其它类=*/
 /**
@@ -105,8 +105,6 @@ var PREFS = {
 'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites': true,//将匹配网站移动到顶部菜单
 'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.RepromptTime': 86400,//免验证24小时
 'extensions.lastpass.loginpws': "",//不保存密码
-'extensions.lastpass.version': "1000.3.4",//调大版本号,不更新到4.x版
-'extensions.support@lastpass.com.sdk.version': "1000.3.4",//调大版本号,不更新到4.x版
 'extensions.lastpass.prevHkKeyCode': 38,//上一个密码(方向键:上)
 'extensions.lastpass.prevHkMods': "alt",//上一个密码(Alt)
 'extensions.lastpass.nextHkKeyCode': 40,//下一个密码(方向键:下)
@@ -160,9 +158,6 @@ var PREFS = {
 'extensions.simpleproxy.port.1': 1080,
 'extensions.simpleproxy.protocol.0': "socks",
 'extensions.simpleproxy.protocol.1': "socks",
-
-//FlashBlock
-'flashblock.silverlight.blocked': true,//同样阻止Silverlight
 
 //*==========脚本设置==========*//
 //InspectElementModY
