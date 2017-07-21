@@ -15,6 +15,9 @@
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
 
+! 乐视
+|http://*/letv-gug/
+
 ! 1688
 detail.1688.com##.sufei-dialog-jquery.sufei-dialog
 
