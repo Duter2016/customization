@@ -255,6 +255,7 @@ google.com www.google-analytics.com script allow
 google.com www.googleadservices.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
+google.com youtube.googleapis.com * allow
 greasyfork.org greasyfork.org cookie allow
 gsmarena.com s3-eu-west-1.amazonaws.com xhr allow
 gsmarena.com www.adiode.com xhr allow
@@ -268,6 +269,7 @@ hbr.org hwcdn.libsyn.com other inherit
 hbr.org traffic.libsyn.com other inherit
 hr0755.com www.hr0755.com cookie allow
 huawei.com consumer-res.huaweistatic.com script allow
+huawei.com res.c.huaweistatic.com script allow
 huihui.cn shared.ydstatic.com script allow
 huihui.cn webzj.reg.163.com frame allow
 huihui.cn webzj.reg.163.com script allow
@@ -321,6 +323,7 @@ kknews.cc cdn.jsdelivr.net script allow
 kugou.com kugou.com cookie allow
 kugou.com static.5sing.kugou.com frame allow
 lagou.com lagou.com cookie allow
+landiannews.com static.lancdn.com script allow
 lastpass.com lastpass.com cookie allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
@@ -369,6 +372,7 @@ opera.com www-static.operacdn.com script allow
 oray.com oray.com cookie allow
 oray.com static.orayimg.com script allow
 oschina.net oschina.net cookie allow
+panda.tv pdim.gs script allow
 pconline.com.cn 3conline.com script allow
 pdawiki.com touclick.com script allow
 people.cn res.wx.qq.com script allow
@@ -419,6 +423,7 @@ sanguosha.com login.dobest.com script allow
 segmentfault.com sf-static.b0.upaiyun.com script allow
 shanbay.com static.baydn.com script allow
 shanbay.com www.shanbay.com cookie allow
+sina.cn mjs.sinaimg.cn xhr allow
 sina.com.cn passport.sina.cn script allow
 sina.com.cn passport.weibo.cn script allow
 sina.com.cn passport.weibo.com script allow
