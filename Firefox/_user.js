@@ -1,4 +1,4 @@
-//2017.07.17
+//2017.07.25
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -62,6 +62,9 @@ var PREFS = {
 'plugins.hide_infobar_for_outdated_plugin': true,//过期插件不提示
 'plugins.hide_infobar_for_blocked_plugin': true,//插件屏蔽选择不提示
 'extensions.blocklist.enabled': false,//关闭flash版本过旧被屏蔽的提示
+
+//Quantum Flow
+'layers.gpu-process.dev.enabled': true,//强制启用Quantum Compositor
 
 //*=隐私相关=*//
 //其它隐私相关
@@ -136,6 +139,7 @@ var PREFS = {
 //iMacros
 'extensions.imacros.delay': 1000,//播放速度中等
 'extensions.imacros.noloopwarning': true,//运行的提示(否)
+'extensions.imacros.id-priority': false,//Favor element ids in selectors (否)
 
 //Pocket(Readitlater)
 'extensions.isreaditlater.open': "tab",//新标签打开项目
