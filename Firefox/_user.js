@@ -65,6 +65,7 @@ var PREFS = {
 
 //Quantum Flow
 'layers.gpu-process.dev.enabled': true,//强制启用Quantum Compositor
+'layout.css.servo.enabled': true,//强制启用Stylo样式引擎
 
 //*=隐私相关=*//
 //其它隐私相关
