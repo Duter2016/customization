@@ -140,7 +140,7 @@
    },
    "check_update": {
       "last_check_local_version": "5.00.2581",
-      "last_check_time": "13142672143113389"
+      "last_check_time": "13145943817699540"
    },
    "general": {
       "check_updates": false,
@@ -155,6 +155,7 @@
       "track_history": false
    },
    "hotkey": {
+      "main": 0,
       "popup_menu": 17414
    },
    "keywords": {
