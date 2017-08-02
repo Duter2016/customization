@@ -164,6 +164,7 @@ var PREFS = {
 'extensions.simpleproxy.protocol.0': "socks",
 'extensions.simpleproxy.protocol.1': "socks",
 
+
 //*==========脚本设置==========*//
 //InspectElementModY
 'userChromeJS.InspectElement.contentType': 2,//查看页面:Dom Inspector
