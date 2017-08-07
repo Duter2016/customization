@@ -182,8 +182,16 @@ baomitu.com s.ssl.qhimg.com script allow
 battlenet.com.cn battlenet.com.cn cookie allow
 bilibili.com acgvideo.com xhr allow
 bilibili.com bilibili.com cookie allow
+bitwarden.com bitwarden.com cookie allow
+bitwarden.com stripe.com * allow
+bitwarden.com stripe.network * allow
 blizzard.cn account.bnet.163.com script allow
 blizzard.cn flv.bn.netease.com other allow
+btbtdy.com api-city.livere.com script allow
+btbtdy.com cdn-city.livere.com script allow
+btbtdy.com livere.me frame allow
+btbtdy.com livere.me script allow
+btbtdy.com passport.livere.com script allow
 cellzmate.com cellzmate.com cookie allow
 chinavasion.com js.hscta.net script allow
 chiphell.com chiphell.com cookie allow
@@ -281,6 +289,8 @@ ibm.com s81c.com script allow
 icourses.cn icourses.cn cookie allow
 ifeng.com ifengimg.com script allow
 ifeng.com y3.ifengimg.com * inherit
+imgbb.com imgbb.com cookie allow
+imgbb.com simgbb.com script allow
 inoreader.com connect.facebook.net script allow
 inoreader.com www.inoreader.com cookie allow
 instagram.com instagramstatic-a.akamaihd.net script allow
@@ -452,6 +462,7 @@ sohu.com cdn.sohucs.com script allow
 sohu.com itc.cn script allow
 sohu.com js.tv.itc.cn script allow
 sohu.com tv.sohu.com * inherit
+sohu.com world.huanqiu.com frame allow
 stackexchange.com stackexchange.com cookie allow
 stackoverflow.com cdn.sstatic.net script allow
 stackoverflow.com stackoverflow.com cookie allow
