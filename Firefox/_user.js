@@ -1,4 +1,4 @@
-//2017.07.25
+//2017.08.08
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -95,6 +95,8 @@ var PREFS = {
 'browser.tabs.closeWindowWithLastTab': false,//关闭最后一个标签时不关闭Firefox
 'browser.link.open_newwindow.restriction': 0,//单窗口模式(弹出窗口用标签打开)
 'security.sandbox.content.level': 3,//沙盒级別
+'extensions.pocket.enabled': false,//自带Pocket(禁用)
+'extensions.screenshots.disabled': true,//自带截图(禁用)
 
 //*==========扩展设置==========*//
 

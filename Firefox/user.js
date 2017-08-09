@@ -62,3 +62,9 @@ user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用�
  *这里是个人设置。
  *******************************************************************************************/
 //个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
+/*user_pref("extensions.VimFx.config_file_directory", "D:\\Program Files\\CingFox\\Profiles\\chrome\\Local\\VimFx");
+user_pref("extensions.imacros.defdatapath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Datasources");
+user_pref("extensions.imacros.defdownpath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Downloads");
+user_pref("extensions.imacros.defsavepath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Macros");
+user_pref("view_source.editor.path", "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe");
+user_pref("extensions.greasemonkey.editor", "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe");*/
