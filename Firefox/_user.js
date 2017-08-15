@@ -1,4 +1,4 @@
-//2017.08.08
+//2017.08.10
 
 const EXPORTED_SYMBOLS = ['PREFS']
 
@@ -8,10 +8,7 @@ var PREFS = {
  *******************************************************************************************/
  
 //*==========多进程==========*//
-/*'browser.tabs.remote.force-enable': true,
-'extensions.e10sBlocksEnabling': false,//扩展禁用列表
-'extensions.e10sBlockedByAddons': false,//扩展禁用列表
-'dom.ipc.processCount': 4,//进程数(最大支持8)*/
+'dom.ipc.processCount': 7,//进程数(最大支持7)
 'extensions.allow-non-mpc-extensions': true,//强制开启非多进程扩展
 
 //*==========主页==========*//
@@ -65,7 +62,6 @@ var PREFS = {
 
 //Quantum Flow
 'layers.gpu-process.dev.enabled': true,//强制启用Quantum Compositor
-'layout.css.servo.enabled': true,//强制启用Stylo样式引擎
 
 //*=隐私相关=*//
 //其它隐私相关
@@ -87,7 +83,6 @@ var PREFS = {
 'browser.sessionstore.interval': 600000,//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为10分钟
 
 //其它FX
-'general.skins.selectedSkin': "simplewhitex",//使用SimpleWhite主题
 'gfx.content.azure.backends': "direct2d1.1,cairo",//图形渲染;FX52默认的Skia不支持Mactype
 'view_source.editor.external': true,//页面源代码——使用外部编辑器查看
 'browser.backspace_action': 2,//禁止Backspace键返回上一页
@@ -99,25 +94,6 @@ var PREFS = {
 'extensions.screenshots.disabled': true,//自带截图(禁用)
 
 //*==========扩展设置==========*//
-
-//Autoproxy
-'extensions.autoproxy.customProxy': "Shadowsocks;;1080;socks$XX-Mini;;8087;$Lantern;;8787;$Psiphon;;8080;$Free%20Gate;;8580;",
-'extensions.autoproxy.patternsbackups': 0,
-'extensions.autoproxy.defaultstatusbaraction': 0,//点击图标时-快捷菜单
-'extensions.autoproxy.defaulttoolbaraction': 0,//点击图标时-快捷菜单
-
-
-//LastPass
-'extensions.lastpass.hidecontextmenu': true,
-'extensions.lastpass.showHomepageAfterLogin': false,//登入后不转到密码库
-'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.toplevelmatchingsites': true,//将匹配网站移动到顶部菜单
-'extensions.lastpass.0a148091163b8a7de3368af449db2947c700bea1552b01964d4ae55f930562e0.RepromptTime': 86400,//免验证24小时
-'extensions.lastpass.loginpws': "",//不保存密码
-'extensions.lastpass.prevHkKeyCode': 38,//上一个密码(方向键:上)
-'extensions.lastpass.prevHkMods': "alt",//上一个密码(Alt)
-'extensions.lastpass.nextHkKeyCode': 40,//下一个密码(方向键:下)
-'extensions.lastpass.nextHkMods': "alt",//下一个密码(Alt)
-
 //FlashGot
 'flashgot.hide-all': true,
 'flashgot.hide-buildGallery': true,
@@ -129,31 +105,9 @@ var PREFS = {
 'flashgot.omitCookies': true,//不发送Cookie
 'flashgot.firstRunRedirection': false,//重建配置不弹FlashGot首页
 
-//DownThemAll！
-'extensions.dta.conflictresolution': 0,//文档已存在时自动重命名
-'extensions.dta.alertbox': 0,//下载完成后对话窗口提示
-'extensions.dta.closedta': true,//辩识并列出Flash影片
-'extensions.dta.ctxmenu': "0,0,0",//不显示右键菜单
-'extensions.dta.confirmremove': false,//移除下载前不提示
-'extensions.dta.loadendfirst': 4096,//先下载最后一段数据(KB)
-
-//Greasemonkey
-'extensions.greasemonkey.stats.prompted': true,//不弹改进建议提示
-'extensions.greasemonkey.installDelay': 0,//安装时的倒计时
-
 //iMacros
 'extensions.imacros.delay': 1000,//播放速度中等
 'extensions.imacros.noloopwarning': true,//运行的提示(否)
-
-//Pocket(Readitlater)
-'extensions.isreaditlater.open': "tab",//新标签打开项目
-'extensions.isreaditlater.show-count': true,//显示未读计数
-'extensions.isreaditlater.show-date': true,//显示日期
-'extensions.isreaditlater.list-place': "sidebar",//在(侧边栏)打开列表
-'extensions.isreaditlater.showStatusIconClick': "hide",
-'extensions.isreaditlater.showStatusIconShare': "hide",
-'extensions.isreaditlater.showStatusIconText': "hide",
-'extensions.isreaditlater.autoOffline': false,//自动离线(否)
 
 //SimpleProxy
 'extensions.simpleproxy.address.0': "127.0.0.1",
@@ -169,14 +123,6 @@ var PREFS = {
 
 
 //*==========脚本设置==========*//
-//InspectElementModY
-'userChromeJS.InspectElement.contentType': 2,//查看页面:Dom Inspector
-'userChromeJS.InspectElement.mainWinType': 2,//查看窗口:Dom Inspector
-
-//GrabScroll
-'grabScroll.button': 1,//使用GrabScroll抓取的键位：中键
-'grabScroll.clickable': false,//能够在链接上使用GrabScroll
-
 //*=newDownloadPlus=*//
 //主界面
 'userChromeJS.downloadPlus.downloadSound_Play': true,//下载完成提示音
@@ -216,8 +162,5 @@ var PREFS = {
 'userChromeJS.FeiRuoTabplus.NewTabNear': 2,//新建标签在(当前右边)
 'userChromeJS.FeiRuoTabplus.ColseToNearTab': 1,//关闭标签转到(当前左边)
 'userChromeJS.FeiRuoTabplus.NewTabExcludeUrl': "^(javascript:)\n^(imacros:)",//URL在当前页打开
-
-//FeiRuoMouse
-
 
 }
