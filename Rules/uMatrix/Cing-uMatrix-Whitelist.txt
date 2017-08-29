@@ -206,6 +206,7 @@ cjol.com cjol.com cookie allow
 cjol.com js.cjolimg.com script allow
 cnbc.com js.cnbcfm.com script allow
 cnbeta.com cnbeta.com cookie allow
+cnn.com verticals.static.cnn.io script allow
 convertio.co convertio.me xhr allow
 coolapk.com coolapk.com cookie allow
 ctfile.com static.tv002.com script allow
@@ -256,6 +257,7 @@ ftchinese.com bokecc.com script allow
 gaode.com amap.com script allow
 gaode.com vdata.amap.com xhr allow
 gaoqing.la static.duoshuo.com script allow
+gearbest.com css.gbtcdn.com script allow
 geekpark.net qnssl.com script allow
 getpocket.com getpocket.com cookie allow
 github.com github.com cookie allow
