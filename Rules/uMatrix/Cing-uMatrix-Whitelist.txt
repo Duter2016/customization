@@ -1,15 +1,20 @@
+https-strict: behind-the-scene false
 matrix-off: about-scheme true
 matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: opera-scheme true
+referrer-spoof: behind-the-scene false
+ua-spoof: behind-the-scene false
 * * * block
 * * cookie block
 * * css allow
+* * frame block
 * * image allow
-* * plugin allow
+* * media allow
 * 1st-party * allow
+* 1st-party frame allow
 * 71.am * block
 * a.alipayobjects.com script allow
 * accounts.google.com * allow
@@ -149,6 +154,7 @@ alibaba.com alibaba.com cookie allow
 alibaba.com stylessl.aliunicorn.com script allow
 aliexpress.com aeu.alicdn.com script allow
 aliexpress.com aliexpress.com cookie allow
+aliexpress.com is.alicdn.com frame allow
 ama.org ama.org cookie allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com amazon.com cookie allow
@@ -180,6 +186,7 @@ baike.com www.huimg.cn script allow
 bandwagonhost.com bandwagonhost.com cookie allow
 baomitu.com s.ssl.qhimg.com script allow
 battlenet.com.cn battlenet.com.cn cookie allow
+bilibili.com acgvideo.com other allow
 bilibili.com acgvideo.com xhr allow
 bilibili.com bilibili.com cookie allow
 bitwarden.com bitwarden.com cookie allow
@@ -264,6 +271,7 @@ google.com www.googleadservices.com script allow
 google.com www.gstatic.com script allow
 google.com www.gstatic.com xhr allow
 google.com youtube.googleapis.com * allow
+googleusercontent.com googleusercontent.com cookie allow
 greasyfork.org greasyfork.org cookie allow
 gsmarena.com s3-eu-west-1.amazonaws.com xhr allow
 gsmarena.com www.adiode.com xhr allow
@@ -295,6 +303,7 @@ inoreader.com connect.facebook.net script allow
 inoreader.com www.inoreader.com cookie allow
 instagram.com instagramstatic-a.akamaihd.net script allow
 iplaysoft.com upcdn.b0.upaiyun.com script allow
+iqiyi.com * other allow
 iqiyi.com cache.video.qiyi.com script allow
 itanzi.com cdnxdc.tanzi88.com other allow
 itanzi.com cdsb.mobi script allow
@@ -421,6 +430,7 @@ quora.com ssl.gstatic.com script allow
 quora.com www.google.com cookie allow
 quora.com www.google.com script allow
 quora.com www.gstatic.com script allow
+quotev.com quotev.com cookie allow
 raindrop.io raindrop.io cookie allow
 raindrop.io widget.intercom.io script allow
 repaik.com repaik.com cookie allow
@@ -630,6 +640,7 @@ zihu.tv yun.zihu.tv frame allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
 zimuzu.tv js.zmzjstu.com script allow
+zimuzu.tv renren.maoyun.tv script allow
 zimuzu.tv zimuzu.tv cookie allow
 zmz2017.com zmz2017.com cookie allow
 zmz2017.com zmzjstu.com script allow
