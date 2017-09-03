@@ -51,6 +51,9 @@ bbs.kafan.cn###scrolltop
 bbs.kafan.cn##.bm_h
 bbs.kafan.cn##.ptn.xg2
 bbs.kafan.cn##SPAN[style="float:left;margin-right:5px"]
+
+! 天涯
+focus.tianya.cn##.custom_css1211105325.cf.space.tui-section.tui-list-box > .cf.bd
 bbs.tianya.cn###dsvips60447 > .ds_seat_foot > .btnOpen
 bbs.tianya.cn###host-stocks-box
 bbs.tianya.cn###niuren_ifm
