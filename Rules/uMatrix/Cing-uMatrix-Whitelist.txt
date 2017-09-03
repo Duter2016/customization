@@ -189,6 +189,7 @@ battlenet.com.cn battlenet.com.cn cookie allow
 bilibili.com acgvideo.com other allow
 bilibili.com acgvideo.com xhr allow
 bilibili.com bilibili.com cookie allow
+bing.com bing.com cookie allow
 bitwarden.com bitwarden.com cookie allow
 bitwarden.com stripe.com * allow
 bitwarden.com stripe.network * allow
@@ -238,6 +239,8 @@ ebay.com vi.vipr.ebaydesc.com frame allow
 ebay.com vi.vipr.ebaydesc.com script allow
 economist.com admin.brightcove.com script allow
 economist.com cdn.static-economist.com script allow
+esri.com arcgis.github.io xhr allow
+esri.com unpkg.com script allow
 facebook.com facebook.com cookie allow
 fasttech.com fasttechcdn.com script allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -420,6 +423,7 @@ qq.com mat1.gtimg.com script allow
 qq.com pingjs.qq.com * inherit
 qq.com qq.com cookie allow
 qq.com qzonestyle.gtimg.cn script allow
+qq.com rescdn.qqmail.com script allow
 qq.com url.cn script allow
 qq.com vm.gtimg.cn script allow
 quora.com accounts.google.com frame allow
