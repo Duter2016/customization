@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.1.0",
-    "createdAt": "2017-08-22T01:31:23.893Z",
+    "createdAt": "2017-09-04T06:37:38.968Z",
     "redirects": [
         {
             "description": "微信图片 反盗链",
@@ -179,23 +179,6 @@
             ]
         },
         {
-            "description": "去除dilidili广告",
-            "exampleUrl": "http://static.jfrft.com/js/main_video.js?_=1502433512701",
-            "exampleResult": "https://connect.rom.miui.com/generate_204",
-            "error": null,
-            "includePattern": "http://static.jfrft.com/js/*",
-            "excludePattern": "",
-            "redirectUrl": "https://connect.rom.miui.com/generate_204",
-            "patternType": "W",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame",
-                "script",
-                "xmlhttprequest"
-            ]
-        },
-        {
             "description": "去Feedly跳转",
             "exampleUrl": "http://app.wumii.com/ext/redirect?url=http%3A%2F%2Ffree.apprcn.com%2Fget-steam-game-the-orb-chambers-for-free-7%2F&from=http%3A%2F%2Ffree.apprcn.com%2Fget-steam-game-contract-with-the-devil-for-free%2F",
             "exampleResult": "http://free.apprcn.com/get-steam-game-the-orb-chambers-for-free-7/",
@@ -367,37 +350,6 @@
             "redirectUrl": "$1",
             "patternType": "R",
             "processMatches": "urlDecode",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "去天猫商品链接多余参数",
-            "exampleUrl": "https://detail.tmall.com/item.htm?id=539367366683&cm_id=140105335569ed55e27b&abbucket=3&skuId=3231679136985",
-            "exampleResult": "https://detail.tmall.com/item.htm?id=539367366683",
-            "error": null,
-            "includePattern": "(https://detail\\.tmall\\.com/item.htm\\?).*?(id=\\d+).*",
-            "excludePattern": "",
-            "redirectUrl": "$1$2",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame",
-                "sub_frame"
-            ]
-        },
-        {
-            "description": "去淘宝商品链接多余参数",
-            "exampleUrl": "https://world.taobao.com/item/38511133980.htm?fromSite=main&spm=a312a.7700846.0.0.y86A2H&_u=e1i52ae3e7ea",
-            "exampleResult": "https://world.taobao.com/item/38511133980.htm",
-            "error": null,
-            "includePattern": "https://(world|detail)\\.taobao\\.com/item/(\\d+\\.htm)\\?.+",
-            "excludePattern": "",
-            "redirectUrl": "https://$1.taobao.com/item/$2",
-            "patternType": "R",
-            "processMatches": "noProcessing",
             "disabled": false,
             "appliesTo": [
                 "main_frame"
@@ -593,21 +545,6 @@
             "redirectUrl": "http$1",
             "patternType": "W",
             "processMatches": "urlDecode",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "USO>>mirror",
-            "exampleUrl": "http://userscripts.org/scripts/show/172936",
-            "exampleResult": "http://userscripts-mirror.org/scripts/show/172936",
-            "error": null,
-            "includePattern": "http*://userscripts.org*/*",
-            "excludePattern": "",
-            "redirectUrl": "http://userscripts-mirror.org/$3",
-            "patternType": "W",
-            "processMatches": "noProcessing",
             "disabled": false,
             "appliesTo": [
                 "main_frame"
