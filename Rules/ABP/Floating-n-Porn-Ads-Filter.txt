@@ -15,6 +15,9 @@
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
 
+! 字幕组
+www.zimuzu.tv###help
+
 ! 乐视
 |http://*/letv-gug/
 
