@@ -1,6 +1,6 @@
 {
     "createdBy": "Redirector v3.1.0",
-    "createdAt": "2017-09-04T06:37:38.968Z",
+    "createdAt": "2017-09-09T01:23:49.515Z",
     "redirects": [
         {
             "description": "微信图片 反盗链",
@@ -16,12 +16,7 @@
             "appliesTo": [
                 "main_frame",
                 "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
+                "image"
             ]
         },
         {
@@ -37,13 +32,7 @@
             "disabled": false,
             "appliesTo": [
                 "main_frame",
-                "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
+                "sub_frame"
             ]
         },
         {
@@ -103,13 +92,7 @@
             "disabled": false,
             "appliesTo": [
                 "main_frame",
-                "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
+                "sub_frame"
             ]
         },
         {
@@ -126,11 +109,6 @@
             "appliesTo": [
                 "main_frame",
                 "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
                 "other"
             ]
         },
@@ -148,12 +126,7 @@
             "appliesTo": [
                 "main_frame",
                 "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
+                "stylesheet"
             ]
         },
         {
@@ -165,58 +138,6 @@
             "excludePattern": "",
             "redirectUrl": "http://master.dl.sourceforge.net/project/$1/$4",
             "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame",
-                "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
-            ]
-        },
-        {
-            "description": "去Feedly跳转",
-            "exampleUrl": "http://app.wumii.com/ext/redirect?url=http%3A%2F%2Ffree.apprcn.com%2Fget-steam-game-the-orb-chambers-for-free-7%2F&from=http%3A%2F%2Ffree.apprcn.com%2Fget-steam-game-contract-with-the-devil-for-free%2F",
-            "exampleResult": "http://free.apprcn.com/get-steam-game-the-orb-chambers-for-free-7/",
-            "error": null,
-            "includePattern": "http://app.wumii.com/ext/redirect?url=*&from=*",
-            "excludePattern": "",
-            "redirectUrl": "$1",
-            "patternType": "W",
-            "processMatches": "urlDecode",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "CSDN手机版>>PC版",
-            "exampleUrl": "http://m.blog.csdn.net/lvshaorong/article/details/52788521",
-            "exampleResult": "http://blog.csdn.net/lvshaorong/article/details/52788521",
-            "error": null,
-            "includePattern": "http://m.blog.csdn.net/*",
-            "excludePattern": "",
-            "redirectUrl": "http://blog.csdn.net/$1",
-            "patternType": "W",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "动漫之家PC版>>手机版",
-            "exampleUrl": "http://manhua.dmzj.com/yuekanshaonvyeqijun/56044.shtml",
-            "exampleResult": "http://m.dmzj.com/view/yuekanshaonvyeqijun/56044.html",
-            "error": null,
-            "includePattern": "http://manhua.dmzj.com/*.shtml",
-            "excludePattern": "",
-            "redirectUrl": "http://m.dmzj.com/view/$1.html",
-            "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
             "appliesTo": [
@@ -316,28 +237,6 @@
             "disabled": false,
             "appliesTo": [
                 "main_frame"
-            ]
-        },
-        {
-            "description": "微信图片http>>https",
-            "exampleUrl": "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6m3oHDlAG50VCGgXic7Dib3seArJjkpiaSVZHJDFYD00S5Q/0",
-            "exampleResult": "https://wx.qlogo.cn/mmhead/Q3auHgzwzM6m3oHDlAG50VCGgXic7Dib3seArJjkpiaSVZHJDFYD00S5Q/0",
-            "error": null,
-            "includePattern": "http(://.+)(qpic\\.cn|qlogo\\.cn)(.+)",
-            "excludePattern": "",
-            "redirectUrl": "https$1$2$3",
-            "patternType": "R",
-            "processMatches": "noProcessing",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame",
-                "sub_frame",
-                "stylesheet",
-                "script",
-                "image",
-                "object",
-                "xmlhttprequest",
-                "other"
             ]
         },
         {
@@ -468,21 +367,6 @@
             "includePattern": "https://www.douban.com/link*/?url=*",
             "excludePattern": "",
             "redirectUrl": "$2",
-            "patternType": "W",
-            "processMatches": "urlDecode",
-            "disabled": false,
-            "appliesTo": [
-                "main_frame"
-            ]
-        },
-        {
-            "description": "去Google搜索跳转",
-            "exampleUrl": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwin3sPl8s_MAhVBVGMKHZROAjYQFggjMAE&url=http%3A%2F%2Flife.nju.edu.cn%2F%3Fmod%3D%25D1%25A7%25D4%25BA%25B8%25C5%25BF%25F6%26fun%3D%25BD%25CC%25CA%25A6%25C3%25FB%25C2%25BC%26name%3D%25C0%25BC%25CE%25C4%25D6%25C7%26id%3D40&usg=AFQjCNEKdBXsJMUsl6e5CCX6F-y-M_Pdxg&sig2=U0oZucAse0pNgCW1fJcuLw",
-            "exampleResult": "http://life.nju.edu.cn/?mod=%D1%A7%D4%BA%B8%C5%BF%F6&fun=%BD%CC%CA%A6%C3%FB%C2%BC&name=%C0%BC%CE%C4%D6%C7&id=40",
-            "error": null,
-            "includePattern": "https://www.google.com/url?*&ved=*&url=*&usg=*",
-            "excludePattern": "https://www.google.com.*/maps?*",
-            "redirectUrl": "$3",
             "patternType": "W",
             "processMatches": "urlDecode",
             "disabled": false,
