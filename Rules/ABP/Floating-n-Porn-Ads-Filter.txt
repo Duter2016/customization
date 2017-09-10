@@ -15,6 +15,45 @@
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
 
+! 爱奇艺(来源于adbyby)
+61.iqiyi.com###J_ad_patch,.ad_box,[id^="J_ads"]
+@@|http://api.cupid.iqiyi.com/show2?u=*&a=qc_100001_100141
+@@|http://api.cupid.iqiyi.com/show2?u=*&a=qc_100001_100142
+@@|http://www.iqiyi.com/common/flashplayer/201*.swf
+^http://www\.iqiyi\.com/common/flashplayer/\d{8}\/\w{32}\.swf
+dm456.com,dm456.iqiyi.com##DIV[style*="height:90px;"],IFRAME[width="978"][height="90"],IFRAME[src^="/m/"],DIV#bdLeft,IFRAME[width="980"][height="92"],DIV#p-right,DIV#p-left
+iqiyi.com##div[id^="1000000000"],div.crossAd.margin_b20,div#widget-indexad.ad-index,embed[src^="' + adurl + '"],#adflash,div.ad-wrapper.clearfix,[id^="flash1000000000"],div#addiv,div.s_main.liveTop_adv,div.leftAd,div.vip_rec_main,div[data-widget-3rdads="3rdads"],div.first_column,div#widget-jingdongAd,a.skin_link,div.rightAdv,div.banner,.banner980,.mzb_new,.m-downApp,.client_popup
+m.iqiyi.com##div#shortcut,div.banner_inner.bd-large.aaaa,div.appBar
+|http://am.cupid.iqiyi.com/am
+|http://api.cupid.iqiyi.com/mixer
+|http://api.cupid.iqiyi.com/show2?a=qc_100001_100329&
+|http://api.cupid.iqiyi.com/show2?u=*&a=qc_100001_300144
+|http://cache.m.iqiyi.com/jp/tmts/$s@,"ad":1,@,"ad":0,@
+|http://cbjs.$script,domain=~www.colafile.com|~61.iqiyi.com|~61.hz.letv.com|~play.v.61.com|~7958.com|~www.u148.net|~www.redocn.com|~www.narutom.com|~tiexue.net|~xdf.cn
+|http://iface.iqiyi.com/api/getNewAdInfo?key=
+|http://iface2.iqiyi.com/php/xyz/entry/$s@"ad_str":@"":@
+|http://nl.rcd.iqiyi.com/cro
+|http://t7z.cupid.iqiyi.com/mixer*=qc_100001_$s@"adSlots":[{"ads":@"adSlots":[{"":@
+|http://t7z.cupid.iqiyi.com/mixer*=qc_100001_$s@"i":"qc_100001_100???",@"i":"qc_100001_100141",@
+|http://t7z.cupid.iqiyi.com/show2?*&a=qc_100001_300144&
+|http://t7z.cupid.iqiyi.com/show2?a=qc_100001_100329&
+|http://www.iqiyi.com/*.html?key=$f@s@\.html\?key=.*@.html@
+|http://www.iqiyi.com/common/clientPopLstyle.html
+|http://www.iqiyi.com/common/flashplayer/201*af8f6df.swf$r@http://www.adbyby.com/images/iqiyi5d.swf
+||api.cupid.iqiyi.com/policy2
+||cupid.iqiyi.com/mixer?a*=qc_100001_100
+||cupid.iqiyi.com/show2^*a=qc_100001_$s@"a":[{"ds":?,"p":??,*}]}],"inv":@"a":[]}],"inv":@
+||iqiyi.com/*.html$s@&cpnv=1.0@@
+||iqiyi.com/*.html$s@,cid:""@,cid:"qc_100001_100141"@
+||iqiyi.com/*.html$s@cid=&@cid=qc_100001_100141&@
+||iqiyi.com/*.html$s@cid=qc_100001_100???@cid=qc_100001_100141@
+||iqiyi.com/crossdomain.xml$s@<allow-access-from domain="?.qiyi.com"/>@<allow-access-from domain="*" to-ports="*"/>
+||mixer.video.iqiyi.com/jp/mixin/resources/
+||qiqiyii.com
+||qiyu.iqiyi.com/crossdomain.xml
+||www.iqiyi.com/player/cupid/common/icon_exclusive.swf
+
+
 ! 字幕组
 www.zimuzu.tv###help
 
