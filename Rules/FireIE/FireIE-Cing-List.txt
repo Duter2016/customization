@@ -1,7 +1,0 @@
-[fireie 0.2.8]
-! Title:          FireIE自用规则
-! Version:        2016.06.06
-! Expires:        1h
-! ===============================================
-!超级表格
-||www.chaojibiaoge.com/index.php/H/project/id*
