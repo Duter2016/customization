@@ -1,1 +1,0 @@
-{"request":[],"sendHeader":[{"name":"bing.com默认英文","ruleType":"modifySendHeader","type":"regexp","pattern":"https?:\\/\\/(.*)\\.bing\\.com\\/(.*)","exclude":"","action":{"name":"Accept-Language","value":"en-US"},"id":1}],"receiveHeader":[]}
