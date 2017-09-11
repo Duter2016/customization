@@ -171,6 +171,17 @@
          "run_as_admin": false,
          "slient": false,
          "working_dir": ""
+      }, {
+         "description": "",
+         "display_title": "Everything\u5168\u76D8\u641C\u7D22\"{query}\"",
+         "enabled": true,
+         "keyword": "ev",
+         "only_show_in_launcher": false,
+         "param": "-search {query}",
+         "path": "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Tools\\Everything.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "working_dir": ""
       } ],
       "folder": [  ],
       "web_search": [  ]
