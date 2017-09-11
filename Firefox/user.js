@@ -1,4 +1,4 @@
-﻿//2017.08.15
+﻿//2017.09.10
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -8,7 +8,9 @@
  *******************************************************************************************/
 
 //*==========选项卡里的设置==========*//
+user_pref("privacy.trackingprotection.enabled", true);//使用跟踪保护
 user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪
+user_pref("accessibility.force_disabled", 1);//强制阻止无障碍服务,容易被第三方跟踪
 //搜索
 user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
 user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索(否)
@@ -21,6 +23,7 @@ user_pref("browser.safebrowsing.malware.enabled", false);
 user_pref("browser.safebrowsing.downloads.enabled", false);
 
 //*==========标签相关==========*//
+user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
 user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
@@ -57,6 +60,7 @@ user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 user_pref("media.gmp-gmpopenh264.provider.enabled", false); // GMP Open H264插件，主要用于WebRTC通话功能，对大多数用户来说意义不大，关闭后仅停用该插件。
 user_pref("media.gmp-manager.url", ""); //完全不下载GMP Open H264
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
+user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
 
 
 /******************************************************************************************
@@ -64,18 +68,18 @@ user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用�
 个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
  *******************************************************************************************/
 //*==========多进程==========*//
-user_pref("dom.ipc.processCount", 7);//进程数(默认4,最大支持7)
+//user_pref("dom.ipc.processCount", 7);//进程数(默认4,最大支持7)
 user_pref("extensions.allow-non-mpc-extensions", true);//强制开启非多进程扩展
 user_pref("extensions.legacy.enabled", true);//强制开启旧式扩展
-user_pref("extensions.legacy.exceptions", "");//
+//Nightly特性
+user_pref("layers.gpu-process.dev.enabled", true);//强制启用Quantum Compositor
+user_pref("layout.css.servo.enabled", true);//强制启用Stylo
 
 //*==========主页==========*//
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
-user_pref("browser.newtabpage.columns", 5);//新标签页列数
-user_pref("browser.newtabpage.rows", 3);//新标签页行数
-//标签页固定的网站
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"https://www.ft.com/\",\"title\":\"Financial Times\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"http://www.wsj.com/\",\"title\":\"WSJ\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"Kafan\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\" Zhihu\"},{\"url\":\"http://www.douban.com/\",\"title\":\"Douban\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://open.163.com/\",\"title\":\"Open.163\"},{\"url\":\"http://music.163.com/\",\"title\":\"Music\"},{\"url\":\"http://email.163.com/\",\"title\":\"Mail\"}]",
+//标签页固定的网站(12个)
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://docs.google.com/spreadsheets/u/0/\",\"title\":\"Google Sheets\"},{\"url\":\"http://www.ftchinese.com/\",\"title\":\"FT中文网\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\"知乎\"},{\"url\":\"http://www.qdaily.com/\",\"title\":\"好奇心日报\"}]");
  
 //*==========Firefox设置==========*//
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
@@ -98,28 +102,25 @@ user_pref("browser.bookmarks.max_backups", 0);//最大备份数目
 user_pref("browser.places.smartBookmarksVersion", -1);//禁用智能书签
 
 //平滑滚动参数
-user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150,
-user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150,
-user_pref("mousewheel.acceleration.factor", 15,
-user_pref("mousewheel.acceleration.start", 3,
-user_pref("mousewheel.default.delta_multiplier_y", 160,
+user_pref("general.smoothScroll.mouseWheel.durationMaxMS", 150);
+user_pref("general.smoothScroll.mouseWheel.durationMinMS", 150);
+user_pref("mousewheel.acceleration.factor", 15);
+user_pref("mousewheel.acceleration.start", 3);
+user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 //插件
-user_pref("dom.ipc.plugins.unloadASAP", true, //网页不使用flash后自动关闭Plugin-container
-user_pref("dom.ipc.plugins.enabled", false, //关闭插件的防崩溃保护
-user_pref("dom.ipc.plugins.enabled.npctrl.dll", false,
-user_pref("dom.ipc.plugins.enabled.npqtplugin.dll", false,
-user_pref("dom.ipc.plugins.enabled.npswf32.dll", false,
-user_pref("dom.ipc.plugins.enabled.nptest.dll", false,
+user_pref("dom.ipc.plugins.unloadASAP", true); //网页不使用flash后自动关闭Plugin-container
+user_pref("dom.ipc.plugins.enabled", false); //关闭插件的防崩溃保护
+user_pref("dom.ipc.plugins.enabled.npctrl.dll", false);
+user_pref("dom.ipc.plugins.enabled.npqtplugin.dll", false);
+user_pref("dom.ipc.plugins.enabled.npswf32.dll", false);
+user_pref("dom.ipc.plugins.enabled.nptest.dll", false);
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁用火狐插件防崩溃功能
 user_pref("plugins.click_to_play", false);//关闭点击才运行插件
 user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
-
-//Quantum Flow
-user_pref("layers.gpu-process.dev.enabled", true);//强制启用Quantum Compositor
 
 //*=隐私相关=*//
 //其它隐私相关
@@ -148,83 +149,8 @@ user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("security.sandbox.content.level", 3);//沙盒级別
-user_pref("extensions.pocket.enabled", false);//自带Pocket(禁用)
 user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
 
-//*==========扩展设置==========*//
-//FlashGot
-user_pref("flashgot.hide-all", true,
-user_pref("flashgot.hide-buildGallery", true,
-user_pref("flashgot.hide-icons", true,
-user_pref("flashgot.hide-it", true,
-user_pref("flashgot.hide-media", true,
-user_pref("flashgot.hide-options", true,
-user_pref("flashgot.hide-sel", true,
-user_pref("flashgot.omitCookies", true);//不发送Cookie
-user_pref("flashgot.firstRunRedirection", false);//重建配置不弹FlashGot首页
+//*=配置路径=*//
+user_pref("extensions.VimFx.config_file_directory", "D:\\Program Files\\CingFox\\Profiles\\forNightly\\chrome\\Local\\VimFx");//自带截图(禁用)
 
-//iMacros
-user_pref("extensions.imacros.delay", 1000);//播放速度中等
-user_pref("extensions.imacros.noloopwarning", true);//运行的提示(否)
-
-//SimpleProxy
-user_pref("extensions.simpleproxy.address.0", "127.0.0.1",
-user_pref("extensions.simpleproxy.address.1", "127.0.0.1",
-user_pref("extensions.simpleproxy.list.0", "https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt",
-user_pref("extensions.simpleproxy.list.1", "https://github.com/dupontjoy/customization/raw/master/Rules/Autoproxy/Aup-Cing-List.txt",
-user_pref("extensions.simpleproxy.manage", 10,
-user_pref("extensions.simpleproxy.number", 2,
-user_pref("extensions.simpleproxy.port.0", 1080,
-user_pref("extensions.simpleproxy.port.1", 1080,
-user_pref("extensions.simpleproxy.protocol.0", "socks",
-user_pref("extensions.simpleproxy.protocol.1", "socks",
-
-
-//*==========脚本设置==========*//
-//*=newDownloadPlus=*//
-//主界面
-user_pref("userChromeJS.downloadPlus.downloadSound_Play", true);//下载完成提示音
-user_pref("userChromeJS.downloadPlus.downloadFileSize", true);//精确显示文件大小
-user_pref("userChromeJS.downloadPlus.autoClose_blankTab", true);//自动关闭空白标签
-user_pref("userChromeJS.downloadPlus.download_speed", true);//下载面皮显示下载速度
-//下载界面
-user_pref("userChromeJS.downloadPlus.download_dialog_saveas", true);//另存为
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo", true);//保存到
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo_suffix", 1);//保存到——后缀样式
-user_pref("userChromeJS.downloadPlus.download_dialog_showCompleteURL", true);//双击复制完整地址
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclicksaveL", false);//双击保存执行下载
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclickanyW", false);//双击任意地方执行下载
-//其他
-user_pref("userChromeJS.downloadPlus.new_Download", true);//新建下载
-user_pref("userChromeJS.downloadPlus.new_Download_popups", true);//新建下载——是否弹窗
-user_pref("userChromeJS.downloadPlus.downloadsPanel_removeFile", true);//从硬盘删除
-user_pref("userChromeJS.downloadPlus.download_checksum", true);//Hash计算
-user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打开
-user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打开——打开文件
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下载改名
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下载改名——是否开启下拉菜单
-
-//FeiRuoNet
-user_pref("userChromeJS.FeiRuoNet.EnableRefChanger", true);//Refer切换,破解反盗链
-user_pref("userChromeJS.FeiRuoNet.EnableUAChanger", true);//UA切换
-user_pref("userChromeJS.FeiRuoNet.ModifyHeader", true);//HTTP头信息
-user_pref("userChromeJS.FeiRuoNet.UrlbarSafetyLevel", false);//HTTPS等级高亮
-user_pref("userChromeJS.FeiRuoNet.EnableProxyByError", false);//网络错误时代理
-user_pref("userChromeJS.FeiRuoNet.ProxyMode", 0);//代理模式: 禁用代理
-
-//FeiRuoTabplus
-user_pref("userChromeJS.FeiRuoTabplus.UndoBtn", false);//撤销关闭按钮(否)
-user_pref("userChromeJS.FeiRuoTabplus.TabFocus", false);//悬停自动聚焦(否)
-user_pref("userChromeJS.FeiRuoTabplus.NewTabUrlbar_SH", false);//域名相同在当前页打开(否)
-user_pref("userChromeJS.FeiRuoTabplus.SideBarNewTab_SH", false);//域名相同在当前页打开(否)
-user_pref("userChromeJS.FeiRuoTabplus.NewTabNear", 2);//新建标签在(当前右边)
-user_pref("userChromeJS.FeiRuoTabplus.ColseToNearTab", 1);//关闭标签转到(当前左边)
-user_pref("userChromeJS.FeiRuoTabplus.NewTabExcludeUrl", "^(javascript:)\n^(imacros:)");//URL在当前页打开
-
- 
-/*//几个配置文件路径
-user_pref("extensions.VimFx.config_file_directory", "D:\\Program Files\\CingFox\\Profiles\\chrome\\Local\\VimFx");
-user_pref("extensions.imacros.defdatapath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Datasources");
-user_pref("extensions.imacros.defdownpath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Downloads");
-user_pref("extensions.imacros.defsavepath", "D:\\Program Files\\CingFox\\Profiles\\iMacros\\Macros");
-user_pref("view_source.editor.path", "D:\\Program Files\\CingFox\\Software\\Notepad2\\Notepad2.exe");*/
