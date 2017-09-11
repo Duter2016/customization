@@ -178,7 +178,7 @@
          "keyword": "ev",
          "only_show_in_launcher": false,
          "param": "-search {query}",
-         "path": "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\Tools\\Everything.exe",
+         "path": "..\\TotalCMD64\\Tools\\Everything.exe",
          "run_as_admin": false,
          "slient": false,
          "working_dir": ""
