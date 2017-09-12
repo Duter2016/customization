@@ -14,6 +14,7 @@
 @@||sinaimg.cn^$domain=acg18.us
 @@||t7z.cupid.iqiyi.com/$domain=acfun.tudou.com|acfun.tv
 @@|http://v.aty.sohu.com/v$object-subrequest
+||toushibao.com/
 
 ! 字幕组
 www.zimuzu.tv###help
