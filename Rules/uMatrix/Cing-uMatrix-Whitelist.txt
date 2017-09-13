@@ -159,6 +159,7 @@ btbtdy.com passport.livere.com script allow
 chinavasion.com js.hscta.net script allow
 cjol.com js.cjolimg.com script allow
 cnbc.com js.cnbcfm.com script allow
+cnbeta.com * other allow
 cnet.com cbsistatic.com script allow
 cnn.com verticals.static.cnn.io script allow
 convertio.co convertio.me xhr allow
@@ -260,8 +261,11 @@ liepin.com concat.lietou-static.com script allow
 lightinthebox.com litbjscss.rightinthebox.com script allow
 linkedin.com s.c.lnkd.licdn.com script allow
 linkedin.com static.licdn.com script allow
+live.com auth.gfx.ms script allow
+live.com pfx.ms script allow
 lrts.me wting.info other allow
 mashable.com a.amz.mshcdn.com script allow
+meituan.com awp-assets.meituan.net script allow
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miaopai.com cdn.krcom.cn script allow
@@ -324,8 +328,7 @@ sina.com.cn simg.sinajs.cn image allow
 sina.com.cn sinaimg.cn script allow
 sina.com.cn sinajs.cn script allow
 sina.com.cn sjs.sinajs.cn script allow
-sjlpj.cn 113.106.91.92 script allow
-sjlpj.cn 113.106.91.92 xhr allow
+sjlpj.cn 113.106.91.92 * allow
 sjlpj.cn 1st-party script inherit
 sjlpj.cn 1st-party xhr inherit
 smartisan.com static.smartisanos.cn script allow
