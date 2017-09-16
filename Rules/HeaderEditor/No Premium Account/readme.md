@@ -9,7 +9,10 @@
 ##### FT: 需订阅
   解决办法: 将Referer改为https://www.google.com/
 ##### Statista: 带+号的文章需要订阅, 年费还不便宜
-  解决办法:
+  解决办法:<br/>
     - 禁止cookie (使用umatrix)
+    ![](img/statista-1.jpg)
     - 禁止statcdn.com图像 (使用umatrix)
+    ![](img/statista-2.jpg)
     - 将Referer改为https://www.google.com/
+    ![](img/statista-3.jpg)
