@@ -1,0 +1,412 @@
+{
+	"request": [],
+	"sendHeader": [
+		{
+			"enable": 1,
+			"name": "sina图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.sinaimg\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://blog.sina.com.cn/"
+			},
+			"id": 99
+		},
+		{
+			"enable": 1,
+			"name": "isnowfy图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.isnowfy\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 100
+		},
+		{
+			"enable": 1,
+			"name": "微信图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(qpic|qlogo)\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 101
+		},
+		{
+			"enable": 1,
+			"name": "waylee图片反盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.waylee\\.net.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 102
+		},
+		{
+			"enable": 1,
+			"name": "baidu图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*(bdimg|bdstatic|imgsrc\\.baidu)\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.baidu.com/"
+			},
+			"id": 103
+		},
+		{
+			"enable": 1,
+			"name": "QQ图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*photo\\.store\\.qq\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 104
+		},
+		{
+			"enable": 1,
+			"name": "tianya图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(laibafile|tianya|tianyablog)\\.(cn|com).*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.tianya.cn/"
+			},
+			"id": 105
+		},
+		{
+			"enable": 1,
+			"name": "126图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*(ph|bimg)\\.126\\.net.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 106
+		},
+		{
+			"enable": 1,
+			"name": "chiphell图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.chiphell\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 107
+		},
+		{
+			"enable": 1,
+			"name": "pconline图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.pconline\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.pconline.com.cn/"
+			},
+			"id": 108
+		},
+		{
+			"enable": 1,
+			"name": "pixiv图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.pixiv\\.net.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "https://www.pixiv.net/"
+			},
+			"id": 110
+		},
+		{
+			"enable": 1,
+			"name": "poco图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.poco\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 111
+		},
+		{
+			"enable": 1,
+			"name": "autoimg图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.autoimg\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://club.autohome.com.cn/"
+			},
+			"id": 112
+		},
+		{
+			"enable": 1,
+			"name": "douban图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.douban\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.douban.com"
+			},
+			"id": 113
+		},
+		{
+			"enable": 1,
+			"name": "jiandan图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*jdstatic\\.tankr\\.net.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://jandan.net/"
+			},
+			"id": 114
+		},
+		{
+			"enable": 1,
+			"name": "imanhua图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.mangafiles\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.imanhua.com/"
+			},
+			"id": 115
+		},
+		{
+			"enable": 1,
+			"name": "tudou图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.tudou\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": "http://www.tudou.com/"
+			},
+			"id": 116
+		},
+		{
+			"enable": 1,
+			"name": "sina图片盗链-2",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*photo\\.sina\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 117
+		},
+		{
+			"enable": 1,
+			"name": "得到图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(igetget|luojilab)\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 118
+		},
+		{
+			"enable": 1,
+			"name": "zol图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(zol|zol-img)\\.com\\.cn.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 119
+		},
+		{
+			"enable": 1,
+			"name": "postimg图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.(postimg|postimage)\\.org.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 120
+		},
+		{
+			"enable": 1,
+			"name": "yahoo图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*blogs\\.yahoo\\.co\\.jp.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 121
+		},
+		{
+			"enable": 1,
+			"name": "cnbeta图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*img\\.cnbeta\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 122
+		},
+		{
+			"enable": 1,
+			"name": "imgur图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.imgur\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 123
+		},
+		{
+			"enable": 1,
+			"name": "quora图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.quora\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 124
+		},
+		{
+			"enable": 1,
+			"name": "tumblr图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.tumblr\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 125
+		},
+		{
+			"enable": 1,
+			"name": "wuyou图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*\\.wuyou\\.net.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 126
+		},
+		{
+			"enable": 1,
+			"name": "baidu图片盗链-2",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*hiphotos\\.baidu\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 127
+		},
+		{
+			"enable": 1,
+			"name": "178图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": ".*img.*\\.178\\.com.*",
+			"exclude": "",
+			"isFunction": 0,
+			"action": {
+				"name": "Referer",
+				"value": ""
+			},
+			"id": 132
+		}
+	],
+	"receiveHeader": []
+}
