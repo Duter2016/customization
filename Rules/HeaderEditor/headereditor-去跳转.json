@@ -17,7 +17,7 @@
 			"name": "AMO去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/outgoing\\.(mozilla\\.org|prod\\.mozaws\\.net)/v\\d+/\\w+/(.+)$",
+			"pattern": "^https?:\\/\\/outgoing\\.(mozilla\\.org|prod\\.mozaws\\.net)\\/v\\d+/\\w+/(.+)$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
