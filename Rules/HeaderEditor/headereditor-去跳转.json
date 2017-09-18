@@ -5,60 +5,60 @@
 			"name": "zhihu去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "https?://link.zhihu.com/\\?target=(.+)",
+			"pattern": "^https?:\\/\\/link\\.zhihu\\.com/\\?target=(.+)$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
 			"to": "$1",
-			"id": 72
+			"id": 86
 		},
 		{
 			"enable": 1,
 			"name": "AMO去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "https://outgoing\\.(mozilla.org|prod.mozaws.net)/v\\d+/\\w+/(.+)",
+			"pattern": "^https?:\\/\\/outgoing\\.(mozilla\\.org|prod\\.mozaws\\.net)/v\\d+/\\w+/(.+)$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
 			"to": "$2",
-			"id": 68
+			"id": 87
 		},
 		{
 			"enable": 1,
 			"name": "Pocket去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "https://getpocket\\.com\\/redirect\\?url=(.*)&formCheck=.*",
+			"pattern": "^https?:\\/\\/getpocket\\.com\\/redirect\\?url=(.*)&formCheck=.*$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
 			"to": "$1",
-			"id": 69
+			"id": 88
 		},
 		{
 			"enable": 1,
 			"name": "百度网盘去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https?://.+\\?url=((https?://)?pan\\.baidu\\.com/s/.+)",
+			"pattern": "^https?:\\/\\/.+\\?url=((https?:\\/\\/)?pan\\.baidu\\.com\\/s\\/.+)$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
 			"to": "$1",
-			"id": 70
+			"id": 89
 		},
 		{
 			"enable": 1,
 			"name": "douban去跳转",
 			"ruleType": "redirect",
 			"matchType": "regexp",
-			"pattern": "^https://www\\.douban\\.com\\/link.*\\/?url=(.*)",
+			"pattern": "^https?:\\/\\/www\\.douban\\.com\\/link.*\\/?url=(.*)$",
 			"exclude": "",
 			"isFunction": 0,
 			"action": "redirect",
 			"to": "$1",
-			"id": 71
+			"id": 90
 		}
 	],
 	"sendHeader": [],
