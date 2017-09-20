@@ -18,7 +18,7 @@ ua-spoof: behind-the-scene false
 * aeis.alicdn.com script allow
 * ajax.aspnetcdn.com script allow
 * ajax.cloudflare.com script allow
-* ajax.googleapis.com script allow
+* ajax.googleapis.com * allow
 * ajax.lug.ustc.edu.cn script allow
 * alicdn.com * allow
 * analytics.logsss.com script allow
@@ -47,6 +47,7 @@ ua-spoof: behind-the-scene false
 * diablo.alibaba.com script allow
 * discuz.gtimg.cn script allow
 * edge.api.brightcove.com xhr allow
+* fonts.googleapis.com * allow
 * googlevideo.com xhr allow
 * gstatic.com * allow
 * hdslb.com script allow
@@ -128,8 +129,10 @@ aliexpress.com aeu.alicdn.com script allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
+apowersoft.cn static-cdn-cn.apowersoft.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
 autodesk.com.cn autodesk.net script allow
+baidu.com baidupcs.com frame allow
 baidu.com baike.bdimg.com script allow
 baidu.com bdimg.com script allow
 baidu.com bdstatic.com script allow
@@ -198,6 +201,7 @@ gaode.com vdata.amap.com xhr allow
 gaoqing.la static.duoshuo.com script allow
 gearbest.com css.gbtcdn.com script allow
 geekpark.net qnssl.com script allow
+getpocket.com www.google.com script allow
 google.com ads.google.com script allow
 google.com analytics.google.com * inherit
 google.com ssl.google-analytics.com image allow
@@ -266,6 +270,8 @@ live.com pfx.ms script allow
 lrts.me wting.info other allow
 mashable.com a.amz.mshcdn.com script allow
 meituan.com awp-assets.meituan.net script allow
+mgtv.com hunantv.com script allow
+mgtv.com player.hunantv.com other allow
 mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miaopai.com cdn.krcom.cn script allow
@@ -274,6 +280,7 @@ miwifi.com static.xiaomi.net script allow
 mobilefun.co.uk static.mobilefun.com script allow
 moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
+mozilla.org mozilla-community.org script allow
 newbalance.com demandware.edgesuite.net script allow
 nubia.com static.nubia.cn script allow
 nytimes.com mssl.fwmrm.net script allow
@@ -340,6 +347,7 @@ sohu.com itc.cn script allow
 sohu.com js.tv.itc.cn script allow
 sohu.com tv.sohu.com * inherit
 stackoverflow.com cdn.sstatic.net script allow
+statista.com statcdn.com script allow
 steampowered.com store.akamai.steamstatic.com script allow
 suning.com suning.cn script allow
 sxl.cn nzr2ybsda.qnssl.com script block
@@ -401,6 +409,7 @@ weiyun.com qq.com script allow
 wikipedia.org upload.wikimedia.org other allow
 wired.com dp8hsntg6do36.cloudfront.net xhr allow
 wired.com player.cnevids.com script allow
+wish.com ajax.googleapis.com script inherit
 wish.com connect.facebook.net script allow
 wish.com staticxx.facebook.com script allow
 wish.com www.facebook.com script allow
@@ -408,10 +417,11 @@ wmxz.wang www5.oss-cn-hangzhou.aliyuncs.com script allow
 wps.cn ks3-cn-beijing.ksyun.com script allow
 wps.cn qn.cache.wpscdn.cn script allow
 wsj.com api.wsj.net xhr allow
-wsj.com asset.wsj.net script allow
+wsj.com livefyre.com script allow
+wsj.com livefyre.com xhr allow
 wsj.com ore.wsj.net script allow
-wsj.com s.wsj.net script allow
 wsj.com vir.wsj.net script allow
+wsj.com wsj.net script allow
 wukongwenda.com pstatp.com script allow
 xiami.com res.xiami.net script allow
 xinshipu.com xinshipu.cn script allow
