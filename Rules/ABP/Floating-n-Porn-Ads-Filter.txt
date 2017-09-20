@@ -16,9 +16,6 @@
 @@|http://v.aty.sohu.com/v$object-subrequest
 ||toushibao.com/
 
-! 字幕组
-www.zimuzu.tv###help
-
 ! 乐视
 |http://*/letv-gug/
 
@@ -192,3 +189,8 @@ zmz2017.com##.top-box > div:nth-of-type(5)
 zmz2017.com##body > div:nth-of-type(5)
 zmz2017.com##body > div:nth-of-type(6)
 zmz2017.com##div:nth-of-type(4) > .adsbygoogle
+www.zimuzu.tv###help
+
+! Wish
+www.wish.com###new-login-modal
+www.wish.com###login-modal-overlay
