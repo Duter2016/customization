@@ -157,6 +157,7 @@ repaik.com##.a_cn
 ! statista
 statista.com###raPopup01
 statista.com###statisticSlideIn
+statista.com###caRequestPopup
 
 ! 天涯
 tianya.cn###js-bc-shang

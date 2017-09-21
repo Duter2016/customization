@@ -282,6 +282,7 @@ moe.edu.tw 140.111.1.112 script allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
 newbalance.com demandware.edgesuite.net script allow
+nickkolenda.com fast.wistia.com script allow
 nubia.com static.nubia.cn script allow
 nytimes.com mssl.fwmrm.net script allow
 nytimes.com nyt.com script allow
