@@ -160,6 +160,7 @@ statista.com###statisticSlideIn
 statista.com###caRequestPopup
 statista.com##.modal-dialog--caRequest.modal-dialog
 statista.com###caRequestModal > .in.fade.modal-backdrop
+statista.com##.delay300.fadeInUp.animated.tooltip-bottom.tooltip-wave.tooltip-function-info
 
 ! 天涯
 tianya.cn###js-bc-shang
