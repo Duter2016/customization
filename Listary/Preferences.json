@@ -148,11 +148,11 @@
          "param": "/O \"%1\"",
          "path": "..\\TotalCMD64\\TotalCMD64.exe"
       },
-      "language_file": "zh-CN.ini"
+      "language_file": "zh-CN.ini",
+      "select_last_opened_file_in_filedlg": true
    },
    "history": {
-      "search_history": false,
-      "track_history": false
+
    },
    "hotkey": {
       "main": 0,
