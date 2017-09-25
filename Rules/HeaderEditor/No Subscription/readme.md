@@ -22,12 +22,8 @@
 
 - 禁止cookie (使用umatrix)
 
-    ![](img/statista-1.jpg)
-    
-- 禁止statcdn.com图像 (使用umatrix)
-
-    ![](img/statista-2.jpg)
+    ![](img/statista-cookie.jpg)
     
 - 将Referer改为https://www.google.com/
 
-    ![](img/statista-3.jpg)
+    ![](img/statista-referer.jpg)
