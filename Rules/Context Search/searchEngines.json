@@ -1,0 +1,26 @@
+{
+  "baidu": {
+    "index": 0,
+    "name": "Baidu",
+    "url": "http://www.baidu.com/s?wd=",
+    "show": true
+  },
+  "bing": {
+    "index": 1,
+    "name": "Bing",
+    "url": "https://www.bing.com/search?q=",
+    "show": true
+  },
+  "google": {
+    "index": 2,
+    "name": "Google",
+    "url": "https://www.google.com/search?q=",
+    "show": true
+  },
+  "youtube": {
+    "index": 3,
+    "name": "YouTube",
+    "url": "https://www.youtube.com/results?search_query=",
+    "show": true
+  }
+}
