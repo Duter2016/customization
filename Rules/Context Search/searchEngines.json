@@ -1,18 +1,36 @@
 {
+  "下架原因/重新上架-sku": {
+    "index": 5,
+    "name": "下架原因/重新上架-SKU",
+    "url": "http://ic.sjlpj.cn/DownShelf/DownShelfOperationMgtList?Sku=",
+    "show": true
+  },
+  "产品日志管理-sku": {
+    "index": 6,
+    "name": "产品日志管理-SKU",
+    "url": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode=",
+    "show": true
+  },
+  "外网产品批量管理-sku": {
+    "index": 4,
+    "name": "外网产品批量管理-SKU",
+    "url": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Sku=",
+    "show": true
+  },
   "baidu": {
-    "index": 0,
+    "index": 1,
     "name": "Baidu",
     "url": "http://www.baidu.com/s?wd=",
     "show": true
   },
   "bing": {
-    "index": 1,
+    "index": 2,
     "name": "Bing",
     "url": "https://www.bing.com/search?q=",
     "show": true
   },
   "google": {
-    "index": 2,
+    "index": 0,
     "name": "Google",
     "url": "https://www.google.com/search?q=",
     "show": true
