@@ -69,7 +69,7 @@ ua-spoof: behind-the-scene false
 * qbox.me script allow
 * qhimg.com script allow
 * s.tbcdn.cn script allow
-* s3.amazonaws.com script allow
+* s3.amazonaws.com * allow
 * ssl-images-amazon.com script allow
 * ssl.gstatic.com * allow
 * static.duoshuo.com script allow
@@ -99,7 +99,6 @@ ua-spoof: behind-the-scene false
 163.com 14.119.124.58 other allow
 163.com b1.bst.126.net script allow
 163.com cache.netease.com script allow
-163.com img3.126.net script allow
 163.com m10.music.126.net other allow
 163.com mimg.127.net script allow
 163.com music.126.net script allow
@@ -122,6 +121,8 @@ ua-spoof: behind-the-scene false
 51job.com js.51jobcdn.com script allow
 56.com tv.sohu.com * inherit
 56.com tv.sohu.com script allow
+91simi.com qq.com script allow
+9ku.com show.g.mediav.com script allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
 alibaba.com stylessl.aliunicorn.com script allow
@@ -159,6 +160,9 @@ btbtdy.com api-city.livere.com script allow
 btbtdy.com cdn-city.livere.com script allow
 btbtdy.com livere.me script allow
 btbtdy.com passport.livere.com script allow
+cctv.com * other allow
+cctv.com cctvpic.com script allow
+cctv.com cntv.cn script allow
 chinavasion.com js.hscta.net script allow
 cjol.com js.cjolimg.com script allow
 cnbc.com js.cnbcfm.com script allow
@@ -172,8 +176,10 @@ deviantart.com www.da-ads.com * allow
 dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
 dianping.com www.dpfile.com script allow
+dida365.com cdn-dida365-com.alikunlun.com script allow
 dingtalkapps.com login.dingtalk.com * allow
 douban.com img3.doubanio.com script allow
+douyu.com * other allow
 douyu.com shark.douyucdn.cn script allow
 douyu.com vstatic.douyucdn.cn script allow
 dropbox.com cfl.dropboxstatic.com script allow
@@ -202,6 +208,7 @@ gaoqing.la static.duoshuo.com script allow
 gearbest.com css.gbtcdn.com script allow
 geekpark.net qnssl.com script allow
 getpocket.com www.google.com script allow
+github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
 google.com ads.google.com script allow
 google.com analytics.google.com * inherit
 google.com ssl.google-analytics.com image allow
@@ -248,6 +255,7 @@ jd.hk 3.cn script allow
 jd.hk 360buyimg.com script allow
 jd.hk jd.com script allow
 jianshu.com cdn-qn0.jianshu.io script allow
+jizhi.im jizhi-10061919.file.myqcloud.com script allow
 juksy.com apis.google.com script inherit
 kafan.cn aliapp.org * allow
 kafan.cn api.geetest.com script allow
@@ -327,6 +335,8 @@ sanguosha.com cas.dobest.com script allow
 sanguosha.com login.dobest.com script allow
 segmentfault.com sf-static.b0.upaiyun.com script allow
 shanbay.com static.baydn.com script allow
+shiting5.com r.gslb.lecloud.com xhr allow
+sina.cn mjs.sinaimg.cn script allow
 sina.cn mjs.sinaimg.cn xhr allow
 sina.com.cn passport.sina.cn script allow
 sina.com.cn passport.weibo.cn script allow
@@ -348,6 +358,7 @@ sohu.com itc.cn script allow
 sohu.com js.tv.itc.cn script allow
 sohu.com tv.sohu.com * inherit
 stackoverflow.com cdn.sstatic.net script allow
+statista.com 1st-party cookie block
 statista.com statcdn.com script allow
 steampowered.com store.akamai.steamstatic.com script allow
 suning.com suning.cn script allow
@@ -420,9 +431,9 @@ wps.cn qn.cache.wpscdn.cn script allow
 wsj.com api.wsj.net xhr allow
 wsj.com livefyre.com script allow
 wsj.com livefyre.com xhr allow
-wsj.com ore.wsj.net script allow
 wsj.com vir.wsj.net script allow
 wsj.com wsj.net script allow
+wsj.com wsj.net xhr allow
 wukongwenda.com pstatp.com script allow
 xiami.com res.xiami.net script allow
 xinshipu.com xinshipu.cn script allow
