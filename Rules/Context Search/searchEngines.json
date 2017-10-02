@@ -20,7 +20,7 @@
   "baidu": {
     "index": 1,
     "name": "Baidu",
-    "url": "http://www.baidu.com/s?wd=",
+    "url": "http://www.baidu.com/s?ie=utf-8&wd=",
     "show": true
   },
   "bing": {
