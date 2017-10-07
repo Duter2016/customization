@@ -1,0 +1,44 @@
+{
+  "websiteList": [
+    {
+      "type": "link",
+      "name": "Google",
+      "address": "https://www.google.com/search?q="
+    },
+    {
+      "type": "link",
+      "name": "Baidu",
+      "address": "http://www.baidu.com/s?ie=utf-8&wd="
+    },
+    {
+      "type": "link",
+      "name": "Bing",
+      "address": "http://www.bing.com/search?q="
+    },
+    {
+      "type": "folder",
+      "name": "Other...",
+      "folder": [
+        {
+          "type": "link",
+          "name": "外网产品批量管理-SKU",
+          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Sku="
+        },
+        {
+          "type": "link",
+          "name": "下架原因/重新上架-SKU",
+          "address": "http://ic.sjlpj.cn/DownShelf/DownShelfOperationMgtList?Sku="
+        },
+        {
+          "type": "link",
+          "name": "产品日志管理-SKU",
+          "address": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode="
+        }
+      ]
+    }
+  ],
+  "sMenuLabel": "Find '%s' using ...",
+  "sOpenSearchIn": "opnt",
+  "sPlaceHolder": "~$S$~",
+  "bShowOptionsInMenu": true
+}
