@@ -1,4 +1,4 @@
-﻿//2017.09.23
+﻿//2017.10.03
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -16,11 +16,6 @@ user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
 user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索(否)
 user_pref("browser.search.openintab", true);//新标签打开搜索栏
 user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
-
-//safebrowsing安全浏览
-user_pref("browser.safebrowsing.enabled", false);
-user_pref("browser.safebrowsing.malware.enabled", false);
-user_pref("browser.safebrowsing.downloads.enabled", false);
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -147,5 +142,4 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
-user_pref("security.sandbox.content.level", 3);//沙盒级別
 user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
