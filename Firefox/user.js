@@ -1,4 +1,4 @@
-﻿//2017.10.03
+﻿//2017.10.09
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -8,6 +8,7 @@
  *******************************************************************************************/
 
 //*==========选项卡里的设置==========*//
+user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("privacy.trackingprotection.enabled", true);//使用跟踪保护
 user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪
 user_pref("accessibility.force_disabled", 1);//强制阻止无障碍服务,容易被第三方跟踪
