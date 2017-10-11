@@ -4,13 +4,13 @@
 
 #### 多情景模式设置
 
-- 主情景模式: auto switch
+##### 1. 主情景模式: auto switch
 
 匹配第一个订阅规则时走Proxy, 否则走SSR-Cing
 
 ![](img/profile-main.jpg)
 
-- 副情景模式: SSR-Cing
+##### 2. 副情景模式: SSR-Cing
 
 不匹配第一个订阅规则时:
 
