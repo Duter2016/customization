@@ -17,3 +17,7 @@
 - 匹配第二个订阅规则时走Proxy, 否则直连
 
 ![](img/profile-part.jpg)
+
+#### 多情景模式流程
+
+![](img/profile-flow.jpg)
