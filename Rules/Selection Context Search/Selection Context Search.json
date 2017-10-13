@@ -31,6 +31,11 @@
         },
         {
           "type": "link",
+          "name": "价格变更管理-SKU",
+          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/UnChangedProductList?IsFirstRequest=false&Sku="
+        },
+        {
+          "type": "link",
           "name": "产品日志管理-SKU",
           "address": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode="
         }
@@ -40,5 +45,6 @@
   "sMenuLabel": "Find '%s' using ...",
   "sOpenSearchIn": "opnt",
   "sPlaceHolder": "~$S$~",
+  "bUseBookmarks": true,
   "bShowOptionsInMenu": true
 }
