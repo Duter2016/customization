@@ -1,5 +1,5 @@
 [Buttonbar]
-Buttoncount=44
+Buttoncount=43
 button1=wcmicons.dll
 cmd1=cm_rereadsource
 iconic1=0
@@ -122,15 +122,11 @@ iconic40=0
 menu40=内部命令工具栏
 button41=
 iconic41=0
-button42=%COMMANDER_PATH%\Tools\Swoff.exe
-cmd42=Swoff.exe
+button42=%COMMANDER_PATH%\Tools\Everything.exe
+cmd42=Everything.exe
 path42=%COMMANDER_PATH%\Tools\
 iconic42=0
-button43=%COMMANDER_PATH%\Tools\Everything.exe
-cmd43=Everything.exe
-path43=%COMMANDER_PATH%\Tools\
+button43=%COMMANDER_PATH%\..\Listary Pro\Listary.exe
+cmd43=Listary.exe
+path43=%COMMANDER_PATH%\..\Listary Pro\
 iconic43=0
-button44=%COMMANDER_PATH%\..\Listary Pro\Listary.exe
-cmd44=Listary.exe
-path44=%COMMANDER_PATH%\..\Listary Pro\
-iconic44=0
