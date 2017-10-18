@@ -4,6 +4,7 @@ matrix-off: behind-the-scene true
 matrix-off: chrome-extension-scheme true
 matrix-off: chrome-scheme true
 matrix-off: localhost true
+matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
 referrer-spoof: behind-the-scene false
 ua-spoof: behind-the-scene false
@@ -20,7 +21,9 @@ ua-spoof: behind-the-scene false
 * ajax.cloudflare.com script allow
 * ajax.googleapis.com * allow
 * ajax.lug.ustc.edu.cn script allow
+* aliapp.org * allow
 * alicdn.com * allow
+* aliyun.com * allow
 * analytics.logsss.com script allow
 * api.geetest.com script allow
 * api.map.baidu.com script allow
@@ -32,12 +35,12 @@ ua-spoof: behind-the-scene false
 * atp.alicdn.com script allow
 * bootstrapcdn.com script allow
 * browser.gwdang.com script allow
+* cat.net * allow
 * cdn.aixifan.com script allow
 * cdn.bootcss.com script allow
 * cdn.staticfile.org script allow
 * cdnsecakmi.kaltura.com other allow
 * cdnsecakmi.kaltura.com xhr allow
-* cf.aliyun.com script allow
 * cfvod.kaltura.com xhr allow
 * cloudflare.com script allow
 * cloudfront.net script allow
@@ -75,7 +78,7 @@ ua-spoof: behind-the-scene false
 * static.duoshuo.com script allow
 * static.geetest.com script allow
 * traffic.libsyn.com other allow
-* tv.sohu.com * inherit
+* tv.sohu.com * allow
 * u.alicdn.com script allow
 * ustclug.org * allow
 * video.taobao.com other allow
@@ -89,6 +92,8 @@ ua-spoof: behind-the-scene false
 * yimg.com script allow
 * youtube.com script allow
 * ytimg.com * allow
+1055.tv * other allow
+120.24.13.81 cat.net * allow
 123.57.243.50 cdn.amazeui.org script allow
 123.57.243.50 s.amazeui.org script allow
 123.57.84.129 cdn.amazeui.org script allow
@@ -149,6 +154,7 @@ baidu.com tb1.bdstatic.com script allow
 baidu.com wkbos.bdimg.com script allow
 baidu.com wkstatic.bdimg.com script allow
 baike.com www.huimg.cn script allow
+baomitu.com qhres.com script allow
 baomitu.com s.ssl.qhimg.com script allow
 bilibili.com acgvideo.com other allow
 bilibili.com acgvideo.com xhr allow
@@ -291,6 +297,7 @@ mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
 newbalance.com demandware.edgesuite.net script allow
 nickkolenda.com fast.wistia.com script allow
+nih.gov static.pubmed.gov script allow
 nubia.com static.nubia.cn script allow
 nytimes.com mssl.fwmrm.net script allow
 nytimes.com nyt.com script allow
@@ -326,11 +333,14 @@ qq.com vm.gtimg.cn script allow
 quora.com accounts.google.com script allow
 quora.com apis.google.com script allow
 quora.com qsc.ec.quoracdn.net script allow
+quora.com quoracdn.net script allow
 quora.com ssl.gstatic.com script allow
 quora.com www.google.com script allow
 quora.com www.gstatic.com script allow
 raindrop.io widget.intercom.io script allow
+runningcheese.com itc.cn script allow
 runningcheese.com runningcheese.duoshuo.com xhr allow
+runningcheese.com sohu.com script allow
 sanguosha.com cas.dobest.com script allow
 sanguosha.com login.dobest.com script allow
 segmentfault.com sf-static.b0.upaiyun.com script allow
@@ -359,6 +369,7 @@ sohu.com js.tv.itc.cn script allow
 sohu.com tv.sohu.com * inherit
 stackoverflow.com cdn.sstatic.net script allow
 statista.com 1st-party cookie block
+statista.com highcharts.com script allow
 statista.com statcdn.com script allow
 steampowered.com store.akamai.steamstatic.com script allow
 suning.com suning.cn script allow
@@ -400,6 +411,7 @@ uczzd.cn uc.cn script allow
 udacity.com s3.cn-north-1.amazonaws.com.cn other allow
 ufanw.com avziliao.duapp.com script allow
 ufanw.com avziliao.duapp.com xhr allow
+uzer.me captcha.luosimao.com * allow
 vancl.com vanclimg.com script allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
@@ -446,7 +458,9 @@ yahoo.com yimg.com script inherit
 ycwaccessories.com cdn.shopify.com script allow
 yinyuetai.com s.yytcdn.com script allow
 ymfz521.sinaapp.com s.amazeui.org script allow
+youku.com * other allow
 youku.com * xhr allow
+youku.com g.alicdn.com other allow
 youku.com js.ykimg.com script allow
 youku.com r1.ykimg.com script allow
 youku.com static.ykimg.com script allow
