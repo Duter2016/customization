@@ -51,6 +51,7 @@ ua-spoof: behind-the-scene false
 * discuz.gtimg.cn script allow
 * edge.api.brightcove.com xhr allow
 * fonts.googleapis.com * allow
+* geekzu.org * allow
 * googlevideo.com xhr allow
 * gstatic.com * allow
 * hdslb.com script allow
@@ -99,6 +100,7 @@ ua-spoof: behind-the-scene false
 123.57.84.129 cdn.amazeui.org script allow
 123.57.84.129 igetoss.cdn.igetget.com other allow
 123.57.84.129 s.amazeui.org script allow
+127.0.0.1 * * allow
 163.com * other allow
 163.com 126.net script allow
 163.com 14.119.124.58 other allow
@@ -198,6 +200,7 @@ economist.com cdn.static-economist.com script allow
 esri.com arcgis.github.io xhr allow
 esri.com unpkg.com script allow
 fasttech.com fasttechcdn.com script allow
+file-scheme localhost * allow
 firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
 firefox.com mozilla.net script allow
