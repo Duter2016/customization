@@ -17,12 +17,17 @@
     },
     {
       "type": "folder",
-      "name": "Other...",
+      "name": "TVC",
       "folder": [
         {
           "type": "link",
           "name": "外网产品批量管理-SKU",
           "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Sku="
+        },
+        {
+          "type": "link",
+          "name": "外网产品批量管理-名称",
+          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Keyword="
         },
         {
           "type": "link",
@@ -46,5 +51,6 @@
   "sOpenSearchIn": "opnt",
   "sPlaceHolder": "~$S$~",
   "bUseBookmarks": true,
+  "sBookmarksFolder": "Search",
   "bShowOptionsInMenu": true
 }
