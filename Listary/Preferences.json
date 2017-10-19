@@ -152,7 +152,25 @@
       "select_last_opened_file_in_filedlg": true
    },
    "history": {
-
+      "exclude": [  {
+         "type": "folder",
+         "value": "X:\\"
+      }, {
+         "type": "folder",
+         "value": "Y:\\"
+      },  {
+         "type": "folder",
+         "value": "Z:\\"
+      }, {
+         "type": "folder",
+         "value": "F:\\"
+      }, {
+         "type": "folder",
+         "value": "G:\\"
+      },  {
+         "type": "folder",
+         "value": "H:\\"
+      }]
    },
    "hotkey": {
       "main": 0,
