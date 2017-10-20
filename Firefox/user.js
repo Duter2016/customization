@@ -1,4 +1,4 @@
-﻿//2017.10.09
+﻿//2017.10.20
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -64,7 +64,6 @@ user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
 个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
  *******************************************************************************************/
 //*==========多进程==========*//
-//user_pref("dom.ipc.processCount", 7);//进程数(默认4,最大支持7)
 user_pref("extensions.allow-non-mpc-extensions", true);//强制开启非多进程扩展
 user_pref("extensions.legacy.enabled", true);//强制开启旧式扩展
 //Nightly特性
@@ -79,7 +78,6 @@ user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\"
  
 //*==========Firefox设置==========*//
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
-user_pref("layers.acceleration.disabled", true);//禁用硬件加速MacType才生效
 user_pref("dom.disable_open_during_load", false);//拦截弹出式窗口(否)
 
 //证书
