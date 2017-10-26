@@ -177,6 +177,10 @@ cnbc.com js.cnbcfm.com script allow
 cnbeta.com * other allow
 cnet.com cbsistatic.com script allow
 cnn.com verticals.static.cnn.io script allow
+cntv.cn cctv.com script allow
+cntv.cn cctvpic.com script allow
+cntv.cn cdnpe.com other allow
+cntv.cn cntvwb.cn other allow
 convertio.co convertio.me xhr allow
 ctfile.com static.tv002.com script allow
 deviantart.com st.deviantart.net script allow
@@ -319,6 +323,13 @@ pinggu.org 120.27.111.137 script allow
 pinggu.org dztest.pinggu.com script allow
 pinterest.com pinimg.com script allow
 porn.com librelytics.com script allow
+pupudy.com * * allow
+pupudy.com 51.la * block
+pupudy.com baidu.com * block
+pupudy.com bdimg.com * block
+pupudy.com cnzz.com * block
+pupudy.com kkflv.com * block
+pupudy.com xc0429.com * block
 qdaily.com imgcache.qq.com script allow
 qiaobutang.com cdn.qiaobutang.com script block
 qiwsir.github.io vodcdn.video.taobao.com other allow
@@ -407,6 +418,7 @@ tudou.com js.tudouui.com script allow
 tudou.com static.youku.com script allow
 tvc-mall.com vk.com * block
 tvc-mall.com www.facebook.com * block
+twitch.tv static.twitchcdn.net script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
 twitter.com video.twimg.com xhr allow
