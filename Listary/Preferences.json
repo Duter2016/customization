@@ -9,16 +9,16 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_send_to",
+         "command_string": "_action_copy_to_current_folder",
          "enabled": true,
-         "guid": "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}",
-         "hotkey": 21249,
+         "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
+         "hotkey": 0,
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_set_keyword",
+         "command_string": "_action_move_to_current_folder",
          "enabled": true,
-         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
+         "guid": "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}",
          "hotkey": 0,
          "keyword": "",
          "type": "builtin"
@@ -33,21 +33,7 @@
          "command_string": "_action_cut",
          "enabled": true,
          "guid": "{284ecbe8-1ef2-49c9-bd93-f7025519402b}",
-         "hotkey": 0,
-         "keyword": "",
-         "type": "builtin"
-      }, {
-         "command_string": "_action_copy_path",
-         "enabled": true,
-         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
-         "hotkey": 17158,
-         "keyword": "",
-         "type": "builtin"
-      }, {
-         "command_string": "_action_copy_folder_path",
-         "enabled": true,
-         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
-         "hotkey": 0,
+         "hotkey": 22530,
          "keyword": "",
          "type": "builtin"
       }, {
@@ -58,16 +44,30 @@
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_copy_to_current_folder",
-         "enabled": true,
-         "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
+         "command_string": "_action_send_to",
+         "enabled": false,
+         "guid": "{b7e56ba3-2042-4ff7-a499-62d861e2aa69}",
+         "hotkey": 21249,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_set_keyword",
+         "enabled": false,
+         "guid": "{6ee550e1-8ef3-4025-a673-88d96a48bbc8}",
          "hotkey": 0,
          "keyword": "",
          "type": "builtin"
       }, {
-         "command_string": "_action_move_to_current_folder",
-         "enabled": true,
-         "guid": "{170e8be1-80fa-4afb-a6d7-7bcb1a1eba19}",
+         "command_string": "_action_copy_path",
+         "enabled": false,
+         "guid": "{35c0504f-b1a8-4c82-8e32-aa1e68520972}",
+         "hotkey": 17158,
+         "keyword": "",
+         "type": "builtin"
+      }, {
+         "command_string": "_action_copy_folder_path",
+         "enabled": false,
+         "guid": "{4025f3ed-47e1-4212-9276-de3fbb0786e8}",
          "hotkey": 0,
          "keyword": "",
          "type": "builtin"
@@ -139,8 +139,13 @@
       }
    },
    "check_update": {
-      "last_check_local_version": "5.00.2581",
-      "last_check_time": "13145943817699540"
+      "last_check_local_version": "5.00.2843",
+      "last_check_time": "13153571770193533",
+      "version_setting": {
+         "remind_later": "0",
+         "skip": false,
+         "version": "5.00.2843"
+      }
    },
    "general": {
       "check_updates": false,
@@ -323,14 +328,17 @@
             }, {
                "anchor": "command_Cmd",
                "command": "_Cmd",
+               "deleted": true,
                "type": "command"
             }, {
                "anchor": "command_CopyFolderPath",
                "command": "_CopyFolderPath",
+               "deleted": true,
                "type": "command"
             }, {
                "anchor": "command_CopyFilePaths",
                "command": "_CopyFilePaths",
+               "deleted": true,
                "type": "command"
             }, {
                "anchor": "command_GoToAppFolder",
@@ -440,9 +448,9 @@
       "version": 0
    },
    "pro_license": {
-      "email": "soft@instant-demo.com",
-      "name": "Mike Rountree",
-      "regcode": "JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QWN64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKPVVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQYMUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3QTAL3U894S2BWA9629EFCXYYYG3S65WEQ5R234G26AT52UWD27PNENP4GR2EKKDK6"
+      "email": "daiqiang7297@163.com",
+      "name": "Adven Dai",
+      "regcode": "FP7832JRZS7TVFCHJXN8Z7S7MBZZSRBJDEX6PY3PL239QU53M2R9JHNK2XW4LY6D32CJ3BJDHK2L5APH3LFVFASHVLHFEXEHFX79M6NDNUJCMR8LRCLAN7MPSD6CAGTMCAHYH22CGT8T542RFPAGVY23W349QJV4C4G8XT2893SSUZV9E3CCPRGVY3A7FE3B"
    },
    "projects": {
 

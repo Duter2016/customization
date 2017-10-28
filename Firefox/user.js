@@ -1,4 +1,4 @@
-﻿//2017.10.20
+﻿//2017.10.25
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -142,3 +142,26 @@ user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
+
+//*=newDownloadPlus=*//
+//主界面
+user_pref("userChromeJS.downloadPlus.downloadSound_Play", true);//下载完成提示音
+user_pref("userChromeJS.downloadPlus.downloadFileSize", true);//精确显示文件大小
+user_pref("userChromeJS.downloadPlus.autoClose_blankTab", true);//自动关闭空白标签
+user_pref("userChromeJS.downloadPlus.download_speed", true);//下载面皮显示下载速度
+//下载界面
+user_pref("userChromeJS.downloadPlus.download_dialog_saveas", true);//另存为
+user_pref("userChromeJS.downloadPlus.download_dialog_saveTo", true);//保存到
+user_pref("userChromeJS.downloadPlus.download_dialog_saveTo_suffix", 1);//保存到——后缀样式
+user_pref("userChromeJS.downloadPlus.download_dialog_showCompleteURL", true);//双击复制完整地址
+user_pref("userChromeJS.downloadPlus.download_dialog_doubleclicksaveL", false);//双击保存执行下载
+user_pref("userChromeJS.downloadPlus.download_dialog_doubleclickanyW", false);//双击任意地方执行下载
+//其他
+user_pref("userChromeJS.downloadPlus.new_Download", true);//新建下载
+user_pref("userChromeJS.downloadPlus.new_Download_popups", true);//新建下载——是否弹窗
+user_pref("userChromeJS.downloadPlus.downloadsPanel_removeFile", true);//从硬盘删除
+user_pref("userChromeJS.downloadPlus.download_checksum", true);//Hash计算
+user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打开
+user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打开——打开文件
+user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下载改名
+user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下载改名——是否开启下拉菜单
