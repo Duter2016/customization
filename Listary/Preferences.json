@@ -9,6 +9,17 @@
          "keyword": "",
          "type": "builtin"
       }, {
+         "enabled": true,
+         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
+         "hotkey": 0,
+         "keyword": "",
+         "param": "\"{action_path}\"",
+         "path": "..\\Notepad2\\Notepad2.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u7528Notepad2\u6253\u5F00",
+         "type": "custom"
+      }, {
          "command_string": "_action_copy_to_current_folder",
          "enabled": true,
          "guid": "{edf97959-2c24-47ed-bd7b-3dc5e76b7752}",
@@ -78,17 +89,6 @@
          "hotkey": 0,
          "keyword": "",
          "type": "builtin"
-      }, {
-         "enabled": false,
-         "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
-         "hotkey": 0,
-         "keyword": "",
-         "param": "\"{action_path}\"",
-         "path": "C:\\Program Files (x86)\\Notepad++\\notepad++.exe",
-         "run_as_admin": false,
-         "slient": false,
-         "title": "Edit with Notepad++",
-         "type": "custom"
       }, {
          "enabled": false,
          "guid": "{06457068-a652-4c0d-9c3c-a4056dde1f67}",
