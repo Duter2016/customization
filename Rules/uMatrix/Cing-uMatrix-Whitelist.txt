@@ -94,6 +94,7 @@ ua-spoof: behind-the-scene false
 * youtube.com script allow
 * ytimg.com * allow
 1055.tv * other allow
+10jqka.com.cn thsi.cn script allow
 120.24.13.81 cat.net * allow
 123.57.243.50 cdn.amazeui.org script allow
 123.57.243.50 s.amazeui.org script allow
@@ -137,6 +138,7 @@ aliexpress.com aeu.alicdn.com script allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
+anjuke.com anjukestatic.com script allow
 apowersoft.cn static-cdn-cn.apowersoft.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
 autodesk.com.cn autodesk.net script allow
@@ -246,6 +248,7 @@ huorong.cn discuz.gtimg.cn script allow
 hupu.com hoopchina.com.cn script allow
 huxiu.com static.huxiucdn.com script allow
 ibm.com s81c.com script allow
+ifeng.com ifengimg.com other allow
 ifeng.com ifengimg.com script allow
 ifeng.com y3.ifengimg.com * inherit
 imgbb.com simgbb.com script allow
@@ -256,6 +259,7 @@ iqiyi.com * other allow
 iqiyi.com cache.video.qiyi.com script allow
 itanzi.com cdnxdc.tanzi88.com other allow
 itanzi.com cdsb.mobi script allow
+iwencai.com thsi.cn script allow
 jandan.net jandan.net script allow
 jd.com 3.cn * allow
 jd.com 360buyimg.com * allow
@@ -362,14 +366,14 @@ shanbay.com static.baydn.com script allow
 shiting5.com r.gslb.lecloud.com xhr allow
 sina.cn mjs.sinaimg.cn script allow
 sina.cn mjs.sinaimg.cn xhr allow
-sina.com.cn passport.sina.cn script allow
-sina.com.cn passport.weibo.cn script allow
-sina.com.cn passport.weibo.com script allow
 sina.com.cn simg.sinajs.cn css allow
 sina.com.cn simg.sinajs.cn image allow
+sina.com.cn sina.cn * allow
 sina.com.cn sinaimg.cn script allow
 sina.com.cn sinajs.cn script allow
 sina.com.cn sjs.sinajs.cn script allow
+sina.com.cn weibo.cn * allow
+sina.com.cn weibo.com * allow
 sjlpj.cn 113.106.91.92 * allow
 sjlpj.cn 1st-party script inherit
 sjlpj.cn 1st-party xhr inherit
@@ -428,6 +432,7 @@ ufanw.com avziliao.duapp.com script allow
 ufanw.com avziliao.duapp.com xhr allow
 uzer.me captcha.luosimao.com * allow
 vancl.com vanclimg.com script allow
+vmall.com vmallres.com script allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
@@ -435,14 +440,12 @@ walmart.com i5.walmartimages.com script allow
 weibo.cn h5.sinaimg.cn script allow
 weibo.com cdn.weipan.cn script allow
 weibo.com contentrecommend.mobile.sina.cn script allow
-weibo.com h5.sinaimg.cn script allow
 weibo.com i.sso.sina.com.cn script allow
-weibo.com login.sina.com.cn script allow
-weibo.com login.sina.com.cn xhr allow
 weibo.com passport.weibo.cn script allow
-weibo.com t.sinajs.cn script allow
+weibo.com sina.com.cn * allow
+weibo.com sinaimg.cn * allow
+weibo.com sinajs.cn * allow
 weibo.com tjs.sjs.sinajs.cn script allow
-weibo.com us.sinaimg.cn other allow
 weiyun.com gtimg.cn script allow
 weiyun.com qq.com script allow
 wikipedia.org upload.wikimedia.org other allow
