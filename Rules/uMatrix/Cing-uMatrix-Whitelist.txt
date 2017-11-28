@@ -16,11 +16,13 @@ ua-spoof: behind-the-scene false
 * 71.am * block
 * a.alipayobjects.com script allow
 * accounts.google.com * allow
+* acgvideo.com other allow
 * aeis.alicdn.com script allow
 * ajax.aspnetcdn.com script allow
 * ajax.cloudflare.com script allow
 * ajax.googleapis.com * allow
 * ajax.lug.ustc.edu.cn script allow
+* akamaihd.net * allow
 * aliapp.org * allow
 * alicdn.com * allow
 * aliyun.com * allow
@@ -33,6 +35,7 @@ ua-spoof: behind-the-scene false
 * astyle-src.alicdn.com script allow
 * astyle.alicdn.com script allow
 * atp.alicdn.com script allow
+* bilibili.com other allow
 * bootstrapcdn.com script allow
 * browser.gwdang.com script allow
 * cat.net * allow
@@ -54,6 +57,7 @@ ua-spoof: behind-the-scene false
 * geekzu.org * allow
 * googlevideo.com xhr allow
 * gstatic.com * allow
+* hdslb.com other allow
 * hdslb.com script allow
 * hwcdn.libsyn.com other allow
 * i.alicdn.com script allow
@@ -119,6 +123,8 @@ ua-spoof: behind-the-scene false
 17173.com j.v.17173cdn.com script allow
 17173.com ue8.17173.itc.cn script allow
 189.cn 121.41.122.89 script allow
+189.cn 124.173.120.71 * allow
+189.cn 183.59.53.210 * allow
 360.cn js.passport.qihucdn.com script allow
 360.cn login.yunpan.cn script allow
 360.cn qhmsg.com script allow
