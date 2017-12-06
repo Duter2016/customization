@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||wildfire.ai
+||gstatic.com
 ||disqus.com
 ||cjkis.me
 ||ebayimg.com
