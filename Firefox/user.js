@@ -1,4 +1,4 @@
-﻿//2017.10.30
+﻿//2017.12.12
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -27,7 +27,7 @@ user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不
 //动画
 user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
 user_pref("browser.fullscreen.animate",false); //取消全屏动画
-user_pref("browser.tabs.animate",false); //取消标签动画
+user_pref("toolkit.cosmeticAnimations.enabled",false); //取消标签动画
 user_pref("browser.fullscreen.animateUp",0);//关闭全屏时工具栏隐藏显示动画
 user_pref("full-screen-api.transition-duration.enter","0 0");//去除全屏淡进淡出效果
 user_pref("full-screen-api.transition-duration.leave","0 0");//去除全屏淡进淡出效果
@@ -52,20 +52,22 @@ user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显�
 user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
+//不抓取页面缩略图
+user_pref("browser.pagethumbnails.capturing_disabled", true);
+user_pref("pageThumbs.enabled", false);
 //功能去除
 user_pref("media.gmp-gmpopenh264.provider.enabled", false); // GMP Open H264插件，主要用于WebRTC通话功能，对大多数用户来说意义不大，关闭后仅停用该插件。
 user_pref("media.gmp-manager.url", ""); //完全不下载GMP Open H264
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
 user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
-
+user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
+user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
 
 /******************************************************************************************
  *这里是个人设置。
 个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
  *******************************************************************************************/
 //*==========多进程==========*//
-user_pref("extensions.allow-non-mpc-extensions", true);//强制开启非多进程扩展
-user_pref("extensions.legacy.enabled", true);//强制开启旧式扩展
 //Nightly特性
 user_pref("layers.gpu-process.dev.enabled", true);//强制启用Quantum Compositor
 user_pref("layout.css.servo.enabled", true);//强制启用Stylo
@@ -103,28 +105,17 @@ user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 //插件
 user_pref("dom.ipc.plugins.unloadASAP", true); //网页不使用flash后自动关闭Plugin-container
-user_pref("dom.ipc.plugins.enabled", false); //关闭插件的防崩溃保护
-user_pref("dom.ipc.plugins.enabled.npctrl.dll", false);
-user_pref("dom.ipc.plugins.enabled.npqtplugin.dll", false);
-user_pref("dom.ipc.plugins.enabled.npswf32.dll", false);
-user_pref("dom.ipc.plugins.enabled.nptest.dll", false);
-user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁用火狐插件防崩溃功能
-user_pref("plugins.click_to_play", false);//关闭点击才运行插件
-user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
-user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
-user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
-user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
 
 //*=隐私相关=*//
+user_pref("browser.newtabpage.directory.ping", "");//禁止新标签页面的建议磁贴和增强磁贴
+user_pref("browser.urlbar.suggest.searches", false);//禁止地址栏搜索提供搜索建议
 //其它隐私相关
 user_pref("dom.webnotifications.enabled", false);//关闭 WEB 推送通知
 user_pref("dom.webnotifications.serviceworker.enabled", false);//关闭 WEB 推送通知
 user_pref("browser.polaris.enabled", false);//彻底关闭Tracking protection 跟踪保护
 user_pref("privacy.trackingprotection.pbmode.enabled", false);//彻底关闭Tracking protection 跟踪保护
 user_pref("browser.send_pings", false);//禁止Hyperlink Auditing/Beacon: Hyperlink Auditing 就是 ping 服务，Firefox 会把你点击过的链接及其时间发回给服务器，Hyperlink Beacon 是使用 navigator.sendBeacon()在你离开一个页面时将一些数据回传给服务器
-user_pref("browser.newtabpage.directory.ping", "");//禁止新标签页面的建议磁贴和增强磁贴
-user_pref("browser.urlbar.suggest.searches", false);//禁止地址栏搜索提供搜索建议
-user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
+user_pref("privacy.firstparty.isolate", true); //开启火狐FPI隔离功能
 
 //*=FX其它类=*/
 /**
@@ -135,33 +126,12 @@ user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史�
 user_pref("browser.sessionstore.interval", 600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为10分钟
 
 //其它FX
-user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
 user_pref("view_source.editor.external", true);//页面源代码——使用外部编辑器查看
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
-user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
+user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
 
-//*=newDownloadPlus=*//
-//主界面
-user_pref("userChromeJS.downloadPlus.downloadSound_Play", true);//下载完成提示音
-user_pref("userChromeJS.downloadPlus.downloadFileSize", true);//精确显示文件大小
-user_pref("userChromeJS.downloadPlus.autoClose_blankTab", true);//自动关闭空白标签
-user_pref("userChromeJS.downloadPlus.download_speed", true);//下载面皮显示下载速度
-//下载界面
-user_pref("userChromeJS.downloadPlus.download_dialog_saveas", true);//另存为
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo", true);//保存到
-user_pref("userChromeJS.downloadPlus.download_dialog_saveTo_suffix", 1);//保存到——后缀样式
-user_pref("userChromeJS.downloadPlus.download_dialog_showCompleteURL", true);//双击复制完整地址
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclicksaveL", false);//双击保存执行下载
-user_pref("userChromeJS.downloadPlus.download_dialog_doubleclickanyW", false);//双击任意地方执行下载
-//其他
-user_pref("userChromeJS.downloadPlus.new_Download", true);//新建下载
-user_pref("userChromeJS.downloadPlus.new_Download_popups", true);//新建下载——是否弹窗
-user_pref("userChromeJS.downloadPlus.downloadsPanel_removeFile", true);//从硬盘删除
-user_pref("userChromeJS.downloadPlus.download_checksum", true);//Hash计算
-user_pref("userChromeJS.downloadPlus.save_And_Open", true);//保存并打开
-user_pref("userChromeJS.downloadPlus.save_And_Open_RorL", 1);//保存并打开——打开文件
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName", true);//下载改名
-user_pref("userChromeJS.downloadPlus.download_dialog_changeName_encodingConvert", true);//下载改名——是否开启下拉菜单
+//硬件加速相关
+user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
+//user_pref("gfx.webrender.enabled", true);//开启WebRender
