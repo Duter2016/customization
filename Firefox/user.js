@@ -20,10 +20,10 @@ user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
-user_pref("browser.tabs.insertRelatedAfterCurrent", true);//紧邻当前标签打开相关标签
 user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
+user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 //动画
 user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
 user_pref("browser.fullscreen.animate",false); //取消全屏动画
@@ -39,9 +39,6 @@ user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我�
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
-//*==========附加组件==========*//
-user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
-
 //*==========FX其它类==========*//
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
@@ -55,7 +52,7 @@ user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 //不抓取页面缩略图
 user_pref("browser.pagethumbnails.capturing_disabled", true);
 user_pref("pageThumbs.enabled", false);
-//功能去除
+//功能禁用
 user_pref("media.gmp-gmpopenh264.provider.enabled", false); // GMP Open H264插件，主要用于WebRTC通话功能，对大多数用户来说意义不大，关闭后仅停用该插件。
 user_pref("media.gmp-manager.url", ""); //完全不下载GMP Open H264
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
@@ -71,6 +68,7 @@ user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
 //Nightly特性
 user_pref("layers.gpu-process.dev.enabled", true);//强制启用Quantum Compositor
 user_pref("layout.css.servo.enabled", true);//强制启用Stylo
+user_pref("layout.css.servo.chrome.enabled", true);//强制启用Stylo
 
 //*==========主页==========*//
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
@@ -126,12 +124,10 @@ user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史�
 user_pref("browser.sessionstore.interval", 600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为10分钟
 
 //其它FX
-user_pref("view_source.editor.external", true);//页面源代码——使用外部编辑器查看
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
-user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
 
 //硬件加速相关
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
-//user_pref("gfx.webrender.enabled", true);//开启WebRender
+//user_pref("gfx.webrender.enabled", true);//开启WebRender(开启后有bug)
