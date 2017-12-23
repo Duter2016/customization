@@ -63,6 +63,7 @@ bbs.tianya.cn###niuren_ifm
 bobo.com##.mod-follow
 
 ! cnbeta资讯
+cnbeta.com##.cbv810
 cnbeta.com###cb_share
 cnbeta.com##.mask-box
 cnbeta.com##.mask-layer
