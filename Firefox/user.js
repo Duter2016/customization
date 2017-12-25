@@ -130,4 +130,4 @@ user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
 
 //硬件加速相关
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
-//user_pref("gfx.webrender.enabled", true);//开启WebRender(开启后有bug)
+//user_pref("gfx.webrender.enabled", true);//开启WebRender
