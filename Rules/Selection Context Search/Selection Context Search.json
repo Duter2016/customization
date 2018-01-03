@@ -1,19 +1,50 @@
 {
+  "sVersion": "5.3",
   "websiteList": [
+    {
+      "type": "recent",
+      "recentLen": 2,
+      "contexts": [
+        "selection"
+      ],
+      "id": 10
+    },
+    {
+      "type": "separator",
+      "contexts": [
+        "selection"
+      ],
+      "id": 11
+    },
     {
       "type": "link",
       "name": "Google",
-      "address": "https://www.google.com/search?q="
+      "address": "https://www.google.com/search?q=",
+      "id": 1,
+      "contexts": [
+        "selection"
+      ],
+      "popup": true
     },
     {
       "type": "link",
       "name": "Baidu",
-      "address": "http://www.baidu.com/s?ie=utf-8&wd="
+      "address": "http://www.baidu.com/s?ie=utf-8&wd=",
+      "id": 2,
+      "contexts": [
+        "selection"
+      ],
+      "popup": true
     },
     {
       "type": "link",
       "name": "Bing",
-      "address": "http://www.bing.com/search?q="
+      "address": "http://www.bing.com/search?q=",
+      "id": 3,
+      "contexts": [
+        "selection"
+      ],
+      "popup": true
     },
     {
       "type": "folder",
@@ -22,35 +53,109 @@
         {
           "type": "link",
           "name": "外网产品批量管理-SKU",
-          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Sku="
+          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Sku=",
+          "id": 5,
+          "contexts": [
+            "selection"
+          ]
         },
         {
           "type": "link",
           "name": "外网产品批量管理-名称",
-          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Keyword="
+          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Keyword=",
+          "id": 6,
+          "contexts": [
+            "selection"
+          ]
         },
         {
           "type": "link",
           "name": "下架原因/重新上架-SKU",
-          "address": "http://ic.sjlpj.cn/DownShelf/DownShelfOperationMgtList?Sku="
+          "address": "http://ic.sjlpj.cn/DownShelf/DownShelfOperationMgtList?Sku=",
+          "id": 7,
+          "contexts": [
+            "selection"
+          ]
         },
         {
           "type": "link",
           "name": "价格变更管理-SKU",
-          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/UnChangedProductList?IsFirstRequest=false&Sku="
+          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/UnChangedProductList?IsFirstRequest=false&Sku=",
+          "id": 8,
+          "contexts": [
+            "selection"
+          ]
         },
         {
           "type": "link",
           "name": "产品日志管理-SKU",
-          "address": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode="
+          "address": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode=",
+          "id": 9,
+          "contexts": [
+            "selection"
+          ]
         }
-      ]
+      ],
+      "id": 4
+    },
+    {
+      "type": "separator",
+      "contexts": [
+        "selection",
+        "page",
+        "frame",
+        "tab"
+      ],
+      "id": 12
+    },
+    {
+      "type": "bookmarks",
+      "address": "书签菜单\\Search",
+      "contexts": [
+        "selection"
+      ],
+      "id": 13
+    },
+    {
+      "type": "folder",
+      "name": "Bookmarks",
+      "folder": [
+        {
+          "type": "bookmarks",
+          "address": "书签菜单\\Context Menu",
+          "contexts": [
+            "page",
+            "frame",
+            "tab"
+          ],
+          "id": 15
+        }
+      ],
+      "id": 14
+    },
+    {
+      "type": "separator",
+      "contexts": [
+        "selection"
+      ],
+      "id": 16
+    },
+    {
+      "type": "placeholders",
+      "contexts": [
+        "selection"
+      ],
+      "id": 17
     }
   ],
   "sMenuLabel": "Find '%s' using ...",
-  "sOpenSearchIn": "opnt",
-  "sPlaceHolder": "~$S$~",
-  "bUseBookmarks": true,
-  "sBookmarksFolder": "Search",
-  "bShowOptionsInMenu": true
+  "bShowPopup": false,
+  "iPopupMaxColumns": 6,
+  "sOpenSearchIn": "opntnx",
+  "oPlaceHolder": {
+    "keywords": "~$S$~",
+    "url": "~$U$~",
+    "subdomain": "~$B$~",
+    "domain": "~$D$~"
+  }
 }

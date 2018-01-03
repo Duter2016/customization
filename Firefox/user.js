@@ -1,4 +1,4 @@
-﻿//2017.12.12
+﻿//2018.01.02
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -116,6 +116,10 @@ user_pref("browser.send_pings", false);//禁止Hyperlink Auditing/Beacon: Hyperl
 user_pref("privacy.firstparty.isolate", true); //开启火狐FPI隔离功能
 
 //*=FX其它类=*/
+/**
+*网络相关
+*/
+user_pref("network.http.max-persistent-connections-per-server", 10);//设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
 /**
 *会话相关
 */
