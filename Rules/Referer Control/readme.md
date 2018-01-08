@@ -1,1 +1,0 @@
-适用于: https://addons.mozilla.org/zh-CN/firefox/addon/referercontrol/?src=search
