@@ -1,5 +1,5 @@
 {
-  "sVersion": "5.3",
+  "sVersion": "5.6",
   "websiteList": [
     {
       "type": "recent",
@@ -151,6 +151,8 @@
   "sMenuLabel": "Find '%s' using ...",
   "bShowPopup": false,
   "iPopupMaxColumns": 6,
+  "bShowAddSearchPage": false,
+  "bCopySelection": false,
   "sOpenSearchIn": "opntnx",
   "oPlaceHolder": {
     "keywords": "~$S$~",
