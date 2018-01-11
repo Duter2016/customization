@@ -6,8 +6,8 @@ matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
+noscript-spoof: geekbuying.com false
 referrer-spoof: behind-the-scene false
-ua-spoof: behind-the-scene false
 * * * block
 * * css allow
 * * image allow
@@ -28,13 +28,15 @@ ua-spoof: behind-the-scene false
 * aliyun.com * allow
 * analytics.logsss.com script allow
 * api.geetest.com script allow
-* api.map.baidu.com script allow
 * apis.google.com * allow
 * apps.bdimg.com script allow
 * assets.alicdn.com script allow
 * astyle-src.alicdn.com script allow
 * astyle.alicdn.com script allow
 * atp.alicdn.com script allow
+* baidu.com * allow
+* bdimg.com * allow
+* bdstatic.com * allow
 * bilibili.com other allow
 * bootstrapcdn.com script allow
 * browser.gwdang.com script allow
@@ -78,6 +80,8 @@ ua-spoof: behind-the-scene false
 * qhimg.com script allow
 * s.tbcdn.cn script allow
 * s3.amazonaws.com * allow
+* sinaimg.cn * allow
+* sinajs.cn * allow
 * ssl-images-amazon.com script allow
 * ssl.gstatic.com * allow
 * static.duoshuo.com script allow
@@ -125,6 +129,8 @@ ua-spoof: behind-the-scene false
 189.cn 121.41.122.89 script allow
 189.cn 124.173.120.71 * allow
 189.cn 183.59.53.210 * allow
+189.cn 51educity.com script allow
+189.cn sz189.cn * allow
 360.cn js.passport.qihucdn.com script allow
 360.cn login.yunpan.cn script allow
 360.cn qhmsg.com script allow
@@ -139,26 +145,26 @@ ua-spoof: behind-the-scene false
 9ku.com show.g.mediav.com script allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
+alibaba.com 1688.com script allow
 alibaba.com stylessl.aliunicorn.com script allow
 aliexpress.com aeu.alicdn.com script allow
 amazon.cn images-cn.ssl-images-amazon.com script allow
 amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
 anjuke.com anjukestatic.com script allow
+apowersoft.cn launcher.apowersoft.com xhr allow
 apowersoft.cn static-cdn-cn.apowersoft.com script allow
 apple.com store.storeimages.cdn-apple.com script allow
+archdaily.cn assets.adsttc.com script allow
 autodesk.com.cn autodesk.net script allow
 baidu.com baidupcs.com frame allow
 baidu.com baike.bdimg.com script allow
-baidu.com bdimg.com script allow
-baidu.com bdstatic.com script allow
 baidu.com bos.wenku.bdimg.com script allow
 baidu.com exp.bdstatic.com script allow
 baidu.com map.bdimg.com script allow
 baidu.com map.bdstatic.com script allow
 baidu.com retype.wenku.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
-baidu.com ss0.bdstatic.com script allow
 baidu.com static.wenku.bdimg.com script allow
 baidu.com tb1.bdstatic.com script allow
 baidu.com wkbos.bdimg.com script allow
@@ -190,6 +196,7 @@ cntv.cn cctvpic.com script allow
 cntv.cn cdnpe.com other allow
 cntv.cn cntvwb.cn other allow
 convertio.co convertio.me xhr allow
+csdn.net csdnimg.cn * allow
 ctfile.com static.tv002.com script allow
 deviantart.com st.deviantart.net script allow
 deviantart.com www.da-ads.com * allow
@@ -205,8 +212,8 @@ douyu.com vstatic.douyucdn.cn script allow
 dropbox.com cfl.dropboxstatic.com script allow
 duowan.com assets.dwstatic.com script allow
 dx.com img.dxcdn.com script allow
+ebay.com ebaydesc.com * allow
 ebay.com ebaystatic.com * allow
-ebay.com vi.vipr.ebaydesc.com script allow
 economist.com admin.brightcove.com script allow
 economist.com cdn.static-economist.com script allow
 esri.com arcgis.github.io xhr allow
@@ -253,6 +260,9 @@ huihui.cn webzj.reg.163.com script allow
 huorong.cn discuz.gtimg.cn script allow
 hupu.com hoopchina.com.cn script allow
 huxiu.com static.huxiucdn.com script allow
+huya.com 183.59.53.202 script allow
+huya.com a.msstatic.com script allow
+huya.com duowan.com * allow
 ibm.com s81c.com script allow
 ifeng.com ifengimg.com other allow
 ifeng.com ifengimg.com script allow
@@ -278,6 +288,7 @@ jd.hk 3.cn script allow
 jd.hk 360buyimg.com script allow
 jd.hk jd.com script allow
 jianshu.com cdn-qn0.jianshu.io script allow
+jianshu.com jianshu.io script allow
 jizhi.im jizhi-10061919.file.myqcloud.com script allow
 juksy.com apis.google.com script inherit
 kafan.cn aliapp.org * allow
@@ -307,11 +318,14 @@ mi.com s01.mifile.cn script allow
 mi.com sec-boss.static.xiaomi.net script allow
 miaopai.com cdn.krcom.cn script allow
 miniinthebox.com minijscss.rightinthebox.com script allow
+miniinthebox.com rightinthebox.com * allow
 miwifi.com static.xiaomi.net script allow
 mobilefun.co.uk static.mobilefun.com script allow
 moe.edu.tw 140.111.1.112 script allow
+mozilla.github.io google.com xhr allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
+mp3cut.net 123apps.com * allow
 newbalance.com demandware.edgesuite.net script allow
 nickkolenda.com fast.wistia.com script allow
 nih.gov static.pubmed.gov script allow
@@ -325,6 +339,7 @@ oneplusbbs.com statics.oneplus.cn script allow
 opera.com www-static.operacdn.com script allow
 oray.com static.orayimg.com script allow
 panda.tv pdim.gs script allow
+paypal.com paypalobjects.com script allow
 pconline.com.cn 3conline.com script allow
 pdawiki.com touclick.com script allow
 people.cn res.wx.qq.com script allow
@@ -361,6 +376,7 @@ quora.com quoracdn.net script allow
 quora.com ssl.gstatic.com script allow
 quora.com www.google.com script allow
 quora.com www.gstatic.com script allow
+qyer.com qyerstatic.com script allow
 raindrop.io widget.intercom.io script allow
 runningcheese.com itc.cn script allow
 runningcheese.com runningcheese.duoshuo.com xhr allow
@@ -375,8 +391,6 @@ sina.cn mjs.sinaimg.cn xhr allow
 sina.com.cn simg.sinajs.cn css allow
 sina.com.cn simg.sinajs.cn image allow
 sina.com.cn sina.cn * allow
-sina.com.cn sinaimg.cn script allow
-sina.com.cn sinajs.cn script allow
 sina.com.cn sjs.sinajs.cn script allow
 sina.com.cn weibo.cn * allow
 sina.com.cn weibo.com * allow
