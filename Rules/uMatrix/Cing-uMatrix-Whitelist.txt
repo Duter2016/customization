@@ -6,6 +6,7 @@ matrix-off: chrome-scheme true
 matrix-off: localhost true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
+matrix-off: tvc-mall.com false
 noscript-spoof: geekbuying.com false
 referrer-spoof: behind-the-scene false
 * * * block
@@ -26,6 +27,7 @@ referrer-spoof: behind-the-scene false
 * aliapp.org * allow
 * alicdn.com * allow
 * aliyun.com * allow
+* aliyuncs.com * allow
 * analytics.logsss.com script allow
 * api.geetest.com script allow
 * apis.google.com * allow
@@ -38,11 +40,11 @@ referrer-spoof: behind-the-scene false
 * bdimg.com * allow
 * bdstatic.com * allow
 * bilibili.com other allow
+* bootcss.com * allow
 * bootstrapcdn.com script allow
 * browser.gwdang.com script allow
 * cat.net * allow
 * cdn.aixifan.com script allow
-* cdn.bootcss.com script allow
 * cdn.staticfile.org script allow
 * cdnsecakmi.kaltura.com other allow
 * cdnsecakmi.kaltura.com xhr allow
@@ -59,6 +61,7 @@ referrer-spoof: behind-the-scene false
 * geekzu.org * allow
 * googlevideo.com xhr allow
 * gstatic.com * allow
+* gtimg.cn * allow
 * hdslb.com other allow
 * hdslb.com script allow
 * hwcdn.libsyn.com other allow
@@ -78,6 +81,9 @@ referrer-spoof: behind-the-scene false
 * players.brightcove.net script allow
 * qbox.me script allow
 * qhimg.com script allow
+* qhmsg.com * allow
+* qihucdn.com * allow
+* qikucdn.com * allow
 * s.tbcdn.cn script allow
 * s3.amazonaws.com * allow
 * sinaimg.cn * allow
@@ -101,6 +107,7 @@ referrer-spoof: behind-the-scene false
 * yimg.com script allow
 * youtube.com script allow
 * ytimg.com * allow
+* zhimg.com * allow
 1055.tv * other allow
 10jqka.com.cn thsi.cn script allow
 120.24.13.81 cat.net * allow
@@ -112,16 +119,17 @@ referrer-spoof: behind-the-scene false
 127.0.0.1 * * allow
 163.com * other allow
 163.com 126.net script allow
+163.com 127.net * allow
 163.com 14.119.124.58 other allow
+163.com 163yun.com * allow
 163.com b1.bst.126.net script allow
 163.com cache.netease.com script allow
 163.com m10.music.126.net other allow
 163.com mimg.127.net script allow
 163.com music.126.net script allow
-163.com nos.netease.com script allow
+163.com netease.com * allow
 163.com r.ph.126.net script allow
 163.com s2.open.126.net script allow
-163.com ursdoccdn.nosdn.127.net script allow
 1688.com login.taobao.com * allow
 1688.com passport.taobao.com * allow
 17173.com j.v.17173cdn.com script allow
@@ -131,9 +139,8 @@ referrer-spoof: behind-the-scene false
 189.cn 183.59.53.210 * allow
 189.cn 51educity.com script allow
 189.cn sz189.cn * allow
-360.cn js.passport.qihucdn.com script allow
+360.cn discuz.gtimg.cn script inherit
 360.cn login.yunpan.cn script allow
-360.cn qhmsg.com script allow
 360.cn s.ssl.qhimg.com script allow
 360safe.com down.360safe.com * inherit
 365yg.com pstatp.com script allow
@@ -514,8 +521,8 @@ zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
 zhaopin.com img07.zhaopin.cn script allow
 zhenai.com zastatic.com script allow
+zhihu.com vzuu.com * allow
 zhihu.com z1.zhimg.com script allow
-zhihu.com zhimg.com script allow
 zhipin.com img.bosszhipin.com script allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
