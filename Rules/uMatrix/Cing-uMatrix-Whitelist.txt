@@ -126,7 +126,6 @@ getpocket.com www.google.com script allow
 github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
 github.com github.com cookie allow
 google.com ads.google.com script allow
-google.com ssl.google-analytics.com image allow
 google.com ssl.google-analytics.com script allow
 google.com www.google-analytics.com script allow
 google.com www.google.com script inherit
@@ -258,11 +257,11 @@ shanbay.com static.baydn.com script allow
 shiting5.com r.gslb.lecloud.com xhr allow
 sina.cn mjs.sinaimg.cn script allow
 sina.cn mjs.sinaimg.cn xhr allow
-sina.com.cn simg.sinajs.cn css allow
-sina.com.cn simg.sinajs.cn image allow
 sina.com.cn sjs.sinajs.cn script allow
 sjlpj.cn 1st-party script inherit
 sjlpj.cn 1st-party xhr inherit
+sjlpj.cn ic.sjlpj.cn script allow
+sjlpj.cn ic.sjlpj.cn xhr allow
 sjlpj.cn sjlpj.cn cookie allow
 smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
