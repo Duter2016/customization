@@ -1,4 +1,4 @@
-﻿//2018.01.02
+﻿//2018.01.27
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -9,14 +9,7 @@
 
 //*==========选项卡里的设置==========*//
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
-user_pref("privacy.trackingprotection.enabled", true);//使用跟踪保护
-user_pref("privacy.donottrackheader.enabled", true);//请勿跟踪
 user_pref("accessibility.force_disabled", 1);//强制阻止无障碍服务,容易被第三方跟踪
-//搜索
-user_pref("browser.search.suggest.enabled", false);//提供搜索建议(否)
-user_pref("browser.search.redirectWindowsSearch", false);//使用此搜索引擎处理Windows的搜索(否)
-user_pref("browser.search.openintab", true);//新标签打开搜索栏
-user_pref("browser.search.context.loadInBackground", true);//后台打开搜索
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -25,14 +18,7 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 //动画
-user_pref("browser.download.animateNotifications",false); //取消下载提醒动画
-user_pref("browser.fullscreen.animate",false); //取消全屏动画
 user_pref("toolkit.cosmeticAnimations.enabled",false); //取消标签动画
-user_pref("browser.fullscreen.animateUp",0);//关闭全屏时工具栏隐藏显示动画
-user_pref("full-screen-api.transition-duration.enter","0 0");//去除全屏淡进淡出效果
-user_pref("full-screen-api.transition-duration.leave","0 0");//去除全屏淡进淡出效果
-user_pref("full-screen-api.warning.delay",0);//去除全屏提醒
-user_pref("full-screen-api.warning.timeout",0);//去除全屏提醒
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
@@ -42,13 +28,9 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 //*==========FX其它类==========*//
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
-user_pref("privacy.popups.showBrowserMessage", false);//弹窗不提示消息
-user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
-user_pref("extensions.blocklist.enabled", false);//关闭启动时插件检查窗口
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
-user_pref("xpinstall.signatures.required", false);//去除扩展签名验证
 //不抓取页面缩略图
 user_pref("browser.pagethumbnails.capturing_disabled", true);
 user_pref("pageThumbs.enabled", false);
@@ -64,11 +46,6 @@ user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
  *这里是个人设置。
 个人设置存放位置: ProfD\\Chrome\\Local\\_user.js
  *******************************************************************************************/
-//*==========多进程==========*//
-//Nightly特性
-user_pref("layers.gpu-process.dev.enabled", true);//强制启用Quantum Compositor
-user_pref("layout.css.servo.enabled", true);//强制启用Stylo
-user_pref("layout.css.servo.chrome.enabled", true);//强制启用Stylo
 
 //*==========主页==========*//
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
@@ -104,9 +81,6 @@ user_pref("mousewheel.default.delta_multiplier_y", 160);
 //插件
 user_pref("dom.ipc.plugins.unloadASAP", true); //网页不使用flash后自动关闭Plugin-container
 
-//*=隐私相关=*//
-user_pref("browser.newtabpage.directory.ping", "");//禁止新标签页面的建议磁贴和增强磁贴
-user_pref("browser.urlbar.suggest.searches", false);//禁止地址栏搜索提供搜索建议
 //其它隐私相关
 user_pref("dom.webnotifications.enabled", false);//关闭 WEB 推送通知
 user_pref("dom.webnotifications.serviceworker.enabled", false);//关闭 WEB 推送通知
@@ -134,4 +108,3 @@ user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
 
 //硬件加速相关
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
-//user_pref("gfx.webrender.enabled", true);//开启WebRender
