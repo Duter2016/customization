@@ -18,9 +18,12 @@ referrer-spoof: behind-the-scene false
 * 1st-party script allow
 * 1st-party xhr allow
 * 71.am * block
+* ajax.googleapis.com script allow
 * api.geetest.com script allow
 * g.alicdn.com script allow
+* gapis.geekzu.org script allow
 * i.alicdn.com script allow
+* s3.amazonaws.com script allow
 * static.geetest.com script allow
 120.24.13.81 120.24.13.81 cookie allow
 163.com 126.net script allow
@@ -73,6 +76,8 @@ baidu.com map.bdstatic.com script allow
 baidu.com passport.bdimg.com script allow
 baidu.com retype.wenku.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
+baidu.com ss0.bdstatic.com script allow
+baidu.com ss1.bdstatic.com script allow
 baidu.com static.wenku.bdimg.com script allow
 baidu.com tb1.bdstatic.com script allow
 baidu.com wkbos.bdimg.com script allow
@@ -83,6 +88,8 @@ banggood.com www.banggood.com script allow
 banggood.com www.banggood.com xhr allow
 baomitu.com qhres.com script allow
 baomitu.com s.ssl.qhimg.com script allow
+barilliance.com barilliance.com cookie allow
+barilliance.com www.barilliance.net script allow
 bilibili.com acgvideo.com other allow
 bilibili.com acgvideo.com xhr allow
 bilibili.com bilibili.com cookie allow
@@ -108,6 +115,8 @@ cntv.cn cctv.com script allow
 cntv.cn cctvpic.com script allow
 cntv.cn cdnpe.com other allow
 cntv.cn cntvwb.cn other allow
+coding.net coding.net cookie allow
+coding.net dn-coding-net-production-static.qbox.me script allow
 convertio.co convertio.me xhr allow
 ctfile.com static.tv002.com script allow
 deviantart.com st.deviantart.net script allow
@@ -124,6 +133,8 @@ douyu.com vstatic.douyucdn.cn script allow
 dropbox.com cfl.dropboxstatic.com script allow
 duowan.com assets.dwstatic.com script allow
 dx.com img.dxcdn.com script allow
+eastmoney.com emcharts.dfcfw.com script allow
+eastmoney.com emres.dfcfw.com script allow
 economist.com admin.brightcove.com script allow
 economist.com cdn.static-economist.com script allow
 esri.com arcgis.github.io xhr allow
@@ -161,6 +172,7 @@ google.com www.google-analytics.com script allow
 google.com www.google.com script inherit
 google.com www.googleadservices.com script allow
 google.com www.gstatic.com xhr allow
+greasyfork.org greasyfork.org cookie allow
 gsmarena.com s3-eu-west-1.amazonaws.com xhr allow
 gsmarena.com www.adiode.com xhr allow
 h2os.com statics.oneplus.cn script allow
@@ -218,7 +230,6 @@ jd.com plus.jd.com xhr allow
 jd.com search.jd.com script allow
 jd.com search.jd.com xhr allow
 jd.com shared-https.ydstatic.com script allow
-jd.com skunotify.jd.com frame allow
 jd.com static.360buyimg.com script allow
 jd.com vip.jd.com script allow
 jd.com zhushou.huihui.cn script allow
@@ -326,6 +337,7 @@ sina.cn mjs.sinaimg.cn xhr allow
 sina.com.cn sjs.sinajs.cn script allow
 sjlpj.cn 1st-party script inherit
 sjlpj.cn 1st-party xhr inherit
+sjlpj.cn bi.sjlpj.cn script allow
 sjlpj.cn ic.sjlpj.cn script allow
 sjlpj.cn ic.sjlpj.cn xhr allow
 sjlpj.cn sjlpj.cn cookie allow
