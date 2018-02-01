@@ -49,6 +49,7 @@ referrer-spoof: behind-the-scene false
 56.com tv.sohu.com script allow
 91simi.com qq.com script allow
 9ku.com show.g.mediav.com script allow
+aapc.com cta-service-cms2.hubspot.com script allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
 alibaba.com 1688.com script allow
@@ -109,6 +110,17 @@ chouti.com dig.chouti.com script allow
 chouti.com dig.chouti.com xhr allow
 cjol.com js.cjolimg.com script allow
 cnbc.com js.cnbcfm.com script allow
+cnbeta.com 121.12.90.19 other allow
+cnbeta.com 14.17.81.214 other allow
+cnbeta.com 183.60.145.11 other allow
+cnbeta.com 47.92.21.16 other allow
+cnbeta.com 47.92.21.27 other allow
+cnbeta.com 47.92.21.32 other allow
+cnbeta.com api.hd.youku.com other allow
+cnbeta.com api.youku.com other allow
+cnbeta.com static.youku.com other allow
+cnbeta.com ups.youku.com other allow
+cnbeta.com v.youku.com other allow
 cnet.com cbsistatic.com script allow
 cnn.com verticals.static.cnn.io script allow
 cntv.cn cctv.com script allow
@@ -190,6 +202,7 @@ huawei.com res.c.huaweistatic.com script allow
 huihui.cn shared.ydstatic.com script allow
 huihui.cn webzj.reg.163.com script allow
 huorong.cn discuz.gtimg.cn script allow
+huorong.cn huorong.cn cookie allow
 hupu.com hoopchina.com.cn script allow
 huxiu.com static.huxiucdn.com script allow
 huya.com 183.59.53.202 script allow
@@ -260,6 +273,7 @@ liepin.com concat.lietou-static.com script allow
 lightinthebox.com litbjscss.rightinthebox.com script allow
 linkedin.com s.c.lnkd.licdn.com script allow
 linkedin.com static.licdn.com script allow
+listary.com listary.com cookie allow
 live.com auth.gfx.ms script allow
 live.com pfx.ms script allow
 lrts.me wting.info other allow
@@ -274,6 +288,7 @@ miniinthebox.com minijscss.rightinthebox.com script allow
 miwifi.com static.xiaomi.net script allow
 mobilefun.co.uk static.mobilefun.com script allow
 moe.edu.tw 140.111.1.112 script allow
+mozest.com mozest.com cookie allow
 mozilla.github.io google.com xhr allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
@@ -310,7 +325,6 @@ qq.com gtimg.cn script allow
 qq.com idqqimg.com script allow
 qq.com imgcache.gtimg.cn script allow
 qq.com mat1.gtimg.com script allow
-qq.com mp.weixin.qq.com script allow
 qq.com qzonestyle.gtimg.cn script allow
 qq.com rescdn.qqmail.com script allow
 qq.com url.cn script allow
@@ -455,6 +469,8 @@ zhaopin.com img02.zhaopin.cn script allow
 zhaopin.com img07.zhaopin.cn script allow
 zhenai.com zastatic.com script allow
 zhihu.com unpkg.zhimg.com script allow
+zhihu.com v.vzuu.com frame allow
+zhihu.com v.vzuu.com script allow
 zhihu.com z1.zhimg.com script allow
 zhihu.com zhihu-beyond.zhimg.com script allow
 zhihu.com zhihu.com cookie allow
