@@ -1,4 +1,4 @@
-﻿//2018.01.27
+﻿//2018.01.29
 
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
@@ -10,6 +10,7 @@
 //*==========选项卡里的设置==========*//
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("accessibility.force_disabled", 1);//强制阻止无障碍服务,容易被第三方跟踪
+user_pref("signon.rememberSignons", false);//不保存密码
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -26,6 +27,7 @@ user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在�
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========FX其它类==========*//
+user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
 user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
@@ -80,6 +82,17 @@ user_pref("mousewheel.default.delta_multiplier_y", 160);
 
 //插件
 user_pref("dom.ipc.plugins.unloadASAP", true); //网页不使用flash后自动关闭Plugin-container
+user_pref("dom.ipc.plugins.enabled", false); //关闭插件的防崩溃保护
+user_pref("dom.ipc.plugins.enabled.npctrl.dll", false);
+user_pref("dom.ipc.plugins.enabled.npqtplugin.dll", false);
+user_pref("dom.ipc.plugins.enabled.npswf32.dll", false);
+user_pref("dom.ipc.plugins.enabled.nptest.dll", false);
+user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false);//禁用火狐插件防崩溃功能
+user_pref("plugins.click_to_play", false);//关闭点击才运行插件
+user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺失插件消息提醒
+user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
+user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
+user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
 
 //其它隐私相关
 user_pref("dom.webnotifications.enabled", false);//关闭 WEB 推送通知
