@@ -1,7 +1,9 @@
-﻿//2018.01.29
+//2018.02.12
 
+/*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
 # user_pref(key,value)等同于从about:config修改,删除之后,修改的设置仍然有效.
+*/
 
 /******************************************************************************************
  *这里是通用设置。
@@ -19,7 +21,8 @@ user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
 //动画
-user_pref("toolkit.cosmeticAnimations.enabled",false); //取消标签动画
+user_pref("toolkit.cosmeticAnimations.enabled", false); //取消标签动画
+user_pref("browser.urlbar.openintab", true); //地址栏新标签页开启
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
@@ -43,6 +46,7 @@ user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用�
 user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
 user_pref("reader.parse-on-load.enabled", false);//禁用阅读模式
 user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
+user_pref("browser.tabs.remote.warmup.enabled", true);//新功能:Tab Warming
 
 /******************************************************************************************
  *这里是个人设置。
@@ -52,8 +56,8 @@ user_pref("extensions.screenshots.disabled", true);//自带截图(禁用)
 //*==========主页==========*//
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
-//标签页固定的网站(12个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\"知乎\"},{\"url\":\"http://www.qdaily.com/\",\"title\":\"好奇心日报\"}]");
+//标签页固定的网站(16个)
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\"知乎\"},{\"url\":\"http://www.qdaily.com/\",\"title\":\"好奇心日报\"},{\"url\":\"http://www.statista.com/\",\"title\":\"Statista\"},{\"url\":\"http://focus.tianya.cn/\",\"title\":\"天涯聚焦\"},{\"url\":\"http://www.douban.com/\",\"title\":\"豆瓣\"},{\"url\":\"http://music.163.com/\",\"title\":\"163Music\"}]");
  
 //*==========Firefox设置==========*//
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
