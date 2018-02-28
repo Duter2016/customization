@@ -1,4 +1,4 @@
-//2018.02.12
+//2018.02.28
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -20,9 +20,7 @@ user_pref("browser.newtabpage.introShown", true);//去除新版newtab提示
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
-//动画
 user_pref("toolkit.cosmeticAnimations.enabled", false); //取消标签动画
-user_pref("browser.urlbar.openintab", true); //地址栏新标签页开启
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
