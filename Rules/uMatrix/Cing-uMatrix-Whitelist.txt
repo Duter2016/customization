@@ -30,6 +30,7 @@ referrer-spoof: behind-the-scene false
 * gapis.geekzu.org script allow
 * gtimg.cn * allow
 * lib.sinaapp.com script allow
+* map.baidu.com * allow
 * s3.amazonaws.com script allow
 * static.geetest.com script allow
 * youku.com * allow
@@ -83,12 +84,12 @@ baidu.com bdstatic.com * allow
 baidu.com bkssl.bdimg.com script allow
 baidu.com bos.wenku.bdimg.com script allow
 baidu.com exp.bdstatic.com script allow
+baidu.com map.baidu.com * inherit
 baidu.com map.bdimg.com script allow
 baidu.com map.bdstatic.com script allow
 baidu.com passport.bdimg.com script allow
 baidu.com retype.wenku.bdimg.com script allow
 baidu.com s1.pan.bdstatic.com script allow
-baidu.com ss1.bdstatic.com script allow
 baidu.com static.wenku.bdimg.com script allow
 baidu.com wkbos.bdimg.com script allow
 baidu.com wkstatic.bdimg.com script allow
@@ -238,6 +239,9 @@ jianshu.com cdn-qn0.jianshu.io script allow
 jianshu.com jianshu.io script allow
 jizhi.im jizhi-10061919.file.myqcloud.com script allow
 juksy.com apis.google.com script inherit
+kafan.cn aliapp.org script inherit
+kafan.cn aliapp.org xhr inherit
+kafan.cn alipay.com script inherit
 kafan.cn api.geetest.com script allow
 kafan.cn ikafan.com * allow
 kafan.cn static.geetest.com script allow
@@ -303,6 +307,7 @@ pinggu.org 120.27.111.137 script allow
 pinggu.org dztest.pinggu.com script allow
 pinggu.org passport.cda.cn script allow
 pinterest.com pinimg.com script allow
+pinyin.cn sogou.com * allow
 porn.com librelytics.com script allow
 qdaily.com imgcache.qq.com script allow
 qiaobutang.com cdn.qiaobutang.com script block
@@ -346,6 +351,7 @@ smartisan.com static.smartisanos.cn script allow
 so.com js.passport.qihucdn.com script allow
 so.com qhmsg.com script allow
 so.com qhres.com script allow
+sogou.com sogoucdn.com * allow
 sohu.com cdn.sohucs.com script allow
 sohu.com itc.cn script allow
 sohu.com js.tv.itc.cn script allow
@@ -365,12 +371,15 @@ tianya.cn tianyaui.com * allow
 tieba.com bdstatic.com script allow
 tiexue.net s.itiexue.net script allow
 tiobe.com code.highcharts.com script allow
+tmall.com alibaba.com * allow
+tmall.com alipay.com script inherit
 tmall.com assets.alicdn.com script inherit
 tmall.com desc.alicdn.com script inherit
 tmall.com err.taobao.com script allow
 tmall.com passport.taobao.com script allow
 tmall.com s.tbcdn.cn script inherit
-tmall.com ynuf.alipay.com script allow
+tmall.com taobao.com * allow
+tmall.com tbcdn.cn * allow
 tomtop.com s3-us-west-2.amazonaws.com script allow
 tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
@@ -456,7 +465,6 @@ zhihu.com vzuu.com * allow
 zhihu.com z1.zhimg.com script allow
 zhihu.com zhihu-beyond.zhimg.com script allow
 zhihu.com zhimg.com * allow
-zhihu.com zhuanlan.zhihu.com xhr allow
 zhipin.com img.bosszhipin.com script allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
