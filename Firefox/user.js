@@ -1,4 +1,4 @@
-//2018.03.12
+//2018.03.15
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -55,7 +55,7 @@ user_pref("browser.tabs.remote.warmup.enabled", true);//新功能:Tab Warming
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\"知乎\"},{\"url\":\"https://www.jianshu.com/\",\"title\":\"简书\"},{\"url\":\"http://www.qdaily.com/\",\"title\":\"好奇心日报\"},{\"url\":\"http://www.statista.com/\",\"title\":\"Statista\"},{\"url\":\"http://focus.tianya.cn/\",\"title\":\"天涯聚焦\"},{\"url\":\"http://www.douban.com/\",\"title\":\"豆瓣\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/explore\",\"title\":\"知乎\"},{\"url\":\"https://www.jianshu.com/\",\"title\":\"简书\"},{\"url\":\"http://www.douban.com/\",\"title\":\"豆瓣\"},{\"url\":\"http://www.qdaily.com/\",\"title\":\"好奇心日报\"},{\"url\":\"http://www.statista.com/\",\"title\":\"Statista\"},{\"url\":\"http://focus.tianya.cn/\",\"title\":\"天涯聚焦\"}]");
  
 //*==========Firefox设置==========*//
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
@@ -108,7 +108,27 @@ user_pref("privacy.firstparty.isolate", true); //开启火狐FPI隔离功能
 /**
 *网络相关
 */
-user_pref("network.http.max-persistent-connections-per-server", 10);//设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
+user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载管理器用:设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
+
+//Delay设置
+user_pref("accessibility.delay_plugin_time", 1000);
+user_pref("apz.frame_delay.enabled", false);
+user_pref("apz.scale_repaint_delay_ms", 50);
+user_pref("browser.overlink-delay", 8);
+user_pref("dom.serviceWorkers.disable_open_click_delay", 100);
+user_pref("gfx.font_loader.delay", 12000);
+user_pref("media.suspend-bkgnd-video.delay-ms", 1000);
+user_pref("network.http.tailing.delay-max", 600);
+user_pref("network.http.tailing.delay-quantum", 60);
+user_pref("network.http.tailing.delay-quantum-after-domcontentloaded", 10);
+user_pref("network.tickle-wifi.delay", 3);
+user_pref("toolkit.scrollbox.clickToScroll.scrollDelay", 15);
+user_pref("ui.touch_activation.delay_ms", 10);
+user_pref("javascript.options.compact_on_user_inactive_delay", 1500);
+user_pref("security.dialog_enable_delay", 100);
+user_pref("security.notification_enable_delay", 50);
+
+
 /**
 *会话相关
 */
