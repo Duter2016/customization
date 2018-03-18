@@ -86,7 +86,8 @@ duowan.com###mbbs-qrcode
 ! 经济学人
 economist.com##.newsletter-form--inline.newsletter-form
 economist.com##.timekeeper-bubble
-economist.com##.fe-blogs__top-ad-wrapper--loading.fe-blogs__top-ad-wrapper-firstload.fe-blogs__top-ad-wrapper
+economist.com##.fe-blogs__top-ad-wrapper-firstload.fe-blogs__top-ad-wrapper
+
 
 ! FT
 ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
