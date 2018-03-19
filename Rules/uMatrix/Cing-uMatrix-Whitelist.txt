@@ -25,6 +25,7 @@ referrer-spoof: behind-the-scene false
 * alipay.com * allow
 * alipay.com script allow
 * aliyun.com * allow
+* aliyuncs.com * allow
 * api.geetest.com script allow
 * bdimg.com * allow
 * gapis.geekzu.org script allow
@@ -59,6 +60,7 @@ referrer-spoof: behind-the-scene false
 91simi.com qq.com script allow
 9ku.com show.g.mediav.com script allow
 aapc.com cta-service-cms2.hubspot.com script allow
+acfun.cn aixifan.com * allow
 acfun.tv cdn.aixifan.com script allow
 alcatel-mobile.com pic1.aotcloud.com script allow
 alibaba.com 1688.com script allow
@@ -150,6 +152,7 @@ esri.com unpkg.com script allow
 fanli.com 51fanli.net * allow
 fantasy.tv bdstatic.com * allow
 fasttech.com fasttechcdn.com script allow
+finereport.com fanruan.com * allow
 firefox.com accounts.cdn.mozilla.net script allow
 firefox.com analysis-output.telemetry.mozilla.org other allow
 firefox.com mozilla.net script allow
@@ -236,7 +239,7 @@ jd.hk 3.cn script allow
 jd.hk 360buyimg.com script allow
 jd.hk jd.com script allow
 jianshu.com cdn-qn0.jianshu.io script allow
-jianshu.com jianshu.io script allow
+jianshu.com jianshu.io * allow
 jizhi.im jizhi-10061919.file.myqcloud.com script allow
 juksy.com apis.google.com script inherit
 kafan.cn aliapp.org script inherit
@@ -275,6 +278,7 @@ mi.com mifile.cn * allow
 mi.com sec-boss.static.xiaomi.net script allow
 mi.com xiaomi.com * allow
 miaopai.com cdn.krcom.cn script allow
+microsoft.com onestore.ms * allow
 miniinthebox.com minijscss.rightinthebox.com script allow
 miwifi.com static.xiaomi.net script allow
 mobilefun.co.uk static.mobilefun.com script allow
@@ -317,8 +321,8 @@ qq.com gtimg.cn * allow
 qq.com idqqimg.com script allow
 qq.com imgcache.gtimg.cn script allow
 qq.com mat1.gtimg.com script allow
+qq.com qqmail.com * allow
 qq.com qzonestyle.gtimg.cn script allow
-qq.com rescdn.qqmail.com script allow
 qq.com url.cn script allow
 quora.com accounts.google.com script allow
 quora.com apis.google.com script allow
@@ -435,6 +439,7 @@ xiachufang.com qnssl.com * allow
 xiami.com res.xiami.net script allow
 xiaomi.com mi.com * allow
 xinshipu.com xinshipu.cn script allow
+xmind.cn s3.cn-north-1.amazonaws.com.cn * allow
 xunlei.com img.jiuwo.kanimg.com script allow
 xunlei.com img.vip.kanimg.com script allow
 xunlei.com static.i.kanimg.com script allow
@@ -450,8 +455,9 @@ youku.com list.youku.com xhr allow
 youku.com r1.ykimg.com script allow
 youku.com static.ykimg.com script allow
 youth.cn static.yidianzixun.com script allow
-youtube.com googlevideo.com xhr allow
+youtube.com googlevideo.com * allow
 youtube.com s.ytimg.com script inherit
+youtube.com ytimg.com * allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
 yxdown.com pb.pp8.com script allow
@@ -471,5 +477,6 @@ zimuzu.tv js.rrsub.net script allow
 zimuzu.tv js.zmzjstu.com script allow
 zimuzu.tv renren.maoyun.tv script allow
 zmz001.com diaodiaode.me script allow
+zmz002.com diaodiaode.me * allow
 zmz2017.com zmzjstu.com script allow
 zol.com.cn zol-img.com.cn script allow
