@@ -18,6 +18,7 @@ referrer-spoof: behind-the-scene false
 * 360buyimg.com * allow
 * 71.am * block
 * ajax.googleapis.com script allow
+* akamaized.net * allow
 * aliapp.org * allow
 * aliapp.org script allow
 * aliapp.org xhr allow
@@ -291,7 +292,9 @@ mi.com mifile.cn * allow
 mi.com sec-boss.static.xiaomi.net script allow
 mi.com xiaomi.com * allow
 miaopai.com krcom.cn * allow
+microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
+microsoft.com microsoftonline.com * allow
 microsoft.com msecnd.net * allow
 microsoft.com onestore.ms * allow
 microsoft.com s-microsoft.com * allow
