@@ -39,13 +39,14 @@ referrer-spoof: behind-the-scene false
 * pinimg.com * allow
 * qhimg.com * allow
 * qhres.com * allow
-* s3.amazonaws.com script allow
+* s3.amazonaws.com * allow
 * simg.sinajs.cn * inherit
 * sinaimg.cn * allow
 * static.geetest.com script allow
 * yimg.com * allow
 * ykimg.com * allow
 * youku.com * allow
+* youtube.com * allow
 163.com 126.net * allow
 163.com 127.net * allow
 163.com 14.119.124.58 other allow
@@ -262,6 +263,8 @@ kafan.cn ikafan.com * allow
 kafan.cn static.geetest.com script allow
 kankanwu.com newplayer.lsmmr.com script allow
 kaola.com mm.bst.126.net script allow
+khanacademy.org kastatic.org * allow
+khanacademy.org s3.amazonaws.com script inherit
 kindbook.cn kindbook.cn frame allow
 kindbook.cn kindbook.cn script allow
 kindbook.cn kindbook.cn xhr allow
@@ -408,6 +411,7 @@ tmall.com tbcdn.cn * allow
 tomtop.com s3-us-west-2.amazonaws.com script allow
 tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
+torrentkitty.tv drivecdn.com * allow
 tudou.com js.tudouui.com script allow
 tudou.com static.youku.com script allow
 twitch.tv static.twitchcdn.net script allow
