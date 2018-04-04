@@ -1,4 +1,4 @@
-//2018.03.15
+//2018.04.04
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -13,6 +13,7 @@
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("accessibility.force_disabled", 1);//强制阻止无障碍服务,容易被第三方跟踪
 user_pref("signon.rememberSignons", false);//不保存密码
+//user_pref("gfx.direct2d.disabled", true);//关闭硬件加速(Mactype必要)
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -110,7 +111,7 @@ user_pref("privacy.firstparty.isolate", true); //开启火狐FPI隔离功能
 */
 user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载管理器用:设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
 
-//Delay设置
+//Delay设置, 来源于贴吧
 user_pref("accessibility.delay_plugin_time", 1000);
 user_pref("apz.frame_delay.enabled", false);
 user_pref("apz.scale_repaint_delay_ms", 50);
