@@ -142,8 +142,8 @@
       }
    },
    "check_update": {
-      "last_check_local_version": "5.00.2843",
-      "last_check_time": "13166260584889930",
+      "last_check_local_version": "5.00.2664",
+      "last_check_time": "13166583396046853",
       "version_setting": {
          "remind_later": "0",
          "skip": false,
@@ -466,6 +466,7 @@
    },
    "tip": {
       "action_hotkey": false,
+      "space_to_only_search_files": false,
       "tutorial_listary5": false
    },
    "version": 2,

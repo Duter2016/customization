@@ -1,4 +1,4 @@
-//2018.04.09
+//2018.04.13
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -24,6 +24,7 @@ user_pref("toolkit.cosmeticAnimations.enabled", false); //取消标签动画
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
+user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
 
 //*==========FX其它类==========*//
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//默认打开“扩展”项
@@ -31,6 +32,9 @@ user_pref("browser.urlbar.trimURLs", false);//地址栏显示 http://
 user_pref("general.warnOnAboutConfig", false);//About:Config警告
 user_pref("ui.scrollToClick", 1); //点击滚动条将能够直接让你调转到页面上你想要查看的那点
 user_pref("extensions.blocklist.enabled", false);//禁用Blocklist
+user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
+user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
+user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 //功能禁用
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
 user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
@@ -79,9 +83,6 @@ user_pref("plugins.hide_infobar_for_missing_plugin", true);//隐藏信息栏缺�
 user_pref("plugins.hide_infobar_for_outdated_plugin", true);//过期插件不提示
 user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择不提示
 
-//其它隐私相关
-user_pref("browser.polaris.enabled", false);//彻底关闭Tracking protection 跟踪保护
-user_pref("privacy.trackingprotection.pbmode.enabled", false);//彻底关闭Tracking protection 跟踪保护
 
 //*=FX其它类=*/
 
