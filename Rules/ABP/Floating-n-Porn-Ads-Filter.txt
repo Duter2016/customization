@@ -41,6 +41,8 @@ aliexpress.com##.ui-mask
 aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
 
 ! 百度
+baike.baidu.com###J-declare
+baike.baidu.com###J-declare-wrap
 baike.baidu.com###fc_guess_like
 baike.baidu.com##.bdsharebuttonbox.side-share
 baike.baidu.com##.userbar_mall
