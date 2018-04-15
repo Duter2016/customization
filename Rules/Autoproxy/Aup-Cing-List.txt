@@ -5,6 +5,10 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||akamaized.net
+||office.net
+||office.com
+||azureedge.net
 ||staticbg.com
 ||finance.sina.com.cn
 ||ftchinese.com
