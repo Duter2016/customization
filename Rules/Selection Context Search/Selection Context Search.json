@@ -1,5 +1,5 @@
 {
-  "sVersion": "5.6",
+  "sVersion": "5.18",
   "websiteList": [
     {
       "type": "recent",
@@ -79,8 +79,8 @@
         },
         {
           "type": "link",
-          "name": "价格变更管理-SKU",
-          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/UnChangedProductList?IsFirstRequest=false&Sku=",
+          "name": "价格变更查询-SKU",
+          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/OperationAuditList?mode=processed&IsFirstRequest=false&Sku=",
           "id": 8,
           "contexts": [
             "selection"
@@ -151,6 +151,11 @@
   "sMenuLabel": "Find '%s' using ...",
   "bShowPopup": false,
   "iPopupMaxColumns": 6,
+  "iPopupIconSize": 21,
+  "bClosePopupOnClick": true,
+  "bClosePopupOnScroll": true,
+  "bClosePopupOnTimeout": true,
+  "iPopupCloseTimeout": 4,
   "bShowAddSearchPage": false,
   "bCopySelection": false,
   "sOpenSearchIn": "opntnx",
