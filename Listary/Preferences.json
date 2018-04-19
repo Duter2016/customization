@@ -14,10 +14,10 @@
          "hotkey": 0,
          "keyword": "",
          "param": "\"{action_path}\"",
-         "path": "..\\Notepad2\\Notepad2.exe",
+         "path": "C:\\Windows\\Notepad.exe",
          "run_as_admin": false,
          "slient": false,
-         "title": "\u7528Notepad2\u6253\u5F00",
+         "title": "\u7528Notepad\u6253\u5F00",
          "type": "custom"
       }, {
          "command_string": "_action_copy_to_current_folder",
