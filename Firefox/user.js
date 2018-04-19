@@ -1,4 +1,4 @@
-//2018.04.13
+//2018.04.19
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -35,6 +35,7 @@ user_pref("extensions.blocklist.enabled", false);//禁用Blocklist
 user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩展
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
+user_pref("datareporting.healthreport.uploadEnabled", false);//允许发送技术信息及交互数据(否)
 //功能禁用
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
 user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
@@ -85,7 +86,7 @@ user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择�
 
 
 //*=FX其它类=*/
-
+user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载管理器用:设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
 
 //Delay设置, 来源于贴吧
 user_pref("accessibility.delay_plugin_time", 1000);
