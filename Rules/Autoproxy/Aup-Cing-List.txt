@@ -37,7 +37,6 @@
 ||ft.com
 ||dspncdn.com
 ||designspiration.net
-@@||trunk.tvc-mall.com
 ||*amazon.co*
 ||githubusercontent.com
 ||adblockplus.org
@@ -117,10 +116,8 @@
 ||zimuzu.tv
 ||zkcdn.net
 ||consumer.huawei.com
-||tvc-mall.com
 ||sunsky-online.com
 ||anki.com
-@@||test.tvc-mall.com
 ||listary.com
 ||5sing.kugou.com
 ||windowtabs.com
@@ -133,3 +130,8 @@
 ||gearbest.com
 ||books.google.com
 ||userstyles.org
+!公司网站
+||tvc-mall.com
+@@||trunk.tvc-mall.com
+@@||test.tvc-mall.com
+||ipartsexpert.com
