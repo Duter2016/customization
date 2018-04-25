@@ -41,6 +41,7 @@ aliexpress.com##.ui-mask
 aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
 
 ! 百度
+zhidao.baidu.com##.ui-draggable.sign-in-dialog.ui-front.ui-widget-content.ui-widget.ui-dialog
 pan.baidu.com###dialog1
 pan.baidu.com##.module-canvas
 zhidao.baidu.com###ik-dlg-106
