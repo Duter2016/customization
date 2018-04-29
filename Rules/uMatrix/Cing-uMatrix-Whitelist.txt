@@ -26,7 +26,6 @@ referrer-spoof: behind-the-scene false
 * alipcsec.com * allow
 * aliyun.com * allow
 * aliyuncs.com * allow
-* api.geetest.com script allow
 * aspnetcdn.com * allow
 * baidu.com * allow
 * bdimg.com * allow
@@ -35,10 +34,12 @@ referrer-spoof: behind-the-scene false
 * browser.gwdang.com * allow
 * cdn.gwdang.com image allow
 * cloudflare.com * allow
+* cloudfront.net * allow
 * duoshuo.com * allow
 * fonts.geekzu.org * allow
 * fonts.googleapis.com * allow
 * gapis.geekzu.org * allow
+* geetest.com * allow
 * gitlab.com * allow
 * google.com * allow
 * gravatar.com * allow
@@ -57,6 +58,7 @@ referrer-spoof: behind-the-scene false
 * qbox.me * allow
 * qhimg.com * allow
 * qhres.com * allow
+* qihucdn.com * allow
 * qpic.cn * allow
 * qq.com * allow
 * raw.githubusercontent.com * allow
@@ -67,7 +69,6 @@ referrer-spoof: behind-the-scene false
 * sinajs.cn * allow
 * sohu.com * allow
 * sohucs.com * allow
-* static.geetest.com script allow
 * tietuku.cn * allow
 * upaiyun.com * allow
 * yimg.com * allow
@@ -197,6 +198,8 @@ economist.com admin.brightcove.com script allow
 economist.com static-economist.com * allow
 esri.com arcgis.github.io xhr allow
 esri.com unpkg.com script allow
+excelhome.net api.geetest.com script inherit
+excelhome.net static.geetest.com script inherit
 fanli.com 51fanli.net * allow
 fantasy.tv bdstatic.com * allow
 fasttech.com fasttechcdn.com script allow
@@ -220,6 +223,7 @@ geekpark.net qnssl.com script allow
 getpocket.com www.google.com script allow
 github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
 github.com githubapp.com * allow
+github.com githubusercontent.com * allow
 google.com ads.google.com * inherit
 google.com analytics.google.com * inherit
 google.com gstatic.com * allow
@@ -269,6 +273,7 @@ iqiyi.com miaozhen.com * block
 iqiyi.com n0808.com * block
 iqiyi.com p2cdn.com * block
 iqiyi.com pps.tv * block
+iqiyi.com qiyipic.com * allow
 iqiyi.com reachmax.cn * block
 iqiyi.com rtbasia.com * block
 iqiyi.com sandai.net * block
@@ -335,6 +340,7 @@ mi.com mifile.cn * allow
 mi.com sec-boss.static.xiaomi.net script allow
 mi.com xiaomi.com * allow
 miaopai.com krcom.cn * allow
+microsoft.com azureedge.net * allow
 microsoft.com gfx.ms * allow
 microsoft.com live.com * allow
 microsoft.com microsoftonline.com * allow
@@ -527,8 +533,10 @@ youku.com list.youku.com script allow
 youku.com list.youku.com xhr allow
 youku.com static.ykimg.com script allow
 youth.cn static.yidianzixun.com script allow
+youtube.com ggpht.com * allow
 youtube.com googlevideo.com * allow
 youtube.com s.ytimg.com script inherit
+youtube.com www.gstatic.com * allow
 youtube.com ytimg.com * allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
