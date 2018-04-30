@@ -31,6 +31,7 @@
 ||raindrop.io
 ||ledlenserusa.com
 ||fasttechcdn.com
+||github.io
 ||github.com
 ||wallhaven.cc
 ||statista.com
