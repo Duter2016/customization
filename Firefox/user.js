@@ -1,4 +1,4 @@
-//2018.04.19
+//2018.05.01
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -36,6 +36,7 @@ user_pref("extensions.autoDisableScopes", 0);//第一次运行不禁止任何扩
 user_pref("browser.startup.homepage_override.mstone", "ignore");//启动时不弹出"What's New"页面
 user_pref("browser.rights.3.shown", false);//火狐首次启动时是否已显示的权利通知
 user_pref("datareporting.healthreport.uploadEnabled", false);//允许发送技术信息及交互数据(否)
+user_pref("browser.startup.blankWindow", true);//预先显示空窗口提升可感知的浏览器启动速度
 //功能禁用
 user_pref("loop.enabled", false); //实时通话功能Firefox Hello。主要用于用户间的交互联系等，但对大局域网来说意义不大，甚至可能直接连不上服务器。
 user_pref("extensions.pocket.enabled", false); //禁用自带Pocket
