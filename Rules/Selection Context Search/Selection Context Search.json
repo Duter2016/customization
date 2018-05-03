@@ -61,15 +61,6 @@
         },
         {
           "type": "link",
-          "name": "外网产品批量管理-名称",
-          "address": "http://ic.sjlpj.cn/Product/BatchManagementProductList?IsFirstRequest=false&Keyword=",
-          "id": 6,
-          "contexts": [
-            "selection"
-          ]
-        },
-        {
-          "type": "link",
           "name": "下架原因/重新上架-SKU",
           "address": "http://ic.sjlpj.cn/DownShelf/DownShelfOperationMgtList?Sku=",
           "id": 7,
@@ -80,7 +71,7 @@
         {
           "type": "link",
           "name": "价格变更查询-SKU",
-          "address": "http://ic.sjlpj.cn/#/PriceChangeRequest/OperationAuditList?mode=processed&IsFirstRequest=false&Sku=",
+          "address": "http://ic.sjlpj.cn/PriceChangeRequest/OperationAuditList?mode=processed&IsFirstRequest=false&Sku=",
           "id": 8,
           "contexts": [
             "selection"
@@ -94,6 +85,15 @@
           "contexts": [
             "selection"
           ]
+        },
+        {
+          "type": "link",
+          "name": "内网开发产品查询-SKU",
+          "address": "http://ic.sjlpj.cn/DevProduct/DevProductSearchAllList?Sku=",
+          "contexts": [
+            "selection"
+          ],
+          "id": 18
         }
       ],
       "id": 4
