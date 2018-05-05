@@ -19,7 +19,6 @@
 ||disqus.com
 ||cjkis.me
 ||ebayimg.com
-||64clouds.com
 ||ifixit.com
 ||wsj.com
 ||wsj.net
@@ -133,7 +132,5 @@
 ||books.google.com
 ||userstyles.org
 !公司网站
-||tvc-mall.com
-@@||trunk.tvc-mall.com
-@@||test.tvc-mall.com
+||www.tvc-mall.com
 ||ipartsexpert.com
