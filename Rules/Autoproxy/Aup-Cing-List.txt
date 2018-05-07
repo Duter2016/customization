@@ -132,5 +132,5 @@
 ||books.google.com
 ||userstyles.org
 !公司网站
-||www.tvc-mall.com
+||tvc-mall.com
 ||ipartsexpert.com
