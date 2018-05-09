@@ -5,7 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
-@@||kiwivm.64clouds.com
+||cosx.org
 ||hbr.org
 ||akamaized.net
 ||office.net
@@ -125,12 +125,16 @@
 ||nautil.us
 ||cellzmate.com
 ||bitdefender.com
-@@||217.253
 ||mobilefun.co.uk
 ||etradesupply.com
 ||gearbest.com
 ||books.google.com
 ||userstyles.org
+
 !公司网站
 ||tvc-mall.com
 ||ipartsexpert.com
+
+!不翻
+@@||kiwivm.64clouds.com
+@@||217.253
