@@ -1,4 +1,4 @@
-//2018.05.01
+//2018.05.09
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -87,7 +87,6 @@ user_pref("plugins.hide_infobar_for_blocked_plugin", true);//插件屏蔽选择�
 
 
 //*=FX其它类=*/
-user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载管理器用:设置对每个服务器持久连接（keep-alive connections ）的最大个数，推荐10
 
 //Delay设置, 来源于贴吧
 user_pref("accessibility.delay_plugin_time", 1000);
