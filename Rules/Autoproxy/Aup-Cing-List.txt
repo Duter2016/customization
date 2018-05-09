@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||cfos.de
 ||cosx.org
 ||hbr.org
 ||akamaized.net
