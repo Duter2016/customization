@@ -6,4 +6,4 @@
 
 | | |
 | :-- | :-- |
-| ![](img\pic-1.jpg) | ![](img\pic-2.jpg) |
+| ![](img/pic-1.jpg) | ![](img/pic-2.jpg) |
