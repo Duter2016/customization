@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||tomtop.com
 ||tinydeal.com
 ||lefux.com
 ||geekbuying.com
