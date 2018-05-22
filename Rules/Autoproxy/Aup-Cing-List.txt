@@ -6,6 +6,7 @@
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
 ||tomtop.com
+||tttcdn.com
 ||tinydeal.com
 ||lefux.com
 ||geekbuying.com
