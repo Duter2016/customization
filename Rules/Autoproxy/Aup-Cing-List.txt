@@ -141,6 +141,7 @@
 !公司网站
 ||tvc-mall.com
 ||ipartsexpert.com
+@@||test.tvc-mall.com
 
 !不翻
 @@||kiwivm.64clouds.com
