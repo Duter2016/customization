@@ -41,6 +41,7 @@ referrer-spoof: behind-the-scene false
 * bootstrapcdn.com * allow
 * browser.gwdang.com script allow
 * cloudflare.com * allow
+* cloudfront.net * allow
 * disqus.com * allow
 * disquscdn.com * allow
 * duapp.com * allow
@@ -53,6 +54,7 @@ referrer-spoof: behind-the-scene false
 * googleusercontent.com * allow
 * gstatic.com * allow
 * gtimg.cn * allow
+* gtimg.com * allow
 * hao123.com * block
 * hdslb.com * allow
 * iqiyi.com * allow
@@ -383,6 +385,7 @@ miwifi.com static.xiaomi.net script allow
 mm-cg.com 1st-party cookie block
 mobilefun.co.uk static.mobilefun.com script allow
 moe.edu.tw 140.111.1.112 script allow
+mogoroom.com mgzf.com * allow
 mozilla.github.io google.com xhr allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
@@ -444,7 +447,6 @@ qq.com 7.url.cn script allow
 qq.com gtimg.cn * allow
 qq.com idqqimg.com script allow
 qq.com imgcache.gtimg.cn script allow
-qq.com mat1.gtimg.com script allow
 qq.com qqmail.com * allow
 qq.com qzonestyle.gtimg.cn script allow
 qq.com url.cn script allow
