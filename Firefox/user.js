@@ -1,4 +1,4 @@
-//2018.05.09
+//2018.06.14
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -117,7 +117,6 @@ user_pref("browser.sessionstore.interval", 600000);//防止向SSD写入大量数
 //其它FX
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
-user_pref("media.mediasource.enabled", false);//关闭DASH,加载全部视频
 
 //硬件加速相关
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
