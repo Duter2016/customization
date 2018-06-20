@@ -57,7 +57,8 @@
           "id": 5,
           "contexts": [
             "selection"
-          ]
+          ],
+          "popup": true
         },
         {
           "type": "link",
@@ -66,22 +67,24 @@
           "id": 7,
           "contexts": [
             "selection"
-          ]
-        },
-        {
-          "type": "link",
-          "name": "价格变更查询-SKU",
-          "address": "http://ic.sjlpj.cn/PriceChangeRequest/OperationAuditList?mode=processed&IsFirstRequest=false&Sku=",
-          "id": 8,
-          "contexts": [
-            "selection"
-          ]
+          ],
+          "popup": true
         },
         {
           "type": "link",
           "name": "产品日志管理-SKU",
           "address": "http://ic.sjlpj.cn/UserOperationLog/UserOperationLogList?ObjectCode=",
           "id": 9,
+          "contexts": [
+            "selection"
+          ],
+          "popup": true
+        },
+        {
+          "type": "link",
+          "name": "价格变更查询-SKU",
+          "address": "http://ic.sjlpj.cn/PriceChangeRequest/OperationAuditList?mode=processed&IsFirstRequest=false&Sku=",
+          "id": 8,
           "contexts": [
             "selection"
           ]
@@ -155,7 +158,7 @@
   "bClosePopupOnClick": true,
   "bClosePopupOnScroll": true,
   "bClosePopupOnTimeout": true,
-  "iPopupCloseTimeout": 4,
+  "iPopupCloseTimeout": 5,
   "bShowAddSearchPage": false,
   "bCopySelection": false,
   "sOpenSearchIn": "opntnx",
