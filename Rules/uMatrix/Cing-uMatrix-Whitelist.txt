@@ -61,6 +61,11 @@ referrer-spoof: behind-the-scene false
 * irs01.com * block
 * itc.cn * allow
 * jquery.com * allow
+* lecloud.com * allow
+* letv.com * allow
+* letvcdn.com * allow
+* letvcloud.com * allow
+* letvimg.com * allow
 * lib.sinaapp.com script allow
 * map.baidu.com * allow
 * maps.googleapis.com * allow
@@ -78,6 +83,7 @@ referrer-spoof: behind-the-scene false
 * sinajs.cn * allow
 * sohu.com * allow
 * static.geetest.com script allow
+* tbcdn.cn * allow
 * translate.googleapis.com * block
 * upaiyun.com * allow
 * v.miaopai.com * allow
@@ -127,7 +133,7 @@ alcatel-mobile.com pic1.aotcloud.com script allow
 alibaba.com 1688.com script allow
 alibaba.com assets.alicdn.com script allow
 alibaba.com stylessl.aliunicorn.com script allow
-aliexpress.com aeu.alicdn.com script allow
+aliexpress.com alipay.com script inherit
 alipay.com alipay.com script inherit
 amazon.cn amazon.com * allow
 amazon.cn media-amazon.com * allow
@@ -201,6 +207,8 @@ dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
 dianping.com www.dpfile.com script allow
 dida365.com cdn-dida365-com.alikunlun.com script allow
+dingtalk.com alipay.com script inherit
+dingtalk.com dingtalkapps.com * allow
 dji.com djicdn.com script allow
 douban.com doubanio.com * allow
 douyu.com shark.douyucdn.cn script allow
@@ -304,10 +312,9 @@ iqiyi.com scorecardresearch.com * block
 itanzi.com cdnxdc.tanzi88.com other allow
 itanzi.com cdsb.mobi script allow
 iwencai.com thsi.cn script allow
+jbsou.cn jingtuitui.com * allow
 jd.com baitiao.jd.com script allow
 jd.com browser.gwdang.com script allow
-jd.com cart.jd.com script allow
-jd.com cart.jd.com xhr allow
 jd.com dc.3.cn script allow
 jd.com plus.jd.com script allow
 jd.com plus.jd.com xhr allow
@@ -602,6 +609,7 @@ youtube.com ytimg.com * allow
 yunpan.cn s.ssl.qhimg.com script allow
 yunpan.cn yunpan.360.cn script allow
 yunzhijia.com 7moor.com * allow
+yunzhijia.com kingdee.com * allow
 yxdown.com pb.pp8.com script allow
 zapals.com seal.geotrust.com script allow
 zhaopin.com img01.zhaopin.cn script allow
