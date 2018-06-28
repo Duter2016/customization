@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||ghostery.com
 ||tomtop.com
 ||tttcdn.com
 ||tinydeal.com
