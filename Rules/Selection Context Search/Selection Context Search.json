@@ -80,7 +80,7 @@
         {
           "type": "link",
           "name": "价格变更查询-SKU",
-          "address": "http://ic.sjlpj.cn/PriceChangeRequest/UnChangedProductList?Sku=",
+          "address": "http://ic.sjlpj.cn/PriceChangeRequest/UnChangedProductList?IsFirstRequest=false&Sku=",
           "id": 8,
           "contexts": [
             "selection"
