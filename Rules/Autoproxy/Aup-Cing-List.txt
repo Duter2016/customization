@@ -5,6 +5,8 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||miniinthebox.com
+||lightinthebox.com
 ||coolicool.com
 ||ghostery.com
 ||tomtop.com
