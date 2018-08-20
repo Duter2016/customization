@@ -65,7 +65,7 @@
 ||mozilla.org
 ||cdn.mozilla.net
 ||cdn.pocket-lint.com
-||cdn.static-economist.com
+||economist.com
 ||chinavasion.com
 ||cloudfront.net
 ||cnn.com
