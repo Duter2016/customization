@@ -115,7 +115,7 @@ referrer-spoof: behind-the-scene false
 189.cn 51educity.com script allow
 360.cn discuz.gtimg.cn script inherit
 360.cn login.yunpan.cn script allow
-360.cn s.ssl.qhimg.com script allow
+360.cn qhmsg.com * allow
 365yg.com pstatp.com script allow
 36kr.com 36kr.com script allow
 36kr.com sta.36krcnd.com script allow
@@ -301,6 +301,7 @@ hupu.com hoopchina.com.cn script allow
 huxiu.com static.huxiucdn.com script allow
 huya.com 183.59.53.202 script allow
 huya.com a.msstatic.com script allow
+iamh5.cn ih5.cn * allow
 ibm.com s81c.com script allow
 icourse163.org 126.net * allow
 icourse163.org 127.net * allow
@@ -428,6 +429,7 @@ newbalance.com demandware.edgesuite.net script allow
 newegg.cn newegg.com.cn * allow
 newegg.cn neweggimages.com.cn * allow
 newegg.com neweggimages.com * allow
+ngacn.cc 178.com * allow
 nickkolenda.com fast.wistia.com script allow
 nih.gov static.pubmed.gov script allow
 nubia.com static.nubia.cn script allow
@@ -580,6 +582,7 @@ udacity.com s3.cn-north-1.amazonaws.com.cn other allow
 ufanw.com avziliao.duapp.com script allow
 ufanw.com avziliao.duapp.com xhr allow
 vancl.com vanclimg.com script allow
+vitrue.com oracleinfinity.io * allow
 vivo.com vivo.com.cn * allow
 vmall.com dbankcdn.com * allow
 vmall.com vmallres.com script allow
