@@ -5,6 +5,7 @@
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||sunsky-online.com
 ||compressor.io
 ||miniinthebox.com
 ||lightinthebox.com
