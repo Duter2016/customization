@@ -10,13 +10,14 @@ matrix-off: tvc-mall.com false
 noscript-spoof: geekbuying.com false
 referrer-spoof: behind-the-scene false
 * * * block
+* * cookie block
 * * css allow
 * * image allow
 * * media allow
-* * other allow
 * * xhr allow
 * 127.0.0.1 * allow
 * 1st-party * allow
+* 1st-party cookie allow
 * 3.cn * allow
 * 360buyimg.com * allow
 * 71.am * block
@@ -87,6 +88,7 @@ referrer-spoof: behind-the-scene false
 * sinajs.cn * allow
 * sohu.com * allow
 * static.geetest.com script allow
+* staticfile.org * allow
 * tbcdn.cn * allow
 * translate.googleapis.com * block
 * upaiyun.com * allow
@@ -105,9 +107,7 @@ referrer-spoof: behind-the-scene false
 163.com 163yun.com * allow
 163.com b1.bst.126.net script allow
 163.com jsdelivr.net * allow
-163.com m10.music.126.net other allow
 163.com mimg.127.net script allow
-163.com music.126.net script allow
 163.com netease.com * allow
 163.com r.ph.126.net script allow
 1688.com taobao.com * allow
@@ -156,12 +156,12 @@ appkg.com cnd.yishuifa.org script allow
 apple.com store.storeimages.cdn-apple.com script allow
 archdaily.cn assets.adsttc.com script allow
 autodesk.com.cn autodesk.net script allow
+awtmt.com wallstreetcn.com * allow
 baidu.com baidupcs.com * allow
 baidu.com baike.bdimg.com script allow
 baidu.com bdstatic.com * allow
 baidu.com bkssl.bdimg.com script allow
 baidu.com bos.wenku.bdimg.com script allow
-baidu.com exp.bdstatic.com script allow
 baidu.com map.baidu.com * inherit
 baidu.com map.bdimg.com script allow
 baidu.com map.bdstatic.com script allow
@@ -191,6 +191,9 @@ btbtdy.com passport.livere.com script allow
 cctv.com cctvpic.com script allow
 cctv.com cntv.cn script allow
 chinavasion.com js.hscta.net script allow
+ci-signal.com oraclecloud.com * allow
+ci-signal.com oracleinfinity.io * allow
+ci-signal.com vitrue.com * allow
 cjol.com cjolimg.com * allow
 cnbc.com js.cnbcfm.com script allow
 cnbeta.com aliyun.com script inherit
@@ -216,7 +219,7 @@ deviantart.com st.deviantart.net script allow
 dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
 dianping.com www.dpfile.com script allow
-dida365.com cdn-dida365-com.alikunlun.com script allow
+dida365.com alikunlun.com * allow
 dingtalk.com alipay.com script inherit
 dingtalk.com dingtalkapps.com * allow
 dingtalk.com fosun.com * allow
@@ -314,6 +317,8 @@ iicm.tk unpkg.com * allow
 imgbb.com simgbb.com script allow
 inoreader.com connect.facebook.net script allow
 instagram.com instagramstatic-a.akamaihd.net script allow
+involver.com oracleinfinity.io * allow
+involver.com vitrue.com * allow
 ipartsexpert.com www.ipartsexpert.com script allow
 ipartsexpert.com www.ipartsexpert.com xhr allow
 iplaysoft.com upcdn.b0.upaiyun.com script allow
@@ -605,7 +610,7 @@ weibo.com wscdns.com * allow
 weiyun.com gtimg.cn * allow
 weiyun.com qq.com * allow
 wikia.com nocookie.net * allow
-wikipedia.org upload.wikimedia.org other allow
+wikipedia.org wikimedia.org * allow
 windows.com windows.net * allow
 wired.com dp8hsntg6do36.cloudfront.net xhr allow
 wired.com player.cnevids.com script allow
@@ -660,6 +665,7 @@ yunpan.cn yunpan.360.cn script allow
 yunyingpai.com woshipm.com * allow
 yunzhijia.com 7moor.com * allow
 yunzhijia.com kingdee.com * allow
+yunzhijia.com kingdee.com cookie allow
 yxdown.com pb.pp8.com script allow
 zapals.com seal.geotrust.com script allow
 zhaopin.com img01.zhaopin.cn script allow
