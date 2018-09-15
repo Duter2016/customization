@@ -14,7 +14,6 @@ referrer-spoof: behind-the-scene false
 * * css allow
 * * image allow
 * * media allow
-* * xhr allow
 * 127.0.0.1 * allow
 * 1st-party * allow
 * 1st-party cookie allow
@@ -94,6 +93,7 @@ referrer-spoof: behind-the-scene false
 * upaiyun.com * allow
 * v.miaopai.com * allow
 * vimeo.com * allow
+* vimeocdn.com * allow
 * vk.com * block
 * wp.com * allow
 * yimg.com * allow
@@ -627,8 +627,7 @@ wsj.com api.wsj.net xhr allow
 wsj.com livefyre.com script allow
 wsj.com livefyre.com xhr allow
 wsj.com vir.wsj.net script allow
-wsj.com wsj.net script allow
-wsj.com wsj.net xhr allow
+wsj.com wsj.net * allow
 wukongwenda.com pstatp.com script allow
 xda-developers.com algolia.net * allow
 xda-developers.com algolianet.com * allow

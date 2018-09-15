@@ -1,4 +1,4 @@
-//2018.08.30
+//2018.09.14
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -12,6 +12,7 @@
 //*==========选项卡里的设置==========*//
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("signon.rememberSignons", false);//不保存密码
+user_pref("privacy.trackingprotection.enabled", true);//跟踪保护
 
 //*==========标签相关==========*//
 user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
@@ -63,8 +64,6 @@ user_pref("media.eme.enabled", false);//drm内容
 user_pref("security.OCSP.enabled", 0);//OCSP服务器
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
 user_pref("dom.popup_maximum", 5); //Firefox弹窗的最大数量
-user_pref("privacy.trackingprotection.pbmode.enabled", false);//跟踪保护
-user_pref("privacy.trackingprotection.enabled", false);
 user_pref("datareporting.healthreport.service.enabled", false);//紧张遥测往prefs.js写入数据
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//附加组件默认打开扩展项
 user_pref("browser.safebrowsing.enabled", false);//safebrowsing
