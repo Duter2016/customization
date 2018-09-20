@@ -40,6 +40,7 @@ referrer-spoof: behind-the-scene false
 * bootcss.com * allow
 * bootstrapcdn.com * allow
 * browser.gwdang.com script allow
+* clouddn.com * allow
 * cloudflare.com * allow
 * cloudfront.net * allow
 * disqus.com * allow
@@ -79,6 +80,7 @@ referrer-spoof: behind-the-scene false
 * qhimg.com * allow
 * qhres.com * allow
 * qihucdn.com * allow
+* qiniucdn.com * allow
 * qq.com * allow
 * rstudio.com * allow
 * s3.amazonaws.com * allow
