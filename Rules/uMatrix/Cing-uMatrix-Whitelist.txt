@@ -39,6 +39,8 @@ referrer-spoof: behind-the-scene false
 * bilibili.com * allow
 * bootcss.com * allow
 * bootstrapcdn.com * allow
+* brightcove.com * allow
+* brightcove.net * allow
 * browser.gwdang.com script allow
 * clouddn.com * allow
 * cloudflare.com * allow
@@ -113,6 +115,7 @@ referrer-spoof: behind-the-scene false
 163.com netease.com * allow
 163.com r.ph.126.net script allow
 1688.com taobao.com * allow
+17173.com 17173cdn.com * allow
 189.cn 121.41.122.89 script allow
 189.cn 51educity.com script allow
 360.cn discuz.gtimg.cn script inherit
@@ -228,7 +231,8 @@ dingtalk.com fosun.com * allow
 dji.com djicdn.com script allow
 docer.com wps.cn * allow
 douban.com doubanio.com * allow
-douyu.com shark.douyucdn.cn script allow
+douyu.com douyucdn.cn * allow
+douyu.com douyucdn2.cn * allow
 douyu.com vstatic.douyucdn.cn script allow
 dropbox.com cfl.dropboxstatic.com script allow
 duowan.com assets.dwstatic.com script allow
@@ -402,13 +406,16 @@ mail.ru imgsmail.ru * allow
 mashable.com a.amz.mshcdn.com script allow
 mega.nz mega.co.nz * allow
 meituan.com awp-assets.meituan.net script allow
+mgtv.com hitv.com * allow
 mgtv.com hunantv.com script allow
 mgtv.com player.hunantv.com other allow
 mi.com mi-img.com * allow
 mi.com mifile.cn * allow
+mi.com mifile.cn cookie allow
 mi.com sec-boss.static.xiaomi.net script allow
 mi.com xiaomi.cn * allow
 mi.com xiaomi.com * allow
+mi.com xiaomi.com cookie allow
 mi.com xiaomi.net * allow
 miaopai.com krcom.cn * allow
 microsoft.com azureedge.net * allow
@@ -644,6 +651,7 @@ xuetuwuyou.com qiqiuyun.net * allow
 xunlei.com img.jiuwo.kanimg.com script allow
 xunlei.com img.vip.kanimg.com script allow
 xunlei.com static.i.kanimg.com script allow
+xvideos.com xvideos-cdn.com * allow
 yahoo.com s.yimg.com script allow
 yahoo.com yimg.com script inherit
 ycwaccessories.com cdn.shopify.com script allow
@@ -682,6 +690,7 @@ zhipin.com bosszhipin.com * allow
 zihu.tv yun.zihu.tv xhr allow
 zimuzu.tv js.rrsub.net script allow
 zimuzu.tv js.zmzjstu.com script allow
+zimuzu.tv jstucdn.com * allow
 zimuzu.tv renren.maoyun.tv script allow
 zmz001.com diaodiaode.me script allow
 zmz002.com diaodiaode.me * allow
