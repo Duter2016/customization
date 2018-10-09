@@ -16,6 +16,14 @@
 @@|http://v.aty.sohu.com/v$object-subrequest
 ||toushibao.com/
 
+！云之家
+www.yunzhijia.com##.transfer_files
+www.yunzhijia.com###\35 b10fdabe4b09080ad0c66af-XT-10001
+www.yunzhijia.com##.pubacc-fold
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-10000
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-d69723d2-f788-40a5-bcc4-9d3d165bcf60
+www.yunzhijia.com###XT-5b10fdabe4b09080ad0c66af-XT-f0055c19-7c70-4b93-83bb-390a4652ba5a
+
 ! 乐视
 |http://*/letv-gug/
 
@@ -95,7 +103,9 @@ duowan.com###mbbs-qrcode
 economist.com##.newsletter-form--inline.newsletter-form
 economist.com##.timekeeper-bubble
 economist.com##.fe-blogs__top-ad-wrapper-firstload.fe-blogs__top-ad-wrapper
-
+economist.com##.exit-pop
+economist.com##.ribbon__header
+economist.com##.ribbon__body
 
 ! FT
 ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
