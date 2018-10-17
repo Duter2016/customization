@@ -53,7 +53,6 @@ referrer-spoof: behind-the-scene false
 * fonts.googleapis.com * allow
 * gapis.geekzu.org * allow
 * github.com * allow
-* google.com * allow
 * googleusercontent.com * allow
 * googlevideo.com * allow
 * gstatic.cn * allow
@@ -254,6 +253,7 @@ fang.com soufun.com * allow
 fang.com soufunimg.com * allow
 fanli.com 51fanli.net * allow
 fantasy.tv bdstatic.com * allow
+fast.com nflxvideo.net * allow
 fasttech.com fasttechcdn.com script allow
 finereport.com fanruan.com * allow
 firefox.com accounts.cdn.mozilla.net script allow
@@ -263,6 +263,7 @@ firefoxcn.net raw.githubusercontent.com xhr allow
 flyme.cn uc-res.mzres.com script allow
 focalprice.com static5.bfdcdn.com script allow
 forbes.com i.forbesimg.com script allow
+fosshub.com onesignal.com * allow
 freebuf.com static.3001.net script allow
 ftchinese.com bokecc.com script allow
 gaode.com amap.com script allow
@@ -487,6 +488,8 @@ pinyin.cn sogou.com * allow
 pipipan.com ctfile.com * allow
 porn.com librelytics.com script allow
 pornhub.com phncdn.com * allow
+ppt-bird.blogspot.com blogblog.com * allow
+ppt-bird.blogspot.com blogger.com * allow
 pptv.com pplive.cn * allow
 pupudy.com 1717yun.com * allow
 pupudy.com 52xmw.com * allow
@@ -511,13 +514,9 @@ qq.com imgcache.gtimg.cn script allow
 qq.com qqmail.com * allow
 qq.com qzonestyle.gtimg.cn script allow
 qq.com url.cn script allow
-quora.com accounts.google.com script allow
-quora.com apis.google.com script allow
+quora.com connect.facebook.net * allow
 quora.com qsc.ec.quoracdn.net script allow
-quora.com quoracdn.net script allow
-quora.com ssl.gstatic.com script allow
-quora.com www.google.com script allow
-quora.com www.gstatic.com script allow
+quora.com quoracdn.net * allow
 qyer.com qyerstatic.com script allow
 r-hub.io fontawesome.com * allow
 raindrop.io widget.intercom.io script allow
@@ -555,6 +554,8 @@ sogou.com sogoucdn.com * allow
 sohu.com itc.cn * allow
 sohu.com js.tv.itc.cn script allow
 sohu.com sohucs.com * allow
+speedtest.cn * frame allow
+speedtest.cn * xhr allow
 stackoverflow.com cdn.sstatic.net script allow
 statista.com highcharts.com script allow
 statista.com statcdn.com script allow
@@ -565,6 +566,7 @@ sxl.cn qnssl.com script allow
 tampermonkey.net tampermonkey.global.ssl.fastly.net * allow
 taobao.com alipay.com script inherit
 techbang.com pixfs.net * allow
+techpowerup.com tpucdn.com * allow
 techradar.com cdn0.static.techradar.futurecdn.net script allow
 terapeak.com cdn.optimizely.com script allow
 theatlantic.com cdn.theatlantic.com script allow
@@ -677,6 +679,7 @@ yunzhijia.com kingdee.com * allow
 yunzhijia.com kingdee.com cookie allow
 yxdown.com pb.pp8.com script allow
 zapals.com seal.geotrust.com script allow
+zczc.cz loli.net * allow
 zhaopin.com img01.zhaopin.cn script allow
 zhaopin.com img01.zpin.net.cn script allow
 zhaopin.com img02.zhaopin.cn script allow
@@ -694,5 +697,6 @@ zimuzu.tv jstucdn.com * allow
 zimuzu.tv renren.maoyun.tv script allow
 zmz001.com diaodiaode.me script allow
 zmz002.com diaodiaode.me * allow
+zmz003.com diaodiaode.me * allow
 zmz2017.com zmzjstu.com script allow
 zol.com.cn zol-img.com.cn script allow
