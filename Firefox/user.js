@@ -95,6 +95,7 @@ user_pref("dom.ipc.plugins.sandbox-level.flash", 0);//64位flash关闭沙箱
 user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏蔽的提示
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true); //直接用火狐禁用flash保护模式
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false); //flash崩溃报告crashreporter
+user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); //允许Firefox代您发送积压的崩溃报告（禁止）
 user_pref("plugin.state.flash", 2);//flash总是开启
 
 //开启流媒体API
