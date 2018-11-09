@@ -157,6 +157,18 @@
 			"action": "redirect",
 			"to": "https://gapis.geekzu.org/ajax/$1",
 			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "贴吧 域名重定向",
+			"ruleType": "redirect",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/(.+).tieba.com/(.*)",
+			"exclude": "",
+			"isFunction": false,
+			"action": "redirect",
+			"to": "http://tieba.baidu.com/$2",
+			"group": "未分组"
 		}
 	],
 	"sendHeader": [
