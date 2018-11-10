@@ -104,6 +104,7 @@ referrer-spoof: behind-the-scene false
 * youku.com * allow
 * youtube.com * allow
 * ytimg.com * allow
+071811.cc 1d1a.com * allow
 163.com 126.net * allow
 163.com 127.net * allow
 163.com 14.119.124.58 other allow
@@ -177,6 +178,7 @@ baidu.com tongji.baidu.com * inherit
 baidu.com wkbos.bdimg.com script allow
 baidu.com wkstatic.bdimg.com script allow
 baike.com www.huimg.cn script allow
+baiyug.cn * other allow
 baomitu.com qhres.com script allow
 baomitu.com s.ssl.qhimg.com script allow
 barilliance.com www.barilliance.net script allow
@@ -418,6 +420,7 @@ mi.com xiaomi.cn * allow
 mi.com xiaomi.com * allow
 mi.com xiaomi.com cookie allow
 mi.com xiaomi.net * allow
+miaopai.com hbadei.com * allow
 miaopai.com krcom.cn * allow
 microsoft.com azureedge.net * allow
 microsoft.com gfx.ms * allow
@@ -444,6 +447,7 @@ newbalance.com demandware.edgesuite.net script allow
 newegg.cn newegg.com.cn * allow
 newegg.cn neweggimages.com.cn * allow
 newegg.com neweggimages.com * allow
+nga.cn 178.com * allow
 ngacn.cc 178.com * allow
 nickkolenda.com fast.wistia.com script allow
 nih.gov static.pubmed.gov script allow
@@ -476,6 +480,7 @@ pc6.com jfcdns.com * allow
 pconline.com.cn 3conline.com script allow
 pconline.com.cn news.pconline.com.cn script allow
 pdawiki.com touclick.com script allow
+pearvideo.com 183.59.53.202 script allow
 people.cn res.wx.qq.com script allow
 people.cn rmrbaudio.people.com.cn other allow
 pinggu.org 120.27.111.137 script allow
@@ -565,6 +570,7 @@ sxl.cn nzr2ybsda.qnssl.com script block
 sxl.cn qnssl.com script allow
 tampermonkey.net tampermonkey.global.ssl.fastly.net * allow
 taobao.com alipay.com script inherit
+taobao.com tmall.com * allow
 techbang.com pixfs.net * allow
 techpowerup.com tpucdn.com * allow
 techradar.com cdn0.static.techradar.futurecdn.net script allow
@@ -589,6 +595,7 @@ torrent.org.cn apps.bdimg.com script allow
 torrentkitty.tv drivecdn.com * allow
 toutiao.com pstatp.com * allow
 tudou.com js.tudouui.com script allow
+tvc-mall.com barilliance.com * allow
 twitch.tv static.twitchcdn.net script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
@@ -602,6 +609,8 @@ vitrue.com oracleinfinity.io * allow
 vivo.com vivo.com.cn * allow
 vmall.com dbankcdn.com * allow
 vmall.com vmallres.com script allow
+vzuu.com zhihu.com * allow
+vzuu.com zhimg.com * allow
 w3ctech.com cdn.staticfile.org script allow
 wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
