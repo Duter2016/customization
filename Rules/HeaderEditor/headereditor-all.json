@@ -650,7 +650,7 @@
 		},
 		{
 			"enable": true,
-			"name": "数字尾巴",
+			"name": "数字尾巴图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*\\.dgtle\\.com.*",
@@ -664,7 +664,7 @@
 		},
 		{
 			"enable": true,
-			"name": "seebug反盗链",
+			"name": "seebug图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*\\.seebug\\.org.*",
@@ -678,7 +678,7 @@
 		},
 		{
 			"enable": true,
-			"name": "机器之心反盗链",
+			"name": "机器之心图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*\\.jiqizhixin\\.com.*",
@@ -692,7 +692,7 @@
 		},
 		{
 			"enable": true,
-			"name": "zhihupic",
+			"name": "知乎图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*\\.zhimg\\.com.*",
