@@ -10,6 +10,17 @@
          "type": "builtin"
       }, {
          "enabled": true,
+         "guid": "",
+         "hotkey": 3332,
+         "keyword": "",
+         "param": "/O /T /A /S /L=\"{action_path}\"",
+         "path": "..\\TotalCMD64\\TotalCMD64.exe",
+         "run_as_admin": false,
+         "slient": false,
+         "title": "\u5728TC\u4E2D\u5B9A\u4F4D\u5230\u8BE5\u6587\u4EF6",
+         "type": "custom"
+      }, {
+         "enabled": true,
          "guid": "{7971bb91-830f-474b-a976-8bfc9fc001d1}",
          "hotkey": 0,
          "keyword": "",
