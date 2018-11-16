@@ -14,7 +14,10 @@ referrer-spoof: behind-the-scene false
 * * css allow
 * * image allow
 * * media allow
+* 126.net * allow
 * 127.0.0.1 * allow
+* 163.com * allow
+* 163yun.com * allow
 * 1st-party * allow
 * 1st-party cookie allow
 * 3.cn * allow
