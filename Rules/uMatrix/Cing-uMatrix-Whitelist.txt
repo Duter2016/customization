@@ -619,6 +619,7 @@ wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
+wandouys.com xw0371.com * allow
 weibo.cn h5.sinaimg.cn script allow
 weibo.com contentrecommend.mobile.sina.cn script allow
 weibo.com i.sso.sina.com.cn script allow
