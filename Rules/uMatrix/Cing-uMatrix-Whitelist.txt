@@ -296,6 +296,7 @@ h2os.com aliapp.org xhr inherit
 h2os.com alipay.com script inherit
 h2os.com amap.com * allow
 h2os.com oneplus.cn * allow
+haitum.com com-l-bilibili.com * allow
 hbr.org 120.198.244.51 other allow
 hbr.org cdnsecakmi.kaltura.com xhr allow
 hbr.org cfvod.kaltura.com xhr allow
@@ -325,6 +326,7 @@ icourse163.org netease.com * allow
 iesdouyin.com bytecdn.cn * allow
 ifeng.com ifengimg.com * allow
 ifeng.com tech.ifeng.com script allow
+ifeng.com yidianzixun.com * allow
 iicm.tk unpkg.com * allow
 imgbb.com simgbb.com script allow
 inoreader.com connect.facebook.net script allow
@@ -619,8 +621,8 @@ wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
+wandouys.com tyswmp.com * allow
 wandouys.com xw0371.com * allow
-weibo.cn h5.sinaimg.cn script allow
 weibo.com contentrecommend.mobile.sina.cn script allow
 weibo.com i.sso.sina.com.cn script allow
 weibo.com miaopai.com * allow
