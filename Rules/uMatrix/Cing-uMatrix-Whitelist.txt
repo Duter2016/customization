@@ -204,6 +204,7 @@ ci-signal.com oraclecloud.com * allow
 ci-signal.com oracleinfinity.io * allow
 ci-signal.com vitrue.com * allow
 cjol.com cjolimg.com * allow
+clipconverter.cc pushanert.com * allow
 cnbc.com js.cnbcfm.com script allow
 cnbeta.com aliyun.com script inherit
 cnbeta.com v.youku.com other allow
@@ -240,6 +241,7 @@ douyu.com douyucdn2.cn * allow
 douyu.com vstatic.douyucdn.cn script allow
 dropbox.com cfl.dropboxstatic.com script allow
 duowan.com assets.dwstatic.com script allow
+dwnews.com dwnews.net * allow
 dx.com checkout.com * allow
 dx.com dxcdn.com * allow
 dx.com tradeglobals.com * allow
@@ -402,6 +404,9 @@ linkedin.com s.c.lnkd.licdn.com script allow
 linkedin.com static.licdn.com script allow
 live.com auth.gfx.ms script allow
 live.com azureedge.net * allow
+live.com microsoft.com * allow
+live.com msecnd.net * allow
+live.com office365.com * allow
 live.com pfx.ms script allow
 liwo.tv maoyun.tv * allow
 lofter.com 126.net * allow
@@ -413,6 +418,7 @@ mafengwo.cn mafengwo.net * allow
 mail.ru imgsmail.ru * allow
 mashable.com a.amz.mshcdn.com script allow
 mega.nz mega.co.nz * allow
+meipai.com meitudata.com * allow
 meituan.com awp-assets.meituan.net script allow
 mgtv.com hitv.com * allow
 mgtv.com hunantv.com script allow
@@ -425,6 +431,7 @@ mi.com xiaomi.cn * allow
 mi.com xiaomi.com * allow
 mi.com xiaomi.com cookie allow
 mi.com xiaomi.net * allow
+miaopai.com 183.59.53.202 * allow
 miaopai.com hbadei.com * allow
 miaopai.com krcom.cn * allow
 microsoft.com azureedge.net * allow
@@ -605,6 +612,7 @@ twitch.tv static.twitchcdn.net script allow
 twitter.com abs.twimg.com script allow
 twitter.com ton.twimg.com script allow
 twitter.com video.twimg.com xhr allow
+u.tools u-tools.cn * allow
 uczzd.cn uc.cn script allow
 udacity.com s3.cn-north-1.amazonaws.com.cn other allow
 ufanw.com avziliao.duapp.com script allow
@@ -658,6 +666,7 @@ wukongwenda.com pstatp.com script allow
 xda-developers.com algolia.net * allow
 xda-developers.com algolianet.com * allow
 xda-developers.com xda-cdn.com * allow
+xdowns.com yhlg.com * allow
 xiachufang.com qnssl.com * allow
 xiami.com res.xiami.net script allow
 xiaomi.com mi.com * allow
