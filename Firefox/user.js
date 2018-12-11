@@ -1,4 +1,4 @@
-//2018.10.25
+//2018.12.08
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -34,6 +34,8 @@ user_pref("toolkit.cosmeticAnimations.enabled", false); //取消标签动画
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
 user_pref("browser.safebrowsing.downloads.enabled", false);//解决下载卡在最后一秒的问题
 user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束后扫描
+user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载增大连接数
+user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程下载增大连接数
 
 //功能开启
 user_pref("layout.display-list.retain", true);//FF58+提升浏览器界面绘制性能，只重新计算显示的列表项而非所有列表项
