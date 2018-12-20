@@ -1,4 +1,4 @@
-//2018.12.08
+//2018.12.20
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -78,6 +78,7 @@ user_pref("datareporting.healthreport.uploadEnabled", false);//允许发送技�
 user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
+user_pref("svg.context-properties.content.enabled", true);
 
 //*==========Firefox设置==========*//
 //书签相关
