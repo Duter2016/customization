@@ -485,7 +485,7 @@ opposhop.cn myoppo.com * allow
 opposhop.cn oppo.com * allow
 oray.com static.orayimg.com script allow
 outrider.org mapbox.com * allow
-panda.tv pdim.gs script allow
+panda.tv pdim.gs * allow
 panda.tv xiongmaoxingyan.com * allow
 paypal.com paypalobjects.com script allow
 pc6.com jfcdns.com * allow
@@ -541,7 +541,9 @@ rstudio.com discourse-cdn-sjc1.com script allow
 runningcheese.com itc.cn script allow
 runningcheese.com runningcheese.duoshuo.com xhr allow
 runningcheese.com sohu.com script allow
+sanguosha.com * xhr allow
 sanguosha.com cas.dobest.com script allow
+sanguosha.com dobest.cn * allow
 sanguosha.com login.dobest.com script allow
 segmentfault.com sf-static.b0.upaiyun.com script allow
 shanbay.com static.baydn.com script allow
