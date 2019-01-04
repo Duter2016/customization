@@ -22,7 +22,10 @@ referrer-spoof: behind-the-scene false
 * 1st-party cookie allow
 * 3.cn * allow
 * 360buyimg.com * allow
+* 47ks.com * allow
+* 5252e.com * allow
 * 71.am * block
+* 80jx.xyz * allow
 * acgvideo.com * allow
 * ajax.googleapis.com * allow
 * akamaized.net * allow
@@ -35,6 +38,7 @@ referrer-spoof: behind-the-scene false
 * alipcsec.com * allow
 * aliyun.com * allow
 * aliyuncs.com * allow
+* amap.com * allow
 * api.geetest.com script allow
 * aspnetcdn.com * allow
 * baidu.com * allow
@@ -117,6 +121,7 @@ referrer-spoof: behind-the-scene false
 163.com mimg.127.net script allow
 163.com netease.com * allow
 163.com r.ph.126.net script allow
+163ren.com zzshj.com * allow
 1688.com taobao.com * allow
 17173.com 17173cdn.com * allow
 189.cn 121.41.122.89 script allow
@@ -284,6 +289,7 @@ geekpark.net qnssl.com script allow
 getpocket.com www.google.com script allow
 github.com github-production-user-asset-6210df.s3.amazonaws.com xhr allow
 github.com githubapp.com * allow
+github.com githubassets.com * allow
 github.com githubusercontent.com * allow
 gitlab.com gitlab-static.net * allow
 google.com ads.google.com * inherit
@@ -304,8 +310,8 @@ hbr.org cdnsecakmi.kaltura.com xhr allow
 hbr.org cfvod.kaltura.com xhr allow
 hbr.org edge.api.brightcove.com xhr allow
 hbr.org hwcdn.libsyn.com other inherit
-hbr.org media.richrelevance.com script allow
 hbr.org players.brightcove.net script allow
+hbr.org richrelevance.com * allow
 hbr.org traffic.libsyn.com other inherit
 heroku.com herokucdn.com * allow
 huawei.com consumer-res.huaweistatic.com script allow
@@ -686,10 +692,12 @@ ycwaccessories.com cdn.shopify.com script allow
 yinyuetai.com s.yytcdn.com script allow
 ymfz521.sinaapp.com s.amazeui.org script allow
 youku.com alipay.com script inherit
+youku.com cibntv.net * allow
 youku.com jingguan.ai * allow
 youku.com laifeng.com * allow
 youku.com list.youku.com script allow
 youku.com list.youku.com xhr allow
+youku.com mmstat.com * allow
 youku.com soku.com * allow
 youku.com static.ykimg.com script allow
 youku.com tudou.com * allow
@@ -724,5 +732,6 @@ zimuzu.tv renren.maoyun.tv script allow
 zmz001.com diaodiaode.me script allow
 zmz002.com diaodiaode.me * allow
 zmz003.com diaodiaode.me * allow
+zmz005.com diaodiaode.me * allow
 zmz2017.com zmzjstu.com script allow
 zol.com.cn zol-img.com.cn script allow
