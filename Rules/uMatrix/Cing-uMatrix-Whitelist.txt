@@ -112,6 +112,7 @@ referrer-spoof: behind-the-scene false
 * youtube.com * allow
 * ytimg.com * allow
 071811.cc 1d1a.com * allow
+071811.cc xi0021.com * allow
 163.com 126.net * allow
 163.com 127.net * allow
 163.com 14.119.124.58 other allow
@@ -143,6 +144,7 @@ referrer-spoof: behind-the-scene false
 5upm.com zentao.net * allow
 5upm.com zentaopm.com * allow
 91simi.com qq.com script allow
+9gag.com 9cache.com * allow
 9ku.com show.g.mediav.com script allow
 aapc.com cta-service-cms2.hubspot.com script allow
 acfun.cn aixifan.com * allow
@@ -239,6 +241,7 @@ dingtalk.com alipay.com script inherit
 dingtalk.com dingtalkapps.com * allow
 dingtalk.com fosun.com * allow
 dji.com djicdn.com script allow
+dm5.com cdndm5.com * allow
 docer.com wps.cn * allow
 douban.com doubanio.com * allow
 douyu.com douyucdn.cn * allow
@@ -396,6 +399,7 @@ kindbook.cn kindbook.cn script allow
 kindbook.cn kindbook.cn xhr allow
 kknews.cc cdn.jsdelivr.net script allow
 kobo.com akamaihd.net * allow
+kuaishou.com yximgs.com * allow
 lagou.com lgstatic.com * allow
 landiannews.com apps.bdimg.com script allow
 landiannews.com static.lancdn.com script allow
