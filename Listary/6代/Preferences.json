@@ -1,10 +1,18 @@
 {
   "AppConfigs": {
     "TypeConfigs": {
-      "WindowsExplorer": {},
-      "FileDialog": {},
-      "DirectoryOpus": {},
-      "TotalCommander": {}
+      "WindowsExplorer": {
+        "EnableMouseMiddleClick": false
+      },
+      "FileDialog": {
+        "EnableMouseMiddleClick": false
+      },
+      "DirectoryOpus": {
+        "EnableMouseMiddleClick": false
+      },
+      "TotalCommander": {
+        "EnableMouseMiddleClick": false
+      }
     },
     "PathConfigs": {}
   },
