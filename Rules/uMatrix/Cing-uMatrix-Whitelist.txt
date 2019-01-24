@@ -105,6 +105,7 @@ referrer-spoof: behind-the-scene false
 * vimeo.com * allow
 * vimeocdn.com * allow
 * vk.com * block
+* weibo.com * allow
 * wp.com * allow
 * yimg.com * allow
 * ykimg.com * allow
@@ -113,6 +114,7 @@ referrer-spoof: behind-the-scene false
 * ytimg.com * allow
 071811.cc 1d1a.com * allow
 071811.cc xi0021.com * allow
+10010.com 10010.cn * allow
 163.com 126.net * allow
 163.com 127.net * allow
 163.com 14.119.124.58 other allow
@@ -127,6 +129,8 @@ referrer-spoof: behind-the-scene false
 17173.com 17173cdn.com * allow
 189.cn 121.41.122.89 script allow
 189.cn 51educity.com script allow
+189.cn ct10000.com * allow
+189.cn ct10000.com cookie allow
 360.cn discuz.gtimg.cn script inherit
 360.cn login.yunpan.cn script allow
 360.cn qhmsg.com * allow
@@ -233,6 +237,8 @@ ctfile.com static.tv002.com script allow
 dadatu.com hnskkj.com * allow
 dailymotion.com dmcdn.net * allow
 deviantart.com st.deviantart.net script allow
+dfpan.com yfdisk.com * allow
+dfpan.com yfpan.com * allow
 dhgate.com js.dhresource.com script allow
 dhgate.com www.dhresource.com script allow
 dianping.com www.dpfile.com script allow
@@ -253,6 +259,8 @@ dwnews.com dwnews.net * allow
 dx.com checkout.com * allow
 dx.com dxcdn.com * allow
 dx.com tradeglobals.com * allow
+eachine.com banggood.com * allow
+eachine.com youtubesys.com * allow
 eastmoney.com emcharts.dfcfw.com script allow
 eastmoney.com emres.dfcfw.com script allow
 ebay.com ebaydesc.com * allow
@@ -284,6 +292,7 @@ ftchinese.com bokecc.com script allow
 gaode.com amap.com script allow
 gaode.com vdata.amap.com xhr allow
 gaoqing.la static.duoshuo.com script allow
+gcores.com taptap.com * allow
 gearbest.com gbtcdn.com * allow
 gearbest.com logsss.com * allow
 geekbuying.com content2.geekbuying.com script allow
@@ -464,6 +473,7 @@ mokeedev.com loli.net * allow
 mozilla.github.io google.com xhr allow
 mozilla.org addons.cdn.mozilla.net script allow
 mozilla.org mozilla-community.org script allow
+myquark.cn uc.cn * allow
 ncckl.cn baomitu.com * allow
 newbalance.com demandware.edgesuite.net script allow
 newegg.cn newegg.com.cn * allow
@@ -562,6 +572,7 @@ shiting5.com r.gslb.lecloud.com xhr allow
 sina.cn mjs.sinaimg.cn script allow
 sina.cn mjs.sinaimg.cn xhr allow
 sina.com.cn simg.sinajs.cn * inherit
+sina.com.cn sina.cn * allow
 sina.com.cn sinaimg.cn * allow
 sina.com.cn sinajs.cn * allow
 sina.com.cn weibo.cn * allow
@@ -590,6 +601,8 @@ statista.com highcharts.com script allow
 statista.com statcdn.com script allow
 steampowered.com store.akamai.steamstatic.com script allow
 suning.com suning.cn * allow
+superov.com kakazy-yun.com * allow
+superov.com m1907.cn * allow
 sxl.cn nzr2ybsda.qnssl.com script block
 sxl.cn qnssl.com script allow
 tampermonkey.net tampermonkey.global.ssl.fastly.net * allow
@@ -618,6 +631,8 @@ tomtop.com static.tomtop-cdn.com script allow
 torrent.org.cn apps.bdimg.com script allow
 torrentkitty.tv drivecdn.com * allow
 toutiao.com pstatp.com * allow
+ttdytt.com ibkda.com * allow
+ttdytt.com jingpinxiazai.com * allow
 tudou.com js.tudouui.com script allow
 tvc-mall.com barilliance.com * allow
 twitch.tv static.twitchcdn.net script allow
@@ -633,7 +648,7 @@ vancl.com vanclimg.com script allow
 vitrue.com oracleinfinity.io * allow
 vivo.com vivo.com.cn * allow
 vmall.com dbankcdn.com * allow
-vmall.com vmallres.com script allow
+vmall.com vmallres.com * allow
 vzuu.com zhihu.com * allow
 vzuu.com zhimg.com * allow
 w3ctech.com cdn.staticfile.org script allow
