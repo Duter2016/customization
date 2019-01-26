@@ -156,7 +156,22 @@
           }
         }
       ],
-      "Updates": []
+      "Updates": [
+        {
+          "Id": "284ecbe8-1ef2-49c9-bd93-f7025519402b",
+          "UpdatedProperties": {
+            "Hotkey": 600
+          }
+        },
+        {
+          "Id": "7971bb91-830f-474b-a976-8bfc9fc001d1",
+          "UpdatedProperties": {
+            "Title": "用Notepad打开",
+            "Path": "C:\\Windows\\SysWOW64\\notepad.exe",
+            "Keyword": ""
+          }
+        }
+      ]
     }
   },
   "Settings": {
