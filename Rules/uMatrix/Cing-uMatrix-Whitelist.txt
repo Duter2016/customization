@@ -28,6 +28,7 @@ referrer-spoof: behind-the-scene false
 * 80jx.xyz * allow
 * acgvideo.com * allow
 * ajax.googleapis.com * allow
+* akamaihd.net * allow
 * akamaized.net * allow
 * aliapp.org * allow
 * alibaba.com * allow
@@ -49,6 +50,7 @@ referrer-spoof: behind-the-scene false
 * brightcove.com * allow
 * brightcove.net * allow
 * browser.gwdang.com script allow
+* cdn.optimizely.com * allow
 * clouddn.com * allow
 * cloudflare.com * allow
 * cloudfront.net * allow
@@ -131,6 +133,7 @@ referrer-spoof: behind-the-scene false
 189.cn 51educity.com script allow
 189.cn ct10000.com * allow
 189.cn ct10000.com cookie allow
+19kan.com qq-zuidazy.com * allow
 360.cn discuz.gtimg.cn script inherit
 360.cn login.yunpan.cn script allow
 360.cn qhmsg.com * allow
@@ -169,6 +172,7 @@ amazon.com images-na.ssl-images-amazon.com script allow
 amazon.com www.google.com.hk script allow
 anjuke.com anjukestatic.com script allow
 apkpure.com winudf.com * allow
+apowersoft.cn aoscdn.com * allow
 apowersoft.cn launcher.apowersoft.com xhr allow
 apowersoft.cn static-cdn-cn.apowersoft.com script allow
 appkg.com cnd.yishuifa.org script allow
@@ -204,6 +208,9 @@ bilibili.com acgvideo.com xhr allow
 bilibili.com s2.hdslb.com script allow
 blizzard.cn account.bnet.163.com script allow
 blizzard.cn flv.bn.netease.com other allow
+blizzardgames.cn battle.net * allow
+blizzardgames.cn battlenet.com.cn * allow
+blizzardgames.cn blzstatic.cn * allow
 btbtdy.com api-city.livere.com script allow
 btbtdy.com cdn-city.livere.com script allow
 btbtdy.com livere.me script allow
@@ -412,6 +419,8 @@ kuaishou.com yximgs.com * allow
 lagou.com lgstatic.com * allow
 landiannews.com apps.bdimg.com script allow
 landiannews.com static.lancdn.com script allow
+lanzou.com woozooo.com * allow
+lanzou.com woozooo.com cookie allow
 le.com js.letvcdn.com script allow
 le.com jstatic.letvcdn.com script allow
 le.com letv.com script allow
