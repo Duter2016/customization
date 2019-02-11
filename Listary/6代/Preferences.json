@@ -1,18 +1,25 @@
 {
   "AppConfigs": {
     "TypeConfigs": {
+      "DirectoryOpus": {
+        "EnableMouseMiddleClick": false
+      },
       "WindowsExplorer": {
         "EnableMouseMiddleClick": false
       },
       "FileDialog": {
         "EnableMouseMiddleClick": false
       },
-      "DirectoryOpus": {
-        "EnableMouseMiddleClick": false
-      },
+      "FolderDialog": {},
+      "Desktop": {},
       "TotalCommander": {
         "EnableMouseMiddleClick": false
-      }
+      },
+      "XYplorer": {},
+      "Bandizip": {},
+      "AutoCAD": {},
+      "xplorer2": {},
+      "FreeCommander": {}
     },
     "PathConfigs": {}
   },
@@ -177,7 +184,7 @@
   "Settings": {
     "Hotkey.ShowListary": 337,
     "Hotkey.ShowPopupMenu": 1604,
-    "OpenFolder.Path": "..\\TotalCMD64\\TotalCMD64.exe",
+    "OpenFolder.Path": "D:\\Program Files\\CingFox\\Software\\TotalCMD64\\TotalCMD64.exe",
     "OpenFolder.Param": "/O \"%1\"",
     "Listary5.SettingsImported": true,
     "Listary5.ProLicense.Name": "Adven Dai",
