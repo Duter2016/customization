@@ -7,7 +7,9 @@ matrix-off: localhost true
 matrix-off: moz-extension-scheme true
 matrix-off: opera-scheme true
 matrix-off: tvc-mall.com false
-noscript-spoof: geekbuying.com false
+matrix-off: vivaldi-scheme true
+matrix-off: wyciwyg-scheme true
+noscript-spoof: * true
 referrer-spoof: behind-the-scene false
 * * * block
 * * cookie block
@@ -42,7 +44,6 @@ referrer-spoof: behind-the-scene false
 * amap.com * allow
 * api.geetest.com script allow
 * aspnetcdn.com * allow
-* baidu.com * allow
 * bdimg.com * allow
 * bilibili.com * allow
 * bootcss.com * allow
@@ -665,6 +666,9 @@ wallstreetcn.com walicdn.wallstcn.com script allow
 walmart.com i5.wal.co script allow
 walmart.com wal.co * allow
 walmart.com walmartimages.com * allow
+wandhi.com 2gty.com * allow
+wandhi.com anlehe.com * allow
+wandhi.com mt2t.com * allow
 wandouys.com tyswmp.com * allow
 wandouys.com xw0371.com * allow
 weibo.com contentrecommend.mobile.sina.cn script allow
