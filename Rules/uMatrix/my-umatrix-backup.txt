@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1550561603672,
+  "when": 1550625822091,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -131,6 +131,7 @@
     "* qihucdn.com * allow",
     "* qiniucdn.com * allow",
     "* qq.com * allow",
+    "* raw.githubusercontent.com * allow",
     "* rstudio.com * allow",
     "* s3.amazonaws.com * allow",
     "* simg.sinajs.cn * inherit",
@@ -242,8 +243,6 @@
     "bbc.com bbc.co.uk * allow",
     "bbc.com bbci.co.uk * allow",
     "bdimg.com bdstatic.com * allow",
-    "bilibili.com acgvideo.com other allow",
-    "bilibili.com acgvideo.com xhr allow",
     "bilibili.com s2.hdslb.com script allow",
     "blizzard.cn account.bnet.163.com script allow",
     "blizzard.cn flv.bn.netease.com other allow",
