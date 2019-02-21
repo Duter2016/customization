@@ -1,5 +1,0 @@
-* * 1p-script allow
-* * image allow
-behind-the-scene * 3p noop
-behind-the-scene * 3p-frame noop
-www.sensorsdata.cn sensorsdata.cn * allow
