@@ -1,4 +1,4 @@
-//2018.12.20
+//2019.02.21
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -12,7 +12,6 @@
 //*==========选项卡里的设置==========*//
 user_pref("privacy.userContext.enabled", true);//启用身份标签页
 user_pref("signon.rememberSignons", false);//不保存密码
-user_pref("privacy.trackingprotection.enabled", true);//跟踪保护
 user_pref("privacy.donottrackheader.enabled", true);//始终向网站发出“请勿跟踪”信号
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
 user_pref("security.default_personal_cert", "Select Automatically");//自动选择一个个人证书
@@ -28,7 +27,7 @@ user_pref("browser.tabs.loadBookmarksInTabs", true);//新标签打开书签
 user_pref("browser.tabs.warnOnClose", false);//关闭多个标签时不提示
 user_pref("browser.tabs.warnOnCloseOtherTabs", false);//关闭其它标签时不提示
 user_pref("browser.tabs.closeWindowWithLastTab", false);//关闭最后一个标签时不关闭Firefox
-user_pref("toolkit.cosmeticAnimations.enabled", false); //取消标签动画
+
 
 //*==========下载相关==========*//
 user_pref("browser.download.useDownloadDir", false);//下载时每次讯问我要存到何处
@@ -45,7 +44,6 @@ user_pref("browser.xul.error_pages.expert_bad_cert", true);//自动展开：此�
 
 
 //功能去除
-user_pref("extensions.pocket.enabled", false); //关闭自带的pocket
 user_pref("signon.rememberSignons", false); //关闭自带的保存密码功能
 user_pref("general.warnOnAboutConfig", false);//AboutConfig警告
 user_pref("extensions.e10sBlockedByAddons", false);//扩展禁用列表
@@ -53,7 +51,6 @@ user_pref("accessibility.force_disabled", 1); //禁用无障碍环境
 user_pref("security.mixed_content.block_active_content", false); //关闭ssl不安全内容和混合内容保护1 (让小书签在https页面上起作用 )
 user_pref("security.mixed_content.block_display_content", false); //关闭ssl不安全内容和混合内容保护2
 user_pref("security.dialog_enable_delay", 0);//安装附加组件时的等待时间
-user_pref("browser.backspace_action", 1); //去除退格键使网页后退的功能，改成向上滚动页面。
 user_pref("services.sync.engine.prefs",false); //取消首选项的同步功能
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
@@ -79,6 +76,7 @@ user_pref("browser.backspace_action", 2);//禁止Backspace键返回上一页
 user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出窗口用标签打开)
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
 user_pref("svg.context-properties.content.enabled", true);
+user_pref("network.IDN_show_punycode", true);//避免钓鱼
 
 //*==========Firefox设置==========*//
 //书签相关
@@ -99,7 +97,7 @@ user_pref("extensions.blocklist.enabled", false);//关闭flash版本过旧被屏
 user_pref("dom.ipc.plugins.flash.disable-protected-mode", true); //直接用火狐禁用flash保护模式
 user_pref("dom.ipc.plugins.flash.subprocess.crashreporter.enabled", false); //flash崩溃报告crashreporter
 user_pref("browser.crashReports.unsubmittedCheck.autoSubmit2", false); //允许Firefox代您发送积压的崩溃报告（禁止）
-user_pref("plugin.state.flash", 2);//flash总是开启
+
 
 //开启流媒体API
 user_pref("javascript.options.streams", true); 
@@ -110,7 +108,7 @@ user_pref("dom.streams.enabled", true);
 *会话相关
 */
 user_pref("browser.sessionstore.max_tabs_undo", 10);//最近撤销标签历史最大数
-user_pref("browser.sessionstore.interval", 600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为10分钟
+user_pref("browser.sessionstore.interval", 3600000);//防止向SSD写入大量数量: 重写recovery.js文件的默认数值为“15000ms”(间隔时间15s), 改为1小时
 
 /******************************************************************************************
  *这里是个人设置。
