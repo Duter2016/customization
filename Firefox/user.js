@@ -1,4 +1,4 @@
-//2019.02.21
+//2019.02.27
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -16,6 +16,7 @@ user_pref("privacy.donottrackheader.enabled", true);//始终向网站发出“�
 user_pref("browser.shell.checkDefaultBrowser", false);//不检查是否为默认浏览器
 user_pref("security.default_personal_cert", "Select Automatically");//自动选择一个个人证书
 user_pref("browser.search.update", false);//禁用搜索引擎自动更新
+user_pref("browser.search.suggest.enabled", false);//禁用搜索建议
 
 //字体语言编码
 user_pref("font.name.serif.zh-CN", "Arial");//衬线字体
@@ -120,4 +121,6 @@ user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
 user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"http://www.statista.com/\",\"title\":\"Statista\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"http://www.douban.com/\",\"title\":\"豆瓣\"},{\"url\":\"http://www.pingwest.com/\",\"title\":\"品玩\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"}]");
- 
+user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
+user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
+user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
