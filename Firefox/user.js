@@ -1,4 +1,4 @@
-//2019.02.27
+//2019.03.06
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -37,11 +37,6 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载增大连接数
 user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程下载增大连接数
 
-//功能开启
-user_pref("layout.display-list.retain", true);//FF58+提升浏览器界面绘制性能，只重新计算显示的列表项而非所有列表项
-user_pref("network.standard-url.enable-rust", true);//Rust的URL解析器
-user_pref("network.tcp.tcp_fastopen_enable", true);//TCP快速启用过滤,减少http延迟
-user_pref("browser.xul.error_pages.expert_bad_cert", true);//自动展开：此连接是不受信任的
 
 
 //功能去除
@@ -55,10 +50,9 @@ user_pref("security.dialog_enable_delay", 0);//安装附加组件时的等待时
 user_pref("services.sync.engine.prefs",false); //取消首选项的同步功能
 user_pref("datareporting.healthreport.uploadEnabled", false);//关闭安全检测健康中心
 user_pref("datareporting.policy.dataSubmissionEnabled", false); //关闭安全检测健康中心
-user_pref("security.enterprise_roots.enabled", true);//去除访问所有HTTPS网站显示连接不安全
+
 
 //偏好设置
-
 user_pref("dom.popup_maximum", 5); //Firefox弹窗的最大数量
 user_pref("datareporting.healthreport.service.enabled", false);//禁止遥测往prefs.js写入数据
 user_pref("extensions.ui.lastCategory", "addons://list/extension");//附加组件默认打开扩展项
@@ -78,6 +72,7 @@ user_pref("browser.link.open_newwindow.restriction", 0);//单窗口模式(弹出
 user_pref("gfx.content.azure.backends", "direct2d1.1,cairo");//图形渲染;FX52默认的Skia不支持Mactype
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("network.IDN_show_punycode", true);//避免钓鱼
+
 
 //*==========Firefox设置==========*//
 //书签相关
@@ -120,7 +115,7 @@ user_pref("browser.sessionstore.interval", 3600000);//防止向SSD写入大量�
 user_pref("browser.startup.page", 1);//启动Firefox时显示主页
 user_pref("browser.startup.homepage", "about:newtab");//首页
 //标签页固定的网站(16个)
-user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"http://www.statista.com/\",\"title\":\"Statista\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"http://www.douban.com/\",\"title\":\"豆瓣\"},{\"url\":\"http://www.pingwest.com/\",\"title\":\"品玩\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"}]");
+user_pref("browser.newtabpage.pinned", "[{\"url\":\"https://hbr.org/\",\"title\":\"HBR\"},{\"url\":\"http://www.economist.com/\",\"title\":\"Economist\"},{\"url\":\"http://www.cnn.com/\",\"title\":\"CNN\"},{\"url\":\"http://www.nytimes.com/\",\"title\":\"NYTimes\"},{\"url\":\"https://www.wsj.com/\",\"title\":\"wsj\"},{\"url\":\"http://www.ft.com/\",\"title\":\"ft.com\"},{\"url\":\"https://www.youtube.com/\",\"title\":\"Youtube\"},{\"url\":\"https://www.techmeme.com/\",\"title\":\"Techmeme\"},{\"url\":\"http://bbs.kafan.cn/forum-215-1.html\",\"title\":\"卡饭\"},{\"url\":\"http://www.cnbeta.com/\",\"title\":\"cnBeta\"},{\"url\":\"http://dig.chouti.com/\",\"title\":\"抽屉新热榜\"},{\"url\":\"http://www.zhihu.com/\",\"title\":\"知乎\"},{\"url\":\"https://www.jianshu.com/\",\"title\":\"简书\"},{\"url\":\"http://www.tmtpost.com/\",\"title\":\"钛媒体\"},{\"url\":\"http://www.pingwest.com/\",\"title\":\"品玩\"},{\"url\":\"https://36kr.com/\",\"title\":\"36Kr\"}]");
 user_pref("browser.newtabpage.activity-stream.topSitesRows", 2);//常用网站2行展示
 user_pref("browser.newtabpage.activity-stream.feeds.snippets", false);//不展示只言片语
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);//不展示集锦
