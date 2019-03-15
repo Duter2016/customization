@@ -1,4 +1,4 @@
-//2019.03.06
+//2019.03.11
 
 /*
 # pref(key,value) 会覆盖默认设置,在删除之后会恢复默认设置.
@@ -37,6 +37,10 @@ user_pref("browser.download.manager.scanWhenDone", false);//关闭下载结束�
 user_pref("network.http.max-persistent-connections-per-server", 10);//多线程下载增大连接数
 user_pref("network.http.max-persistent-connections-per-proxy", 10);//多线程下载增大连接数
 
+//*==========网络协议问题==========*//
+user_pref("network.trr.bootstrapAddress", "1.0.0.1");//开启DoH
+user_pref("network.trr.custom_uri", "https://dns.google.com/experimental");//备用DNS
+user_pref("network.security.esni.enabled", true);
 
 
 //功能去除
