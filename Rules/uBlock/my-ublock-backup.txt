@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1551081529321,
-  "version": "1.18.4",
+  "timeStamp": 1552620143161,
+  "version": "1.18.6",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -29,7 +29,6 @@
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "CHN-0",
     "CHN-1",
-    "easylist",
     "awrl-0",
     "ublock-unbreak",
     "ublock-abuse",
@@ -48,6 +47,7 @@
     "cacheStorageAPI": "unset",
     "cacheStorageCompression": true,
     "cacheControlForFirefox1376932": "no-cache, no-store, must-revalidate",
+    "consoleLogLevel": "unset",
     "debugScriptlets": false,
     "disableWebAssembly": false,
     "ignoreRedirectFilters": false,
@@ -55,8 +55,9 @@
     "manualUpdateAssetFetchPeriod": 500,
     "popupFontSize": "unset",
     "requestJournalProcessPeriod": 1000,
+    "selfieAfter": 11,
     "strictBlockingBypassDuration": 120,
-    "suspendTabsUntilReady": false,
+    "suspendTabsUntilReady": "unset",
     "userResourcesLocation": "unset"
   },
   "netWhitelist": "about-scheme\nchrome-extension-scheme\nchrome-scheme\nkreen.org\nmoz-extension-scheme\nopera-scheme\nvivaldi-scheme\nwww.google.com\nwww.iqiyi.com",
