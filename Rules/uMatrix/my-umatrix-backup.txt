@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1553932549831,
+  "when": 1554476492926,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -426,6 +426,7 @@
     "haiduomi.com 629055.com * allow",
     "haitum.com com-l-bilibili.com * allow",
     "hbr.org 120.198.244.51 other allow",
+    "hbr.org 1st-party cookie inherit",
     "hbr.org cdnsecakmi.kaltura.com xhr allow",
     "hbr.org cfvod.kaltura.com xhr allow",
     "hbr.org edge.api.brightcove.com xhr allow",

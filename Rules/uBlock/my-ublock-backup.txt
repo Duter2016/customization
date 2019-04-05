@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1553479712215,
-  "version": "1.18.6",
+  "timeStamp": 1554476477001,
+  "version": "1.18.16",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
