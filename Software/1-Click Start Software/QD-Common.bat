@@ -34,7 +34,6 @@ start "" "%dir%\CingFox\Software\Snipaste\Snipaste.exe"
 start "" "%dir%\CingFox\Software\GFW\SSR\ShadowsocksR-dotnet4.0.exe"
 ::start "" "%dir%\CingFox\Software\GFW\v2ray-windows-64\v2rayN.exe"
 start "" "%dir%\CingFox\Software\Ditto\Ditto.exe"
-start "" "%dir%\CingFox\Software\Wizmouse\WizMouseLaunch.exe"
 start "" "%dir%\Nutstore\Nutstore.exe" /min
 start "" "%dir%\Tencent\QQ\Bin\QQ.exe"
 ::start "" "%dir%\Tencent\TIM\Bin\TIM.exe"
