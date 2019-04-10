@@ -18,11 +18,11 @@
 <Version>1036</Version>
 
 <!--META DATA-->
-<Author>bixue</Author>
-<Revision>1038</Revision>
+<Author>Joxon</Author>
+<Revision>1040</Revision>
 <Locale>zh-CN</Locale>
-<Contact>315504999@qq.com精校完美版。</Contact>
-<DateModified>2017/5/12 16:16:14</DateModified>
+<Contact>https://github.com/joxon</Contact>
+<DateModified>2019-03-25 6:03:13 PM</DateModified>
 <EditorVersion>1.0.0.5</EditorVersion>
 
 <!--DATA START-->
@@ -34,7 +34,7 @@
 最近标签
 应用启动器
 新窗口
-克隆标签
+复刻标签
 锁定标签
 复制信息工具
 置顶
@@ -426,7 +426,7 @@ $$\t&quot;$&quot; 文本
 文件(&amp;F)
 选项(&amp;O)
 按照文件夹窗口导航
-总在最前面
+置顶显示
 打开文件夹(&amp;O)...
 关闭(&amp;C)
 预设(&amp;P)
@@ -448,8 +448,8 @@ $L[...]\t全部转为小写
 $U[...]\t全部转为大写
 $I[...]\t将单词首字母转为大写
 刷新(&amp;R)
-全部转为小写
-全部转为大写
+转换为小写
+转换为大写
 单词首字母转为大写
 </DialogFileRenamer>
 
@@ -588,7 +588,7 @@ QTTabBar 选项(&amp;O)...
 打开键盘快捷键查找器窗口，显示已分配的键盘快捷键列表
 显示资源管理器中的文件夹选项
 打开 QTTabBar 选项窗口
-其中该标签通过其他位置。 
+其中该标签通过其他位置。
 创建新的群组，并将活动标签添加作为一个成员
 创建一个新群组并将所有标签添加到它
 选择要创建群组的文件夹
