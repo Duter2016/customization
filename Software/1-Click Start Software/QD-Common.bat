@@ -1,4 +1,4 @@
-::2018.12.02
+::2019.04.10
 
 @echo off
 ::最小化运行批处理
@@ -22,7 +22,8 @@ start "" "%dir%\System Tools\ProcessLassoPortable\ProcessLasso.exe" "/configfold
 
 ::初始化Listary磁盘扫描,日志(解决5.x版U盘弹出后还有文件记录)
 del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
-del "%dir%\CingFox\Software\Listary Pro\UserData\listary_log.log"  /s /q
+del "%dir%\CingFox\Software\Listary Pro\UserData\DiskSearch.db"  /s /q
+del "%dir%\CingFox\Software\Listary Pro\UserData\*.tmp"  /s /q
 
 ::五代
 start "" "%dir%\CingFox\Software\Listary Pro\listary.exe"
