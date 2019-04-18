@@ -1,5 +1,5 @@
-[Switchy 0.3.0]
-! Title:        Switchy自定義名單
+[Autoproxy 0.3.0]
+! Title:        gfw自定義名單(autoproxy格式)
 ! Author:       Cing
 ! Version:      2019
 ! Expires:      1h
