@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1554476477001,
+  "timeStamp": 1555570690283,
   "version": "1.18.16",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -10,7 +10,7 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
+    "externalLists": "https://filters.adtidy.org/windows/filters/15.txt\nhttps://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt\nhttps://github.com/uBlockOrigin/uAssets/raw/master/filters/resource-abuse.txt\nhttps://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt\nhttps://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt\nhttps://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": true,
@@ -25,7 +25,6 @@
   "selectedFilterLists": [
     "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/nocoin.txt",
     "https://www.kiboke-studio.hr/i-dont-care-about-cookies/abp/",
-    "https://github.com/dupontjoy/customization/raw/master/Rules/ABP/Floating-n-Porn-Ads-Filter.txt",
     "https://gitlab.com/xuhaiyang1234/AAK-Cont/raw/master/FINAL_BUILD/aak-cont-list-ubo.txt",
     "CHN-0",
     "CHN-1",
@@ -37,7 +36,8 @@
     "ublock-badware",
     "ublock-annoyances",
     "ublock-filters",
-    "user-filters"
+    "user-filters",
+    "https://github.com/dupontjoy/customization/raw/master/Rules/uBlock/Floating-n-Porn-Ads-Filter.txt"
   ],
   "hiddenSettings": {
     "assetFetchTimeout": 30,
