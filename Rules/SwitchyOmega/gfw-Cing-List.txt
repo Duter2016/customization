@@ -1,10 +1,11 @@
-[AutoProxy 0.3.0]
-! Title:        Autoproxy自定義名單
+[Switchy 0.3.0]
+! Title:        Switchy自定義名單
 ! Author:       Cing
-! Version:      2019.04
+! Version:      2019
 ! Expires:      1h
 ! Contact:      https://github.com/dupontjoy/customization/Rules
 !---------------------------------------------------------------------------------------!
+||gitbooks.io
 ||w3resource.com
 ||sqlbolt.com
 ||sourceforge.net
