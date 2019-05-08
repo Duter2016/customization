@@ -331,7 +331,7 @@
 			"name": "网易图片盗链",
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn)\\.(127|126)\\.net.*",
+			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
 			"exclude": "",
 			"isFunction": false,
 			"action": {
@@ -472,20 +472,6 @@
 			"ruleType": "modifySendHeader",
 			"matchType": "regexp",
 			"pattern": "^https?:\\/\\/.*photo\\.sina\\.com\\.cn.*",
-			"exclude": "",
-			"isFunction": false,
-			"action": {
-				"name": "referer",
-				"value": ""
-			},
-			"group": "未分组"
-		},
-		{
-			"enable": true,
-			"name": "得到图片盗链",
-			"ruleType": "modifySendHeader",
-			"matchType": "regexp",
-			"pattern": "^https?:\\/\\/.*\\.(igetget|luojilab)\\.com.*",
 			"exclude": "",
 			"isFunction": false,
 			"action": {
