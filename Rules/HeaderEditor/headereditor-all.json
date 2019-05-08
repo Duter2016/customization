@@ -730,5 +730,20 @@
 			"group": "未分组"
 		}
 	],
-	"receiveHeader": []
+	"receiveHeader": [
+		{
+			"enable": true,
+			"name": "网易图片不显示",
+			"ruleType": "modifyReceiveHeader",
+			"matchType": "regexp",
+			"pattern": "^https?:\\/\\/.*(ph|bimg|nosdn|ws)\\.(127|126)\\.net.*",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "access-control-allow-origin",
+				"value": "*"
+			}
+		}
+	]
 }
