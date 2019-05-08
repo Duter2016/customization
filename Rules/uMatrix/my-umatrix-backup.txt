@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1556432811028,
+  "when": 1557301852428,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -9,7 +9,7 @@
     "clearBrowserCacheAfter": 240,
     "cloudStorageEnabled": false,
     "collapseBlacklisted": true,
-    "collapseBlocked": false,
+    "collapseBlocked": true,
     "colorBlindFriendly": false,
     "deleteCookies": true,
     "deleteUnusedSessionCookies": true,
@@ -153,6 +153,7 @@
     "* qiniucdn.com * allow",
     "* qq.com * allow",
     "* raw.githubusercontent.com * allow",
+    "* recaptcha.net * allow",
     "* rstudio.com * allow",
     "* s3.amazonaws.com * allow",
     "* simg.sinajs.cn * inherit",
@@ -481,6 +482,7 @@
     "ifeng.com tech.ifeng.com script allow",
     "ifeng.com yidianzixun.com * allow",
     "iicm.tk unpkg.com * allow",
+    "ik3cloud.com cmcloud.cn * allow",
     "ik3cloud.com cmcloud.cn cookie allow",
     "ik3cloud.com ik3cloud.com cookie allow",
     "imgbb.com simgbb.com script allow",
