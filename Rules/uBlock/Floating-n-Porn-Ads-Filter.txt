@@ -49,6 +49,9 @@ aliexpress.com##.ui-mask
 aliexpress.com##.ui-newuser-layer-dialog.ui-window-transition.ui-window-normal.ui-window
 
 ! 百度
+pan.baidu.com##.bar > .x-button-box > .nd-button-build.g-button
+pan.baidu.com##.bar > .x-button-box > a.g-button:nth-of-type(3)
+pan.baidu.com##a.g-button:nth-of-type(4)
 pan.baidu.com##.JS-nativeupload-tip.yt1MQp.global-clearfix
 pan.baidu.com##.yeEDsO
 zhidao.baidu.com##.wrapper
