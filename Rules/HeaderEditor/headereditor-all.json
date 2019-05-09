@@ -728,6 +728,34 @@
 				"value": ""
 			},
 			"group": "未分组"
+		},
+		{
+			"enable": true,
+			"name": "sunzhongwei图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "sunzhongwei.com",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			}
+		},
+		{
+			"enable": true,
+			"name": "windows10.pro图片盗链",
+			"ruleType": "modifySendHeader",
+			"matchType": "regexp",
+			"pattern": "windows10.pro",
+			"exclude": "",
+			"group": "未分组",
+			"isFunction": false,
+			"action": {
+				"name": "referer",
+				"value": ""
+			}
 		}
 	],
 	"receiveHeader": [
