@@ -1,7 +1,7 @@
 {
   "app": "uMatrix",
   "version": "1.3.16",
-  "when": 1557301852428,
+  "when": 1557482529958,
   "settings": {
     "alwaysDetachLogger": false,
     "autoUpdate": true,
@@ -52,6 +52,7 @@
     "* * css allow",
     "* * image allow",
     "* * media allow",
+    "* * other allow",
     "* 126.net * allow",
     "* 127.0.0.1 * allow",
     "* 163.com * allow",
@@ -473,6 +474,7 @@
     "huya.com static-jw.msstatic.com * allow",
     "iamh5.cn ih5.cn * allow",
     "ibm.com s81c.com script allow",
+    "ickey.cn ickimg.com * allow",
     "icourse163.org 126.net * allow",
     "icourse163.org 127.net * allow",
     "icourse163.org 163.com * allow",
